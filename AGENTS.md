@@ -51,6 +51,15 @@ bun run build          # 정적 빌드 → dist/
 bun run preview        # 빌드 결과 프리뷰
 ```
 
+## 데이터 관리 스킬
+
+모델이나 벤치마크 데이터를 추가/수정/삭제해야 할 때는 JSON을 직접 편집하지 말고 아래 스킬의 스크립트를 사용할 것.
+
+- **`skills/manage-model/`** — 모델 CRUD. 새 AI 모델 등록, 정보 수정, 삭제 시 사용.
+- **`skills/manage-benchmark/`** — 벤치마크 정의 및 점수 CRUD. 벤치마크 추가, 모델 점수 등록/수정/삭제 시 사용.
+
+각 스킬의 `SKILL.md`에 구체적인 사용법과 예시가 있음.
+
 ## 주의사항
 
 - `base: '/modu-bench'` 설정되어 있음 — 모든 경로에 base path 포함 필요
