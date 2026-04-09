@@ -1,0 +1,126 @@
+{
+  "domain": "llm",
+  "benchmarks": [
+    {
+      "id": "mmlu",
+      "name": "MMLU",
+      "nameKo": "대규모 다중과제 언어 이해",
+      "category": "reasoning",
+      "description": "57개 학문 분야에 걸친 다지선다형 지식 평가",
+      "source": "https://arxiv.org/abs/2009.03300",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "humaneval",
+      "name": "HumanEval",
+      "nameKo": "코드 생성 평가",
+      "category": "coding",
+      "description": "164개 프로그래밍 문제의 함수 완성 정확도",
+      "source": "https://arxiv.org/abs/2107.03374",
+      "unit": "pass@1 %",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "gsm8k",
+      "name": "GSM8K",
+      "nameKo": "초등 수학 추론",
+      "category": "reasoning",
+      "description": "8,500개 초등학교 수준 수학 문제 풀이 정확도",
+      "source": "https://arxiv.org/abs/2110.14168",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mt-bench",
+      "name": "MT-Bench",
+      "nameKo": "멀티턴 대화 평가",
+      "category": "instruction",
+      "description": "GPT-4 기반 멀티턴 대화 품질 평가 (1-10점)",
+      "source": "https://arxiv.org/abs/2306.05685",
+      "unit": "점",
+      "scoreRange": [
+        1,
+        10
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "kmmlu",
+      "name": "KMMLU",
+      "nameKo": "한국어 대규모 다중과제 언어 이해",
+      "category": "korean",
+      "description": "한국어 전문 지식 평가 (45개 분야)",
+      "source": "https://arxiv.org/abs/2402.11548",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    }
+  ],
+  "scores": {
+    "gpt-4o": {
+      "mmlu": {
+        "value": 88.7,
+        "date": "2024-05-13",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 90.2,
+        "date": "2024-05-13",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 95.8,
+        "date": "2024-05-13",
+        "source": "official"
+      },
+      "mt-bench": {
+        "value": 9.3,
+        "date": "2024-05-13",
+        "source": "community"
+      },
+      "kmmlu": {
+        "value": 64.2,
+        "date": "2024-06-01",
+        "source": "community"
+      }
+    },
+    "claude-4-sonnet": {
+      "mmlu": {
+        "value": 90.1,
+        "date": "2025-05-22",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 93.7,
+        "date": "2025-05-22",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 97.2,
+        "date": "2025-05-22",
+        "source": "official"
+      },
+      "mt-bench": {
+        "value": 9.5,
+        "date": "2025-05-22",
+        "source": "community"
+      }
+    }
+  }
+}

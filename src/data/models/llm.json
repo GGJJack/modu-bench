@@ -1,0 +1,37 @@
+{
+  "domain": "llm",
+  "models": [
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "provider": "OpenAI",
+      "releaseDate": "2024-05-13",
+      "license": "Proprietary",
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 2.5,
+        "output": 10
+      },
+      "links": {
+        "official": "https://openai.com/index/hello-gpt-4o/"
+      }
+    },
+    {
+      "id": "claude-4-sonnet",
+      "name": "Claude 4 Sonnet",
+      "provider": "Anthropic",
+      "releaseDate": "2025-05-22",
+      "license": "Proprietary",
+      "parameterSize": null,
+      "contextWindow": 200000,
+      "pricing": {
+        "input": 3,
+        "output": 15
+      },
+      "links": {
+        "official": "https://anthropic.com"
+      }
+    }
+  ]
+}

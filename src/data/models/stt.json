@@ -1,0 +1,20 @@
+{
+  "domain": "stt",
+  "models": [
+    {
+      "id": "whisper-large-v3",
+      "name": "Whisper Large V3",
+      "provider": "OpenAI",
+      "releaseDate": "2023-11-06",
+      "license": "MIT",
+      "supportedLanguages": ["en", "ko", "ja", "zh", "es", "fr", "de"],
+      "realtime": false,
+      "pricing": { "perMinute": 0.006 },
+      "links": {
+        "official": "https://openai.com/research/whisper",
+        "huggingface": "https://huggingface.co/openai/whisper-large-v3",
+        "github": "https://github.com/openai/whisper"
+      }
+    }
+  ]
+}

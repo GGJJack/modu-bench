@@ -1,0 +1,50 @@
+{
+  "domain": "image-gen",
+  "benchmarks": [
+    {
+      "id": "fid",
+      "name": "FID",
+      "nameKo": "프레셰 인셉션 거리",
+      "category": "quality",
+      "description": "생성 이미지와 실제 이미지 분포 간 거리 (낮을수록 좋음)",
+      "source": "https://arxiv.org/abs/1706.08500",
+      "unit": "FID",
+      "scoreRange": [0, 300],
+      "higherIsBetter": false
+    },
+    {
+      "id": "clip-score",
+      "name": "CLIP Score",
+      "nameKo": "텍스트-이미지 정합도",
+      "category": "alignment",
+      "description": "텍스트 프롬프트와 생성 이미지 간 의미적 유사도",
+      "source": "https://arxiv.org/abs/2104.08718",
+      "unit": "점",
+      "scoreRange": [0, 100],
+      "higherIsBetter": true
+    },
+    {
+      "id": "geneval",
+      "name": "GenEval",
+      "nameKo": "구성적 이미지 생성 평가",
+      "category": "compositionality",
+      "description": "복합 프롬프트에 대한 구성적 이미지 생성 정확도",
+      "source": "https://arxiv.org/abs/2310.11513",
+      "unit": "%",
+      "scoreRange": [0, 100],
+      "higherIsBetter": true
+    }
+  ],
+  "scores": {
+    "dall-e-3": {
+      "fid": { "value": 12.1, "date": "2024-01-15", "source": "community" },
+      "clip-score": { "value": 31.8, "date": "2024-01-15", "source": "community" },
+      "geneval": { "value": 67.0, "date": "2024-01-15", "source": "official" }
+    },
+    "stable-diffusion-3": {
+      "fid": { "value": 15.4, "date": "2024-07-01", "source": "community" },
+      "clip-score": { "value": 30.2, "date": "2024-07-01", "source": "community" },
+      "geneval": { "value": 74.0, "date": "2024-07-01", "source": "official" }
+    }
+  }
+}

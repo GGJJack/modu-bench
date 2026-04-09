@@ -1,0 +1,18 @@
+{
+  "domain": "tts",
+  "models": [
+    {
+      "id": "openai-tts-1-hd",
+      "name": "TTS-1-HD",
+      "provider": "OpenAI",
+      "releaseDate": "2023-11-06",
+      "license": "Proprietary",
+      "supportedLanguages": ["en", "ko", "ja", "zh", "es", "fr", "de"],
+      "realtime": false,
+      "pricing": { "perCharacter": 0.00003 },
+      "links": {
+        "official": "https://platform.openai.com/docs/guides/text-to-speech"
+      }
+    }
+  ]
+}

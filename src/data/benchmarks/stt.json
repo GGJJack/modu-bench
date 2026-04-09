@@ -1,0 +1,45 @@
+{
+  "domain": "stt",
+  "benchmarks": [
+    {
+      "id": "wer-librispeech-clean",
+      "name": "WER (LibriSpeech Clean)",
+      "nameKo": "단어 오류율 (LibriSpeech Clean)",
+      "category": "accuracy",
+      "description": "LibriSpeech clean 테스트셋 기준 단어 오류율",
+      "source": "https://arxiv.org/abs/2212.04356",
+      "unit": "%",
+      "scoreRange": [0, 100],
+      "higherIsBetter": false
+    },
+    {
+      "id": "cer-ksponspeech",
+      "name": "CER (KsponSpeech)",
+      "nameKo": "음절 오류율 (한국어 자발 발화)",
+      "category": "korean",
+      "description": "한국어 자발 발화 데이터셋의 음절 오류율",
+      "source": "https://aclanthology.org/2020.lrec-1.245/",
+      "unit": "%",
+      "scoreRange": [0, 100],
+      "higherIsBetter": false
+    },
+    {
+      "id": "wer-fleurs-ko",
+      "name": "WER (FLEURS Korean)",
+      "nameKo": "단어 오류율 (FLEURS 한국어)",
+      "category": "korean",
+      "description": "FLEURS 한국어 테스트셋 기준 단어 오류율",
+      "source": "https://arxiv.org/abs/2205.12446",
+      "unit": "%",
+      "scoreRange": [0, 100],
+      "higherIsBetter": false
+    }
+  ],
+  "scores": {
+    "whisper-large-v3": {
+      "wer-librispeech-clean": { "value": 2.0, "date": "2023-11-06", "source": "official" },
+      "cer-ksponspeech": { "value": 8.5, "date": "2024-02-01", "source": "community" },
+      "wer-fleurs-ko": { "value": 5.3, "date": "2024-02-01", "source": "community" }
+    }
+  }
+}

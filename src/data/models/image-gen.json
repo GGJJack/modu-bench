@@ -1,0 +1,32 @@
+{
+  "domain": "image-gen",
+  "models": [
+    {
+      "id": "dall-e-3",
+      "name": "DALL·E 3",
+      "provider": "OpenAI",
+      "releaseDate": "2023-10-03",
+      "license": "Proprietary",
+      "maxResolution": "1024x1792",
+      "supportedStyles": ["natural", "vivid"],
+      "pricing": { "perImage": 0.04 },
+      "links": {
+        "official": "https://openai.com/dall-e-3"
+      }
+    },
+    {
+      "id": "stable-diffusion-3",
+      "name": "Stable Diffusion 3",
+      "provider": "Stability AI",
+      "releaseDate": "2024-06-12",
+      "license": "Stability AI Community",
+      "maxResolution": "1024x1024",
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://stability.ai",
+        "huggingface": "https://huggingface.co/stabilityai/stable-diffusion-3-medium"
+      }
+    }
+  ]
+}

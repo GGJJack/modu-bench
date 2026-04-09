@@ -1,0 +1,44 @@
+{
+  "domain": "tts",
+  "benchmarks": [
+    {
+      "id": "mos",
+      "name": "MOS",
+      "nameKo": "평균 의견 점수",
+      "category": "naturalness",
+      "description": "인간 평가자의 음성 자연스러움 평가 (1-5점)",
+      "source": "https://en.wikipedia.org/wiki/Mean_opinion_score",
+      "unit": "MOS",
+      "scoreRange": [1, 5],
+      "higherIsBetter": true
+    },
+    {
+      "id": "wer-tts",
+      "name": "WER (TTS)",
+      "nameKo": "단어 오류율 (음성 합성)",
+      "category": "intelligibility",
+      "description": "생성 음성을 STT로 전사한 후 원본 텍스트와 비교한 오류율",
+      "source": "https://arxiv.org/abs/2305.07243",
+      "unit": "%",
+      "scoreRange": [0, 100],
+      "higherIsBetter": false
+    },
+    {
+      "id": "speaker-similarity",
+      "name": "Speaker Similarity",
+      "nameKo": "화자 유사도",
+      "category": "cloning",
+      "description": "원본 화자와 합성 음성 간 코사인 유사도",
+      "source": "https://arxiv.org/abs/2305.07243",
+      "unit": "코사인",
+      "scoreRange": [0, 1],
+      "higherIsBetter": true
+    }
+  ],
+  "scores": {
+    "openai-tts-1-hd": {
+      "mos": { "value": 4.2, "date": "2024-03-01", "source": "community" },
+      "wer-tts": { "value": 3.1, "date": "2024-03-01", "source": "community" }
+    }
+  }
+}

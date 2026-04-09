@@ -1,0 +1,45 @@
+{
+  "domain": "multimodal",
+  "benchmarks": [
+    {
+      "id": "mmmu",
+      "name": "MMMU",
+      "nameKo": "대규모 다중과제 멀티모달 이해",
+      "category": "understanding",
+      "description": "대학 수준 멀티모달 이해력 평가 (30개 과목)",
+      "source": "https://arxiv.org/abs/2311.16502",
+      "unit": "%",
+      "scoreRange": [0, 100],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mathvista",
+      "name": "MathVista",
+      "nameKo": "시각 수학 추론",
+      "category": "reasoning",
+      "description": "수학적 추론이 필요한 시각 문제 평가",
+      "source": "https://arxiv.org/abs/2310.02255",
+      "unit": "%",
+      "scoreRange": [0, 100],
+      "higherIsBetter": true
+    },
+    {
+      "id": "video-mme",
+      "name": "Video-MME",
+      "nameKo": "비디오 멀티모달 평가",
+      "category": "video",
+      "description": "비디오 이해 및 추론 능력 평가",
+      "source": "https://arxiv.org/abs/2405.21075",
+      "unit": "%",
+      "scoreRange": [0, 100],
+      "higherIsBetter": true
+    }
+  ],
+  "scores": {
+    "gemini-2.5-pro": {
+      "mmmu": { "value": 81.7, "date": "2025-03-25", "source": "official" },
+      "mathvista": { "value": 73.2, "date": "2025-03-25", "source": "official" },
+      "video-mme": { "value": 78.4, "date": "2025-03-25", "source": "official" }
+    }
+  }
+}
