@@ -1,0 +1,26 @@
+{
+  "name": "modu-bench",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^5.1.1",
+    "@astrojs/sitemap": "^3.7.2",
+    "@astrojs/tailwind": "^6.0.2",
+    "@iconify-json/material-symbols": "^1.2.65",
+    "astro": "^6.1.5",
+    "astro-icon": "^1.1.5",
+    "preact": "^10.29.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "3"
+  }
+}

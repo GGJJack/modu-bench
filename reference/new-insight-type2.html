@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>ModuBench (모두벤치) News &amp; Insights</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-tertiary-fixed": "#3c3650",
+            "surface-tint": "#0053db",
+            "on-primary-fixed": "#003798",
+            "surface-container-high": "#e1e9ee",
+            "on-background": "#2a3439",
+            "on-secondary": "#faf8fc",
+            "on-error": "#fff7f6",
+            "on-secondary-fixed-variant": "#5b5b5f",
+            "surface-bright": "#f7f9fb",
+            "inverse-on-surface": "#9a9d9f",
+            "secondary-fixed-dim": "#d5d3d8",
+            "on-primary-fixed-variant": "#0050d4",
+            "tertiary-fixed": "#dfd5f7",
+            "outline-variant": "#a9b4b9",
+            "outline": "#717c82",
+            "primary-container": "#dbe1ff",
+            "secondary": "#5f5f62",
+            "on-tertiary-container": "#4f4964",
+            "on-surface": "#2a3439",
+            "surface-variant": "#d9e4ea",
+            "primary-fixed": "#dbe1ff",
+            "surface-container": "#e8eff3",
+            "surface-container-lowest": "#ffffff",
+            "secondary-dim": "#535356",
+            "on-primary-container": "#0048bf",
+            "secondary-fixed": "#e4e2e6",
+            "background": "#f7f9fb",
+            "tertiary-fixed-dim": "#d0c7e8",
+            "on-secondary-fixed": "#3f3f43",
+            "on-error-container": "#752121",
+            "primary-fixed-dim": "#c7d3ff",
+            "tertiary": "#625b77",
+            "surface-container-highest": "#d9e4ea",
+            "tertiary-dim": "#564f6b",
+            "on-secondary-container": "#515155",
+            "secondary-container": "#e4e2e6",
+            "on-surface-variant": "#566166",
+            "tertiary-container": "#dfd5f7",
+            "primary-dim": "#0048c1",
+            "on-tertiary-fixed-variant": "#59526e",
+            "on-primary": "#f8f7ff",
+            "error-container": "#fe8983",
+            "on-tertiary": "#fdf7ff",
+            "inverse-primary": "#618bff",
+            "error-dim": "#4e0309",
+            "primary": "#0053db",
+            "inverse-surface": "#0b0f10",
+            "surface-dim": "#cfdce3",
+            "error": "#9f403d",
+            "surface": "#f7f9fb",
+            "surface-container-low": "#f0f4f7"
+          },
+          fontFamily: {
+            "headline": ["Inter"],
+            "body": ["Inter"],
+            "label": ["Inter"]
+          },
+          borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+        },
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .glass-effect {
+      backdrop-filter: blur(20px);
+      background: rgba(255, 255, 255, 0.8);
+    }
+  </style>
+</head>
+
+<body class="bg-background text-on-surface font-body antialiased">
+  <!-- TopNavBar -->
+  <nav
+    class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl border-b border-slate-100 dark:border-slate-800/50 shadow-[0_8px_30px_rgb(0,0,0,0.04)] font-['Inter'] antialiased tracking-tight">
+    <div class="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
+      <div class="text-xl font-bold tracking-tighter text-blue-600 dark:text-blue-400">
+        ModuBench (모두벤치)
+      </div>
+      <div class="hidden md:flex items-center space-x-8">
+        <a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors hover:bg-slate-50/50 dark:hover:bg-slate-900/50 rounded-lg p-2"
+          href="#">Home</a>
+        <a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors hover:bg-slate-50/50 dark:hover:bg-slate-900/50 rounded-lg p-2"
+          href="#">Leaderboard</a>
+        <a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-colors hover:bg-slate-50/50 dark:hover:bg-slate-900/50 rounded-lg p-2"
+          href="#">Tools</a>
+        <a class="text-blue-600 dark:text-blue-400 font-semibold border-b-2 border-blue-600 pb-1" href="#">News</a>
+      </div>
+      <div class="flex items-center gap-4">
+        <button class="px-4 py-2 text-sm font-medium text-slate-700 hover:text-blue-600 transition-colors">Sign
+          In</button>
+        <button
+          class="px-5 py-2 text-sm font-semibold bg-primary text-on-primary rounded-xl shadow-lg hover:shadow-primary/20 transition-all active:scale-[0.98]">Get
+          Started</button>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Header -->
+  <header class="pt-32 pb-16 px-8 max-w-4xl mx-auto text-center">
+    <span class="text-xs font-semibold tracking-widest text-on-surface-variant uppercase mb-4 block">Editorial
+      Precision</span>
+    <h1 class="text-5xl md:text-6xl font-bold tracking-tight text-on-surface leading-[1.1] mb-6">
+      News &amp; <span class="text-primary">Insights</span>
+    </h1>
+    <p class="text-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
+      The latest updates from the ModuBench ecosystem. Precision engineering meets data-driven journalism for the next
+      generation of performance metrics.
+    </p>
+  </header>
+  <!-- Main Content: Article Feed -->
+  <main class="max-w-4xl mx-auto px-8 space-y-24 pb-32">
+    <!-- Featured Article (Bento Style) -->
+    <article class="relative group">
+      <div class="overflow-hidden rounded-xl bg-surface-container-low mb-8">
+        <img class="w-full aspect-[21/9] object-cover transition-transform duration-700 group-hover:scale-105"
+          data-alt="Modern data visualization dashboard with clean blue and white UI elements glowing in a dimly lit high-tech environment"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0rZlIoARpSjLWVUplKxieao-5o_vXCuZtp2xhJs4D-8-Rs3RrtC7I1PMs2d2_7TOay73FhMoD8l8xQff4LPBEfkXSyPSE-533zX4MLqSS8-5wQlnIZJtbe0o9DSeevbvWyeGJHLAZHe5SdvwY8PEYz8qYB5qIWEdwuu0SXN9JktRPSIeOMuprxJ9RTXcVFVrzLizohdTRse-GxkGvKakHjU55l_PX7rQ273rK9AA-X06_MluQI_lZWLEjwEVTIi7DRHKLY9mLfPQ" />
+      </div>
+      <div class="space-y-4">
+        <div class="flex items-center gap-3 text-sm text-on-surface-variant mb-2">
+          <span
+            class="px-2 py-0.5 bg-primary-container text-on-primary-container rounded font-semibold text-[10px] tracking-wider uppercase">Breaking</span>
+          <time datetime="2024-05-15">May 15, 2024</time>
+          <span>•</span>
+          <span>8 min read</span>
+        </div>
+        <h2 class="text-3xl font-bold tracking-tight group-hover:text-primary transition-colors cursor-pointer">The
+          Evolution of Performance Benchmarking in LLMs</h2>
+        <p class="text-on-surface-variant text-lg leading-relaxed">
+          How ModuBench is redefining the standard for large language model evaluation through architectural light
+          principles and modular testing frameworks. We dive deep into the recent V4 update.
+        </p>
+        <div class="pt-2">
+          <button class="flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all duration-300">
+            Read More
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </button>
+        </div>
+      </div>
+    </article>
+    <!-- Standard Articles Grid-ish Layout -->
+    <div class="grid gap-20">
+      <!-- Article 2 -->
+      <article class="flex flex-col md:flex-row gap-8 items-start group">
+        <div class="w-full md:w-[40%] flex-shrink-0 overflow-hidden rounded-xl bg-surface-container-low">
+          <img class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-110"
+            data-alt="Extreme close-up of a high-end processor circuit board with shimmering blue electrical pathways and minimalist hardware design"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNgV1MDvAsdwrNM5N6Clk_ioitTXisHN-796jnQqf9zLxGms4On36POrWtKgOls5IegwzGyYagwaQDXhGDHmZ6mmuoNllLHOCB_QZ9L8tiHz72WnDXQ_WUstNlKKDFT6y_M-xRUCVLGUwHcakIvx8q8edxhA_2KZy0EkRcovNVcfw9Fn7wiVzyuQHsiqwOsKmeuBcFXn9LQmBNyErZid6VclnvgGhZbmyGAb6xkLH3S49CkcX9kdw0x6lDxDmaCaOGddDryvXlcU4" />
+        </div>
+        <div class="flex-grow space-y-3">
+          <div class="text-xs font-semibold text-primary uppercase tracking-tighter">Hardware Integration</div>
+          <h3 class="text-2xl font-bold tracking-tight text-on-surface leading-snug">Optimizing ModuBench for M3
+            Architecture</h3>
+          <p class="text-on-surface-variant leading-relaxed line-clamp-3">
+            Our engineering team shares insights on harnessing unified memory architectures to accelerate localized
+            benchmark testing without compromising precision or thermal efficiency.
+          </p>
+          <div class="pt-2">
+            <button
+              class="px-5 py-2.5 rounded-lg border border-outline-variant/20 text-on-surface font-medium hover:bg-surface-container-high transition-colors">
+              Go to Article
+            </button>
+          </div>
+        </div>
+      </article>
+      <!-- Article 3 -->
+      <article class="flex flex-col md:flex-row gap-8 items-start group">
+        <div class="w-full md:w-[40%] flex-shrink-0 overflow-hidden rounded-xl bg-surface-container-low">
+          <img class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-110"
+            data-alt="Abstract minimal data charts and graphs displayed on a clean white glass surface with soft shadows and soft blue accents"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeZEEHqm93bH0dPC0ELz0J2m2HuQ8-nZaDtac3lQfAjmxm7pYbDf4Q55bH0ENpIfOJ9if0sJG5Vv7m3iI8XKYltJ2g_HKTtpJd-nEK-gYwTnNav1fRajpbmBpB2wZ925F6noiZYlzPrCov7pzC9KT8FdBK72Yl4SegcgbiQQy1MEE7vtWh5hHU7gWMyP_U2TPJHn1EEdES_3gytKHTZgI87VOuO6suB6OOUP5i9B6R6LSEYR44cc5_HnIVHVhm_d0zktodiScqm0A" />
+        </div>
+        <div class="flex-grow space-y-3">
+          <div class="text-xs font-semibold text-primary uppercase tracking-tighter">Market Analysis</div>
+          <h3 class="text-2xl font-bold tracking-tight text-on-surface leading-snug">Global Data Trends: Q2 2024 Report
+          </h3>
+          <p class="text-on-surface-variant leading-relaxed line-clamp-3">
+            An extensive analysis of cross-regional benchmark data showing a surprising 14% increase in processing
+            efficiency across emerging markets. Explore the raw data and our core methodology.
+          </p>
+          <div class="pt-2">
+            <button
+              class="px-5 py-2.5 rounded-lg border border-outline-variant/20 text-on-surface font-medium hover:bg-surface-container-high transition-colors">
+              Go to Article
+            </button>
+          </div>
+        </div>
+      </article>
+      <!-- Article 4 -->
+      <article class="flex flex-col md:flex-row gap-8 items-start group">
+        <div class="w-full md:w-[40%] flex-shrink-0 overflow-hidden rounded-xl bg-surface-container-low">
+          <img class="w-full aspect-[4/3] object-cover transition-transform duration-500 group-hover:scale-110"
+            data-alt="Dark futuristic server room with linear glowing blue lights and reflective metallic surfaces representing secure high-speed data"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA53uFUYJihJo2mcKYQSw4_IVRtayPpN4hlauQWRcWYD5-_yJ_AU66D-NeoHyZDIIbFtqts2ZujeQpyUtwr8n0yUy80RwspjTlzv98nlpFtQz2mEss868ba3fN7OE6HYs18qu37PYZhoU_Dj9zNbXB_9FU6PX-WNkH6rWEyapkapVav4Mz59LTd9MD63x5sva9Q-s-qjL-XT6CrQjg1JvJCJDrWW7nqgV6Ru_ol2cSrAUQ0rV43F5gVjbOiZnqv7W2X83YQAW8nWlQ" />
+        </div>
+        <div class="flex-grow space-y-3">
+          <div class="text-xs font-semibold text-primary uppercase tracking-tighter">Security Update</div>
+          <h3 class="text-2xl font-bold tracking-tight text-on-surface leading-snug">Implementing Zero-Knowledge
+            Benchmarking</h3>
+          <p class="text-on-surface-variant leading-relaxed line-clamp-3">
+            Security is not a feature, it's a foundation. Learn how ModuBench V4 implements ZK-proofs to ensure your
+            dataset integrity remains private while generating public verification scores.
+          </p>
+          <div class="pt-2">
+            <button
+              class="px-5 py-2.5 rounded-lg border border-outline-variant/20 text-on-surface font-medium hover:bg-surface-container-high transition-colors">
+              Go to Article
+            </button>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!-- Pagination / Load More -->
+    <div class="flex flex-col items-center pt-8 border-t border-outline-variant/10">
+      <button
+        class="group flex flex-col items-center gap-4 text-on-surface-variant hover:text-primary transition-colors">
+        <span class="text-sm font-semibold uppercase tracking-widest">Load More Insights</span>
+        <div
+          class="w-10 h-10 rounded-full border border-outline-variant/20 flex items-center justify-center group-hover:border-primary/40 transition-all">
+          <span class="material-symbols-outlined">expand_more</span>
+        </div>
+      </button>
+    </div>
+  </main>
+  <!-- Newsletter Inset (Editorial Pattern) -->
+  <section class="w-full bg-surface-container-low py-24 mb-32">
+    <div class="max-w-4xl mx-auto px-8 text-center">
+      <div class="mb-8 flex justify-center">
+        <span class="material-symbols-outlined text-4xl text-primary" data-weight="fill">mark_email_read</span>
+      </div>
+      <h2 class="text-3xl font-bold tracking-tight mb-4">Precision insights delivered weekly.</h2>
+      <p class="text-on-surface-variant mb-10 max-w-md mx-auto">Join 12,000+ engineers and data scientists receiving our
+        curated benchmark analysis and architectural updates.</p>
+      <form class="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
+        <input
+          class="flex-grow bg-surface-container-lowest border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/20 text-on-surface transition-all"
+          placeholder="Enter your work email" required="" type="email" />
+        <button
+          class="bg-primary text-on-primary font-bold px-8 py-4 rounded-xl shadow-lg shadow-primary/20 hover:shadow-primary/40 transition-all active:scale-95"
+          type="submit">Subscribe</button>
+      </form>
+      <p class="mt-4 text-xs text-on-surface-variant/60">No spam. Only data. Unsubscribe at any time.</p>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer
+    class="w-full py-12 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 text-sm font-['Inter'] text-slate-500 dark:text-slate-400">
+    <div class="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+      <div class="font-bold text-slate-900 dark:text-white">
+        ModuBench (모두벤치)
+      </div>
+      <p class="text-center md:text-left">© 2024 ModuBench Portal. Precision Engineering for Data.</p>
+      <div class="flex gap-6">
+        <a class="text-slate-500 hover:text-blue-600 hover:underline underline-offset-4 transition-all duration-300"
+          href="#">Privacy Policy</a>
+        <a class="text-slate-500 hover:text-blue-600 hover:underline underline-offset-4 transition-all duration-300"
+          href="#">Terms of Service</a>
+        <a class="text-slate-500 hover:text-blue-600 hover:underline underline-offset-4 transition-all duration-300"
+          href="#">Documentation</a>
+        <a class="text-slate-500 hover:text-blue-600 hover:underline underline-offset-4 transition-all duration-300"
+          href="#">Support</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

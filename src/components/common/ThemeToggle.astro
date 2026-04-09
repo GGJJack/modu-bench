@@ -1,0 +1,21 @@
+---
+import { Icon } from 'astro-icon/components';
+---
+
+<button
+  id="theme-toggle"
+  class="p-2 hover:bg-surface-container rounded-md transition-all"
+  aria-label="테마 전환"
+>
+  <Icon name="material-symbols:light-mode-outline" class="w-5 h-5 text-on-surface-variant dark:hidden" />
+  <Icon name="material-symbols:dark-mode-outline" class="w-5 h-5 text-on-surface-variant hidden dark:block" />
+</button>
+
+<script>
+  const toggle = document.getElementById('theme-toggle');
+  toggle?.addEventListener('click', () => {
+    const isDark = document.documentElement.classList.contains('dark');
+    document.documentElement.classList.replace(isDark ? 'dark' : 'light', isDark ? 'light' : 'dark');
+    localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  });
+</script>

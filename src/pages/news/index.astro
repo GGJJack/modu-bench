@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<BaseLayout title="News & Insights - ModuBench">
+  <main class="pt-32 pb-24 px-6 max-w-4xl mx-auto">
+    <!-- Header -->
+    <header class="mb-20">
+      <span class="text-xs font-semibold uppercase tracking-widest text-on-surface-variant">인사이트 및 업데이트</span>
+      <h1 class="text-4xl md:text-[3.5rem] font-bold leading-[1.1] tracking-tight text-on-surface mt-2 font-headline">
+        News & Insights
+      </h1>
+    </header>
+
+    <!-- Article Feed -->
+    <div class="space-y-24">
+      <!-- Article 1: With Image -->
+      <article class="relative group cursor-pointer">
+        <div class="space-y-6">
+          <div class="flex items-center gap-4 text-sm font-medium">
+            <span class="text-primary">2024년 5월 20일</span>
+            <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+            <span class="text-on-surface-variant">벤치마크 리포트</span>
+          </div>
+          <div class="space-y-4 max-w-3xl">
+            <h2 class="text-2xl font-semibold leading-tight tracking-tight text-on-surface group-hover:text-primary transition-colors">
+              대규모 언어 모델의 추론 능력 향상을 위한 새로운 지표 도입
+            </h2>
+            <p class="text-base leading-relaxed text-on-surface-variant line-clamp-3">
+              ModuBench는 인공지능 모델의 복잡한 논리적 추론 과정을 보다 정밀하게 측정하기 위한 새로운 평가 프레임워크를 발표했습니다.
+              이번 업데이트는 단순한 텍스트 생성을 넘어 모델이 다단계 추론을 수행하는 과정에서 발생하는 오류를 식별하고 이를 점수화하는 데 중점을 두었습니다.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Article 2: Text Only -->
+      <article class="relative group cursor-pointer">
+        <div class="space-y-6">
+          <div class="flex items-center gap-4 text-sm font-medium">
+            <span class="text-primary">2024년 5월 15일</span>
+            <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+            <span class="text-on-surface-variant">공지사항</span>
+          </div>
+          <div class="space-y-4 max-w-3xl">
+            <h2 class="text-2xl font-semibold leading-tight tracking-tight text-on-surface group-hover:text-primary transition-colors">
+              오픈소스 커뮤니티와의 협업 강화를 위한 API 공개
+            </h2>
+            <p class="text-base leading-relaxed text-on-surface-variant line-clamp-3">
+              우리는 더 많은 연구자들이 투명하고 공정한 벤치마크 데이터에 접근할 수 있도록 ModuBench Core API를 오픈소스로 전환하기로 결정했습니다.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Article 3 -->
+      <article class="relative group cursor-pointer">
+        <div class="space-y-6">
+          <div class="flex items-center gap-4 text-sm font-medium">
+            <span class="text-primary">2024년 5월 08일</span>
+            <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+            <span class="text-on-surface-variant">기술 심층 분석</span>
+          </div>
+          <div class="space-y-4 max-w-3xl">
+            <h2 class="text-2xl font-semibold leading-tight tracking-tight text-on-surface group-hover:text-primary transition-colors">
+              한국어 미세 조정 모델의 성능 비교 분석: LLM 리더보드 순위 변동
+            </h2>
+            <p class="text-base leading-relaxed text-on-surface-variant line-clamp-3">
+              최근 몇 달간 국내 주요 테크 기업들이 출시한 한국어 특화 LLM들의 벤치마크 결과를 분석했습니다.
+              문맥 이해력, 문화적 뉘앙스 파악, 그리고 한국어 특유의 존대 표현 처리 능력을 중점적으로 다루었습니다.
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Load More -->
+    <div class="mt-32 pt-12 border-t border-outline-variant/20 flex justify-center">
+      <button class="px-8 py-3 rounded-md bg-surface-container-high text-on-surface font-medium hover:bg-surface-variant transition-all active:scale-95">
+        이전 기사 더 보기
+      </button>
+    </div>
+  </main>
+</BaseLayout>

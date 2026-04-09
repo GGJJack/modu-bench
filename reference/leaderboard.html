@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html class="light" lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-error": "#fff7f6",
+            "surface-variant": "#d9e4ea",
+            "surface-container-highest": "#d9e4ea",
+            "tertiary": "#625b77",
+            "inverse-primary": "#618bff",
+            "secondary": "#5f5f62",
+            "primary-container": "#dbe1ff",
+            "on-tertiary-fixed": "#3c3650",
+            "secondary-dim": "#535356",
+            "secondary-fixed": "#e4e2e6",
+            "on-tertiary-fixed-variant": "#59526e",
+            "tertiary-fixed": "#dfd5f7",
+            "surface-container-lowest": "#ffffff",
+            "on-tertiary": "#fdf7ff",
+            "surface-container": "#e8eff3",
+            "outline": "#717c82",
+            "on-surface-variant": "#566166",
+            "primary-fixed-dim": "#c7d3ff",
+            "on-surface": "#2a3439",
+            "surface-tint": "#0053db",
+            "error": "#9f403d",
+            "background": "#f7f9fb",
+            "on-primary-fixed": "#003798",
+            "inverse-on-surface": "#9a9d9f",
+            "surface": "#f7f9fb",
+            "on-primary-container": "#0048bf",
+            "surface-bright": "#f7f9fb",
+            "inverse-surface": "#0b0f10",
+            "on-secondary-fixed": "#3f3f43",
+            "on-tertiary-container": "#4f4964",
+            "primary-fixed": "#dbe1ff",
+            "on-primary-fixed-variant": "#0050d4",
+            "secondary-container": "#e4e2e6",
+            "outline-variant": "#a9b4b9",
+            "on-primary": "#f8f7ff",
+            "on-error-container": "#752121",
+            "secondary-fixed-dim": "#d5d3d8",
+            "on-secondary-fixed-variant": "#5b5b5f",
+            "error-dim": "#4e0309",
+            "tertiary-fixed-dim": "#d0c7e8",
+            "primary-dim": "#0048c1",
+            "tertiary-container": "#dfd5f7",
+            "on-secondary-container": "#515155",
+            "error-container": "#fe8983",
+            "surface-container-low": "#f0f4f7",
+            "surface-container-high": "#e1e9ee",
+            "tertiary-dim": "#564f6b",
+            "on-secondary": "#faf8fc",
+            "surface-dim": "#cfdce3",
+            "on-background": "#2a3439",
+            "primary": "#0053db"
+          },
+          fontFamily: {
+            "headline": ["Inter"],
+            "body": ["Inter"],
+            "label": ["Inter"]
+          },
+          borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+        },
+      },
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .data-glass {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(20px);
+      border-left: 2px solid #0053db;
+    }
+  </style>
+</head>
+
+<body class="bg-background text-on-surface antialiased">
+  <!-- TopNavBar -->
+  <header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl">
+    <div class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto w-full">
+      <div class="text-xl font-bold tracking-tighter text-slate-900 dark:text-slate-50">ModuBench</div>
+      <nav class="hidden md:flex items-center gap-8 font-inter antialiased tracking-tight">
+        <a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+          href="#">Home</a>
+        <a class="text-blue-600 dark:text-blue-400 font-semibold border-b-2 border-blue-600 dark:border-blue-400 pb-1"
+          href="#">Leaderboard</a>
+        <a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+          href="#">Tools</a>
+        <a class="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+          href="#">News</a>
+      </nav>
+      <div class="flex items-center gap-4">
+        <div class="relative hidden sm:block">
+          <span
+            class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-sm">search</span>
+          <input
+            class="pl-10 pr-4 py-2 bg-surface-container-high border-none rounded-lg text-sm focus:bg-surface-container-lowest focus:ring-0 focus:border-b focus:border-primary transition-all w-64"
+            placeholder="모델 검색..." type="text" />
+        </div>
+        <button class="hover:bg-slate-50/50 dark:hover:bg-slate-900/50 rounded-md transition-all p-1">
+          <span class="material-symbols-outlined text-slate-500" data-icon="account_circle">account_circle</span>
+        </button>
+      </div>
+    </div>
+    <div class="bg-slate-100 dark:bg-slate-900 h-px w-full"></div>
+  </header>
+  <main class="pt-32 pb-24 max-w-7xl mx-auto px-6">
+    <!-- Hero Section -->
+    <section class="mb-16">
+      <div class="max-w-3xl">
+        <span class="text-[0.75rem] font-semibold uppercase tracking-widest text-on-surface-variant mb-4 block">V4 정밀
+          벤치마크</span>
+        <h1 class="text-5xl font-bold tracking-tight text-on-surface mb-6 leading-tight">AI 모델 성능 리더보드</h1>
+        <p class="text-lg text-on-surface-variant leading-relaxed">추론, 지시 이행, 코딩 능력을 포함한 최신 오픈소스 및 폐쇄형 인공지능 모델의 성능 지표를
+          투명하게 공개합니다.</p>
+      </div>
+    </section>
+    <!-- Filter Chips -->
+    <div class="flex flex-wrap gap-3 mb-10">
+      <button class="px-5 py-2.5 rounded-full bg-primary text-on-primary text-sm font-medium shadow-sm">All
+        Models</button>
+      <button
+        class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface-variant text-sm font-medium hover:bg-surface-container-high transition-colors">LLM</button>
+      <button
+        class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface-variant text-sm font-medium hover:bg-surface-container-high transition-colors">Vision</button>
+      <button
+        class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface-variant text-sm font-medium hover:bg-surface-container-high transition-colors">Audio</button>
+      <button
+        class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface-variant text-sm font-medium hover:bg-surface-container-high transition-colors">Multimodal</button>
+    </div>
+    <!-- Data Grid Table -->
+    <div class="overflow-x-auto">
+      <table class="w-full border-collapse">
+        <thead>
+          <tr class="text-left border-b border-outline-variant/20">
+            <th class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider pl-4">모델 명칭</th>
+            <th class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider text-center">추론
+              (Reasoning)</th>
+            <th class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider text-center">지시
+              이행 (Instruction)</th>
+            <th class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider text-center">코딩
+              (Coding)</th>
+            <th
+              class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider pr-4 text-right">
+              라이선스</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-outline-variant/10">
+          <!-- Row 1 -->
+          <tr class="group hover:bg-surface-container-low transition-all">
+            <td class="py-6 pl-4">
+              <div class="flex items-center gap-4">
+                <div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center overflow-hidden">
+                  <img class="w-full h-full object-cover"
+                    data-alt="abstract minimalist geometric logo for artificial intelligence model clean lines blue accents on white background"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjSovoaiRUticRKY9FwV-vysevu1W3Sqg8mt3Vuyo2vVV1wUfUd5sGnWaw9uzaXeyxWUsZDBeo8cPtaG1NLlE-xfGjDWylgCr89kRa-78W_8qxF9NBZ6YmgVzUSRGEyANnB9kFneVjtGHosPNWlKhGy3BdkYiKfrJZ448OfDorFk2sZu-7FCVFcI3WevtKkfxLD9toPjuh7thz_UrbGZ8H6n4_BrGztE1iGf-pSDU6e0a8omblFzOusi6hVUAEc5mpZNSs23qOBVg" />
+                </div>
+                <div>
+                  <div class="font-semibold text-on-surface">GPT-4o</div>
+                  <div class="text-xs text-on-surface-variant">OpenAI</div>
+                </div>
+              </div>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-bold text-primary">94.2</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">96.8</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">91.5</span>
+            </td>
+            <td class="py-6 pr-4 text-right">
+              <span
+                class="text-xs px-2 py-1 bg-surface-container-high rounded text-on-surface-variant">Proprietary</span>
+            </td>
+          </tr>
+          <!-- Row 2 -->
+          <tr class="group hover:bg-surface-container-low transition-all">
+            <td class="py-6 pl-4">
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-10 h-10 rounded-xl bg-tertiary-container flex items-center justify-center overflow-hidden">
+                  <img class="w-full h-full object-cover"
+                    data-alt="minimalist gradient sphere logo in purple and teal clean corporate tech style"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBy1nravuPR53u26sizBHvY0bjy2MC7U_PFKHSnOA_yr266A5wyT8O2j7-1IqqhIVTeC9kk-sVaPb8y2CsFpKQwwDY0OCZrl6HEA6auIRrcC5czIsf8RxbtXI3pb-IXHVzUTviDZTWdCII2onxYknItBBcKLUBZ9NG-ZWwJK--EluKi4VMqnfNL5-WQZalh_a_bxMGl9TwqTPtuPu4CSLI8Y0zqIIp5JSLoyMhsnkxG2Y-CGh-h2Lgvt8BHr-0YYFd89SEkoJazJCQ" />
+                </div>
+                <div>
+                  <div class="font-semibold text-on-surface">Claude 3.5 Sonnet</div>
+                  <div class="text-xs text-on-surface-variant">Anthropic</div>
+                </div>
+              </div>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-bold text-primary">93.8</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">97.2</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">92.0</span>
+            </td>
+            <td class="py-6 pr-4 text-right">
+              <span
+                class="text-xs px-2 py-1 bg-surface-container-high rounded text-on-surface-variant">Proprietary</span>
+            </td>
+          </tr>
+          <!-- Row 3 (No Icon) -->
+          <tr class="group hover:bg-surface-container-low transition-all">
+            <td class="py-6 pl-4">
+              <div class="flex items-center gap-4">
+                <div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center">
+                  <span class="material-symbols-outlined text-outline-variant" data-icon="terminal">terminal</span>
+                </div>
+                <div>
+                  <div class="font-semibold text-on-surface">Llama 3 70B</div>
+                  <div class="text-xs text-on-surface-variant">Meta</div>
+                </div>
+              </div>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-bold text-primary">88.4</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">89.1</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">85.6</span>
+            </td>
+            <td class="py-6 pr-4 text-right">
+              <span class="text-xs px-2 py-1 bg-primary-container text-on-primary-container rounded font-medium">Llama
+                3</span>
+            </td>
+          </tr>
+          <!-- Row 4 -->
+          <tr class="group hover:bg-surface-container-low transition-all">
+            <td class="py-6 pl-4">
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-10 h-10 rounded-xl bg-on-tertiary-fixed-variant/10 flex items-center justify-center overflow-hidden">
+                  <img class="w-full h-full object-cover"
+                    data-alt="simple clean geometric ai logo representing intelligence soft colors white background"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfYfc1LRjfBDiwc6TxqLZmtVRN8Phi7ILb0atSAP4QPtYRa_sHJnuLQVAZs57FKRJrHBGgDZohdH_7uwrn2vAHMeIDtkUJHL4LbEVjxFh7WFgw7YCV-FXfJhmf53rIX2o5tj-H8gOvfUvZrArJZsIuF-mSD446bQGuMLJ2WZuzZqikK6iRjFZyUFehaqalMqx0fnIFLN48RSiuHMYrLdxAp4PX_a5g2zbPnhdZpcb5doF0zs2ngoHL2UQbXYSpCNDPhS_ieKb1z_w" />
+                </div>
+                <div>
+                  <div class="font-semibold text-on-surface">Gemini 1.5 Pro</div>
+                  <div class="text-xs text-on-surface-variant">Google</div>
+                </div>
+              </div>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-bold text-primary">91.7</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">93.5</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">89.9</span>
+            </td>
+            <td class="py-6 pr-4 text-right">
+              <span
+                class="text-xs px-2 py-1 bg-surface-container-high rounded text-on-surface-variant">Proprietary</span>
+            </td>
+          </tr>
+          <!-- Row 5 -->
+          <tr class="group hover:bg-surface-container-low transition-all">
+            <td class="py-6 pl-4">
+              <div class="flex items-center gap-4">
+                <div class="w-10 h-10 rounded-xl bg-surface-container-highest flex items-center justify-center">
+                  <span class="material-symbols-outlined text-outline-variant" data-icon="cloud">cloud</span>
+                </div>
+                <div>
+                  <div class="font-semibold text-on-surface">Mistral Large 2</div>
+                  <div class="text-xs text-on-surface-variant">Mistral AI</div>
+                </div>
+              </div>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-bold text-primary">87.2</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">88.0</span>
+            </td>
+            <td class="py-6 text-center">
+              <span class="text-lg font-medium">84.3</span>
+            </td>
+            <td class="py-6 pr-4 text-right">
+              <span class="text-xs px-2 py-1 bg-primary-container text-on-primary-container rounded font-medium">Mistral
+                Non-Commercial</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Pagination/More Info -->
+    <div class="mt-12 flex justify-between items-center border-t border-outline-variant/10 pt-8">
+      <div class="text-sm text-on-surface-variant">
+        총 128개의 모델 중 상위 5개 표시 중
+      </div>
+      <div class="flex gap-4">
+        <button class="flex items-center gap-2 text-sm font-semibold text-primary hover:underline">
+          이전
+        </button>
+        <button class="flex items-center gap-2 text-sm font-semibold text-primary hover:underline">
+          다음
+        </button>
+      </div>
+    </div>
+    <!-- Featured Section: Asymmetric Bento Style -->
+    <section class="mt-24 grid grid-cols-1 md:grid-cols-12 gap-6">
+      <div class="md:col-span-8 data-glass p-8 rounded-xl">
+        <div class="flex flex-col h-full justify-between">
+          <div>
+            <span class="text-[0.65rem] font-bold uppercase tracking-widest text-primary mb-4 block">주간 리포트</span>
+            <h2 class="text-3xl font-bold mb-4">멀티모달 벤치마크의 부상</h2>
+            <p class="text-on-surface-variant leading-relaxed max-w-xl">단순 텍스트 처리를 넘어 이미지, 오디오, 비디오를 통합적으로 이해하는 모델들이
+              리더보드 상위권을 점유하기 시작했습니다. V4 업데이트에서는 시각 추론 점수 가중치를 상향 조정하였습니다.</p>
+          </div>
+        </div>
+      </div>
+      <div class="md:col-span-4 bg-surface-container-low p-8 rounded-xl">
+        <span class="material-symbols-outlined text-primary mb-4" data-icon="verified">verified</span>
+        <h3 class="text-xl font-bold mb-2">검증된 데이터</h3>
+        <p class="text-sm text-on-surface-variant leading-relaxed">모든 수치는 ModuBench의 독자적인 샌드박스 환경에서 3회 이상 반복 측정된 결과의
+          평균값입니다.</p>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="w-full py-12 border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950">
+    <div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-4">
+      <div class="flex flex-col items-center md:items-start gap-2">
+        <span class="font-semibold text-slate-900 dark:text-slate-100">ModuBench</span>
+        <span class="text-sm font-inter text-slate-500 dark:text-slate-400">© 2024 ModuBench. Open-source AI Benchmark
+          Hub.</span>
+      </div>
+      <div class="flex gap-8">
+        <a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-all duration-200 hover:underline decoration-blue-500/30 underline-offset-4"
+          href="#">Terms</a>
+        <a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-all duration-200 hover:underline decoration-blue-500/30 underline-offset-4"
+          href="#">Privacy</a>
+        <a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-all duration-200 hover:underline decoration-blue-500/30 underline-offset-4"
+          href="#">GitHub</a>
+        <a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-blue-600 transition-all duration-200 hover:underline decoration-blue-500/30 underline-offset-4"
+          href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

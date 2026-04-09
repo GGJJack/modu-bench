@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<BaseLayout title="AI 모델 성능 리더보드 - ModuBench">
+  <main class="pt-32 pb-24 max-w-7xl mx-auto px-6">
+    <!-- Hero Section -->
+    <section class="mb-16">
+      <div class="max-w-3xl">
+        <span class="text-xs font-semibold uppercase tracking-widest text-on-surface-variant mb-4 block">V4 정밀 벤치마크</span>
+        <h1 class="text-5xl font-bold tracking-tight text-on-surface mb-6 leading-tight font-headline">AI 모델 성능 리더보드</h1>
+        <p class="text-lg text-on-surface-variant leading-relaxed">
+          추론, 지시 이행, 코딩 능력을 포함한 최신 오픈소스 및 폐쇄형 인공지능 모델의 성능 지표를 투명하게 공개합니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filter Chips -->
+    <div class="flex flex-wrap gap-3 mb-10">
+      <button class="px-5 py-2.5 rounded-full bg-primary text-on-primary text-sm font-medium shadow-sm">All Models</button>
+      <button class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface-variant text-sm font-medium hover:bg-surface-container-high transition-colors">LLM</button>
+      <button class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface-variant text-sm font-medium hover:bg-surface-container-high transition-colors">Vision</button>
+      <button class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface-variant text-sm font-medium hover:bg-surface-container-high transition-colors">Audio</button>
+      <button class="px-5 py-2.5 rounded-full bg-surface-container text-on-surface-variant text-sm font-medium hover:bg-surface-container-high transition-colors">Multimodal</button>
+    </div>
+
+    <!-- Data Grid Table -->
+    <div class="overflow-x-auto">
+      <table class="w-full border-collapse">
+        <thead>
+          <tr class="text-left border-b border-outline-variant/20">
+            <th class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider pl-4">모델 명칭</th>
+            <th class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider text-center">추론 (Reasoning)</th>
+            <th class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider text-center">지시 이행 (Instruction)</th>
+            <th class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider text-center">코딩 (Coding)</th>
+            <th class="pb-6 pt-2 font-semibold text-on-surface-variant text-xs uppercase tracking-wider pr-4 text-right">라이선스</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-outline-variant/10">
+          <tr class="group hover:bg-surface-container-low transition-all">
+            <td class="py-6 pl-4">
+              <div class="flex items-center gap-4">
+                <div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center">
+                  <Icon name="material-symbols:smart-toy-outline" class="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <div class="font-semibold text-on-surface">GPT-4o</div>
+                  <div class="text-xs text-on-surface-variant">OpenAI</div>
+                </div>
+              </div>
+            </td>
+            <td class="py-6 text-center"><span class="text-lg font-bold text-primary">94.2</span></td>
+            <td class="py-6 text-center"><span class="text-lg font-medium">96.8</span></td>
+            <td class="py-6 text-center"><span class="text-lg font-medium">91.5</span></td>
+            <td class="py-6 pr-4 text-right"><span class="text-xs px-2 py-1 bg-surface-container-high rounded text-on-surface-variant">Proprietary</span></td>
+          </tr>
+          <tr class="group hover:bg-surface-container-low transition-all">
+            <td class="py-6 pl-4">
+              <div class="flex items-center gap-4">
+                <div class="w-10 h-10 rounded-xl bg-tertiary-container flex items-center justify-center">
+                  <Icon name="material-symbols:psychology-outline" class="w-5 h-5 text-tertiary" />
+                </div>
+                <div>
+                  <div class="font-semibold text-on-surface">Claude 3.5 Sonnet</div>
+                  <div class="text-xs text-on-surface-variant">Anthropic</div>
+                </div>
+              </div>
+            </td>
+            <td class="py-6 text-center"><span class="text-lg font-bold text-primary">93.8</span></td>
+            <td class="py-6 text-center"><span class="text-lg font-medium">97.2</span></td>
+            <td class="py-6 text-center"><span class="text-lg font-medium">92.0</span></td>
+            <td class="py-6 pr-4 text-right"><span class="text-xs px-2 py-1 bg-surface-container-high rounded text-on-surface-variant">Proprietary</span></td>
+          </tr>
+          <tr class="group hover:bg-surface-container-low transition-all">
+            <td class="py-6 pl-4">
+              <div class="flex items-center gap-4">
+                <div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center">
+                  <Icon name="material-symbols:terminal" class="w-5 h-5 text-outline-variant" />
+                </div>
+                <div>
+                  <div class="font-semibold text-on-surface">Llama 3 70B</div>
+                  <div class="text-xs text-on-surface-variant">Meta</div>
+                </div>
+              </div>
+            </td>
+            <td class="py-6 text-center"><span class="text-lg font-bold text-primary">88.4</span></td>
+            <td class="py-6 text-center"><span class="text-lg font-medium">89.1</span></td>
+            <td class="py-6 text-center"><span class="text-lg font-medium">85.6</span></td>
+            <td class="py-6 pr-4 text-right"><span class="text-xs px-2 py-1 bg-primary-container text-on-primary-container rounded font-medium">Llama 3</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pagination -->
+    <div class="mt-12 flex justify-between items-center border-t border-outline-variant/10 pt-8">
+      <div class="text-sm text-on-surface-variant">총 128개의 모델 중 상위 3개 표시 중</div>
+      <div class="flex gap-4">
+        <button class="text-sm font-semibold text-primary hover:underline">이전</button>
+        <button class="text-sm font-semibold text-primary hover:underline">다음</button>
+      </div>
+    </div>
+
+    <!-- Featured Section -->
+    <section class="mt-24 grid grid-cols-1 md:grid-cols-12 gap-6">
+      <div class="md:col-span-8 data-glass p-8 rounded-xl">
+        <span class="text-[0.65rem] font-bold uppercase tracking-widest text-primary mb-4 block">주간 리포트</span>
+        <h2 class="text-3xl font-bold mb-4">멀티모달 벤치마크의 부상</h2>
+        <p class="text-on-surface-variant leading-relaxed max-w-xl">
+          단순 텍스트 처리를 넘어 이미지, 오디오, 비디오를 통합적으로 이해하는 모델들이 리더보드 상위권을 점유하기 시작했습니다.
+        </p>
+      </div>
+      <div class="md:col-span-4 bg-surface-container-low p-8 rounded-xl">
+        <Icon name="material-symbols:verified" class="w-6 h-6 text-primary mb-4" />
+        <h3 class="text-xl font-bold mb-2">검증된 데이터</h3>
+        <p class="text-sm text-on-surface-variant leading-relaxed">
+          모든 수치는 ModuBench의 독자적인 샌드박스 환경에서 3회 이상 반복 측정된 결과의 평균값입니다.
+        </p>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
