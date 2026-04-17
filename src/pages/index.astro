@@ -1,137 +1,234 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
+
+import llmModels from '../data/models/llm.json';
+import imageGenModels from '../data/models/image-gen.json';
+import ttsModels from '../data/models/tts.json';
+import sttModels from '../data/models/stt.json';
+import multimodalModels from '../data/models/multimodal.json';
+
+import llmBenchmarks from '../data/benchmarks/llm.json';
+import imageGenBenchmarks from '../data/benchmarks/image-gen.json';
+import ttsBenchmarks from '../data/benchmarks/tts.json';
+import sttBenchmarks from '../data/benchmarks/stt.json';
+import multimodalBenchmarks from '../data/benchmarks/multimodal.json';
+
+import historyData from '../data/history.json';
+import {
+  buildTimeline,
+  agentFromLabels,
+  domainFromLabels,
+  isAutoMerged,
+  formatRelative,
+  type HistoryFile,
+  type UpdateFrontmatter,
+} from '../lib/timeline';
+
+// 수집 지표
+const countScores = (scores: Record<string, Record<string, unknown>>) =>
+  Object.values(scores).reduce((acc, modelScores) => acc + Object.keys(modelScores).length, 0);
+
+const allModels = [llmModels, imageGenModels, ttsModels, sttModels, multimodalModels];
+const allBenchmarks = [llmBenchmarks, imageGenBenchmarks, ttsBenchmarks, sttBenchmarks, multimodalBenchmarks];
+
+const totalModels = allModels.reduce((sum, d) => sum + d.models.length, 0);
+const totalBenchmarks = allBenchmarks.reduce((sum, d) => sum + d.benchmarks.length, 0);
+const totalScores = allBenchmarks.reduce((sum, d) => sum + countScores(d.scores), 0);
+const domainCount = allModels.length;
+
+// 타임라인
+const updateModules = import.meta.glob<{ frontmatter: UpdateFrontmatter }>(
+  '../data/updates/*.md',
+  { eager: true },
+);
+const updates: UpdateFrontmatter[] = Object.values(updateModules).map((m) => m.frontmatter);
+
+const timeline = buildTimeline(historyData as HistoryFile, updates, 20);
+
+const GITHUB_URL = 'https://github.com/GGJJack/modu-bench';
+
+const updateIcon = {
+  announcement: 'material-symbols:campaign-outline',
+  milestone: 'material-symbols:flag-outline',
+  note: 'material-symbols:sticky-note-2-outline',
+} as const;
+
+const updateLabel = {
+  announcement: '공지',
+  milestone: '마일스톤',
+  note: '기록',
+} as const;
 ---
 
-<BaseLayout title="ModuBench - Open Source AI Benchmark Hub">
+<BaseLayout title="ModuBench - 데이터 수집 자동화 실험장">
   <main class="pt-24 pb-20 px-6 max-w-7xl mx-auto">
-    <!-- Hero Section -->
+    <!-- Hero -->
     <section class="mb-24 mt-12">
       <div class="flex flex-col gap-4">
         <span class="text-xs font-semibold tracking-widest uppercase text-on-surface-variant font-label">
-          Open Source Initiative
+          개인 학습 프로젝트 · Work in Progress
         </span>
         <h1 class="text-4xl md:text-[3.5rem] font-bold tracking-tight leading-[1.2] text-on-surface font-headline max-w-3xl">
-          믿을 수 있는 협업형<br />오픈 소스 벤치마크 허브
+          AI 벤치마크 데이터 수집<br />자동화 실험장
         </h1>
         <p class="text-lg text-on-surface-variant max-w-2xl leading-relaxed mt-4">
-          ModuBench는 전 세계 커뮤니티가 함께 만들어가는 AI 모델 평가 플랫폼입니다.
-          투명한 지표와 실시간 데이터를 통해 차세대 인공지능의 성능을 정의합니다.
+          ModuBench는 정식 서비스가 아닙니다.
+          Google Jules로 벤치마크 데이터 수집을 자동화할 수 있는지,
+          DeepResearch로 한국어 LLM 위키를 구축할 수 있는지 검증하기 위해
+          혼자 공부하면서 만들어가는 오픈소스 PoC 프로젝트입니다.
         </p>
+        <div class="flex gap-3 mt-6">
+          <a
+            href={GITHUB_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary text-on-primary text-sm font-medium hover:bg-primary-dim transition-colors"
+          >
+            <Icon name="material-symbols:code" class="w-4 h-4" />
+            GitHub에서 보기
+          </a>
+          <a
+            href={`${import.meta.env.BASE_URL}leaderboard`}
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-surface-container text-on-surface text-sm font-medium hover:bg-surface-container-high transition-colors"
+          >
+            리더보드 둘러보기
+            <Icon name="material-symbols:arrow-forward" class="w-4 h-4" />
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- Real-time Performance Metrics: Bento Grid -->
+    <!-- 수집 현황 지표 -->
     <section class="mb-24">
+      <div class="flex items-baseline justify-between mb-6">
+        <h2 class="text-lg font-semibold tracking-tight text-on-surface font-headline">수집 현황</h2>
+        <a href={`${import.meta.env.BASE_URL}leaderboard`} class="text-xs text-primary hover:underline font-label">
+          도메인별 상세 →
+        </a>
+      </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div class="bg-surface-container-lowest p-8 rounded-xl data-glass shadow-[0_12px_40px_rgba(42,52,57,0.06)] flex flex-col justify-between h-48">
           <div>
             <div class="flex items-center justify-between mb-2">
-              <span class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider font-label">활성 모델</span>
+              <span class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider font-label">등록된 모델</span>
               <Icon name="material-symbols:model-training" class="w-5 h-5 text-primary" />
             </div>
-            <h3 class="text-4xl font-bold text-on-surface font-headline">1,284</h3>
+            <h3 class="text-4xl font-bold text-on-surface font-headline">{totalModels.toLocaleString()}</h3>
           </div>
           <div class="flex items-center gap-2 text-xs text-on-surface-variant">
-            <span class="text-primary font-bold">+12%</span> 이번 주 대비 상승
+            <span class="text-primary font-bold">{domainCount}개</span> 도메인에 걸쳐 수집 중
           </div>
         </div>
 
         <div class="bg-surface-container-lowest p-8 rounded-xl data-glass shadow-[0_12px_40px_rgba(42,52,57,0.06)] flex flex-col justify-between h-48">
           <div>
             <div class="flex items-center justify-between mb-2">
-              <span class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider font-label">오늘의 업데이트</span>
-              <Icon name="material-symbols:update" class="w-5 h-5 text-primary" />
+              <span class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider font-label">등록된 벤치마크</span>
+              <Icon name="material-symbols:analytics-outline" class="w-5 h-5 text-primary" />
             </div>
-            <h3 class="text-4xl font-bold text-on-surface font-headline">56</h3>
+            <h3 class="text-4xl font-bold text-on-surface font-headline">{totalBenchmarks.toLocaleString()}</h3>
           </div>
           <div class="flex items-center gap-2 text-xs text-on-surface-variant">
-            <span class="text-primary font-bold">14개</span> 신규 데이터셋 포함
+            한국어 벤치마크 포함 · 출처 URL 명시
           </div>
         </div>
 
         <div class="bg-surface-container-lowest p-8 rounded-xl data-glass shadow-[0_12px_40px_rgba(42,52,57,0.06)] flex flex-col justify-between h-48">
           <div>
             <div class="flex items-center justify-between mb-2">
-              <span class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider font-label">총 벤치마크 실행</span>
-              <Icon name="material-symbols:rocket-launch" class="w-5 h-5 text-primary" />
+              <span class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider font-label">기록된 점수</span>
+              <Icon name="material-symbols:scoreboard-outline" class="w-5 h-5 text-primary" />
             </div>
-            <h3 class="text-4xl font-bold text-on-surface font-headline">842.1k</h3>
+            <h3 class="text-4xl font-bold text-on-surface font-headline">{totalScores.toLocaleString()}</h3>
           </div>
           <div class="flex items-center gap-2 text-xs text-on-surface-variant">
-            평균 응답 속도 <span class="text-on-surface font-bold">142ms</span>
+            official · community · reproduced 구분 기록
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Recent Update Log: Timeline -->
+    <!-- 활동 타임라인 -->
     <section class="grid grid-cols-1 lg:grid-cols-12 gap-12">
       <div class="lg:col-span-4">
-        <span class="text-xs font-semibold tracking-widest uppercase text-on-surface-variant font-label">System Workflow</span>
-        <h2 class="text-2xl font-semibold tracking-tight text-on-surface mt-2 font-headline">실시간 업데이트 로그</h2>
+        <span class="text-xs font-semibold tracking-widest uppercase text-on-surface-variant font-label">Activity Timeline</span>
+        <h2 class="text-2xl font-semibold tracking-tight text-on-surface mt-2 font-headline">활동 히스토리</h2>
         <p class="text-on-surface-variant mt-4 text-sm leading-relaxed">
-          ModuBench의 GitOps 워크플로우는 자동화된 스크래핑부터 검토, 병합, 배포까지 투명하게 공개됩니다.
+          Jules 에이전트와 평가 에이전트가 GitHub에 머지한 PR,
+          그리고 직접 작성한 공지를 하나의 타임라인으로 보여줍니다.
+        </p>
+        <p class="text-on-surface-variant mt-4 text-sm leading-relaxed">
+          전체 기록은 <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">GitHub 저장소</a>에서 확인할 수 있습니다.
         </p>
       </div>
+
       <div class="lg:col-span-8 flex flex-col gap-0 relative">
         <div class="absolute left-6 top-0 bottom-0 w-px bg-outline-variant/30"></div>
 
-        <!-- Deploy -->
-        <div class="relative pl-16 py-6 group">
-          <div class="absolute left-[21px] top-8 w-10 h-px bg-outline-variant/30"></div>
-          <div class="absolute left-4 top-7 w-4 h-4 rounded-full bg-primary ring-4 ring-background z-10"></div>
-          <div class="bg-surface-container-low p-6 rounded-xl transition-all duration-200 hover:bg-surface-container border border-transparent hover:border-outline-variant/20">
-            <div class="flex items-center justify-between mb-2">
-              <span class="px-2 py-0.5 bg-primary-container text-on-primary-container text-[10px] font-bold rounded uppercase tracking-wider">Deploy</span>
-              <span class="text-xs text-on-surface-variant font-medium">방금 전</span>
-            </div>
-            <h4 class="font-semibold text-on-surface mb-1">v4.2.0 메인 서버 배포 완료</h4>
-            <p class="text-sm text-on-surface-variant">Llama-3 최적화 가중치가 프로덕션 환경에 반영되었습니다.</p>
+        {timeline.length === 0 && (
+          <div class="pl-16 py-6 text-sm text-on-surface-variant">
+            아직 기록된 활동이 없습니다. 첫 PR이 머지되거나 공지가 작성되면 여기에 나타납니다.
           </div>
-        </div>
+        )}
 
-        <!-- Merge -->
-        <div class="relative pl-16 py-6 group">
-          <div class="absolute left-[21px] top-8 w-10 h-px bg-outline-variant/30"></div>
-          <div class="absolute left-4 top-7 w-4 h-4 rounded-full bg-outline-variant ring-4 ring-background z-10"></div>
-          <div class="p-6 rounded-xl transition-all duration-200 hover:bg-surface-container-low">
-            <div class="flex items-center justify-between mb-2">
-              <span class="px-2 py-0.5 bg-surface-container-highest text-on-surface-variant text-[10px] font-bold rounded uppercase tracking-wider">Merge</span>
-              <span class="text-xs text-on-surface-variant font-medium">14분 전</span>
-            </div>
-            <h4 class="font-semibold text-on-surface mb-1">PR #2104 병합됨</h4>
-            <p class="text-sm text-on-surface-variant">벤치마크 데이터 유효성 검사 로직이 업데이트되었습니다.</p>
-          </div>
-        </div>
+        {timeline.map((item) => {
+          if (item.kind === 'pr') {
+            const pr = item.data;
+            const agent = agentFromLabels(pr.labels);
+            const domain = domainFromLabels(pr.labels);
+            const auto = isAutoMerged(pr.labels);
+            return (
+              <div class="relative pl-16 py-5 group">
+                <div class="absolute left-[21px] top-7 w-10 h-px bg-outline-variant/30"></div>
+                <div class="absolute left-4 top-6 w-4 h-4 rounded-full bg-primary ring-4 ring-background z-10"></div>
+                <a href={pr.url} target="_blank" rel="noopener noreferrer" class="block bg-surface-container-low hover:bg-surface-container p-5 rounded-xl transition-all duration-200 border border-transparent hover:border-outline-variant/20">
+                  <div class="flex items-center gap-2 mb-2 flex-wrap">
+                    <span class="px-2 py-0.5 bg-primary-container text-on-primary-container text-[10px] font-bold rounded uppercase tracking-wider">
+                      {agent === 'jules' ? 'Jules' : agent === 'bot' ? 'Bot' : 'Human'}
+                    </span>
+                    {auto && (
+                      <span class="px-2 py-0.5 bg-tertiary-container text-on-tertiary-container text-[10px] font-bold rounded uppercase tracking-wider">
+                        Auto-merged
+                      </span>
+                    )}
+                    {domain && (
+                      <span class="px-2 py-0.5 bg-surface-container-highest text-on-surface-variant text-[10px] font-bold rounded uppercase tracking-wider">
+                        {domain}
+                      </span>
+                    )}
+                    <span class="ml-auto text-xs text-on-surface-variant font-medium">
+                      #{pr.number} · {formatRelative(pr.mergedAt)}
+                    </span>
+                  </div>
+                  <h4 class="font-semibold text-on-surface mb-1">{pr.title}</h4>
+                  <p class="text-xs text-on-surface-variant">by {pr.author}</p>
+                </a>
+              </div>
+            );
+          }
 
-        <!-- Review -->
-        <div class="relative pl-16 py-6 group">
-          <div class="absolute left-[21px] top-8 w-10 h-px bg-outline-variant/30"></div>
-          <div class="absolute left-4 top-7 w-4 h-4 rounded-full bg-outline-variant ring-4 ring-background z-10"></div>
-          <div class="p-6 rounded-xl transition-all duration-200 hover:bg-surface-container-low">
-            <div class="flex items-center justify-between mb-2">
-              <span class="px-2 py-0.5 bg-surface-container-highest text-on-surface-variant text-[10px] font-bold rounded uppercase tracking-wider">Review</span>
-              <span class="text-xs text-on-surface-variant font-medium">1시간 전</span>
+          const upd = item.data;
+          return (
+            <div class="relative pl-16 py-5 group">
+              <div class="absolute left-[21px] top-7 w-10 h-px bg-outline-variant/30"></div>
+              <div class="absolute left-4 top-6 w-4 h-4 rounded-full bg-outline-variant ring-4 ring-background z-10"></div>
+              <div class="p-5 rounded-xl transition-all duration-200 hover:bg-surface-container-low">
+                <div class="flex items-center gap-2 mb-2">
+                  <Icon name={updateIcon[upd.type]} class="w-4 h-4 text-on-surface-variant" />
+                  <span class="px-2 py-0.5 bg-surface-container-highest text-on-surface-variant text-[10px] font-bold rounded uppercase tracking-wider">
+                    {updateLabel[upd.type]}
+                  </span>
+                  <span class="ml-auto text-xs text-on-surface-variant font-medium">
+                    {formatRelative(upd.date)}
+                  </span>
+                </div>
+                <h4 class="font-semibold text-on-surface mb-1">{upd.title}</h4>
+                <p class="text-sm text-on-surface-variant leading-relaxed">{upd.summary}</p>
+              </div>
             </div>
-            <h4 class="font-semibold text-on-surface mb-1">신규 모델 성능 검토 중</h4>
-            <p class="text-sm text-on-surface-variant">Mistral-7B-v0.3 모델의 벤치마크 결과 대조 확인이 진행 중입니다.</p>
-          </div>
-        </div>
-
-        <!-- Scrape -->
-        <div class="relative pl-16 py-6 group">
-          <div class="absolute left-[21px] top-8 w-10 h-px bg-outline-variant/30"></div>
-          <div class="absolute left-4 top-7 w-4 h-4 rounded-full bg-outline-variant ring-4 ring-background z-10"></div>
-          <div class="p-6 rounded-xl transition-all duration-200 hover:bg-surface-container-low">
-            <div class="flex items-center justify-between mb-2">
-              <span class="px-2 py-0.5 bg-surface-container-highest text-on-surface-variant text-[10px] font-bold rounded uppercase tracking-wider">Scrape</span>
-              <span class="text-xs text-on-surface-variant font-medium">3시간 전</span>
-            </div>
-            <h4 class="font-semibold text-on-surface mb-1">데이터 수집 자동화 실행</h4>
-            <p class="text-sm text-on-surface-variant">HuggingFace에서 신규 릴리즈된 12개 모델의 메타데이터를 가져왔습니다.</p>
-          </div>
-        </div>
+          );
+        })}
       </div>
     </section>
   </main>

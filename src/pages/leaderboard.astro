@@ -1,6 +1,69 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { Icon } from 'astro-icon/components';
+
+import llmModels from '../data/models/llm.json';
+import imageGenModels from '../data/models/image-gen.json';
+import ttsModels from '../data/models/tts.json';
+import sttModels from '../data/models/stt.json';
+import multimodalModels from '../data/models/multimodal.json';
+
+import llmBenchmarks from '../data/benchmarks/llm.json';
+import imageGenBenchmarks from '../data/benchmarks/image-gen.json';
+import ttsBenchmarks from '../data/benchmarks/tts.json';
+import sttBenchmarks from '../data/benchmarks/stt.json';
+import multimodalBenchmarks from '../data/benchmarks/multimodal.json';
+
+const countScores = (scores: Record<string, Record<string, unknown>>) =>
+  Object.values(scores).reduce((acc, modelScores) => acc + Object.keys(modelScores).length, 0);
+
+const domains = [
+  {
+    id: 'llm',
+    label: 'LLM',
+    description: '대규모 언어 모델',
+    icon: 'material-symbols:chat-outline',
+    modelCount: llmModels.models.length,
+    benchmarkCount: llmBenchmarks.benchmarks.length,
+    scoreCount: countScores(llmBenchmarks.scores),
+  },
+  {
+    id: 'image-gen',
+    label: '이미지 생성',
+    description: 'Text-to-Image',
+    icon: 'material-symbols:image-outline',
+    modelCount: imageGenModels.models.length,
+    benchmarkCount: imageGenBenchmarks.benchmarks.length,
+    scoreCount: countScores(imageGenBenchmarks.scores),
+  },
+  {
+    id: 'tts',
+    label: 'TTS',
+    description: '음성 합성',
+    icon: 'material-symbols:record-voice-over-outline',
+    modelCount: ttsModels.models.length,
+    benchmarkCount: ttsBenchmarks.benchmarks.length,
+    scoreCount: countScores(ttsBenchmarks.scores),
+  },
+  {
+    id: 'stt',
+    label: 'STT',
+    description: '음성 인식',
+    icon: 'material-symbols:mic-outline',
+    modelCount: sttModels.models.length,
+    benchmarkCount: sttBenchmarks.benchmarks.length,
+    scoreCount: countScores(sttBenchmarks.scores),
+  },
+  {
+    id: 'multimodal',
+    label: '멀티모달',
+    description: '복합 모달리티',
+    icon: 'material-symbols:hub-outline',
+    modelCount: multimodalModels.models.length,
+    benchmarkCount: multimodalBenchmarks.benchmarks.length,
+    scoreCount: countScores(multimodalBenchmarks.scores),
+  },
+];
 ---
 
 <BaseLayout title="AI 모델 성능 리더보드 - ModuBench">
@@ -13,6 +76,34 @@ import { Icon } from 'astro-icon/components';
         <p class="text-lg text-on-surface-variant leading-relaxed">
           추론, 지시 이행, 코딩 능력을 포함한 최신 오픈소스 및 폐쇄형 인공지능 모델의 성능 지표를 투명하게 공개합니다.
         </p>
+      </div>
+    </section>
+
+    <!-- 도메인별 수집 현황 -->
+    <section class="mb-16">
+      <div class="flex items-baseline justify-between mb-6">
+        <h2 class="text-lg font-semibold tracking-tight text-on-surface font-headline">도메인별 수집 현황</h2>
+        <span class="text-xs text-on-surface-variant font-label">도메인별로 평가 방식·단위가 다릅니다</span>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3">
+        {domains.map((domain) => (
+          <div class="p-5 rounded-xl bg-surface-container-low border border-transparent hover:border-outline-variant/20 transition-all">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center shrink-0">
+                <Icon name={domain.icon} class="w-4 h-4 text-primary" />
+              </div>
+              <div class="min-w-0">
+                <h4 class="font-semibold text-on-surface text-sm">{domain.label}</h4>
+                <span class="text-[10px] text-on-surface-variant">{domain.description}</span>
+              </div>
+            </div>
+            <div class="flex flex-col gap-1 text-xs text-on-surface-variant">
+              <div class="flex justify-between"><span>모델</span><span class="font-bold text-on-surface">{domain.modelCount}</span></div>
+              <div class="flex justify-between"><span>벤치마크</span><span class="font-bold text-on-surface">{domain.benchmarkCount}</span></div>
+              <div class="flex justify-between"><span>점수</span><span class="font-bold text-on-surface">{domain.scoreCount}</span></div>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
 

@@ -25,6 +25,22 @@ jobs:
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
+      - name: Fetch merge history
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api "repos/${{ github.repository }}/pulls?state=closed&per_page=50&sort=updated&direction=desc" \
+            --jq '{
+              generatedAt: now | todate,
+              prs: [.[] | select(.merged_at != null) | {
+                number,
+                title,
+                mergedAt: .merged_at,
+                author: .user.login,
+                labels: [.labels[].name],
+                url: .html_url
+              }]
+            }' > src/data/history.json
       - run: bun install --frozen-lockfile
       - run: bun run build
       - uses: actions/upload-pages-artifact@v3
