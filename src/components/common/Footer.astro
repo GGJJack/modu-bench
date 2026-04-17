@@ -1,10 +1,7 @@
 ---
-const footerLinks = [
-  { label: 'Terms', href: '#' },
-  { label: 'Privacy', href: '#' },
-  { label: 'GitHub', href: '#' },
-  { label: 'Contact', href: '#' },
-];
+import { Icon } from 'astro-icon/components';
+
+const GITHUB_URL = 'https://github.com/GGJJack/modu-bench';
 ---
 
 <footer class="w-full py-12 border-t border-outline-variant/20 bg-surface-container-low">
@@ -12,18 +9,19 @@ const footerLinks = [
     <div class="flex flex-col items-center md:items-start gap-2">
       <span class="font-bold text-on-surface font-headline">ModuBench</span>
       <p class="text-sm text-on-surface-variant">
-        &copy; {new Date().getFullYear()} ModuBench. Open-source AI Benchmark Hub.
+        &copy; {new Date().getFullYear()} ModuBench. 개인 학습 목적의 오픈소스 실험 프로젝트.
       </p>
     </div>
     <div class="flex gap-6">
-      {footerLinks.map(({ label, href }) => (
-        <a
-          href={href}
-          class="text-sm text-on-surface-variant hover:text-primary transition-all duration-200 hover:underline decoration-primary/30 underline-offset-4"
-        >
-          {label}
-        </a>
-      ))}
+      <a
+        href={GITHUB_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center gap-2 text-sm text-on-surface-variant hover:text-primary transition-all duration-200"
+      >
+        <Icon name="material-symbols:code" class="w-4 h-4" />
+        GitHub
+      </a>
     </div>
   </div>
 </footer>

@@ -47,9 +47,15 @@ const currentPath = Astro.url.pathname;
         />
       </div>
       <ThemeToggle />
-      <button class="p-2 hover:bg-surface-container rounded-md transition-all">
-        <Icon name="material-symbols:account-circle-outline" class="w-6 h-6 text-on-surface-variant" />
-      </button>
+      <a
+        href="https://github.com/GGJJack/modu-bench"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-2 hover:bg-surface-container rounded-md transition-all"
+        aria-label="GitHub 저장소"
+      >
+        <Icon name="material-symbols:code" class="w-6 h-6 text-on-surface-variant" />
+      </a>
 
       <!-- Mobile menu button -->
       <button id="mobile-menu-btn" class="md:hidden p-2 hover:bg-surface-container rounded-md transition-all">
