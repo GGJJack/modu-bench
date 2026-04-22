@@ -18,13 +18,6 @@ pull_request_rules:
 
   # ── 머지된 Jules 브랜치 자동 삭제 ─────────────────────────────────────────
   # Jules 브랜치(intro/..., init-..., jules/... 등)는 머지 후 불필요하므로 정리.
-  - name: "Jules PR 머지 후 브랜치 삭제"
-    conditions:
-      - "merged"
-      - "author = GGJJack"
-      - 'body ~= "PR created automatically by Jules"'
-    actions:
-      delete_head_branch: {}
 
   # ── 수동 차단: needs-review 라벨이 있으면 댓글 알림 ────────────────────────
   - name: "needs-review 라벨 감지 알림"
