@@ -1,0 +1,106 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+import llmModels from '../../data/models/llm.json';
+import imageGenModels from '../../data/models/image-gen.json';
+import ttsModels from '../../data/models/tts.json';
+import sttModels from '../../data/models/stt.json';
+import multimodalModels from '../../data/models/multimodal.json';
+
+import type { BaseModel, Domain } from '../../data/types';
+
+type ModelEntry = CollectionEntry<'models'>;
+
+export async function getStaticPaths() {
+  const entries = await getCollection('models', ({ data }) => data.status === 'published');
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: ModelEntry;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const modelsByDomain: Record<Domain, { models: BaseModel[] }> = {
+  llm: llmModels,
+  'image-gen': imageGenModels,
+  tts: ttsModels,
+  stt: sttModels,
+  multimodal: multimodalModels,
+};
+
+const domainModels = modelsByDomain[entry.data.domain];
+const model = domainModels?.models.find((m) => m.id === entry.data.modelId) ?? null;
+---
+
+<BaseLayout title={`${entry.data.modelId} · ModuBench`}>
+  <main class="mx-auto max-w-3xl px-6 py-12">
+    <nav class="mb-6 text-sm text-on-surface-variant">
+      <a href={`${import.meta.env.BASE_URL}`} class="hover:underline">홈</a>
+      <span class="mx-2">/</span>
+      <a href={`${import.meta.env.BASE_URL}leaderboard`} class="hover:underline">모델</a>
+      <span class="mx-2">/</span>
+      <span>{entry.data.modelId}</span>
+    </nav>
+
+    <header class="mb-8">
+      <p class="text-sm text-on-surface-variant">{entry.data.domain}</p>
+      <h1 class="mt-1 text-3xl font-semibold text-on-surface">
+        {model?.name ?? entry.data.modelId}
+      </h1>
+      {model?.provider && <p class="mt-2 text-on-surface-variant">{model.provider}</p>}
+    </header>
+
+    {model && (
+      <section class="mb-10 rounded-xl border border-outline-variant bg-surface-container-low p-6">
+        <h2 class="mb-4 text-lg font-semibold text-on-surface">지표</h2>
+        <dl class="grid grid-cols-2 gap-4 text-sm">
+          {model.releaseDate && (
+            <div>
+              <dt class="text-on-surface-variant">출시일</dt>
+              <dd class="text-on-surface">{model.releaseDate}</dd>
+            </div>
+          )}
+          {model.license && (
+            <div>
+              <dt class="text-on-surface-variant">라이선스</dt>
+              <dd class="text-on-surface">{model.license}</dd>
+            </div>
+          )}
+        </dl>
+      </section>
+    )}
+
+    {entry.data.highlights && entry.data.highlights.length > 0 && (
+      <section class="mb-10">
+        <h2 class="mb-3 text-lg font-semibold text-on-surface">하이라이트</h2>
+        <ul class="list-disc pl-5 text-on-surface">
+          {entry.data.highlights.map((h: string) => <li>{h}</li>)}
+        </ul>
+      </section>
+    )}
+
+    <article class="prose prose-neutral dark:prose-invert max-w-none">
+      <Content />
+    </article>
+
+    <section class="mt-12 border-t border-outline-variant pt-6">
+      <h2 class="mb-3 text-sm font-semibold text-on-surface-variant">출처</h2>
+      <ul class="space-y-1 text-sm">
+        {entry.data.sources.map((url: string) => (
+          <li>
+            <a href={url} class="text-primary hover:underline" target="_blank" rel="noopener">
+              {url}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

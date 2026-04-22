@@ -1,0 +1,75 @@
+name: Jules · profile dispatch
+
+# KST 02:00 = UTC 17:00 (전일)
+# 이슈 생성 + `jules` 라벨로 Jules 를 깨워 profile-model / profile-benchmark 실행.
+#
+# 필요 시크릿: JULES_PAT (사용자 PAT — 자세한 설명은 jules-collect.yml 참조)
+# 사전 준비 라벨: jules, 프로파일
+on:
+  schedule:
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+    inputs:
+      skill:
+        description: '실행할 프로파일 스킬'
+        required: true
+        default: 'profile-model'
+        type: choice
+        options:
+          - profile-model
+          - profile-benchmark
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prepare date
+        id: date
+        run: |
+          echo "today=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Create Jules issue (profile-model)
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.skill == 'profile-model' }}
+        env:
+          GH_TOKEN: ${{ secrets.JULES_PAT }}
+          TODAY: ${{ steps.date.outputs.today }}
+        run: |
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "[jules] profile-model · ${TODAY}" \
+            --label "jules,프로파일" \
+            --body "$(cat <<EOF
+          skill: profile-model
+          missions:
+            - missions/master.md
+            - missions/profile.md
+          journal: src/data/journal/${TODAY}-profile-model.md
+
+          이 이슈는 GitHub Actions cron (KST 02:00) 으로 자동 생성되었습니다.
+          Jules 는 위 스킬의 SKILL.md 를 읽고 해당 프로파일 작업을 수행합니다.
+          AGENTS.md 의 공통 규칙은 자동 주입됩니다.
+          EOF
+          )"
+
+      - name: Create Jules issue (profile-benchmark)
+        if: ${{ github.event.inputs.skill == 'profile-benchmark' }}
+        env:
+          GH_TOKEN: ${{ secrets.JULES_PAT }}
+          TODAY: ${{ steps.date.outputs.today }}
+        run: |
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "[jules] profile-benchmark · ${TODAY}" \
+            --label "jules,프로파일" \
+            --body "$(cat <<EOF
+          skill: profile-benchmark
+          missions:
+            - missions/master.md
+            - missions/profile.md
+          journal: src/data/journal/${TODAY}-profile-benchmark.md
+          EOF
+          )"

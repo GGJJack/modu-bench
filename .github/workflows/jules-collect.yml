@@ -1,0 +1,82 @@
+name: Jules · collect dispatch
+
+# KST 01:00 = UTC 16:00 (전일)
+# 이슈 생성 + `jules` 라벨로 Jules 를 깨워 collect-llm / collect-benchmark 실행.
+#
+# 필요 시크릿: JULES_PAT
+#   - Settings → Secrets and variables → Actions → New repository secret
+#   - 기본 GITHUB_TOKEN 은 봇(github-actions[bot]) 명의로 이슈를 만들어
+#     Jules 가 트리거되지 않는다. 반드시 사용자 개인 PAT 필요.
+#   - PAT 권한: `repo` (Classic) 또는 `issues: write` (Fine-grained, 이 레포 한정)
+#
+# 사전 준비: 저장소에 `jules`, `수집` 라벨 생성 필요
+#   gh label create jules --color 6366f1
+#   gh label create 수집 --color 10b981
+on:
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+    inputs:
+      skill:
+        description: '실행할 수집 스킬'
+        required: true
+        default: 'collect-llm'
+        type: choice
+        options:
+          - collect-llm
+          - collect-benchmark
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prepare date
+        id: date
+        run: |
+          echo "today=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Create Jules issue (collect-llm)
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.skill == 'collect-llm' }}
+        env:
+          GH_TOKEN: ${{ secrets.JULES_PAT }}
+          TODAY: ${{ steps.date.outputs.today }}
+        run: |
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "[jules] collect-llm · ${TODAY}" \
+            --label "jules,수집" \
+            --body "$(cat <<EOF
+          skill: collect-llm
+          missions:
+            - missions/master.md
+            - missions/llm.md
+          journal: src/data/journal/${TODAY}-collect-llm.md
+
+          이 이슈는 GitHub Actions cron (KST 01:00) 으로 자동 생성되었습니다.
+          Jules 는 위 스킬의 SKILL.md 를 읽고 해당 수집 작업을 수행합니다.
+          AGENTS.md 의 공통 규칙은 자동 주입됩니다.
+          EOF
+          )"
+
+      - name: Create Jules issue (collect-benchmark)
+        if: ${{ github.event.inputs.skill == 'collect-benchmark' }}
+        env:
+          GH_TOKEN: ${{ secrets.JULES_PAT }}
+          TODAY: ${{ steps.date.outputs.today }}
+        run: |
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "[jules] collect-benchmark · ${TODAY}" \
+            --label "jules,수집" \
+            --body "$(cat <<EOF
+          skill: collect-benchmark
+          missions:
+            - missions/master.md
+            - missions/benchmark.md
+          journal: src/data/journal/${TODAY}-collect-benchmark.md
+          EOF
+          )"

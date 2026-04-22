@@ -78,6 +78,14 @@ export type ModelByDomain = {
 // 벤치마크 타입
 // ============================================================
 
+/** 벤치마크 세부 지표 정의 (복합 점수를 가진 벤치마크용) */
+export interface SubMetricDef {
+  id: string;
+  name: string;
+  unit: string;
+  higherIsBetter?: boolean;
+}
+
 /** 벤치마크 정의 */
 export interface BenchmarkDef {
   id: string;
@@ -89,6 +97,10 @@ export interface BenchmarkDef {
   unit: string;
   scoreRange: [number, number];
   higherIsBetter: boolean;
+  /** 주 지표 이름 (예: "accuracy" | "ELO" | "pass@1"). 단일값 벤치마크는 생략 가능 */
+  metric?: string;
+  /** 복합 점수 벤치마크의 보조 지표 정의 (예: MT-Bench의 turn1/turn2) */
+  subMetrics?: SubMetricDef[];
 }
 
 /** 개별 점수 */
@@ -97,6 +109,8 @@ export interface Score {
   date: string;
   source: ScoreSource;
   note?: string;
+  /** 보조 지표 값 (BenchmarkDef.subMetrics 의 id를 key로) */
+  subscores?: Record<string, number>;
 }
 
 /** 도메인별 벤치마크 파일 구조 */

@@ -1,0 +1,82 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+type OrgEntry = CollectionEntry<'organizations'>;
+
+export async function getStaticPaths() {
+  const entries = await getCollection('organizations', ({ data }) => data.status === 'published');
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: OrgEntry;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<BaseLayout title={`${entry.data.name} · ModuBench`}>
+  <main class="mx-auto max-w-3xl px-6 py-12">
+    <nav class="mb-6 text-sm text-on-surface-variant">
+      <a href={`${import.meta.env.BASE_URL}`} class="hover:underline">홈</a>
+      <span class="mx-2">/</span>
+      <span>기관</span>
+      <span class="mx-2">/</span>
+      <span>{entry.data.orgId}</span>
+    </nav>
+
+    <header class="mb-8">
+      <p class="text-sm text-on-surface-variant">{entry.data.type ?? '조직'}</p>
+      <h1 class="mt-1 text-3xl font-semibold text-on-surface">{entry.data.name}</h1>
+    </header>
+
+    <section class="mb-10 rounded-xl border border-outline-variant bg-surface-container-low p-6">
+      <dl class="grid grid-cols-2 gap-4 text-sm">
+        {entry.data.founded && (
+          <div>
+            <dt class="text-on-surface-variant">설립</dt>
+            <dd class="text-on-surface">{entry.data.founded}</dd>
+          </div>
+        )}
+        {entry.data.headquarters && (
+          <div>
+            <dt class="text-on-surface-variant">본부</dt>
+            <dd class="text-on-surface">{entry.data.headquarters}</dd>
+          </div>
+        )}
+        {entry.data.website && (
+          <div class="col-span-2">
+            <dt class="text-on-surface-variant">웹사이트</dt>
+            <dd>
+              <a href={entry.data.website} class="text-primary hover:underline" target="_blank" rel="noopener">
+                {entry.data.website}
+              </a>
+            </dd>
+          </div>
+        )}
+      </dl>
+    </section>
+
+    <article class="prose prose-neutral dark:prose-invert max-w-none">
+      <Content />
+    </article>
+
+    <section class="mt-12 border-t border-outline-variant pt-6">
+      <h2 class="mb-3 text-sm font-semibold text-on-surface-variant">출처</h2>
+      <ul class="space-y-1 text-sm">
+        {entry.data.sources.map((url: string) => (
+          <li>
+            <a href={url} class="text-primary hover:underline" target="_blank" rel="noopener">
+              {url}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

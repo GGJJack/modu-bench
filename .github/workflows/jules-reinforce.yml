@@ -1,0 +1,61 @@
+name: Jules · reinforce dispatch
+
+# KST 03:00 = UTC 18:00 (전일)
+# 이슈 티켓이 있을 때만 Jules 를 깨워 reinforce 실행.
+#
+# 필요 시크릿: JULES_PAT (사용자 PAT — 자세한 설명은 jules-collect.yml 참조)
+# 사전 준비 라벨: jules, 보강
+on:
+  schedule:
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  gate-and-dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count pending issues
+        id: count
+        run: |
+          PENDING=$(find src/data/issues -maxdepth 1 -name "*.md" -not -name ".gitkeep" 2>/dev/null | wc -l | tr -d ' ')
+          echo "pending=${PENDING}" >> "$GITHUB_OUTPUT"
+          echo "Pending issue tickets: ${PENDING}"
+
+      - name: Skip if no issues
+        if: ${{ steps.count.outputs.pending == '0' }}
+        run: echo "No pending issues — skipping Jules dispatch."
+
+      - name: Prepare date
+        if: ${{ steps.count.outputs.pending != '0' }}
+        id: date
+        run: echo "today=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Create Jules issue (reinforce)
+        if: ${{ steps.count.outputs.pending != '0' }}
+        env:
+          GH_TOKEN: ${{ secrets.JULES_PAT }}
+          TODAY: ${{ steps.date.outputs.today }}
+          PENDING: ${{ steps.count.outputs.pending }}
+        run: |
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "[jules] reinforce · ${TODAY} (pending=${PENDING})" \
+            --label "jules,보강" \
+            --body "$(cat <<EOF
+          skill: reinforce
+          missions:
+            - missions/master.md
+            - missions/reinforce.md
+          journal: src/data/journal/${TODAY}-reinforce.md
+
+          대기 중 이슈 티켓 수: ${PENDING}
+          이 이슈는 GitHub Actions cron (KST 03:00) 으로 자동 생성되었습니다.
+          AGENTS.md 의 공통 규칙은 자동 주입됩니다.
+          EOF
+          )"

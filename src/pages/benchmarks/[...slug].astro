@@ -1,0 +1,118 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+import llmBenchmarks from '../../data/benchmarks/llm.json';
+import imageGenBenchmarks from '../../data/benchmarks/image-gen.json';
+import ttsBenchmarks from '../../data/benchmarks/tts.json';
+import sttBenchmarks from '../../data/benchmarks/stt.json';
+import multimodalBenchmarks from '../../data/benchmarks/multimodal.json';
+
+import type { BenchmarkDef, Domain, BenchmarkFile } from '../../data/types';
+
+type BenchmarkEntry = CollectionEntry<'benchmarks'>;
+
+export async function getStaticPaths() {
+  const entries = await getCollection('benchmarks', ({ data }) => data.status === 'published');
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: BenchmarkEntry;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const benchmarksByDomain: Record<Domain, BenchmarkFile> = {
+  llm: llmBenchmarks as BenchmarkFile,
+  'image-gen': imageGenBenchmarks as BenchmarkFile,
+  tts: ttsBenchmarks as BenchmarkFile,
+  stt: sttBenchmarks as BenchmarkFile,
+  multimodal: multimodalBenchmarks as BenchmarkFile,
+};
+
+const domainFile = benchmarksByDomain[entry.data.domain];
+const benchmark: BenchmarkDef | null =
+  domainFile?.benchmarks.find((b) => b.id === entry.data.benchmarkId) ?? null;
+---
+
+<BaseLayout title={`${benchmark?.name ?? entry.data.benchmarkId} · ModuBench`}>
+  <main class="mx-auto max-w-3xl px-6 py-12">
+    <nav class="mb-6 text-sm text-on-surface-variant">
+      <a href={`${import.meta.env.BASE_URL}`} class="hover:underline">홈</a>
+      <span class="mx-2">/</span>
+      <span>벤치마크</span>
+      <span class="mx-2">/</span>
+      <span>{entry.data.benchmarkId}</span>
+    </nav>
+
+    <header class="mb-8">
+      <p class="text-sm text-on-surface-variant">{entry.data.domain} · 벤치마크</p>
+      <h1 class="mt-1 text-3xl font-semibold text-on-surface">
+        {benchmark?.name ?? entry.data.benchmarkId}
+      </h1>
+      {benchmark?.nameKo && <p class="mt-2 text-on-surface-variant">{benchmark.nameKo}</p>}
+    </header>
+
+    {benchmark && (
+      <section class="mb-10 rounded-xl border border-outline-variant bg-surface-container-low p-6">
+        <h2 class="mb-4 text-lg font-semibold text-on-surface">개요</h2>
+        <dl class="grid grid-cols-2 gap-4 text-sm">
+          <div>
+            <dt class="text-on-surface-variant">카테고리</dt>
+            <dd class="text-on-surface">{benchmark.category}</dd>
+          </div>
+          <div>
+            <dt class="text-on-surface-variant">단위</dt>
+            <dd class="text-on-surface">{benchmark.unit}</dd>
+          </div>
+          <div>
+            <dt class="text-on-surface-variant">점수 방향</dt>
+            <dd class="text-on-surface">
+              {benchmark.higherIsBetter ? '높을수록 좋음' : '낮을수록 좋음'}
+            </dd>
+          </div>
+          <div>
+            <dt class="text-on-surface-variant">점수 범위</dt>
+            <dd class="text-on-surface">
+              {benchmark.scoreRange[0]} ~ {benchmark.scoreRange[1]}
+            </dd>
+          </div>
+        </dl>
+      </section>
+    )}
+
+    <article class="prose prose-neutral dark:prose-invert max-w-none">
+      <Content />
+    </article>
+
+    {entry.data.organization && (
+      <section class="mt-10">
+        <h2 class="mb-2 text-sm font-semibold text-on-surface-variant">제작 기관</h2>
+        <a
+          href={`${import.meta.env.BASE_URL}organizations/${entry.data.organization}`}
+          class="text-primary hover:underline"
+        >
+          {entry.data.organization}
+        </a>
+      </section>
+    )}
+
+    <section class="mt-12 border-t border-outline-variant pt-6">
+      <h2 class="mb-3 text-sm font-semibold text-on-surface-variant">출처</h2>
+      <ul class="space-y-1 text-sm">
+        {entry.data.sources.map((url: string) => (
+          <li>
+            <a href={url} class="text-primary hover:underline" target="_blank" rel="noopener">
+              {url}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </main>
+</BaseLayout>
