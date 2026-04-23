@@ -1,0 +1,95 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+type NoteEntry = CollectionEntry<'notes'>;
+
+export async function getStaticPaths() {
+  const entries = await getCollection('notes', ({ data }) => data.status === 'published');
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: NoteEntry;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const categoryLabel: Record<string, string> = {
+  announcement: '공지',
+  worklog: '작업일지',
+  experiment: '실험',
+  memo: '잡담노트',
+};
+
+const formatDate = (d: Date) =>
+  `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
+
+const { title, date, summary, category, tags, cover, readingTime } = entry.data;
+---
+
+<BaseLayout title={`${title} · ModuBench`}>
+  <main class="pt-32 pb-24 px-6 max-w-3xl mx-auto">
+    <nav class="mb-8 text-sm text-on-surface-variant">
+      <a href={`${import.meta.env.BASE_URL}`} class="hover:underline">홈</a>
+      <span class="mx-2">/</span>
+      <a href={`${import.meta.env.BASE_URL}notes`} class="hover:underline">Notes</a>
+    </nav>
+
+    <header class="mb-10">
+      <div class="flex items-center gap-4 text-sm font-medium flex-wrap mb-4">
+        <span class="text-primary">{formatDate(date)}</span>
+        <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+        <span class="text-on-surface-variant">{categoryLabel[category] ?? category}</span>
+        {readingTime && (
+          <>
+            <span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+            <span class="text-on-surface-variant">{readingTime}분 읽기</span>
+          </>
+        )}
+      </div>
+      <h1 class="text-3xl md:text-4xl font-bold leading-tight tracking-tight text-on-surface font-headline">
+        {title}
+      </h1>
+      <p class="mt-5 text-lg leading-relaxed text-on-surface-variant">
+        {summary}
+      </p>
+      {tags.length > 0 && (
+        <div class="mt-6 flex flex-wrap gap-2">
+          {tags.map((tag) => (
+            <span class="text-xs px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant">
+              #{tag}
+            </span>
+          ))}
+        </div>
+      )}
+    </header>
+
+    {cover && (
+      <div class="mb-12 overflow-hidden rounded-lg bg-surface-container">
+        <img
+          src={cover}
+          alt=""
+          class="w-full h-auto aspect-[16/9] object-cover"
+        />
+      </div>
+    )}
+
+    <article class="prose prose-neutral dark:prose-invert max-w-none prose-headings:font-headline prose-headings:tracking-tight prose-a:text-primary prose-code:text-on-surface prose-code:bg-surface-container-high prose-code:rounded prose-code:px-1 prose-code:py-0.5 prose-code:before:content-none prose-code:after:content-none">
+      <Content />
+    </article>
+
+    <footer class="mt-16 border-t border-outline-variant/30 pt-8">
+      <a
+        href={`${import.meta.env.BASE_URL}notes`}
+        class="text-sm font-medium text-primary hover:underline"
+      >
+        ← 다른 노트 보기
+      </a>
+    </footer>
+  </main>
+</BaseLayout>

@@ -60,4 +60,20 @@ const organizations = defineCollection({
   }),
 });
 
-export const collections = { models, benchmarks, organizations };
+const noteCategory = z.enum(['announcement', 'worklog', 'experiment', 'memo']);
+
+const notes = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/notes' }),
+  schema: z.object({
+    title: z.string(),
+    date: z.date(),
+    summary: z.string(),
+    category: noteCategory,
+    tags: z.array(z.string()).default([]),
+    status: status.default('published'),
+    cover: z.string().optional(),
+    readingTime: z.number().optional(),
+  }),
+});
+
+export const collections = { models, benchmarks, organizations, notes };
