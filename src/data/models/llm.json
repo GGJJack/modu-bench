@@ -32,6 +32,71 @@
       "links": {
         "official": "https://anthropic.com"
       }
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://clova-x.naver.com"
+      },
+      "id": "hyperclova-x",
+      "name": "HyperCLOVA X",
+      "provider": "NAVER Cloud",
+      "releaseDate": "2023-08-24",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai"
+      },
+      "id": "exaone-3.0",
+      "name": "EXAONE 3.0",
+      "provider": "LG AI Research",
+      "releaseDate": "2024-08-07",
+      "license": "EXAONE AI Model License Agreement 1.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.upstage.ai/blog/en/solar-pro-3-0127"
+      },
+      "id": "solar-pro-3",
+      "name": "Solar Pro 3",
+      "provider": "Upstage",
+      "releaseDate": "2026-01-26",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/blog/meta-llama-3-1/"
+      },
+      "id": "llama-3.1-405b",
+      "name": "Llama 3.1 405B",
+      "provider": "Meta",
+      "releaseDate": "2024-07-23",
+      "license": "Llama 3.1 Community License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-V3"
+      },
+      "id": "deepseek-v3",
+      "name": "DeepSeek-V3",
+      "provider": "DeepSeek",
+      "releaseDate": "2024-12-26",
+      "license": "DeepSeek Model License"
     }
   ]
 }
