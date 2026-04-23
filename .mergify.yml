@@ -1,3 +1,12 @@
+# ── Queue 정의 ────────────────────────────────────────────────────────────
+# Mergify 최신 권고: merge 액션 대신 queue 액션 + queue_rules 사용.
+# 조건은 모두 pull_request_rules 쪽에서 평가하므로 queue 자체는 미니멀 설정.
+queue_rules:
+  - name: default
+    queue_conditions: []
+    merge_conditions: []
+    merge_method: squash
+
 pull_request_rules:
 
   # ── Jules 자율 에이전트 PR 자동 머지 ──────────────────────────────────────
@@ -13,20 +22,12 @@ pull_request_rules:
       - "-label = needs-review"
       - "-label = blocked"
     actions:
-      merge:
-        method: squash
-
-  # ── 머지된 Jules 브랜치 자동 삭제 ─────────────────────────────────────────
-  # Jules 브랜치(intro/..., init-..., jules/... 등)는 머지 후 불필요하므로 정리.
-  - name: "Jules PR 머지 후 브랜치 삭제"
-    conditions:
-      - "merged"
-      - "author = GGJJack"
-      - 'body ~= "PR created automatically by Jules"'
-    actions:
-      delete_head_branch: {}
+      queue:
+        name: default
 
   # ── 수동 차단: needs-review 라벨이 있으면 댓글 알림 ────────────────────────
+  # delete_head_branch 액션은 deprecated(2026-07-31 제거).
+  # 브랜치 정리는 GitHub 저장소 설정 "Automatically delete head branches" 로 대체.
   - name: "needs-review 라벨 감지 알림"
     conditions:
       - "author = GGJJack"
@@ -37,5 +38,5 @@ pull_request_rules:
     actions:
       comment:
         message: |
-          ⚠️ `needs-review` 라벨이 붙어 있어 자동 머지가 **차단**되었습니다.
+          `needs-review` 라벨이 붙어 있어 자동 머지가 차단되었습니다.
           검토 후 라벨을 제거하면 Mergify가 자동으로 머지를 재시도합니다.
