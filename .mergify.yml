@@ -16,7 +16,7 @@ pull_request_rules:
   - name: "Jules PR 자동 머지"
     conditions:
       - "author = GGJJack"
-      - 'body ~= "PR created automatically by Jules"'
+      - "body ~= PR created automatically by Jules"
       - "base = master"
       - "-draft"
       - "-label = needs-review"
@@ -31,7 +31,7 @@ pull_request_rules:
   - name: "needs-review 라벨 감지 알림"
     conditions:
       - "author = GGJJack"
-      - 'body ~= "PR created automatically by Jules"'
+      - "body ~= PR created automatically by Jules"
       - "label = needs-review"
       - "-merged"
       - "-closed"
