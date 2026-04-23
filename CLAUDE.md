@@ -63,6 +63,10 @@ reference/           # 설계 문서
 
 Jules 가 하루 1회 사이클로 데이터를 수집·프로파일·보강·리포트 한다. 이 파이프라인을 설계/수정할 때는 `AGENTS.md` 와 `reference/jules-plan.md` 참조.
 
+## 개발자 노트 (note 스킬)
+
+`.claude/skills/note/` 의 `note` 스킬은 **개발자 전용** — 작업 일지를 `reference/note-<slug>-*.md` 에 쌓고(기록 모드) `src/content/notes/` 로 발행(발행 모드) 한다. Jules 에이전트 작업물이 아니므로 `src/data/journal/` 과 혼동 금지.
+
 ## 주의사항
 
 - `.claude/`, `.env`, `CLAUDE.local.md` 는 `.gitignore` 대상
