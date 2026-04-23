@@ -14,7 +14,7 @@
         "output": 10
       },
       "links": {
-        "official": "https://openai.com/index/hello-gpt-4o/"
+        "official": "https://platform.openai.com/docs/models/gpt-4o"
       }
     },
     {
@@ -30,8 +30,66 @@
         "output": 15
       },
       "links": {
-        "official": "https://anthropic.com"
+        "official": "https://www.anthropic.com/pricing#pricing-table"
       }
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 2000000,
+      "pricing": {
+        "input": 2,
+        "output": 12
+      },
+      "links": {
+        "official": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-3.1-pro-preview"
+      },
+      "id": "gemini-3-1-pro",
+      "name": "Gemini 3.1 Pro",
+      "provider": "Google",
+      "releaseDate": "2026-04-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.28,
+        "output": 0.42
+      },
+      "links": {
+        "official": "https://api-docs.deepseek.com/quick_start/pricing"
+      },
+      "id": "deepseek-v3-2",
+      "name": "DeepSeek-V3.2",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-12-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+      },
+      "id": "llama-3-3-70b",
+      "name": "Llama 3.3 70B",
+      "provider": "Meta",
+      "releaseDate": "2024-12-06",
+      "license": "Llama-3.3"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://clova.ai/hyperclova"
+      },
+      "id": "hyperclova-x-think",
+      "name": "HyperCLOVA X THINK",
+      "provider": "Naver Cloud",
+      "releaseDate": "2025-12-01",
+      "license": "Proprietary"
     }
   ]
 }
