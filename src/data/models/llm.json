@@ -61,7 +61,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 32000,
       "pricing": null,
       "links": {
         "official": "https://www.upstage.ai/blog/en/solar-pro-3-0127"
@@ -88,7 +88,10 @@
     {
       "parameterSize": null,
       "contextWindow": 128000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.14,
+        "output": 0.28
+      },
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-V3"
       },
@@ -96,6 +99,51 @@
       "name": "DeepSeek-V3",
       "provider": "DeepSeek",
       "releaseDate": "2024-12-26",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 2000000,
+      "pricing": {
+        "input": 2,
+        "output": 12
+      },
+      "links": {
+        "official": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview"
+      },
+      "id": "gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro",
+      "provider": "Google",
+      "releaseDate": "2026-04-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "72B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5/"
+      },
+      "id": "qwen-2.5-72b",
+      "name": "Qwen2.5-72B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Qwen Research License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 1.74,
+        "output": 3.48
+      },
+      "links": {
+        "official": "https://api-docs.deepseek.com/quick_start/pricing"
+      },
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek-V4-Pro",
+      "provider": "DeepSeek",
+      "releaseDate": "2026-04-24",
       "license": "DeepSeek Model License"
     }
   ]
