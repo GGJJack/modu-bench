@@ -30,7 +30,7 @@
         "output": 15
       },
       "links": {
-        "official": "https://anthropic.com"
+        "official": "https://www.anthropic.com/claude/sonnet"
       }
     },
     {
@@ -145,6 +145,48 @@
       "provider": "DeepSeek",
       "releaseDate": "2026-04-24",
       "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": {
+        "input": 5,
+        "output": 25
+      },
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-opus-4-7"
+      },
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "provider": "Anthropic",
+      "releaseDate": "2026-04-16",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/fugu-beta/"
+      },
+      "id": "sakana-fugu-ultra",
+      "name": "Sakana Fugu Ultra",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-04-24",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/marlin-beta/"
+      },
+      "id": "sakana-marlin",
+      "name": "Sakana Marlin",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-04-02",
+      "license": "Proprietary"
     }
   ]
 }

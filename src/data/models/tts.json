@@ -7,12 +7,45 @@
       "provider": "OpenAI",
       "releaseDate": "2023-11-06",
       "license": "Proprietary",
-      "supportedLanguages": ["en", "ko", "ja", "zh", "es", "fr", "de"],
+      "supportedLanguages": [
+        "en",
+        "ko",
+        "ja",
+        "zh",
+        "es",
+        "fr",
+        "de"
+      ],
       "realtime": false,
-      "pricing": { "perCharacter": 0.00003 },
+      "pricing": {
+        "perCharacter": 0.00003
+      },
       "links": {
         "official": "https://platform.openai.com/docs/guides/text-to-speech"
       }
+    },
+    {
+      "supportedLanguages": [
+        "English",
+        "French",
+        "German",
+        "Spanish",
+        "Dutch",
+        "Portuguese",
+        "Italian",
+        "Hindi",
+        "Arabic"
+      ],
+      "realtime": false,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/voxtral-tts"
+      },
+      "id": "voxtral-tts",
+      "name": "Voxtral TTS",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-03-23",
+      "license": "CC BY NC 4.0"
     }
   ]
 }
