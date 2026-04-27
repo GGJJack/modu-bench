@@ -245,6 +245,35 @@
       "provider": "Anthropic",
       "releaseDate": "2025-10-01",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 2.5,
+        "output": 15
+      },
+      "links": {
+        "official": "https://openai.com/index/introducing-gpt-5-4/"
+      },
+      "id": "gpt-5-4",
+      "name": "GPT-5.4",
+      "provider": "OpenAI",
+      "releaseDate": "2026-03-05",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/index/introducing-gpt-5-5/"
+      },
+      "id": "gpt-5-5",
+      "name": "GPT-5.5",
+      "provider": "OpenAI",
+      "releaseDate": "2026-04-23",
+      "license": "Proprietary"
     }
   ]
 }
