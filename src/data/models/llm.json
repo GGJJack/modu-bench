@@ -148,7 +148,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1000000,
       "pricing": {
         "input": 5,
         "output": 25
@@ -186,6 +186,64 @@
       "name": "Sakana Marlin",
       "provider": "Sakana AI",
       "releaseDate": "2026-04-02",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.anthropic.com/glasswing"
+      },
+      "id": "claude-mythos-preview",
+      "name": "Claude Mythos Preview",
+      "provider": "Anthropic",
+      "releaseDate": "2026-04-07",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/fugu-beta/"
+      },
+      "id": "sakana-fugu-mini",
+      "name": "Sakana Fugu Mini",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-04-24",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 3,
+        "output": 15
+      },
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-sonnet-4-6"
+      },
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "releaseDate": "2026-02-17",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 200000,
+      "pricing": {
+        "input": 1,
+        "output": 5
+      },
+      "links": {
+        "official": "https://platform.claude.com/docs/en/about-claude/models/overview"
+      },
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5",
+      "provider": "Anthropic",
+      "releaseDate": "2025-10-01",
       "license": "Proprietary"
     }
   ]
