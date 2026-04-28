@@ -60,7 +60,7 @@
       "license": "EXAONE AI Model License Agreement 1.0"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "102B (MoE)",
       "contextWindow": 32000,
       "pricing": null,
       "links": {
@@ -273,6 +273,110 @@
       "name": "GPT-5.5",
       "provider": "OpenAI",
       "releaseDate": "2026-04-23",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "mistral-large-3",
+      "name": "Mistral Large 3",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-12-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "mistral-small-4",
+      "name": "Mistral Small 4",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-03-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "mistral-medium-3-1",
+      "name": "Mistral Medium 3.1",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-08-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 256000,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.cohere.com/docs/models"
+      },
+      "id": "command-a-03-2025",
+      "name": "Command A (03-2025)",
+      "provider": "Cohere",
+      "releaseDate": "2025-03-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.x.ai/developers/models"
+      },
+      "id": "grok-4-20",
+      "name": "Grok 4.20",
+      "provider": "xAI",
+      "releaseDate": "2026-04-16",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "ministral-3-14b",
+      "name": "Ministral 3 14B",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-12-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "devstral-2",
+      "name": "Devstral 2",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-12-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "magistral-medium-1-2",
+      "name": "Magistral Medium 1.2",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-09-01",
       "license": "Proprietary"
     }
   ]
