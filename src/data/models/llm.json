@@ -276,9 +276,12 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "parameterSize": "675B (41B active)",
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.5
+      },
       "links": {
         "official": "https://docs.mistral.ai/models"
       },
@@ -289,9 +292,12 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "parameterSize": "119B (6.5B active)",
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6
+      },
       "links": {
         "official": "https://docs.mistral.ai/models"
       },
@@ -329,8 +335,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1048576,
+      "pricing": {
+        "input": 5,
+        "output": 15
+      },
       "links": {
         "official": "https://docs.x.ai/developers/models"
       },
@@ -378,6 +387,22 @@
       "provider": "Mistral AI",
       "releaseDate": "2025-09-01",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 1.5,
+        "output": 7.5
+      },
+      "links": {
+        "official": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
+      },
+      "id": "mistral-medium-3-5",
+      "name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-04-29",
+      "license": "Modified MIT"
     }
   ]
 }

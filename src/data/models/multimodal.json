@@ -7,12 +7,36 @@
       "provider": "Google",
       "releaseDate": "2025-03-25",
       "license": "Proprietary",
-      "supportedModalities": ["text", "image", "audio", "video"],
+      "supportedModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
       "contextWindow": 1048576,
-      "pricing": { "input": 1.25, "output": 10.00 },
+      "pricing": {
+        "input": 1.25,
+        "output": 10
+      },
       "links": {
         "official": "https://deepmind.google/technologies/gemini/"
       }
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.mistral.ai/models/model-cards/ocr-3-25-12"
+      },
+      "id": "mistral-ocr-3",
+      "name": "OCR 3",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-12-01",
+      "license": "Proprietary"
     }
   ]
 }
