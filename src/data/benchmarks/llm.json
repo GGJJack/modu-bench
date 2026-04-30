@@ -84,6 +84,20 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "tau-bench-telecom",
+      "name": "Tau-bench (Telecom)",
+      "nameKo": "타우벤치 (텔레콤)",
+      "category": "instruction",
+      "description": "에이전트의 도구 사용 및 실제 비즈니스 시나리오 해결 능력 평가 (통신 도메인)",
+      "source": "https://github.com/sierra-research/tau-bench",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -140,6 +154,11 @@
       "swe-bench-verified": {
         "value": 77.6,
         "date": "2026-04-30",
+        "source": "official"
+      },
+      "tau-bench-telecom": {
+        "value": 91.4,
+        "date": "2026-04-29",
         "source": "official"
       }
     }
