@@ -288,7 +288,7 @@
       "id": "mistral-large-3",
       "name": "Mistral Large 3",
       "provider": "Mistral AI",
-      "releaseDate": "2025-12-01",
+      "releaseDate": "2026-04-27",
       "license": "Proprietary"
     },
     {
@@ -304,7 +304,7 @@
       "id": "mistral-small-4",
       "name": "Mistral Small 4",
       "provider": "Mistral AI",
-      "releaseDate": "2026-03-01",
+      "releaseDate": "2026-03-16",
       "license": "Proprietary"
     },
     {
@@ -350,16 +350,19 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "parameterSize": "14B (dense)",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.1
+      },
       "links": {
         "official": "https://docs.mistral.ai/models"
       },
       "id": "ministral-3-14b",
       "name": "Ministral 3 14B",
       "provider": "Mistral AI",
-      "releaseDate": "2025-12-01",
+      "releaseDate": "2026-04-27",
       "license": "Proprietary"
     },
     {
@@ -389,7 +392,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "128B (dense)",
       "contextWindow": 256000,
       "pricing": {
         "input": 1.5,
@@ -403,6 +406,32 @@
       "provider": "Mistral AI",
       "releaseDate": "2026-04-29",
       "license": "Modified MIT"
+    },
+    {
+      "parameterSize": "8B (dense)",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/mistral-3"
+      },
+      "id": "mistral-3-8b",
+      "name": "Mistral 3 8B",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-04-27",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "3B (dense)",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/mistral-3"
+      },
+      "id": "mistral-3-3b",
+      "name": "Mistral 3 3B",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-04-27",
+      "license": "Proprietary"
     }
   ]
 }
