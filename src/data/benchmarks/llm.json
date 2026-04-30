@@ -70,6 +70,20 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "swe-bench-verified",
+      "name": "SWE-bench Verified",
+      "nameKo": "소프트웨어 엔지니어링 벤치마크 (검증)",
+      "category": "coding",
+      "description": "실제 GitHub 이슈 해결 능력을 평가하는 벤치마크 (검증된 부분집합)",
+      "source": "https://www.swebench.com/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -120,6 +134,13 @@
         "value": 9.5,
         "date": "2025-05-22",
         "source": "community"
+      }
+    },
+    "mistral-medium-3-5": {
+      "swe-bench-verified": {
+        "value": 77.6,
+        "date": "2026-04-30",
+        "source": "official"
       }
     }
   }
