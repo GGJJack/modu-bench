@@ -98,6 +98,20 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "gpqa",
+      "name": "GPQA",
+      "nameKo": "GPQA",
+      "category": "reasoning",
+      "description": "448 multiple-choice questions written by domain experts in biology, physics, and chemistry",
+      "source": "https://arxiv.org/abs/2311.12022",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
