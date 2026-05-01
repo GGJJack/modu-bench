@@ -112,6 +112,20 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "chatbot-arena-elo",
+      "name": "Chatbot Arena ELO",
+      "nameKo": "챗봇 아레나 ELO",
+      "category": "instruction",
+      "description": "LMSYS Chatbot Arena의 크라우드소싱 기반 ELO 점수",
+      "source": "https://lmarena.ai",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        3000
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -174,6 +188,20 @@
         "value": 91.4,
         "date": "2026-04-29",
         "source": "official"
+      }
+    },
+    "mistral-large-3": {
+      "chatbot-arena-elo": {
+        "value": 1415,
+        "date": "2026-04-30",
+        "source": "community"
+      }
+    },
+    "gemini-3-1-pro": {
+      "gpqa": {
+        "value": 94.3,
+        "date": "2026-05-01",
+        "source": "community"
       }
     }
   }

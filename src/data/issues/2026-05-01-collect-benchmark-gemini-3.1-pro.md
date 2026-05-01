@@ -17,3 +17,6 @@ MMLU, HumanEval, GSM8K 리더보드에는 Gemini 3.1 Pro 점수가 아예 누락
 
 ## 요청
 Gemini 3.1 Pro의 공식 또는 신뢰할 수 있는 커뮤니티 출처 벤치마크 점수 (GPQA, MMLU, HumanEval, GSM8K 등) 검색 및 수집 후 `benchmark.ts` 로 추가 필요.
+
+## 진행 내역
+- 2026-05-01 (reinforce): GPQA 점수(94.3%, community)를 `llm-stats.com` 출처를 통해 확인 및 등록 완료. MMLU, HumanEval, GSM8K 점수는 여전히 탐색 필요.

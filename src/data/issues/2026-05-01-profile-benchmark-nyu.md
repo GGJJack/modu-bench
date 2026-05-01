@@ -13,3 +13,6 @@ GPQA 벤치마크 상세 페이지 작성 및 `src/content/organizations/nyu.md`
 
 ## 요청
 NYU(또는 관련 산하 연구소)에 대한 기관 상세 조사 및 페이지 보강이 필요합니다.
+
+## 진행 내역
+- 2026-05-01 (reinforce): NYU CDS, CILVR, Samuel R. Bowman 교수 연구팀의 GPQA 기여도 등을 조사하여 상세 페이지를 한국어로 작성 완료. `status: published`로 업데이트함.
