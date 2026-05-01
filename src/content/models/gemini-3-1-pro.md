@@ -1,5 +1,5 @@
 ---
-modelId: gemini-3.1-pro
+modelId: gemini-3-1-pro
 domain: llm
 status: published
 updated: 2026-04-22

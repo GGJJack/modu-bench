@@ -12,4 +12,5 @@ target: llm/mistral-large-3
 ## 요청
 - Mistral Large 3 모델의 정확한 벤치마크 점수를 신뢰할 수 있는 출처를 통해 탐색하여 등록할 것.
 ## 진행 내역
-- 2026-04-30 (reinforce): LMArena 리더보드에서 Chatbot Arena ELO 점수(1415) 확인 및 등록 완료. 공식 및 커뮤니티 출처(Artificial Analysis, Hugging Face 등)를 정밀 탐색했으나 MMLU, HumanEval, GSM8K의 구체적 수치는 여전히 미기재 상태로 확인됨. (https://lmarena.ai/leaderboard/text)
+- 2026-04-30 (reinforce): LMArena 리더보드에서 Chatbot Arena ELO 점수(1415) 확인. 공식 및 커뮤니티 출처(Artificial Analysis, Hugging Face 등)를 정밀 탐색했으나 MMLU, HumanEval, GSM8K의 구체적 수치는 여전히 미기재 상태로 확인됨.
+- 2026-05-01 (reinforce): 'Chatbot Arena ELO' 신규 벤치마크 정의를 추가하고 Mistral Large 3의 점수(1415, community)를 등록함. MMLU 등 아카데믹 점수는 여전히 공식 미기재 상태이므로 티켓을 유지함.
