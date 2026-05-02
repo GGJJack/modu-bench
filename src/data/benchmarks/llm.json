@@ -203,6 +203,30 @@
         "date": "2026-05-01",
         "source": "community"
       }
+    },
+    "ministral-3-14b-reasoning": {
+      "gpqa": {
+        "value": 71.2,
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584",
+        "date": "2026-05-02"
+      }
+    },
+    "ministral-3-8b-reasoning": {
+      "gpqa": {
+        "value": 66.8,
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584",
+        "date": "2026-05-02"
+      }
+    },
+    "ministral-3-3b-reasoning": {
+      "gpqa": {
+        "value": 53.4,
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584",
+        "date": "2026-05-02"
+      }
     }
   }
 }
