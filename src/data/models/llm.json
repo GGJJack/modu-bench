@@ -131,11 +131,11 @@
       "license": "Qwen Research License"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "1.6T total / 49B active",
       "contextWindow": 1000000,
       "pricing": {
-        "input": 1.74,
-        "output": 3.48
+        "input": 0.435,
+        "output": 0.87
       },
       "links": {
         "official": "https://api-docs.deepseek.com/quick_start/pricing"
@@ -486,6 +486,48 @@
       "provider": "Mistral AI",
       "releaseDate": "2026-04-27",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "284B total / 13B active",
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 0.14,
+        "output": 0.28
+      },
+      "links": {
+        "official": "https://api-docs.deepseek.com/news/news260424"
+      },
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek-V4-Flash",
+      "provider": "DeepSeek",
+      "releaseDate": "2026-04-24",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5/"
+      },
+      "id": "qwen-plus",
+      "name": "Qwen-Plus",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.x.ai/developers/models"
+      },
+      "id": "grok-4-3",
+      "name": "Grok 4.3",
+      "provider": "xAI",
+      "releaseDate": "2026-04-16",
+      "license": "Proprietary"
     }
   ]
 }

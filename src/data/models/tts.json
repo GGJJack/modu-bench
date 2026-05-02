@@ -46,6 +46,22 @@
       "provider": "Mistral AI",
       "releaseDate": "2026-03-23",
       "license": "CC BY NC 4.0"
+    },
+    {
+      "supportedLanguages": [],
+      "realtime": true,
+      "pricing": {
+        "input": 0.1,
+        "output": 4.2
+      },
+      "links": {
+        "official": "https://x.ai/news/grok-voice-think-fast-1"
+      },
+      "id": "grok-voice-think-fast-1",
+      "name": "Grok Voice Think Fast 1.0",
+      "provider": "xAI",
+      "releaseDate": "2026-04-23",
+      "license": "Proprietary"
     }
   ]
 }
