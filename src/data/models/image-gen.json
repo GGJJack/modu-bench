@@ -8,8 +8,13 @@
       "releaseDate": "2023-10-03",
       "license": "Proprietary",
       "maxResolution": "1024x1792",
-      "supportedStyles": ["natural", "vivid"],
-      "pricing": { "perImage": 0.04 },
+      "supportedStyles": [
+        "natural",
+        "vivid"
+      ],
+      "pricing": {
+        "perImage": 0.04
+      },
       "links": {
         "official": "https://openai.com/dall-e-3"
       }
@@ -27,6 +32,19 @@
         "official": "https://stability.ai",
         "huggingface": "https://huggingface.co/stabilityai/stable-diffusion-3-medium"
       }
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://x.ai/news/grok-imagine-api"
+      },
+      "id": "grok-imagine-video",
+      "name": "Grok Imagine Video",
+      "provider": "xAI",
+      "releaseDate": "2026-01-28",
+      "license": "Proprietary"
     }
   ]
 }
