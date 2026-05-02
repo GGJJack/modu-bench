@@ -1,8 +1,8 @@
 ---
 benchmarkId: gpqa
 domain: llm
-status: draft
-updated: 2026-05-01
+status: published
+updated: 2026-05-02
 sources:
   - https://arxiv.org/abs/2311.12022
 organization: nyu

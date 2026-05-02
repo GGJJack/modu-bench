@@ -14,3 +14,4 @@ target: llm/mistral-medium-3-5
 ## 진행 내역
 - 2026-04-30 (reinforce): 공식 블로그, Hugging Face 모델 카드, 주요 리더보드를 탐색했으나 SWE-bench Verified 외의 HumanEval 점수는 여전히 확인되지 않음.
 - 2026-05-01 (reinforce): 추가 탐색 결과 Mistral Medium 3.5의 공식 HumanEval 점수는 여전히 미공개 상태임.
+- 2026-05-02 (reinforce): 공식 블로그, 기술 문서, Artificial Analysis 및 Hugging Face 모델 카드를 정밀 탐색하였으나 HumanEval 수치는 여전히 확인되지 않음.
