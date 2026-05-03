@@ -8,7 +8,13 @@ import ttsModels from '../../data/models/tts.json';
 import sttModels from '../../data/models/stt.json';
 import multimodalModels from '../../data/models/multimodal.json';
 
-import type { BaseModel, Domain } from '../../data/types';
+import llmBenchmarks from '../../data/benchmarks/llm.json';
+import imageGenBenchmarks from '../../data/benchmarks/image-gen.json';
+import ttsBenchmarks from '../../data/benchmarks/tts.json';
+import sttBenchmarks from '../../data/benchmarks/stt.json';
+import multimodalBenchmarks from '../../data/benchmarks/multimodal.json';
+
+import type { BaseModel, BenchmarkDef, BenchmarkFile, Domain } from '../../data/types';
 
 type ModelEntry = CollectionEntry<'models'>;
 
@@ -35,8 +41,24 @@ const modelsByDomain: Record<Domain, { models: BaseModel[] }> = {
   multimodal: multimodalModels,
 };
 
+const benchmarksByDomain: Record<Domain, BenchmarkFile> = {
+  llm: llmBenchmarks as BenchmarkFile,
+  'image-gen': imageGenBenchmarks as BenchmarkFile,
+  tts: ttsBenchmarks as BenchmarkFile,
+  stt: sttBenchmarks as BenchmarkFile,
+  multimodal: multimodalBenchmarks as BenchmarkFile,
+};
+
 const domainModels = modelsByDomain[entry.data.domain];
 const model = domainModels?.models.find((m) => m.id === entry.data.modelId) ?? null;
+
+// 벤치마크 점수 매핑 (해당 모델 기준)
+const domainBenchmarks = benchmarksByDomain[entry.data.domain];
+const modelScores = domainBenchmarks?.scores[entry.data.modelId] ?? {};
+type BenchmarkRow = { def: BenchmarkDef; score: { value: number; date: string; source: string } };
+const benchmarkRows: BenchmarkRow[] = (domainBenchmarks?.benchmarks ?? [])
+  .map((def) => ({ def, score: modelScores[def.id] }))
+  .filter((row): row is BenchmarkRow => Boolean(row.score));
 ---
 
 <BaseLayout title={`${entry.data.modelId} · ModuBench`}>
@@ -83,6 +105,44 @@ const model = domainModels?.models.find((m) => m.id === entry.data.modelId) ?? n
         <ul class="list-disc pl-5 text-on-surface">
           {entry.data.highlights.map((h: string) => <li>{h}</li>)}
         </ul>
+      </section>
+    )}
+
+    {benchmarkRows.length > 0 && (
+      <section class="mb-10">
+        <h2 class="mb-3 text-lg font-semibold text-on-surface">벤치마크 점수</h2>
+        <div class="overflow-x-auto rounded-xl border border-outline-variant/30 bg-surface-container-lowest">
+          <table class="w-full border-collapse text-sm">
+            <thead>
+              <tr class="text-left border-b border-outline-variant/20 bg-surface-container-low">
+                <th class="py-3 px-4 font-semibold text-on-surface-variant text-[11px] uppercase tracking-wider">벤치마크</th>
+                <th class="py-3 px-4 font-semibold text-on-surface-variant text-[11px] uppercase tracking-wider text-right">점수</th>
+                <th class="py-3 px-4 font-semibold text-on-surface-variant text-[11px] uppercase tracking-wider whitespace-nowrap">측정일</th>
+                <th class="py-3 px-4 font-semibold text-on-surface-variant text-[11px] uppercase tracking-wider whitespace-nowrap">출처</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-outline-variant/10">
+              {benchmarkRows.map(({ def, score }) => (
+                <tr>
+                  <td class="py-3 px-4">
+                    <div class="font-medium text-on-surface">{def.name}</div>
+                    <div class="text-[11px] text-on-surface-variant">{def.nameKo}</div>
+                  </td>
+                  <td class="py-3 px-4 text-right whitespace-nowrap">
+                    <span class="font-semibold text-on-surface">{score.value}</span>
+                    <span class="ml-1 text-[11px] text-on-surface-variant">{def.unit}{def.higherIsBetter ? ' ↑' : ' ↓'}</span>
+                  </td>
+                  <td class="py-3 px-4 text-on-surface-variant text-xs whitespace-nowrap">{score.date}</td>
+                  <td class="py-3 px-4 whitespace-nowrap">
+                    <span class="text-[11px] px-2 py-1 bg-surface-container-high rounded text-on-surface-variant uppercase tracking-wider">
+                      {score.source}
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
     )}
 

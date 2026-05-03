@@ -26,3 +26,4 @@ pnpm-debug.log*
 CLAUDE.local.md
 .vscode/sftp.json
 modu-bench.zip
+.claude/settings.local.json

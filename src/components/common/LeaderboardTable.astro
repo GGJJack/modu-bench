@@ -1,0 +1,188 @@
+---
+import { Icon } from 'astro-icon/components';
+import type { BaseModel, BenchmarkDef, Score } from '../../data/types';
+
+interface Props {
+  domainId: string;
+  domainLabel: string;
+  domainDescription: string;
+  domainIcon: string;
+  models: BaseModel[];
+  benchmarks: BenchmarkDef[];
+  scores: Record<string, Record<string, Score>>;
+  publishedSlugs: Set<string>;
+}
+
+const {
+  domainId,
+  domainLabel,
+  domainDescription,
+  domainIcon,
+  models,
+  benchmarks,
+  scores,
+  publishedSlugs,
+} = Astro.props;
+
+const BASE_URL = import.meta.env.BASE_URL;
+
+// 점수를 0-100 정규화 (벤치마크 scoreRange + higherIsBetter 반영)
+function normalize(value: number, def: BenchmarkDef): number {
+  const [min, max] = def.scoreRange;
+  if (max === min) return 0;
+  const ratio = (value - min) / (max - min);
+  const clamped = Math.max(0, Math.min(1, ratio));
+  const normalized = def.higherIsBetter ? clamped : 1 - clamped;
+  return normalized * 100;
+}
+
+function formatScore(value: number, def: BenchmarkDef): string {
+  // 정수형이면 그대로, 소수형이면 1자리
+  const rounded = def.scoreRange[1] <= 10 ? value.toFixed(1) : value.toFixed(1);
+  return rounded;
+}
+
+// 정렬 키 계산: 정규화 평균 (없으면 -1), 출시일 fallback
+type Row = {
+  model: BaseModel;
+  scoreMap: Record<string, Score | undefined>;
+  avgNormalized: number;
+  hasAnyScore: boolean;
+};
+
+const rows: Row[] = models.map((model) => {
+  const modelScores = scores[model.id] ?? {};
+  const scoreMap: Record<string, Score | undefined> = {};
+  const normalizedValues: number[] = [];
+  for (const def of benchmarks) {
+    const s = modelScores[def.id];
+    scoreMap[def.id] = s;
+    if (s) normalizedValues.push(normalize(s.value, def));
+  }
+  const avgNormalized =
+    normalizedValues.length > 0
+      ? normalizedValues.reduce((a, b) => a + b, 0) / normalizedValues.length
+      : -1;
+  return {
+    model,
+    scoreMap,
+    avgNormalized,
+    hasAnyScore: normalizedValues.length > 0,
+  };
+});
+
+rows.sort((a, b) => {
+  if (a.hasAnyScore && !b.hasAnyScore) return -1;
+  if (!a.hasAnyScore && b.hasAnyScore) return 1;
+  if (a.hasAnyScore && b.hasAnyScore) return b.avgNormalized - a.avgNormalized;
+  // 둘 다 점수 없음 → 출시일 내림차순
+  return (b.model.releaseDate ?? '').localeCompare(a.model.releaseDate ?? '');
+});
+
+const isEmpty = models.length === 0;
+
+// content slug 는 modelId 의 점을 제거 (Astro glob loader 가 점을 떨어트림)
+function modelSlug(modelId: string): string {
+  return modelId.replace(/\./g, '');
+}
+---
+
+<section class="mb-16" id={`leaderboard-${domainId}`}>
+  <div class="flex items-center gap-3 mb-5">
+    <div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center shrink-0">
+      <Icon name={domainIcon} class="w-5 h-5 text-primary" />
+    </div>
+    <div class="min-w-0">
+      <h2 class="text-xl font-semibold text-on-surface font-headline">{domainLabel}</h2>
+      <p class="text-xs text-on-surface-variant">
+        {domainDescription} · 모델 {models.length} · 벤치마크 {benchmarks.length}
+      </p>
+    </div>
+  </div>
+
+  {isEmpty ? (
+    <div class="rounded-xl border border-dashed border-outline-variant/40 bg-surface-container-low p-8 text-center text-sm text-on-surface-variant">
+      아직 수집된 모델이 없습니다.
+    </div>
+  ) : (
+    <div class="overflow-x-auto rounded-xl border border-outline-variant/20 bg-surface-container-lowest">
+      <table class="w-full border-collapse text-sm">
+        <thead>
+          <tr class="text-left border-b border-outline-variant/20 bg-surface-container-low">
+            <th class="py-4 pl-5 pr-3 font-semibold text-on-surface-variant text-[11px] uppercase tracking-wider sticky left-0 bg-surface-container-low z-10">
+              모델
+            </th>
+            <th class="py-4 px-3 font-semibold text-on-surface-variant text-[11px] uppercase tracking-wider whitespace-nowrap">
+              출시일
+            </th>
+            <th class="py-4 px-3 font-semibold text-on-surface-variant text-[11px] uppercase tracking-wider whitespace-nowrap">
+              라이선스
+            </th>
+            {benchmarks.map((b) => (
+              <th
+                class="py-4 px-3 font-semibold text-on-surface-variant text-[11px] uppercase tracking-wider text-center whitespace-nowrap"
+                title={`${b.nameKo} (${b.unit}, ${b.higherIsBetter ? '높을수록 좋음' : '낮을수록 좋음'})`}
+              >
+                {b.name}
+                <div class="text-[9px] font-normal normal-case tracking-normal text-on-surface-variant/70 mt-0.5">
+                  {b.unit}{b.higherIsBetter ? ' ↑' : ' ↓'}
+                </div>
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-outline-variant/10">
+          {rows.map(({ model, scoreMap, hasAnyScore }) => {
+            const slug = modelSlug(model.id);
+            const isLinked = publishedSlugs.has(slug);
+            const NameTag = isLinked ? 'a' : 'span';
+            const nameProps = isLinked
+              ? {
+                  href: `${BASE_URL}models/${slug}`,
+                  class:
+                    'font-semibold text-on-surface hover:text-primary transition-colors',
+                }
+              : {
+                  class: 'font-semibold text-on-surface-variant',
+                  title: '상세 페이지 준비 중',
+                };
+            return (
+              <tr class="group hover:bg-surface-container-low transition-colors">
+                <td class="py-4 pl-5 pr-3 sticky left-0 bg-surface-container-lowest group-hover:bg-surface-container-low transition-colors z-10">
+                  <div class="flex flex-col gap-0.5 min-w-[160px]">
+                    <NameTag {...nameProps}>{model.name}</NameTag>
+                    <span class="text-[11px] text-on-surface-variant">{model.provider}</span>
+                  </div>
+                </td>
+                <td class="py-4 px-3 text-on-surface-variant text-xs whitespace-nowrap">
+                  {model.releaseDate ?? '—'}
+                </td>
+                <td class="py-4 px-3 whitespace-nowrap">
+                  <span class="text-[11px] px-2 py-1 bg-surface-container-high rounded text-on-surface-variant">
+                    {model.license ?? '—'}
+                  </span>
+                </td>
+                {benchmarks.map((def) => {
+                  const score = scoreMap[def.id];
+                  if (!score) {
+                    return (
+                      <td class="py-4 px-3 text-center text-on-surface-variant/50">—</td>
+                    );
+                  }
+                  return (
+                    <td class="py-4 px-3 text-center whitespace-nowrap">
+                      <span class="font-semibold text-on-surface">{formatScore(score.value, def)}</span>
+                      <div class="text-[9px] text-on-surface-variant/70 mt-0.5 uppercase tracking-wider">
+                        {score.source}
+                      </div>
+                    </td>
+                  );
+                })}
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+  )}
+</section>
