@@ -264,8 +264,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 5,
+        "output": 30
+      },
       "links": {
         "official": "https://openai.com/index/introducing-gpt-5-5/"
       },
@@ -505,7 +508,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5/"
@@ -527,6 +530,45 @@
       "name": "Grok 4.3",
       "provider": "xAI",
       "releaseDate": "2026-04-16",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5/"
+      },
+      "id": "qwen-turbo",
+      "name": "Qwen-Turbo",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/news/"
+      },
+      "id": "gpt-5-3-instant",
+      "name": "GPT-5.3 Instant",
+      "provider": "OpenAI",
+      "releaseDate": "2026-04-23",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/news/"
+      },
+      "id": "gpt-5-3-codex",
+      "name": "GPT-5.3-Codex",
+      "provider": "OpenAI",
+      "releaseDate": "2026-04-23",
       "license": "Proprietary"
     }
   ]
