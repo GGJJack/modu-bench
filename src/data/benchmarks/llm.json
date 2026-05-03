@@ -227,6 +227,13 @@
         "sourceUrl": "https://arxiv.org/abs/2601.08584",
         "date": "2026-05-02"
       }
+    },
+    "claude-sonnet-4-6": {
+      "swe-bench-verified": {
+        "value": 80.2,
+        "date": "2026-02-17",
+        "source": "official"
+      }
     }
   }
 }
