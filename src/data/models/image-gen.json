@@ -45,6 +45,22 @@
       "provider": "xAI",
       "releaseDate": "2026-01-28",
       "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": {
+        "input": 0.5,
+        "output": 60
+      },
+      "links": {
+        "official": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-image"
+      },
+      "id": "gemini-3-1-flash-image",
+      "name": "Gemini 3.1 Flash Image",
+      "provider": "Google",
+      "releaseDate": "2026-04-22",
+      "license": "Proprietary"
     }
   ]
 }

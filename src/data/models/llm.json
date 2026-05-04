@@ -103,7 +103,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 2000000,
+      "contextWindow": 1048576,
       "pricing": {
         "input": 2,
         "output": 12
@@ -570,6 +570,96 @@
       "provider": "OpenAI",
       "releaseDate": "2026-04-23",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1048576,
+      "pricing": {
+        "input": 0.25,
+        "output": 1.5
+      },
+      "links": {
+        "official": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-3.1-flash-lite"
+      },
+      "id": "gemini-3-1-flash-lite",
+      "name": "Gemini 3.1 Flash-Lite",
+      "provider": "Google",
+      "releaseDate": "2026-04-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": {
+        "input": 0.75,
+        "output": 4.5
+      },
+      "links": {
+        "official": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-3.1-flash-live"
+      },
+      "id": "gemini-3-1-flash-live",
+      "name": "Gemini 3.1 Flash-Live",
+      "provider": "Google",
+      "releaseDate": "2026-04-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": {
+        "input": 1,
+        "output": 5
+      },
+      "links": {
+        "official": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-robotics-er-1-6"
+      },
+      "id": "gemini-robotics-er-1-6",
+      "name": "Gemini Robotics-ER 1.6",
+      "provider": "Google",
+      "releaseDate": "2026-04-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://corp.rakuten.co.jp/innovation/ai/",
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B"
+      },
+      "id": "rakuten-ai-7b",
+      "name": "Rakuten AI 7B",
+      "provider": "Rakuten",
+      "releaseDate": "2024-03-21",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://corp.rakuten.co.jp/innovation/ai/",
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B-instruct"
+      },
+      "id": "rakuten-ai-7b-instruct",
+      "name": "Rakuten AI 7B Instruct",
+      "provider": "Rakuten",
+      "releaseDate": "2024-03-21",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://corp.rakuten.co.jp/innovation/ai/",
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B-chat"
+      },
+      "id": "rakuten-ai-7b-chat",
+      "name": "Rakuten AI 7B Chat",
+      "provider": "Rakuten",
+      "releaseDate": "2024-03-21",
+      "license": "Apache-2.0"
     }
   ]
 }
