@@ -62,6 +62,24 @@
       "provider": "xAI",
       "releaseDate": "2026-04-23",
       "license": "Proprietary"
+    },
+    {
+      "supportedLanguages": [
+        "70+ languages"
+      ],
+      "realtime": false,
+      "pricing": {
+        "input": 1,
+        "output": 20
+      },
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/"
+      },
+      "id": "gemini-3-1-flash-tts",
+      "name": "Gemini 3.1 Flash TTS",
+      "provider": "Google",
+      "releaseDate": "2026-04-15",
+      "license": "Proprietary"
     }
   ]
 }
