@@ -126,6 +126,48 @@
         3000
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "mmlu-pro",
+      "name": "MMLU-Pro",
+      "nameKo": "MMLU-Pro",
+      "category": "reasoning",
+      "description": "An enhanced version of MMLU with graduate-level questions.",
+      "source": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mbpp",
+      "name": "MBPP",
+      "nameKo": "MBPP",
+      "category": "coding",
+      "description": "Mostly Basic Python Problems benchmark for evaluating code generation.",
+      "source": "https://huggingface.co/datasets/google-research-datasets/mbpp",
+      "unit": "pass@1 %",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "logickor",
+      "name": "LogicKor",
+      "nameKo": "LogicKor (한국어 논리 추론)",
+      "category": "korean",
+      "description": "Korean logical reasoning benchmark for LLMs.",
+      "source": "https://huggingface.co/spaces/instructkr/LogicKor-leaderboard",
+      "unit": "점수",
+      "scoreRange": [
+        0,
+        10
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -153,6 +195,11 @@
       "kmmlu": {
         "value": 64.2,
         "date": "2024-06-01",
+        "source": "community"
+      },
+      "logickor": {
+        "value": 9.41,
+        "date": "2024-05-13",
         "source": "community"
       }
     },
@@ -233,6 +280,27 @@
         "value": 80.2,
         "date": "2026-02-17",
         "source": "official"
+      }
+    },
+    "llama-3.1-405b": {
+      "logickor": {
+        "value": 8.84,
+        "date": "2026-05-04",
+        "source": "community"
+      }
+    },
+    "qwen-2.5-72b": {
+      "mbpp": {
+        "value": 88.2,
+        "date": "2026-05-04",
+        "source": "community"
+      }
+    },
+    "deepseek-v3": {
+      "mmlu-pro": {
+        "value": 81.2,
+        "date": "2026-05-04",
+        "source": "community"
       }
     }
   }
