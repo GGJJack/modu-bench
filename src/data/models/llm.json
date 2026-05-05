@@ -673,6 +673,38 @@
       "provider": "MiniMax",
       "releaseDate": "2026-03-18",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "8B (dense)",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.15
+      },
+      "links": {
+        "official": "https://mistral.ai/news/mistral-3"
+      },
+      "id": "ministral-3-8b",
+      "name": "Ministral 3 8B",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-04-27",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "3B (dense)",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.1
+      },
+      "links": {
+        "official": "https://mistral.ai/news/mistral-3"
+      },
+      "id": "ministral-3-3b",
+      "name": "Ministral 3 3B",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-04-27",
+      "license": "Apache-2.0"
     }
   ]
 }

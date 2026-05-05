@@ -370,6 +370,48 @@
         "date": "2026-05-05",
         "source": "official"
       }
+    },
+    "ministral-3-14b": {
+      "mmlu": {
+        "value": 79.4,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      },
+      "mbpp": {
+        "value": 71.6,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      }
+    },
+    "ministral-3-8b": {
+      "mmlu": {
+        "value": 76.1,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      },
+      "mbpp": {
+        "value": 70,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      }
+    },
+    "ministral-3-3b": {
+      "mmlu": {
+        "value": 70.7,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      },
+      "mbpp": {
+        "value": 63,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      }
     }
   }
 }
