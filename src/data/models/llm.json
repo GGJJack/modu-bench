@@ -534,7 +534,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5/"
@@ -589,7 +589,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1048576,
       "pricing": {
         "input": 0.75,
         "output": 4.5
@@ -605,7 +605,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1048576,
       "pricing": {
         "input": 1,
         "output": 5
@@ -621,7 +621,7 @@
     },
     {
       "parameterSize": "7B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://corp.rakuten.co.jp/innovation/ai/",
@@ -635,7 +635,7 @@
     },
     {
       "parameterSize": "7B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://corp.rakuten.co.jp/innovation/ai/",
@@ -649,7 +649,7 @@
     },
     {
       "parameterSize": "7B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://corp.rakuten.co.jp/innovation/ai/",
@@ -660,6 +660,19 @@
       "provider": "Rakuten",
       "releaseDate": "2024-03-21",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.minimaxi.com/news/minimax-m27-zh"
+      },
+      "id": "minimax-m2-7",
+      "name": "MiniMax M2.7",
+      "provider": "MiniMax",
+      "releaseDate": "2026-03-18",
+      "license": "Proprietary"
     }
   ]
 }
