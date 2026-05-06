@@ -528,8 +528,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 1.25,
+        "output": 2.5
+      },
       "links": {
         "official": "https://docs.x.ai/developers/models"
       },
