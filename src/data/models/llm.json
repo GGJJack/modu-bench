@@ -35,7 +35,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 32000,
       "pricing": null,
       "links": {
         "official": "https://clova-x.naver.com"
@@ -47,11 +47,12 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "7.8B (dense)",
+      "contextWindow": 32000,
       "pricing": null,
       "links": {
-        "official": "https://www.lgresearch.ai"
+        "official": "https://www.lgresearch.ai/models/exaone",
+        "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-3.0-7.8B-Instruct"
       },
       "id": "exaone-3.0",
       "name": "EXAONE 3.0",
@@ -60,9 +61,12 @@
       "license": "EXAONE AI Model License Agreement 1.0"
     },
     {
-      "parameterSize": "102B (MoE)",
-      "contextWindow": 32000,
-      "pricing": null,
+      "parameterSize": "31B",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.5,
+        "output": 0.5
+      },
       "links": {
         "official": "https://www.upstage.ai/blog/en/solar-pro-3-0127"
       },
@@ -509,7 +513,10 @@
     {
       "parameterSize": null,
       "contextWindow": 128000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.4,
+        "output": 1.2
+      },
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5/"
       },
@@ -535,7 +542,10 @@
     {
       "parameterSize": null,
       "contextWindow": 128000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3
+      },
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5/"
       },
@@ -547,8 +557,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.4
+      },
       "links": {
         "official": "https://openai.com/news/"
       },
@@ -663,8 +676,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 5,
+        "output": 15
+      },
       "links": {
         "official": "https://www.minimaxi.com/news/minimax-m27-zh"
       },
@@ -705,6 +721,87 @@
       "provider": "Mistral AI",
       "releaseDate": "2026-04-27",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "34B",
+      "contextWindow": 32000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-1.5",
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
+      },
+      "id": "yi-1-5-34b-chat",
+      "name": "Yi-1.5-34B-Chat",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/",
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat"
+      },
+      "id": "baichuan2-13b-chat",
+      "name": "Baichuan2-13B-Chat",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2023-09-06",
+      "license": "Baichuan 2 Community License"
+    },
+    {
+      "parameterSize": "9B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/THUDM/GLM-4",
+        "huggingface": "https://huggingface.co/THUDM/glm-4-9b-chat"
+      },
+      "id": "glm-4-9b-chat",
+      "name": "GLM-4-9B-Chat",
+      "provider": "Zhipu AI",
+      "releaseDate": "2024-06-05",
+      "license": "GLM-4 License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.01.ai/"
+      },
+      "id": "yi-large",
+      "name": "Yi-Large",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://bigmodel.cn/dev/how-to-use/model-introduction#glm-4-flash"
+      },
+      "id": "glm-4-flash",
+      "name": "GLM-4-Flash",
+      "provider": "Zhipu AI",
+      "releaseDate": "2024-08-27",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/"
+      },
+      "id": "baichuan-4",
+      "name": "Baichuan-4",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2024-05-22",
+      "license": "Proprietary"
     }
   ]
 }
