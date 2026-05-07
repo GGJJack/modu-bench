@@ -64,8 +64,8 @@
       "parameterSize": "31B",
       "contextWindow": 128000,
       "pricing": {
-        "input": 0.5,
-        "output": 0.5
+        "input": 0.15,
+        "output": 0.6
       },
       "links": {
         "official": "https://www.upstage.ai/blog/en/solar-pro-3-0127"
@@ -804,6 +804,74 @@
       "name": "Baichuan-4",
       "provider": "Baichuan Intelligent Technology",
       "releaseDate": "2024-05-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 32,
+        "output": 64
+      },
+      "links": {
+        "official": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+      },
+      "id": "gpt-realtime-2",
+      "name": "GPT-Realtime-2",
+      "provider": "OpenAI",
+      "releaseDate": "2026-05-07",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+      },
+      "id": "gpt-realtime-translate",
+      "name": "GPT-Realtime-Translate",
+      "provider": "OpenAI",
+      "releaseDate": "2026-05-07",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+      },
+      "id": "gpt-realtime-whisper",
+      "name": "GPT-Realtime-Whisper",
+      "provider": "OpenAI",
+      "releaseDate": "2026-05-07",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/news/"
+      },
+      "id": "gpt-5-5-instant",
+      "name": "GPT-5.5 Instant",
+      "provider": "OpenAI",
+      "releaseDate": "2026-05-05",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/blog/alphaevolve-impact/"
+      },
+      "id": "alphaevolve",
+      "name": "AlphaEvolve",
+      "provider": "Google",
+      "releaseDate": "2026-05-06",
       "license": "Proprietary"
     }
   ]
