@@ -16,3 +16,4 @@ target: llm/mistral-large-3
 - 2026-05-01 (reinforce): 'Chatbot Arena ELO' 신규 벤치마크 정의를 추가하고 Mistral Large 3의 점수(1415, community)를 등록함. MMLU 등 아카데믹 점수는 여전히 공식 미기재 상태이므로 티켓을 유지함.
 - 2026-05-02 (reinforce): 공식 블로그, 기술 문서, Artificial Analysis 및 Hugging Face 모델 카드를 정밀 탐색하였으나 MMLU, HumanEval, GSM8K의 구체적인 텍스트 기반 수치는 여전히 확인되지 않음.
 - 2026-05-05 (reinforce): Ministral 3 기술 리포트(arXiv:2601.08584)에서도 Mistral Large 3의 점수는 텍스트로 명시되지 않고 타 모델과의 비교 차트로만 제시됨. 공식 텍스트 수치 확인이 여전히 어려워 티켓을 유지함.
+- 2026-05-07 (reinforce): Search performed on official site and technical reports, but text-based scores still unavailable.
