@@ -412,6 +412,32 @@
         "source": "official",
         "sourceUrl": "https://arxiv.org/abs/2601.08584"
       }
+    },
+    "glm-4-9b-chat": {
+      "mmlu": {
+        "value": 72.4,
+        "date": "2024-06-18",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/zai-org/glm-4-9b-chat"
+      },
+      "gsm8k": {
+        "value": 79.6,
+        "date": "2024-06-18",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/zai-org/glm-4-9b-chat"
+      },
+      "humaneval": {
+        "value": 71.8,
+        "date": "2024-06-18",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/zai-org/glm-4-9b-chat"
+      },
+      "mt-bench": {
+        "value": 8.35,
+        "date": "2024-06-18",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/zai-org/glm-4-9b-chat"
+      }
     }
   }
 }
