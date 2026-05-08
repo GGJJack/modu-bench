@@ -374,8 +374,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.5
+      },
       "links": {
         "official": "https://docs.mistral.ai/models"
       },
@@ -850,7 +853,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
         "official": "https://openai.com/news/"
@@ -863,7 +866,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
         "official": "https://deepmind.google/blog/alphaevolve-impact/"
@@ -872,6 +875,71 @@
       "name": "AlphaEvolve",
       "provider": "Google",
       "releaseDate": "2026-05-06",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 256000,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+      },
+      "id": "gemma-4-31b-dense",
+      "name": "Gemma 4 31B Dense",
+      "provider": "Google",
+      "releaseDate": "2026-04-02",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 256000,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+      },
+      "id": "gemma-4-26b-moe",
+      "name": "Gemma 4 26B MoE",
+      "provider": "Google",
+      "releaseDate": "2026-04-02",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+      },
+      "id": "gemma-4-e4b",
+      "name": "Gemma 4 E4B",
+      "provider": "Google",
+      "releaseDate": "2026-04-02",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+      },
+      "id": "gemma-4-e2b",
+      "name": "Gemma 4 E2B",
+      "provider": "Google",
+      "releaseDate": "2026-04-02",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.01.ai/yi-models"
+      },
+      "id": "yi-lightning",
+      "name": "Yi-Lightning",
+      "provider": "01.AI",
+      "releaseDate": "2024-10-01",
       "license": "Proprietary"
     }
   ]
