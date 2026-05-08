@@ -17,3 +17,4 @@ target: llm/mistral-medium-3-5
 - 2026-05-02 (reinforce): 공식 블로그, 기술 문서, Artificial Analysis 및 Hugging Face 모델 카드를 정밀 탐색하였으나 HumanEval 수치는 여전히 확인되지 않음.
 - 2026-05-05 (reinforce): Ministral 3 기술 리포트(arXiv:2601.08584)에서 Mistral Medium 3.5가 Ministral 3의 SFT 교사 모델로 사용되었음이 확인되었으나, HumanEval 등 구체적인 아카데믹 벤치마크 점수는 여전히 공개되지 않음.
 - 2026-05-07 (reinforce): Search performed, but official HumanEval score still unavailable.
+- 2026-05-08 (reinforce): HumanEval 점수를 포함한 추가적인 아카데믹 벤치마크 데이터를 탐색했으나, SWE-bench Verified 외의 공식 수치는 여전히 확인되지 않음.
