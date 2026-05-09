@@ -342,10 +342,10 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 1048576,
+      "contextWindow": 2000000,
       "pricing": {
-        "input": 5,
-        "output": 15
+        "input": 1.25,
+        "output": 2.5
       },
       "links": {
         "official": "https://docs.x.ai/developers/models"
@@ -931,8 +931,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 0.14,
+        "output": 0.28
+      },
       "links": {
         "official": "https://www.01.ai/yi-models"
       },
@@ -940,6 +943,51 @@
       "name": "Yi-Lightning",
       "provider": "01.AI",
       "releaseDate": "2024-10-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.google.dev/gemini-api/docs/deep-research"
+      },
+      "id": "gemini-deep-research",
+      "name": "Gemini Deep Research",
+      "provider": "Google",
+      "releaseDate": "2026-05-08",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 2000000,
+      "pricing": {
+        "input": 0.2,
+        "output": 0.5
+      },
+      "links": {
+        "official": "https://docs.x.ai/developers/models"
+      },
+      "id": "grok-4.1-fast",
+      "name": "Grok 4.1 Fast",
+      "provider": "xAI",
+      "releaseDate": "2025-11-17",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 2000000,
+      "pricing": {
+        "input": 1.25,
+        "output": 2.5
+      },
+      "links": {
+        "official": "https://docs.x.ai/developers/models"
+      },
+      "id": "grok-4.20-multi-agent",
+      "name": "Grok 4.20 Multi-Agent",
+      "provider": "xAI",
+      "releaseDate": "2026-03-09",
       "license": "Proprietary"
     }
   ]
