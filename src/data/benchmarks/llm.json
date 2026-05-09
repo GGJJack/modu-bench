@@ -239,16 +239,30 @@
     },
     "mistral-large-3": {
       "chatbot-arena-elo": {
-        "value": 1415,
-        "date": "2026-04-30",
-        "source": "community"
+        "value": 1418,
+        "date": "2025-12-02",
+        "source": "official",
+        "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
+      },
+      "mmlu": {
+        "value": 85.5,
+        "date": "2025-12-02",
+        "source": "official",
+        "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
+      },
+      "gpqa": {
+        "value": 43.9,
+        "date": "2025-12-02",
+        "source": "official",
+        "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
       }
     },
     "gemini-3-1-pro": {
       "gpqa": {
         "value": 94.3,
-        "date": "2026-05-01",
-        "source": "community"
+        "date": "2026-05-09",
+        "source": "community",
+        "url": "https://llm-stats.com/benchmarks/gpqa"
       }
     },
     "ministral-3-14b-reasoning": {
