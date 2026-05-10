@@ -540,6 +540,20 @@
         "source": "official",
         "sourceUrl": "https://ai.google.dev/gemma/docs/core/model_card_4"
       }
+    },
+    "grok-4.1-fast": {
+      "mmlu-pro": {
+        "value": 74.3,
+        "date": "2026-05-10",
+        "source": "community",
+        "sourceUrl": "https://www.mindstudio.ai/models/grok-4-1-fast"
+      },
+      "gpqa": {
+        "value": 63.7,
+        "date": "2026-05-10",
+        "source": "community",
+        "sourceUrl": "https://www.mindstudio.ai/models/grok-4-1-fast"
+      }
     }
   }
 }
