@@ -36,7 +36,10 @@
     {
       "parameterSize": null,
       "contextWindow": 32000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.015,
+        "output": 0.015
+      },
       "links": {
         "official": "https://clova-x.naver.com"
       },
@@ -168,7 +171,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/fugu-beta/"
@@ -181,7 +184,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 256000,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/marlin-beta/"
@@ -207,7 +210,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 32000,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/fugu-beta/"
@@ -405,8 +408,8 @@
       "parameterSize": "128B (dense)",
       "contextWindow": 256000,
       "pricing": {
-        "input": 1.5,
-        "output": 7.5
+        "input": 0.5,
+        "output": 1.5
       },
       "links": {
         "official": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
@@ -772,8 +775,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 32000,
+      "pricing": {
+        "input": 2.8,
+        "output": 2.8
+      },
       "links": {
         "official": "https://www.01.ai/"
       },
@@ -798,8 +804,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 32768,
+      "pricing": {
+        "input": 1.4,
+        "output": 1.4
+      },
       "links": {
         "official": "https://www.baichuan-ai.com/"
       },
@@ -988,6 +997,73 @@
       "name": "Grok 4.20 Multi-Agent",
       "provider": "xAI",
       "releaseDate": "2026-03-09",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "33B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai/",
+        "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-4.5-33B"
+      },
+      "id": "exaone-4-5-33b",
+      "name": "EXAONE 4.5 33B",
+      "provider": "LG AI Research",
+      "releaseDate": "2026-04-10",
+      "license": "EXAONE AI Model License Agreement 1.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/trinity/"
+      },
+      "id": "trinity-coordinator",
+      "name": "Trinity Coordinator",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-04-26",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/namazu-alpha/"
+      },
+      "id": "namazu-deepseek-v3-1",
+      "name": "Namazu-DeepSeek-V3.1-Terminus",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-03-24",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": "1.5B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/taid-jp/",
+        "huggingface": "https://huggingface.co/SakanaAI/TinySwallow-1.5B"
+      },
+      "id": "tinyswallow-1-5b",
+      "name": "TinySwallow-1.5B",
+      "provider": "Sakana AI",
+      "releaseDate": "2025-01-30",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/marlin-beta/"
+      },
+      "id": "sakana-marlin-beta",
+      "name": "Sakana Marlin (Beta)",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-04-02",
       "license": "Proprietary"
     }
   ]
