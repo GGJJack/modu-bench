@@ -863,7 +863,10 @@
     {
       "parameterSize": null,
       "contextWindow": 1000000,
-      "pricing": null,
+      "pricing": {
+        "input": 5,
+        "output": 30
+      },
       "links": {
         "official": "https://openai.com/news/"
       },
@@ -876,7 +879,10 @@
     {
       "parameterSize": null,
       "contextWindow": 1000000,
-      "pricing": null,
+      "pricing": {
+        "input": 2,
+        "output": 12
+      },
       "links": {
         "official": "https://deepmind.google/blog/alphaevolve-impact/"
       },
@@ -957,7 +963,10 @@
     {
       "parameterSize": null,
       "contextWindow": 1000000,
-      "pricing": null,
+      "pricing": {
+        "input": 2,
+        "output": 12
+      },
       "links": {
         "official": "https://ai.google.dev/gemini-api/docs/deep-research"
       },
@@ -1001,7 +1010,7 @@
     },
     {
       "parameterSize": "33B",
-      "contextWindow": null,
+      "contextWindow": 256000,
       "pricing": null,
       "links": {
         "official": "https://www.lgresearch.ai/",
@@ -1064,6 +1073,86 @@
       "name": "Sakana Marlin (Beta)",
       "provider": "Sakana AI",
       "releaseDate": "2026-04-02",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 30,
+        "output": 180
+      },
+      "links": {
+        "official": "https://openai.com/news/"
+      },
+      "id": "gpt-5-5-pro",
+      "name": "GPT-5.5 Pro",
+      "provider": "OpenAI",
+      "releaseDate": "2026-05-05",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 0.75,
+        "output": 4.5
+      },
+      "links": {
+        "official": "https://openai.com/news/"
+      },
+      "id": "gpt-5-4-mini",
+      "name": "GPT-5.4 Mini",
+      "provider": "OpenAI",
+      "releaseDate": "2026-03-05",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 0.2,
+        "output": 1.25
+      },
+      "links": {
+        "official": "https://openai.com/news/"
+      },
+      "id": "gpt-5-4-nano",
+      "name": "GPT-5.4 Nano",
+      "provider": "OpenAI",
+      "releaseDate": "2026-03-05",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1048576,
+      "pricing": {
+        "input": 0.5,
+        "output": 3
+      },
+      "links": {
+        "official": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview"
+      },
+      "id": "gemini-3-flash",
+      "name": "Gemini 3 Flash",
+      "provider": "Google",
+      "releaseDate": "2026-04-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.5
+      },
+      "links": {
+        "official": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5"
+      },
+      "id": "mistral-medium-3-5-vibe",
+      "name": "Mistral Medium 3.5 Vibe",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-04-29",
       "license": "Proprietary"
     }
   ]
