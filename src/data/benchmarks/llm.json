@@ -168,6 +168,76 @@
         10
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "arc-c",
+      "name": "ARC-Challenge",
+      "nameKo": "ARC 챌린지",
+      "category": "reasoning",
+      "description": "과학 시험 문제 기반 추론 평가",
+      "source": "https://arxiv.org/abs/1803.05457",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "trivia-qa",
+      "name": "TriviaQA",
+      "nameKo": "TriviaQA",
+      "category": "knowledge",
+      "description": "위키피디아 및 웹 데이터를 기반으로 한 독해 및 상식 평가",
+      "source": "https://arxiv.org/abs/1705.03551",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "math",
+      "name": "MATH",
+      "nameKo": "MATH",
+      "category": "math",
+      "description": "고등수학 경시 수준의 수학 문제 풀이 능력 평가",
+      "source": "https://arxiv.org/abs/2103.03874",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "if-bench",
+      "name": "IFBench",
+      "nameKo": "IFBench (지시문 준수)",
+      "category": "instruction",
+      "description": "지시문 준수 능력을 객관적으로 평가하는 벤치마크",
+      "source": "https://arxiv.org/abs/2311.07911",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "arena-hard-v2",
+      "name": "Arena Hard v2",
+      "nameKo": "아레나 하드 v2",
+      "category": "instruction",
+      "description": "Chatbot Arena에서 추출한 어려운 질문들에 대한 모델의 대화 능력 평가",
+      "source": "https://github.com/lm-sys/arena-hard-v2",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -397,34 +467,21 @@
         "date": "2026-01-13",
         "source": "official",
         "sourceUrl": "https://arxiv.org/abs/2601.08584"
-      }
-    },
-    "ministral-3-8b": {
-      "mmlu": {
-        "value": 76.1,
-        "date": "2026-01-13",
-        "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
       },
-      "mbpp": {
-        "value": 70,
+      "arc-c": {
+        "value": 89.9,
         "date": "2026-01-13",
-        "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
-      }
-    },
-    "ministral-3-3b": {
-      "mmlu": {
-        "value": 70.7,
-        "date": "2026-01-13",
-        "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+        "source": "official"
       },
-      "mbpp": {
-        "value": 63,
+      "trivia-qa": {
+        "value": 74.9,
         "date": "2026-01-13",
-        "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+        "source": "official"
+      },
+      "math": {
+        "value": 67.6,
+        "date": "2026-01-13",
+        "source": "official"
       }
     },
     "glm-4-9b-chat": {
@@ -553,6 +610,76 @@
         "date": "2026-05-10",
         "source": "community",
         "sourceUrl": "https://www.mindstudio.ai/models/grok-4-1-fast"
+      }
+    },
+    "solar-pro-3": {
+      "if-bench": {
+        "value": 55.78,
+        "date": "2026-01-26",
+        "source": "official"
+      },
+      "arena-hard-v2": {
+        "value": 62.5,
+        "date": "2026-01-26",
+        "source": "official"
+      }
+    },
+    "ministral-3-8b": {
+      "mmlu": {
+        "value": 76.1,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      },
+      "mbpp": {
+        "value": 70,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      },
+      "arc-c": {
+        "value": 88,
+        "date": "2026-01-13",
+        "source": "official"
+      },
+      "trivia-qa": {
+        "value": 68.1,
+        "date": "2026-01-13",
+        "source": "official"
+      },
+      "math": {
+        "value": 62.6,
+        "date": "2026-01-13",
+        "source": "official"
+      }
+    },
+    "ministral-3-3b": {
+      "mmlu": {
+        "value": 70.7,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      },
+      "mbpp": {
+        "value": 63,
+        "date": "2026-01-13",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+      },
+      "arc-c": {
+        "value": 85.5,
+        "date": "2026-01-13",
+        "source": "official"
+      },
+      "trivia-qa": {
+        "value": 59.2,
+        "date": "2026-01-13",
+        "source": "official"
+      },
+      "math": {
+        "value": 60.1,
+        "date": "2026-01-13",
+        "source": "official"
       }
     }
   }
