@@ -24,3 +24,4 @@ target: llm/multiple
 `reinforce` 스킬에서 해당 모델들의 API 제공 플랫폼에 직접 로그인하거나, 파트너 대상 최신 기술 문서를 확보하여 pricing 및 contextWindow 정보를 보강해줄 것을 요청함.
 - 2026-05-07 (reinforce): Search performed for HyperCLOVA X, Yi-Large, and Baichuan-4; official pricing and context window updates not found.
 - 2026-05-09 (collect-llm): Additional search performed for the listed models including Sakana AI's Fugu series. Official pricing/context window for these models remains unconfirmed as of early May 2026. Updated `yi-lightning`, `grok` family, and registered `gemini-deep-research`.
+- 2026-05-11 (reinforce): Sakana AI 모델들(Trinity, Namazu, TinySwallow)의 Context Window(128K~1M) 사양을 확인하여 업데이트 완료. API 가격 정보는 여전히 미공개 상태임.

@@ -1,5 +1,5 @@
 ---
-modelId: mistral-3-3b
+modelId: ministral-3-3b
 domain: llm
 status: published
 updated: 2026-04-30
