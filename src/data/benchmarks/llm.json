@@ -238,6 +238,62 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "swe-bench-pro",
+      "name": "SWE-bench Pro",
+      "nameKo": "SWE-bench Pro (소프트웨어 엔지니어링 벤치마크 Pro)",
+      "category": "coding",
+      "description": "실제 소프트웨어 엔지니어링 문제를 다루는 긴 컨텍스트의 벤치마크",
+      "source": "https://labs.scale.com/leaderboard/swe_bench_pro_public",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "terminal-bench-2-0",
+      "name": "Terminal-Bench 2.0",
+      "nameKo": "Terminal-Bench 2.0 (터미널 기반 워크플로우 테스트)",
+      "category": "agent",
+      "description": "복잡한 명령줄 워크플로우를 계획하고 도구를 조정하는 능력을 테스트하는 벤치마크",
+      "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "osworld-verified",
+      "name": "OSWorld-Verified",
+      "nameKo": "OSWorld-Verified (운영체제 컴퓨터 자동화)",
+      "category": "agent",
+      "description": "Ubuntu, Windows, macOS 등 실제 컴퓨터 환경에서 멀티모달 에이전트의 워크플로우를 테스트",
+      "source": "https://os-world.github.io/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "toolathlon",
+      "name": "Toolathlon",
+      "nameKo": "Toolathlon (다양한 도구 사용 워크플로우)",
+      "category": "agent",
+      "description": "에이전트가 현실 환경의 600개 이상 도구를 사용하여 장기 태스크를 얼마나 잘 수행하는지 평가",
+      "source": "https://github.com/hkust-nlp/Toolathlon",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -680,6 +736,156 @@
         "value": 60.1,
         "date": "2026-01-13",
         "source": "official"
+      }
+    },
+    "gpt-5-4-mini": {
+      "swe-bench-pro": {
+        "value": 54.4,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "terminal-bench-2-0": {
+        "value": 60,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "toolathlon": {
+        "value": 42.9,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "gpqa": {
+        "value": 88,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "osworld-verified": {
+        "value": 72.1,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      }
+    },
+    "gpt-5-4-nano": {
+      "swe-bench-pro": {
+        "value": 52.4,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "terminal-bench-2-0": {
+        "value": 46.3,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "toolathlon": {
+        "value": 35.5,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "gpqa": {
+        "value": 82.8,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "osworld-verified": {
+        "value": 39,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      }
+    },
+    "gpt-5-4": {
+      "swe-bench-pro": {
+        "value": 57.7,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "terminal-bench-2-0": {
+        "value": 75.1,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "toolathlon": {
+        "value": 54.6,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "gpqa": {
+        "value": 93,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "osworld-verified": {
+        "value": 75,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      }
+    },
+    "gpt-5-5-pro": {
+      "terminal-bench-2-0": {
+        "value": 82.7,
+        "date": "2026-05-12",
+        "source": "community",
+        "sourceUrl": "https://www.datacamp.com/pt/blog/gpt-5-5"
+      },
+      "swe-bench-pro": {
+        "value": 58.6,
+        "date": "2026-05-12",
+        "source": "community",
+        "sourceUrl": "https://www.datacamp.com/pt/blog/gpt-5-5"
+      }
+    },
+    "gpt-5-5": {
+      "terminal-bench-2-0": {
+        "value": 82.7,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://www.ai.cc/blogs/gpt-5-5-everything-you-need-to-know/"
+      },
+      "swe-bench-verified": {
+        "value": 88.7,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://www.ai.cc/blogs/gpt-5-5-everything-you-need-to-know/"
+      },
+      "mmlu": {
+        "value": 92.4,
+        "date": "2026-05-12",
+        "source": "official",
+        "sourceUrl": "https://www.ai.cc/blogs/gpt-5-5-everything-you-need-to-know/"
+      },
+      "swe-bench-pro": {
+        "value": 58.6,
+        "date": "2026-05-12",
+        "source": "community",
+        "sourceUrl": "https://o-mega.ai/articles/gpt-5-5-the-complete-guide-2026"
+      }
+    },
+    "gemini-3-flash": {
+      "gpqa": {
+        "value": 81.2,
+        "date": "2026-05-12",
+        "source": "community",
+        "sourceUrl": "https://llmbase.ai/compare/gemini-3-1-flash-lite-preview,gemini-3-flash/"
+      },
+      "mmlu-pro": {
+        "value": 88.2,
+        "date": "2026-05-12",
+        "source": "community",
+        "sourceUrl": "https://llmbase.ai/compare/gemini-3-1-flash-lite-preview,gemini-3-flash/"
       }
     }
   }
