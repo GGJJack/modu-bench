@@ -82,7 +82,10 @@
     {
       "parameterSize": null,
       "contextWindow": 128000,
-      "pricing": null,
+      "pricing": {
+        "input": 5.32,
+        "output": 16
+      },
       "links": {
         "official": "https://ai.meta.com/blog/meta-llama-3-1/"
       },
@@ -127,7 +130,10 @@
     {
       "parameterSize": "72B",
       "contextWindow": 128000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.36,
+        "output": 0.4
+      },
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5/"
       },
@@ -273,8 +279,8 @@
       "parameterSize": null,
       "contextWindow": 1000000,
       "pricing": {
-        "input": 5,
-        "output": 30
+        "input": 30,
+        "output": 180
       },
       "links": {
         "official": "https://openai.com/index/introducing-gpt-5-5/"
@@ -286,7 +292,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": "675B (41B active)",
+      "parameterSize": "675B total / 41B active",
       "contextWindow": 256000,
       "pricing": {
         "input": 0.5,
@@ -376,11 +382,11 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "123B (dense)",
       "contextWindow": 256000,
       "pricing": {
-        "input": 0.5,
-        "output": 1.5
+        "input": 0.4,
+        "output": 2
       },
       "links": {
         "official": "https://docs.mistral.ai/models"
@@ -394,7 +400,10 @@
     {
       "parameterSize": null,
       "contextWindow": null,
-      "pricing": null,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.5
+      },
       "links": {
         "official": "https://docs.mistral.ai/models"
       },
@@ -408,8 +417,8 @@
       "parameterSize": "128B (dense)",
       "contextWindow": 256000,
       "pricing": {
-        "input": 0.5,
-        "output": 1.5
+        "input": 1.5,
+        "output": 7.5
       },
       "links": {
         "official": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
@@ -687,8 +696,8 @@
       "parameterSize": null,
       "contextWindow": 1000000,
       "pricing": {
-        "input": 5,
-        "output": 15
+        "input": 0.3,
+        "output": 1.2
       },
       "links": {
         "official": "https://www.minimaxi.com/news/minimax-m27-zh"
@@ -805,7 +814,10 @@
     {
       "parameterSize": null,
       "contextWindow": null,
-      "pricing": null,
+      "pricing": {
+        "input": 0.034,
+        "output": 0.034
+      },
       "links": {
         "official": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
       },
@@ -818,7 +830,10 @@
     {
       "parameterSize": null,
       "contextWindow": null,
-      "pricing": null,
+      "pricing": {
+        "input": 0.017,
+        "output": 0.017
+      },
       "links": {
         "official": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
       },
@@ -832,8 +847,8 @@
       "parameterSize": null,
       "contextWindow": 1000000,
       "pricing": {
-        "input": 5,
-        "output": 30
+        "input": 0.1,
+        "output": 0.4
       },
       "links": {
         "official": "https://openai.com/news/"
@@ -1108,11 +1123,11 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "128B (dense)",
       "contextWindow": 256000,
       "pricing": {
-        "input": 0.5,
-        "output": 1.5
+        "input": 1.5,
+        "output": 7.5
       },
       "links": {
         "official": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5"
@@ -1121,6 +1136,202 @@
       "name": "Mistral Medium 3.5 Vibe",
       "provider": "Mistral AI",
       "releaseDate": "2026-04-29",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.23,
+        "output": 0.38
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "gemma-3-27b",
+      "name": "Gemma 3 27B",
+      "provider": "Google",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.62,
+        "output": 1.85
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "deepseek-v3.2",
+      "name": "DeepSeek-V3.2",
+      "provider": "DeepSeek",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.2266,
+        "output": 0.9064
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "qwen-3-235b",
+      "name": "Qwen3-235B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 1,
+        "output": 3.2
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "glm-5",
+      "name": "GLM-5",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/meta/"
+      },
+      "id": "llama-4-maverick-17b",
+      "name": "Llama 4 Maverick 17B",
+      "provider": "Meta",
+      "releaseDate": "2026-04-23",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/meta/"
+      },
+      "id": "llama-4-scout-17b",
+      "name": "Llama 4 Scout 17B",
+      "provider": "Meta",
+      "releaseDate": "2026-04-23",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.1
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "ministral-3b-3.0",
+      "name": "Ministral 3B 3.0",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-04-27",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.15
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "ministral-8b-3.0",
+      "name": "Ministral 8B 3.0",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-04-27",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.2,
+        "output": 0.2
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "ministral-14b-3.0",
+      "name": "Ministral 14B 3.0",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-04-27",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.15,
+        "output": 1.2
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "qwen-3-next-80b",
+      "name": "Qwen3 Next 80B A3B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.07,
+        "output": 0.4
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "glm-4.7-flash",
+      "name": "GLM-4.7 Flash",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/meta/"
+      },
+      "id": "llama-4-maverick-8b",
+      "name": "Llama 4 Maverick 8B",
+      "provider": "Meta",
+      "releaseDate": "2026-04-23",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/meta/"
+      },
+      "id": "llama-4-scout-8b",
+      "name": "Llama 4 Scout 8B",
+      "provider": "Meta",
+      "releaseDate": "2026-04-23",
       "license": "Proprietary"
     }
   ]
