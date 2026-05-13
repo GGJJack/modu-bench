@@ -20,3 +20,4 @@ target: llm/mistral-large-3
 - 2026-05-08 (reinforce): Mistral 공식 블로그 및 Artificial Analysis 등을 포함한 주요 커뮤니티 리더보드를 재탐색하였으나, Mistral Large 3의 MMLU, HumanEval 등 아카데믹 벤치마크에 대한 텍스트 기반 공식 수치는 여전히 공개되지 않은 상태임.
 - 2026-05-09 (reinforce): 공식 Hugging Face 모델 카드의 벤치마크 차트 이미지를 통해 MMLU(85.5%, 8-lang average), GPQA(43.9%, Diamond 5-shot), Chatbot Arena ELO(1418) 점수를 확인하여 등록함. HumanEval, GSM8K 점수는 여전히 텍스트로 명시되지 않음.
 - 2026-05-11 (reinforce): 공식 기술 리포트(arXiv:2601.08584)에서 Ministral 3 (14B, 8B, 3B)의 MMLU, MBPP, ARC-C, TriviaQA, MATH 점수를 확인하여 등록함. Mistral Large 3의 HumanEval, GSM8K 점수는 여전히 텍스트 수치로 확인되지 않아 티켓을 유지함.
+- 2026-05-13 (reinforce): 공식 블로그 및 기술 문서(arXiv:2601.08584)를 재검토하고 최신 커뮤니티 리더보드(llm-stats.com)를 탐색했으나, Mistral Large 3의 HumanEval 및 GSM8K 공식 수치는 여전히 공개되지 않음. 추가 데이터 확인 불가로 티켓 유지함.
