@@ -887,6 +887,20 @@
         "source": "community",
         "sourceUrl": "https://llmbase.ai/compare/gemini-3-1-flash-lite-preview,gemini-3-flash/"
       }
+    },
+    "gemma-3-27b": {
+      "mmlu-pro": {
+        "value": 67.5,
+        "date": "2026-05-13",
+        "source": "official",
+        "sourceUrl": "https://www.deeplearning.ai/the-batch/google-releases-gemma-3-vision-language-models-with-open-weights"
+      },
+      "gpqa": {
+        "value": 42.4,
+        "date": "2026-05-13",
+        "source": "official",
+        "sourceUrl": "https://www.deeplearning.ai/the-batch/google-releases-gemma-3-vision-language-models-with-open-weights"
+      }
     }
   }
 }
