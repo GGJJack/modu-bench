@@ -1139,7 +1139,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "27B (dense)",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.23,
@@ -1155,7 +1155,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "DeepSeek-V3.2 (MoE)",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.62,
@@ -1171,7 +1171,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "235B (22B active) MoE",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.2266,
@@ -1187,7 +1187,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "GLM-5 (MoE)",
       "contextWindow": 128000,
       "pricing": {
         "input": 1,
@@ -1203,7 +1203,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "17B (MoE)",
       "contextWindow": 128000,
       "pricing": null,
       "links": {
@@ -1216,7 +1216,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "17B (dense)",
       "contextWindow": 128000,
       "pricing": null,
       "links": {
@@ -1277,7 +1277,7 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "80B (3B active) MoE",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.15,
@@ -1309,7 +1309,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "8B (MoE)",
       "contextWindow": 128000,
       "pricing": null,
       "links": {
@@ -1322,7 +1322,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "8B (dense)",
       "contextWindow": 128000,
       "pricing": null,
       "links": {
@@ -1332,6 +1332,86 @@
       "name": "Llama 4 Scout 8B",
       "provider": "Meta",
       "releaseDate": "2026-04-23",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "4B (dense)",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.04,
+        "output": 0.08
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "gemma-3-4b",
+      "name": "Gemma 3 4B",
+      "provider": "Google",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "12B (dense)",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.09,
+        "output": 0.29
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "gemma-3-12b",
+      "name": "Gemma 3 12B",
+      "provider": "Google",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.6,
+        "output": 3
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "kimi-k2.5",
+      "name": "Kimi K2.5",
+      "provider": "Moonshot AI",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "30B (3B active) MoE",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1545,
+        "output": 0.618
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "qwen-3-30b-a3b",
+      "name": "Qwen3-30B-A3B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2026-05-11",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "30B (3B active) MoE",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.06,
+        "output": 0.24
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "nvidia-nemotron-3-nano",
+      "name": "NVIDIA Nemotron 3 Nano 30B A3B",
+      "provider": "NVIDIA",
+      "releaseDate": "2026-05-11",
       "license": "Proprietary"
     }
   ]
