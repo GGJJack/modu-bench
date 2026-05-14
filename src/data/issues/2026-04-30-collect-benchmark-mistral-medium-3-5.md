@@ -21,3 +21,4 @@ target: llm/mistral-medium-3-5
 - 2026-05-09 (reinforce): 공식 블로그 및 Artificial Analysis를 재탐색함. SWE-bench Verified(77.6%)와 tau-bench-telecom(91.4) 점수는 공식 확인되었으나, HumanEval 점수는 여전히 공식적으로 공개되지 않았거나 다른 벤치마크로 대체된 것으로 보임.
 - 2026-05-11 (reinforce): 공식 블로그 및 기술 문서를 재검토했으나 HumanEval 점수는 여전히 공식적으로 공개되지 않음. SWE-bench Verified와 Tau-bench 점수로 대체 관리 중이며, 추가 데이터 확인 시까지 티켓 유지함.
 - 2026-05-13 (reinforce): 공식 블로그 및 주요 리더보드(llm-stats.com)를 재탐색하였으나 Mistral Medium 3.5의 HumanEval 공식 수치는 여전히 공개되지 않은 상태임. 추가 데이터 확인 불가로 티켓 유지함.
+- 2026-05-14 (reinforce): Mistral Large 3 (Instruct-2407)의 HumanEval(92%)과 GSM8K(93%) 점수를 확인하여 등록함. Mistral Medium 3.5의 공식 HumanEval 점수는 여전히 공개되지 않아 티켓 유지함.
