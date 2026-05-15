@@ -22,3 +22,4 @@ target: llm/mistral-large-3
 - 2026-05-11 (reinforce): 공식 기술 리포트(arXiv:2601.08584)에서 Ministral 3 (14B, 8B, 3B)의 MMLU, MBPP, ARC-C, TriviaQA, MATH 점수를 확인하여 등록함. Mistral Large 3의 HumanEval, GSM8K 점수는 여전히 텍스트 수치로 확인되지 않아 티켓을 유지함.
 - 2026-05-13 (reinforce): 공식 블로그 및 기술 문서(arXiv:2601.08584)를 재검토하고 최신 커뮤니티 리더보드(llm-stats.com)를 탐색했으나, Mistral Large 3의 HumanEval 및 GSM8K 공식 수치는 여전히 공개되지 않음. 추가 데이터 확인 불가로 티켓 유지함.
 - 2026-05-14 (reinforce): Mistral Large v2 (Instruct-2407) 데이터를 Large 3로 오인하여 등록했으나 이를 취소함. Large 3의 공식 텍스트 점수는 여전히 확인되지 않아 티켓 유지함.
+- 2026-05-15 (reinforce): 공식 블로그 및 Hugging Face 모델 카드(Mistral-Large-3-675B-Instruct-2512)를 재검토하였으나, HumanEval 및 GSM8K 점수는 여전히 이미지로만 제공되며 텍스트 기반 공식 수치는 확인되지 않음. Mistral Large v2(2407)와의 혼동을 방지하기 위해 추가 데이터 등록 없이 티켓을 유지함.

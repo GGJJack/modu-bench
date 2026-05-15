@@ -22,3 +22,4 @@ target: llm/mistral-medium-3-5
 - 2026-05-11 (reinforce): 공식 블로그 및 기술 문서를 재검토했으나 HumanEval 점수는 여전히 공식적으로 공개되지 않음. SWE-bench Verified와 Tau-bench 점수로 대체 관리 중이며, 추가 데이터 확인 시까지 티켓 유지함.
 - 2026-05-13 (reinforce): 공식 블로그 및 주요 리더보드(llm-stats.com)를 재탐색하였으나 Mistral Medium 3.5의 HumanEval 공식 수치는 여전히 공개되지 않은 상태임. 추가 데이터 확인 불가로 티켓 유지함.
 - 2026-05-14 (reinforce): Mistral Large 3 (Instruct-2407)의 HumanEval(92%)과 GSM8K(93%) 점수를 확인하여 등록함. Mistral Medium 3.5의 공식 HumanEval 점수는 여전히 공개되지 않아 티켓 유지함.
+- 2026-05-15 (reinforce): 공식 블로그 및 Hugging Face 모델 카드(Mistral-Medium-3.5-128B)를 재탐색하였으나 HumanEval 공식 점수는 여전히 미기재 상태임. 타 모델(v2)의 점수와 혼동될 수 있는 데이터는 배제하였으며, 추가 공식 발표가 있을 때까지 티켓을 유지함.
