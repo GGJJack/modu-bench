@@ -337,9 +337,12 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "111B",
       "contextWindow": 256000,
-      "pricing": null,
+      "pricing": {
+        "input": 2.5,
+        "output": 10
+      },
       "links": {
         "official": "https://docs.cohere.com/docs/models"
       },
@@ -417,8 +420,8 @@
       "parameterSize": "128B (dense)",
       "contextWindow": 256000,
       "pricing": {
-        "input": 1.5,
-        "output": 7.5
+        "input": 0.5,
+        "output": 1.5
       },
       "links": {
         "official": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
@@ -1412,6 +1415,71 @@
       "name": "NVIDIA Nemotron 3 Nano 30B A3B",
       "provider": "NVIDIA",
       "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "10.8B (dense)",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/yanolja/EEVE-Korean-10.8B-v1.0"
+      },
+      "id": "eeve-korean-10.8b",
+      "name": "EEVE-Korean-10.8B",
+      "provider": "Yanolja",
+      "releaseDate": "2024-02-22",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.moonshot.cn/"
+      },
+      "id": "kimi-k2.6",
+      "name": "Kimi K2.6",
+      "provider": "Moonshot AI",
+      "releaseDate": "2026-04-20",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "111B",
+      "contextWindow": 256000,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.cohere.com/docs/models"
+      },
+      "id": "command-a-reasoning-08-2025",
+      "name": "Command A Reasoning",
+      "provider": "Cohere",
+      "releaseDate": "2025-08-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "111B",
+      "contextWindow": 16000,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.cohere.com/docs/models"
+      },
+      "id": "command-a-translate-08-2025",
+      "name": "Command A Translate",
+      "provider": "Cohere",
+      "releaseDate": "2025-08-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.cohere.com/docs/models"
+      },
+      "id": "command-a-vision-07-2025",
+      "name": "Command A Vision",
+      "provider": "Cohere",
+      "releaseDate": "2025-07-01",
       "license": "Proprietary"
     }
   ]
