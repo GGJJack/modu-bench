@@ -61,7 +61,7 @@
       "name": "EXAONE 3.0",
       "provider": "LG AI Research",
       "releaseDate": "2024-08-07",
-      "license": "EXAONE AI Model License Agreement 1.0"
+      "license": "EXAONE AI Model License Agreement 1.0 (Apache-2.0 compatible for non-commercial)"
     },
     {
       "parameterSize": "31B",
