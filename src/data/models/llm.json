@@ -366,14 +366,15 @@
       "name": "Grok 4.20",
       "provider": "xAI",
       "releaseDate": "2026-04-16",
-      "license": "Proprietary"
+      "license": "Proprietary",
+      "status": "deprecated"
     },
     {
       "parameterSize": "14B (dense)",
       "contextWindow": 128000,
       "pricing": {
-        "input": 0.1,
-        "output": 0.1
+        "input": 0.2,
+        "output": 0.2
       },
       "links": {
         "official": "https://docs.mistral.ai/models"
@@ -386,7 +387,7 @@
     },
     {
       "parameterSize": "123B (dense)",
-      "contextWindow": 256000,
+      "contextWindow": 128000,
       "pricing": {
         "input": 0.4,
         "output": 2
@@ -545,7 +546,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "Grok 4.3 (MoE)",
       "contextWindow": 1000000,
       "pricing": {
         "input": 1.25,
@@ -557,7 +558,7 @@
       "id": "grok-4-3",
       "name": "Grok 4.3",
       "provider": "xAI",
-      "releaseDate": "2026-04-16",
+      "releaseDate": "2026-05-12",
       "license": "Proprietary"
     },
     {
@@ -976,7 +977,8 @@
       "name": "Grok 4.1 Fast",
       "provider": "xAI",
       "releaseDate": "2025-11-17",
-      "license": "Proprietary"
+      "license": "Proprietary",
+      "status": "deprecated"
     },
     {
       "parameterSize": null,
@@ -992,7 +994,8 @@
       "name": "Grok 4.20 Multi-Agent",
       "provider": "xAI",
       "releaseDate": "2026-03-09",
-      "license": "Proprietary"
+      "license": "Proprietary",
+      "status": "deprecated"
     },
     {
       "parameterSize": "33B",
@@ -1481,6 +1484,22 @@
       "provider": "Cohere",
       "releaseDate": "2025-07-01",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "10.7B",
+      "contextWindow": 32768,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.15
+      },
+      "links": {
+        "official": "https://www.upstage.ai/blog/en/introducing-solar-mini-compact-yet-powerful"
+      },
+      "id": "solar-mini",
+      "name": "Solar Mini",
+      "provider": "Upstage",
+      "releaseDate": "2024-01-25",
+      "license": "Apache-2.0"
     }
   ]
 }
