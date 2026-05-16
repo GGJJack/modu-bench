@@ -901,6 +901,44 @@
         "source": "official",
         "sourceUrl": "https://www.deeplearning.ai/the-batch/google-releases-gemma-3-vision-language-models-with-open-weights"
       }
+    },
+    "kimi-k2.6": {
+      "gpqa": {
+        "value": 90.5,
+        "date": "2026-05-16",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+      },
+      "swe-bench-pro": {
+        "value": 58.6,
+        "date": "2026-05-16",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+      },
+      "swe-bench-verified": {
+        "value": 80.2,
+        "date": "2026-05-16",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+      },
+      "terminal-bench-2-0": {
+        "value": 66.7,
+        "date": "2026-05-16",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+      },
+      "osworld-verified": {
+        "value": 73.1,
+        "date": "2026-05-16",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+      },
+      "toolathlon": {
+        "value": 50,
+        "date": "2026-05-16",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+      }
     }
   }
 }
