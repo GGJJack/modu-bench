@@ -1,7 +1,7 @@
 ---
 created: 2026-04-30
 agent: collect-benchmark
-severity: minor
+severity: blocker
 target: llm/mistral-medium-3-5
 ---
 
@@ -10,7 +10,7 @@ target: llm/mistral-medium-3-5
 ## 시도한 것
 - 관련 뉴스, Hugging Face 모델 카드, Ollama 등을 검색했으나 명확한 HumanEval 점수를 찾을 수 없었음.
 ## 요청
-- Mistral Medium 3.5 모델의 HumanEval 점수를 다른 신뢰할 수 있는 출처나 커뮤니티 리더보드에서 탐색하여 등록할 것.
+- Mistral Medium 3.5 모델의 HumanEval 점수를 다른 신뢰할 수 있는 출처나 커뮤니티 리더보드에서 탐색하여 등록할 것. (사람 에스컬레이션 필요: 공식 수치 미공개)
 ## 진행 내역
 - 2026-04-30 (reinforce): 공식 블로그, Hugging Face 모델 카드, 주요 리더보드를 탐색했으나 SWE-bench Verified 외의 HumanEval 점수는 여전히 확인되지 않음.
 - 2026-05-01 (reinforce): 추가 탐색 결과 Mistral Medium 3.5의 공식 HumanEval 점수는 여전히 미공개 상태임.
@@ -25,3 +25,4 @@ target: llm/mistral-medium-3-5
 - 2026-05-15 (reinforce): 공식 블로그 및 Hugging Face 모델 카드(Mistral-Medium-3.5-128B)를 재탐색하였으나 HumanEval 공식 점수는 여전히 미기재 상태임. 타 모델(v2)의 점수와 혼동될 수 있는 데이터는 배제하였으며, 추가 공식 발표가 있을 때까지 티켓을 유지함.
 
 - 2026-05-16 (reinforce): 공식 블로그 및 Artificial Analysis 등 주요 출처를 재탐색하였으나 HumanEval 공식 점수는 여전히 미공개 상태임. 추가 데이터 확인 시까지 티켓 유지함.
+- 2026-05-17 (reinforce): 공식 블로그(mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/)를 재확인함. SWE-bench Verified(77.6%)와 Tau-bench(91.4) 점수만 명시되어 있으며 HumanEval은 여전히 확인되지 않음. 반복된 시도에도 정보를 얻지 못해 severity를 blocker로 격상하고 사람 에스컬레이션을 요청함.
