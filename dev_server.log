@@ -1,0 +1,19 @@
+$ astro dev
+[vite] connected.
+18:00:43 [types] Generated 1ms
+[vite] connected.
+
+ update  ▶ New version of Astro available: 6.3.3
+  Run bun x @astrojs/upgrade to update
+
+18:00:43 [content] Syncing content
+18:00:44 [content] Synced content
+18:00:44 [vite] Re-optimizing dependencies because vite config has changed
+ astro  v6.1.5 ready in 3963 ms
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+18:00:44 watching for file changes...
+18:01:19 [200] /models/kimi-k26 131ms
+18:01:20 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+18:01:20 [vite] ✨ optimized dependencies changed. reloading
+18:01:23 [200] /models/syn-pro 9ms
