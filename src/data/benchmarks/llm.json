@@ -939,6 +939,20 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
       }
+    },
+    "grok-4-3": {
+      "gpqa": {
+        "value": 84.6,
+        "date": "2025-02-19",
+        "source": "official",
+        "sourceUrl": "https://x.ai/blog/grok-3"
+      },
+      "chatbot-arena-elo": {
+        "value": 1402,
+        "date": "2025-02-19",
+        "source": "official",
+        "sourceUrl": "https://x.ai/blog/grok-3"
+      }
     }
   }
 }
