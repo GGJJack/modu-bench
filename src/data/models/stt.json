@@ -38,6 +38,20 @@
       "provider": "Mistral AI",
       "releaseDate": "2025-07-01",
       "license": "Proprietary"
+    },
+    {
+      "supportedLanguages": [],
+      "realtime": true,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/kame-icassp-2026/",
+        "huggingface": "https://huggingface.co/SakanaAI/kame"
+      },
+      "id": "sakana-kame",
+      "name": "KAME",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-04-29",
+      "license": null
     }
   ]
 }
