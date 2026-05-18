@@ -953,6 +953,26 @@
         "source": "official",
         "sourceUrl": "https://x.ai/blog/grok-3"
       }
+    },
+    "solar-mini": {
+      "mmlu": {
+        "value": 66.21,
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166",
+        "date": "2024-04-04"
+      },
+      "gsm8k": {
+        "value": 64.75,
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166",
+        "date": "2024-04-04"
+      },
+      "arc-c": {
+        "value": 71.08,
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166",
+        "date": "2024-04-04"
+      }
     }
   }
 }
