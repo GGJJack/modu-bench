@@ -1374,7 +1374,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 128000,
+      "contextWindow": 256000,
       "pricing": {
         "input": 0.6,
         "output": 3
@@ -1435,7 +1435,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 1000000,
+      "contextWindow": 256000,
       "pricing": null,
       "links": {
         "official": "https://www.moonshot.cn/"
@@ -1545,7 +1545,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
         "official": "https://www.deepseek.com"
@@ -1553,8 +1553,8 @@
       "id": "deepseek-v4-preview",
       "name": "DeepSeek-V4 Preview",
       "provider": "DeepSeek",
-      "releaseDate": null,
-      "license": null
+      "releaseDate": "2026-05-18",
+      "license": "DeepSeek Model License"
     },
     {
       "parameterSize": null,
@@ -1568,6 +1568,19 @@
       "provider": "Anthropic",
       "releaseDate": "2026-04-17",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "671B (37B active) MoE",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-R1"
+      },
+      "id": "deepseek-r1",
+      "name": "DeepSeek-R1",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-01-20",
+      "license": "MIT"
     }
   ]
 }
