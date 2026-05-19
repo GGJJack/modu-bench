@@ -1,9 +1,10 @@
 ---
 benchmarkId: swe-bench-pro
 domain: llm
-status: draft
+status: published
 updated: 2026-05-14
 sources:
+  - "https://github.com/scaleapi/swe-bench-pro"
   - https://labs.scale.com/leaderboard/swe_bench_pro_public
   - https://labs.scale.com/papers/swe_bench_pro
 organization: scale-ai

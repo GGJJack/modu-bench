@@ -1,9 +1,10 @@
 ---
 benchmarkId: toolathlon
 domain: llm
-status: draft
+status: published
 updated: 2026-05-15
 sources:
+  - "https://huggingface.co/datasets/hkust-nlp/Toolathlon"
   - "https://github.com/hkust-nlp/Toolathlon"
   - "https://arxiv.org/abs/2510.25726"
 organization: hkust-nlp
