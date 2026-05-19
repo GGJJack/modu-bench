@@ -1,11 +1,13 @@
 ---
 benchmarkId: osworld-verified
 domain: llm
-status: draft
+status: published
 updated: 2026-05-15
 sources:
+  - "https://huggingface.co/spaces/xlang-ai/OSWorld-Leaderboard"
   - "https://os-world.github.io/"
   - "https://arxiv.org/abs/2404.07972"
+organization: xlang-ai
 paperUrl: "https://arxiv.org/abs/2404.07972"
 highlights:
   - "Ubuntu, Windows, macOS 등 실제 컴퓨터 환경에서 멀티모달 에이전트의 워크플로우를 테스트"
