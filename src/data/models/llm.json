@@ -1210,7 +1210,7 @@
     },
     {
       "parameterSize": "17B (MoE)",
-      "contextWindow": 128000,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
         "official": "https://aws.amazon.com/bedrock/meta/"
@@ -1436,7 +1436,10 @@
     {
       "parameterSize": null,
       "contextWindow": 256000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.6,
+        "output": 3
+      },
       "links": {
         "official": "https://www.moonshot.cn/"
       },
@@ -1572,7 +1575,10 @@
     {
       "parameterSize": "671B (37B active) MoE",
       "contextWindow": 128000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.14,
+        "output": 0.28
+      },
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-R1"
       },
@@ -1581,6 +1587,77 @@
       "provider": "DeepSeek",
       "releaseDate": "2025-01-20",
       "license": "MIT"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1048576,
+      "pricing": {
+        "input": 1.5,
+        "output": 9
+      },
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+      },
+      "id": "gemini-3.5-flash",
+      "name": "Gemini 3.5 Flash",
+      "provider": "Google",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"
+      },
+      "id": "gemini-omni-flash",
+      "name": "Gemini Omni Flash",
+      "provider": "Google",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://antigravity.google/blog/introducing-google-antigravity-2-0"
+      },
+      "id": "google-antigravity-2.0",
+      "name": "Google Antigravity 2.0",
+      "provider": "Google",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/"
+      },
+      "id": "deep-research-max",
+      "name": "Deep Research Max",
+      "provider": "Google",
+      "releaseDate": "2026-04-21",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1048576,
+      "pricing": {
+        "input": 0.25,
+        "output": 1.5
+      },
+      "links": {
+        "official": "https://ai.google.dev/pricing"
+      },
+      "id": "gemini-3-1-flash-lite-preview",
+      "name": "Gemini 3.1 Flash-Lite Preview",
+      "provider": "Google",
+      "releaseDate": "2026-05-18",
+      "license": "Proprietary"
     }
   ]
 }
