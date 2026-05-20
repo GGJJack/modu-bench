@@ -427,16 +427,34 @@
         "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
       },
       "mmlu": {
-        "value": 85.5,
-        "date": "2026-05-15",
+        "value": 85.7,
+        "date": "2026-05-20",
         "source": "official",
-        "url": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        "url": "https://mistral.ai/news/mistral-3/"
       },
       "gpqa": {
         "value": 43.9,
-        "date": "2026-05-15",
+        "date": "2026-05-20",
         "source": "official",
-        "url": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        "url": "https://mistral.ai/news/mistral-3/"
+      },
+      "humaneval": {
+        "value": 90.6,
+        "date": "2026-05-20",
+        "source": "official",
+        "url": "https://mistral.ai/news/mistral-3/"
+      },
+      "gsm8k": {
+        "value": 94,
+        "date": "2026-05-20",
+        "source": "official",
+        "url": "https://mistral.ai/news/mistral-3/"
+      },
+      "arena-hard-v2": {
+        "value": 73.2,
+        "date": "2026-05-20",
+        "source": "official",
+        "url": "https://mistral.ai/news/mistral-3/"
       }
     },
     "gemini-3-1-pro": {
@@ -451,7 +469,7 @@
       "gpqa": {
         "value": 71.2,
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584",
+        "url": "https://arxiv.org/abs/2601.08584",
         "date": "2026-05-02"
       }
     },
@@ -459,7 +477,7 @@
       "gpqa": {
         "value": 66.8,
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584",
+        "url": "https://arxiv.org/abs/2601.08584",
         "date": "2026-05-02"
       }
     },
@@ -467,7 +485,7 @@
       "gpqa": {
         "value": 53.4,
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584",
+        "url": "https://arxiv.org/abs/2601.08584",
         "date": "2026-05-02"
       }
     },
@@ -572,13 +590,13 @@
         "value": 79.4,
         "date": "2026-01-13",
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+        "url": "https://arxiv.org/abs/2601.08584"
       },
       "mbpp": {
         "value": 71.6,
         "date": "2026-01-13",
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+        "url": "https://arxiv.org/abs/2601.08584"
       },
       "arc-c": {
         "value": 89.9,
@@ -601,25 +619,25 @@
         "value": 72.4,
         "date": "2024-06-18",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/zai-org/glm-4-9b-chat"
+        "url": "https://huggingface.co/zai-org/glm-4-9b-chat"
       },
       "gsm8k": {
         "value": 79.6,
         "date": "2024-06-18",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/zai-org/glm-4-9b-chat"
+        "url": "https://huggingface.co/zai-org/glm-4-9b-chat"
       },
       "humaneval": {
         "value": 71.8,
         "date": "2024-06-18",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/zai-org/glm-4-9b-chat"
+        "url": "https://huggingface.co/zai-org/glm-4-9b-chat"
       },
       "mt-bench": {
         "value": 8.35,
         "date": "2024-06-18",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/zai-org/glm-4-9b-chat"
+        "url": "https://huggingface.co/zai-org/glm-4-9b-chat"
       }
     },
     "yi-1-5-34b-chat": {
@@ -627,31 +645,31 @@
         "value": 76.8,
         "date": "2024-05-13",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
+        "url": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
       },
       "gsm8k": {
         "value": 90.2,
         "date": "2024-05-13",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
+        "url": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
       },
       "humaneval": {
         "value": 75.2,
         "date": "2024-05-13",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
+        "url": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
       },
       "mbpp": {
         "value": 74.6,
         "date": "2024-05-13",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
+        "url": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
       },
       "mt-bench": {
         "value": 8.5,
         "date": "2024-05-13",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
+        "url": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
       }
     },
     "gemma-4-31b-dense": {
@@ -659,13 +677,13 @@
         "value": 85.2,
         "date": "2026-05-10",
         "source": "official",
-        "sourceUrl": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
       },
       "gpqa": {
         "value": 84.3,
         "date": "2026-05-10",
         "source": "official",
-        "sourceUrl": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
       }
     },
     "gemma-4-26b-moe": {
@@ -673,13 +691,13 @@
         "value": 82.6,
         "date": "2026-05-10",
         "source": "official",
-        "sourceUrl": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
       },
       "gpqa": {
         "value": 82.3,
         "date": "2026-05-10",
         "source": "official",
-        "sourceUrl": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
       }
     },
     "gemma-4-e4b": {
@@ -687,13 +705,13 @@
         "value": 69.4,
         "date": "2026-05-10",
         "source": "official",
-        "sourceUrl": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
       },
       "gpqa": {
         "value": 58.6,
         "date": "2026-05-10",
         "source": "official",
-        "sourceUrl": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
       }
     },
     "gemma-4-e2b": {
@@ -701,13 +719,13 @@
         "value": 60,
         "date": "2026-05-10",
         "source": "official",
-        "sourceUrl": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
       },
       "gpqa": {
         "value": 43.4,
         "date": "2026-05-10",
         "source": "official",
-        "sourceUrl": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
       }
     },
     "grok-4.1-fast": {
@@ -715,13 +733,13 @@
         "value": 74.3,
         "date": "2026-05-10",
         "source": "community",
-        "sourceUrl": "https://www.mindstudio.ai/models/grok-4-1-fast"
+        "url": "https://www.mindstudio.ai/models/grok-4-1-fast"
       },
       "gpqa": {
         "value": 63.7,
         "date": "2026-05-10",
         "source": "community",
-        "sourceUrl": "https://www.mindstudio.ai/models/grok-4-1-fast"
+        "url": "https://www.mindstudio.ai/models/grok-4-1-fast"
       }
     },
     "solar-pro-3": {
@@ -741,13 +759,13 @@
         "value": 76.1,
         "date": "2026-01-13",
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+        "url": "https://arxiv.org/abs/2601.08584"
       },
       "mbpp": {
         "value": 70,
         "date": "2026-01-13",
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+        "url": "https://arxiv.org/abs/2601.08584"
       },
       "arc-c": {
         "value": 88,
@@ -770,13 +788,13 @@
         "value": 70.7,
         "date": "2026-01-13",
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+        "url": "https://arxiv.org/abs/2601.08584"
       },
       "mbpp": {
         "value": 63,
         "date": "2026-01-13",
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2601.08584"
+        "url": "https://arxiv.org/abs/2601.08584"
       },
       "arc-c": {
         "value": 85.5,
@@ -799,31 +817,31 @@
         "value": 54.4,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "terminal-bench-2-0": {
         "value": 60,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "toolathlon": {
         "value": 42.9,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "gpqa": {
         "value": 88,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "osworld-verified": {
         "value": 72.1,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       }
     },
     "gpt-5-4-nano": {
@@ -831,31 +849,31 @@
         "value": 52.4,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "terminal-bench-2-0": {
         "value": 46.3,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "toolathlon": {
         "value": 35.5,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "gpqa": {
         "value": 82.8,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "osworld-verified": {
         "value": 39,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       }
     },
     "gpt-5-4": {
@@ -863,31 +881,31 @@
         "value": 57.7,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "terminal-bench-2-0": {
         "value": 75.1,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "toolathlon": {
         "value": 54.6,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "gpqa": {
         "value": 93,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       },
       "osworld-verified": {
         "value": 75,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+        "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
       }
     },
     "gpt-5-5-pro": {
@@ -895,13 +913,13 @@
         "value": 82.7,
         "date": "2026-05-12",
         "source": "community",
-        "sourceUrl": "https://www.datacamp.com/pt/blog/gpt-5-5"
+        "url": "https://www.datacamp.com/pt/blog/gpt-5-5"
       },
       "swe-bench-pro": {
         "value": 58.6,
         "date": "2026-05-12",
         "source": "community",
-        "sourceUrl": "https://www.datacamp.com/pt/blog/gpt-5-5"
+        "url": "https://www.datacamp.com/pt/blog/gpt-5-5"
       }
     },
     "gpt-5-5": {
@@ -909,25 +927,25 @@
         "value": 82.7,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://www.ai.cc/blogs/gpt-5-5-everything-you-need-to-know/"
+        "url": "https://www.ai.cc/blogs/gpt-5-5-everything-you-need-to-know/"
       },
       "swe-bench-verified": {
         "value": 88.7,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://www.ai.cc/blogs/gpt-5-5-everything-you-need-to-know/"
+        "url": "https://www.ai.cc/blogs/gpt-5-5-everything-you-need-to-know/"
       },
       "mmlu": {
         "value": 92.4,
         "date": "2026-05-12",
         "source": "official",
-        "sourceUrl": "https://www.ai.cc/blogs/gpt-5-5-everything-you-need-to-know/"
+        "url": "https://www.ai.cc/blogs/gpt-5-5-everything-you-need-to-know/"
       },
       "swe-bench-pro": {
         "value": 58.6,
         "date": "2026-05-12",
         "source": "community",
-        "sourceUrl": "https://o-mega.ai/articles/gpt-5-5-the-complete-guide-2026"
+        "url": "https://o-mega.ai/articles/gpt-5-5-the-complete-guide-2026"
       }
     },
     "gemini-3-flash": {
@@ -935,13 +953,13 @@
         "value": 81.2,
         "date": "2026-05-12",
         "source": "community",
-        "sourceUrl": "https://llmbase.ai/compare/gemini-3-1-flash-lite-preview,gemini-3-flash/"
+        "url": "https://llmbase.ai/compare/gemini-3-1-flash-lite-preview,gemini-3-flash/"
       },
       "mmlu-pro": {
         "value": 88.2,
         "date": "2026-05-12",
         "source": "community",
-        "sourceUrl": "https://llmbase.ai/compare/gemini-3-1-flash-lite-preview,gemini-3-flash/"
+        "url": "https://llmbase.ai/compare/gemini-3-1-flash-lite-preview,gemini-3-flash/"
       }
     },
     "gemma-3-27b": {
@@ -949,13 +967,13 @@
         "value": 67.5,
         "date": "2026-05-13",
         "source": "official",
-        "sourceUrl": "https://www.deeplearning.ai/the-batch/google-releases-gemma-3-vision-language-models-with-open-weights"
+        "url": "https://www.deeplearning.ai/the-batch/google-releases-gemma-3-vision-language-models-with-open-weights"
       },
       "gpqa": {
         "value": 42.4,
         "date": "2026-05-13",
         "source": "official",
-        "sourceUrl": "https://www.deeplearning.ai/the-batch/google-releases-gemma-3-vision-language-models-with-open-weights"
+        "url": "https://www.deeplearning.ai/the-batch/google-releases-gemma-3-vision-language-models-with-open-weights"
       }
     },
     "kimi-k2.6": {
@@ -963,37 +981,37 @@
         "value": 90.5,
         "date": "2026-05-16",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
       },
       "swe-bench-pro": {
         "value": 58.6,
         "date": "2026-05-16",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
       },
       "swe-bench-verified": {
         "value": 80.2,
         "date": "2026-05-16",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
       },
       "terminal-bench-2-0": {
         "value": 66.7,
         "date": "2026-05-16",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
       },
       "osworld-verified": {
         "value": 73.1,
         "date": "2026-05-16",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
       },
       "toolathlon": {
         "value": 50,
         "date": "2026-05-16",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
       }
     },
     "grok-4-3": {
@@ -1001,32 +1019,32 @@
         "value": 84.6,
         "date": "2025-02-19",
         "source": "official",
-        "sourceUrl": "https://x.ai/blog/grok-3"
+        "url": "https://x.ai/blog/grok-3"
       },
       "chatbot-arena-elo": {
         "value": 1402,
         "date": "2025-02-19",
         "source": "official",
-        "sourceUrl": "https://x.ai/blog/grok-3"
+        "url": "https://x.ai/blog/grok-3"
       }
     },
     "solar-mini": {
       "mmlu": {
         "value": 66.21,
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2312.15166",
+        "url": "https://arxiv.org/abs/2312.15166",
         "date": "2024-04-04"
       },
       "gsm8k": {
         "value": 64.75,
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2312.15166",
+        "url": "https://arxiv.org/abs/2312.15166",
         "date": "2024-04-04"
       },
       "arc-c": {
         "value": 71.08,
         "source": "official",
-        "sourceUrl": "https://arxiv.org/abs/2312.15166",
+        "url": "https://arxiv.org/abs/2312.15166",
         "date": "2024-04-04"
       }
     },
@@ -1035,37 +1053,37 @@
         "value": 90.8,
         "date": "2026-05-19",
         "source": "official",
-        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
       },
       "mmlu-pro": {
         "value": 84,
         "date": "2026-05-19",
         "source": "official",
-        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
       },
       "gpqa": {
         "value": 71.5,
         "date": "2026-05-19",
         "source": "official",
-        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
       },
       "math": {
         "value": 97.3,
         "date": "2026-05-19",
         "source": "official",
-        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
       },
       "swe-bench-verified": {
         "value": 49.2,
         "date": "2026-05-19",
         "source": "official",
-        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
       },
       "arena-hard-v2": {
         "value": 92.3,
         "date": "2026-05-19",
         "source": "official",
-        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
       }
     },
     "gemini-3.5-flash": {
@@ -1073,19 +1091,19 @@
         "value": 76.2,
         "date": "2026-05-19",
         "source": "official",
-        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
       },
       "gdpval-aa": {
         "value": 1656,
         "date": "2026-05-19",
         "source": "official",
-        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
       },
       "mcp-atlas": {
         "value": 83.6,
         "date": "2026-05-19",
         "source": "official",
-        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
       }
     }
   }
