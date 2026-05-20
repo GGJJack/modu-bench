@@ -294,6 +294,62 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "gdpval-aa",
+      "name": "GDPval-AA",
+      "nameKo": "GDPval-AA",
+      "category": "agent",
+      "description": "에이전트 태스크 해결 능력을 측정하는 ELO 벤치마크",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "unit": "Elo",
+      "scoreRange": [
+        0,
+        3000
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mcp-atlas",
+      "name": "MCP Atlas",
+      "nameKo": "MCP Atlas",
+      "category": "agent",
+      "description": "도구 호출 및 에이전트 능력 평가",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "terminal-bench-2-1",
+      "name": "Terminal-Bench 2.1",
+      "nameKo": "Terminal-Bench 2.1 (터미널 기반 워크플로우 테스트)",
+      "category": "agent",
+      "description": "터미널 환경에서의 에이전트 능력 측정 (버전 2.1)",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "codeforces",
+      "name": "Codeforces",
+      "nameKo": "Codeforces",
+      "category": "coding",
+      "description": "경쟁 프로그래밍 문제 해결 능력을 측정하는 레이팅",
+      "source": "https://api-docs.deepseek.com/news/news260424",
+      "unit": "Rating",
+      "scoreRange": [
+        0,
+        4000
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -1010,6 +1066,26 @@
         "date": "2026-05-19",
         "source": "official",
         "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+      }
+    },
+    "gemini-3.5-flash": {
+      "terminal-bench-2-1": {
+        "value": 76.2,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+      },
+      "gdpval-aa": {
+        "value": 1656,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+      },
+      "mcp-atlas": {
+        "value": 83.6,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
       }
     }
   }
