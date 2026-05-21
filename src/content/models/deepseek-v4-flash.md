@@ -2,32 +2,32 @@
 modelId: deepseek-v4-flash
 domain: llm
 status: published
-updated: 2026-05-02
+updated: 2026-05-21
 sources:
   - https://api-docs.deepseek.com/news/news260424
-  - https://huggingface.co/collections/deepseek-ai/deepseek-v4
+  - https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash
   - https://api-docs.deepseek.com/quick_start/pricing
 features:
   toolUse: true
   vision: false
   extendedThinking: true
 highlights:
-  - "284B MoE, 활성 파라미터 13B"
-  - "1M 토큰 컨텍스트 기본 지원"
-  - "V4-Pro 대비 빠른 응답 속도 및 높은 가성비"
+  - "284B total / 13B active 파라미터의 경량 MoE 아키텍처"
+  - "Pro 모델 수준의 고성능 추론 및 에이전트 능력 유지"
+  - "압도적인 비용 효율성 및 1M 토큰 표준 컨텍스트 지원"
 relatedOrganization: deepseek
 ---
 
 # DeepSeek-V4-Flash 소개
 
 ## 개요
-DeepSeek-V4-Flash는 2026년 4월 24일 DeepSeek-V4 시리즈의 프리뷰 릴리스와 함께 공개된 고성능 MoE(Mixture-of-Experts) 언어 모델입니다. 이 모델은 최상위 모델인 V4-Pro의 강력한 추론 능력을 유지하면서도, 더 작은 활성 파라미터(13B)를 통해 빠른 응답 속도와 압도적인 가격 경쟁력을 제공하는 데 초점을 맞추고 있습니다. 특히 1M 토큰이라는 초장거리 컨텍스트를 모든 서비스의 기본 사양으로 채택하며 롱 컨텍스트 시대의 새로운 기준을 제시하고 있습니다.
+DeepSeek-V4-Flash는 2026년 4월 DeepSeek-V4-Pro와 함께 공개된 실용성 중심의 고성능 언어 모델입니다. 총 2,840억 개(284B)의 파라미터를 보유한 MoE(Mixture-of-Experts) 아키텍처를 채택하였으며, 실제 연산에는 130억 개(13B)의 활성 파라미터만을 사용하여 매우 빠른 응답 속도를 자랑합니다. 상위 모델인 Pro의 강력한 지능을 유지하면서도 운영 비용을 획기적으로 낮추어, 대규모 트래픽 처리가 필요한 실제 서비스 환경에 최적화된 모델입니다.
 
 ## 기술 특징
-DeepSeek-V4-Flash는 구조적 혁신을 통해 연산 및 메모리 비용을 획기적으로 절감했습니다. 핵심 기술로는 토큰 단위 압축(Token-wise compression)과 DSA(DeepSeek Sparse Attention)를 결합한 새로운 어텐션 메커니즘을 사용합니다. 이를 통해 1M 토큰의 긴 컨텍스트에서도 세계 최고 수준의 효율성을 발휘하며, 추론 능력 면에서는 상위 모델인 V4-Pro에 근접한 성능을 보여줍니다. 또한, 'Thinking Mode'를 지원하여 복잡한 논리적 추론이 필요한 작업에서 단계별 사고 과정을 거쳐 정교한 답변을 생성할 수 있습니다.
+DeepSeek-V4-Flash는 V4 라인업의 핵심 기술인 DSA(DeepSeek Sparse Attention)와 토큰 단위 압축 기술을 완벽하게 계승하였습니다. 이를 통해 100만 토큰의 긴 문맥을 처리할 때도 리소스 소모를 최소화하며 안정적인 성능을 보여줍니다. 특히 추론 성능 면에서 Pro 모델에 근접하는 능력을 갖추고 있어, 복잡한 논리 구조가 필요한 수학, STEM 및 코딩 작업에서도 탁월한 효율성을 발휘합니다. 또한, 기존 `deepseek-chat`과 `deepseek-reasoner` 모델을 대체하며 기본 모드와 사고(Thinking) 모드를 통합적으로 지원합니다.
 
 ## 사용 사례
-DeepSeek-V4-Flash는 속도와 비용 효율성이 중요한 실시간 애플리케이션 및 복잡한 에이전트 작업에 최적화되어 있습니다. Claude Code, OpenClaw와 같은 주요 AI 에이전트 도구와 원활하게 통합되며, 간단한 에이전트 작업(Simple Agent tasks)에서는 V4-Pro와 대등한 성능을 발휘합니다. 저렴한 API 가격($0.14/1M input) 덕분에 대규모 텍스트 분석, 일상적인 대화형 챗봇, 그리고 고속 코드 생성 등 폭넓은 분야에서 활용될 수 있습니다.
+이 모델은 높은 응답 속도와 비용 효율성이 핵심인 실시간 챗봇, 자동화된 고객 지원, 실시간 코드 완성 도구 등에 이상적입니다. 특히 100만 토큰의 긴 컨텍스트 윈도우 덕분에 대규모 코드 베이스의 인덱싱이나 방대한 양의 실시간 데이터 분석 작업에서 강력한 성능을 발휘합니다. API 가격 정책 역시 매우 공격적으로 책정되어 있어, 스타트업부터 대기업까지 비용 부담 없이 고성능 AI 에이전트 기능을 시스템에 통합하는 데 매우 적합합니다.
 
 ## 한계
-DeepSeek-V4-Flash는 빠른 속도와 효율성을 위해 활성 파라미터를 13B로 제한했기 때문에, 극도로 복잡한 지식 검색이나 매우 정교한 에이전트 시나리오에서는 상위 모델인 V4-Pro에 비해 성능이 다소 낮을 수 있습니다. 또한, 현재 프리뷰 단계로 공개되었으며, 공식적으로 지원하는 비전(Vision) 기능에 대한 세부 사항은 이번 릴리스의 주요 초점인 텍스트 및 추론 최적화에 비해 덜 강조되어 있습니다.
+DeepSeek-V4-Flash는 효율성을 극대화한 모델인 만큼, 절대적인 지식의 양이나 극도로 복잡한 창의적 서술 능력 면에서는 Pro 모델 대비 다소 제한적일 수 있습니다. 또한 하드웨어 요구 사항은 Pro 모델보다 낮으나, 284B라는 전체 파라미터 규모로 인해 원활한 로컬 서빙을 위해서는 여전히 상당한 수준의 GPU 메모리가 필요합니다. 아울러 텍스트 데이터 처리에 집중된 아키텍처 특성상 시각 정보나 음성 데이터를 직접 처리하는 기능은 포함되어 있지 않습니다.
