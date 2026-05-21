@@ -460,9 +460,48 @@
     "gemini-3-1-pro": {
       "gpqa": {
         "value": 94.3,
-        "date": "2026-05-09",
-        "source": "community",
-        "url": "https://llm-stats.com/benchmarks/gpqa"
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "mmlu-pro": {
+        "value": 91,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "codeforces": {
+        "value": 3052,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "swe-bench-verified": {
+        "value": 80.6,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "terminal-bench-2-0": {
+        "value": 68.5,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "toolathlon": {
+        "value": 48.8,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "gdpval-aa": {
+        "value": 1314,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "mcp-atlas": {
+        "value": 69.2,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "swe-bench-pro": {
+        "value": 54.2,
+        "date": "2026-04-24",
+        "source": "official"
       }
     },
     "ministral-3-14b-reasoning": {
@@ -507,6 +546,31 @@
       "mbpp": {
         "value": 88.2,
         "date": "2026-05-04",
+        "source": "community"
+      },
+      "mmlu": {
+        "value": 86.1,
+        "date": "2026-05-21",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 86.6,
+        "date": "2026-05-21",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 91.6,
+        "date": "2026-05-21",
+        "source": "official"
+      },
+      "math": {
+        "value": 80,
+        "date": "2026-05-21",
+        "source": "official"
+      },
+      "logickor": {
+        "value": 9.47,
+        "date": "2026-05-21",
         "source": "community"
       }
     },
@@ -1104,6 +1168,129 @@
         "date": "2026-05-19",
         "source": "official",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+      }
+    },
+    "qwen-plus": {
+      "mmlu": {
+        "value": 85.3,
+        "date": "2026-05-21",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 82.3,
+        "date": "2026-05-21",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 89.8,
+        "date": "2026-05-21",
+        "source": "official"
+      },
+      "math": {
+        "value": 75.3,
+        "date": "2026-05-21",
+        "source": "official"
+      }
+    },
+    "deepseek-v4-pro": {
+      "mmlu-pro": {
+        "value": 87.5,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 90.1,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "codeforces": {
+        "value": 3206,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "swe-bench-verified": {
+        "value": 80.6,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "terminal-bench-2-0": {
+        "value": 67.9,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "toolathlon": {
+        "value": 51.8,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "gdpval-aa": {
+        "value": 1554,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "mcp-atlas": {
+        "value": 73.6,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "swe-bench-pro": {
+        "value": 55.4,
+        "date": "2026-04-24",
+        "source": "official"
+      }
+    },
+    "deepseek-v4-flash": {
+      "mmlu-pro": {
+        "value": 86.2,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 88.1,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "codeforces": {
+        "value": 3052,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "swe-bench-verified": {
+        "value": 79,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "terminal-bench-2-0": {
+        "value": 56.9,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "toolathlon": {
+        "value": 47.8,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "gdpval-aa": {
+        "value": 1395,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "mcp-atlas": {
+        "value": 69,
+        "date": "2026-04-24",
+        "source": "official"
+      },
+      "swe-bench-pro": {
+        "value": 52.6,
+        "date": "2026-04-24",
+        "source": "official"
+      }
+    },
+    "hyperclova-x": {
+      "logickor": {
+        "value": 7.76,
+        "date": "2024-10-17",
+        "source": "community"
       }
     }
   }
