@@ -37,6 +37,22 @@
       "provider": "Mistral AI",
       "releaseDate": "2025-12-01",
       "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://cohere.com/blog/command-a-plus"
+      },
+      "id": "command-a-plus-05-2026",
+      "name": "Command A+ (05-2026)",
+      "provider": "Cohere",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
     }
   ]
 }
