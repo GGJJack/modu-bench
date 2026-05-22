@@ -1223,7 +1223,7 @@
     },
     {
       "parameterSize": "17B (dense)",
-      "contextWindow": 128000,
+      "contextWindow": 10000000,
       "pricing": null,
       "links": {
         "official": "https://aws.amazon.com/bedrock/meta/"
@@ -1731,6 +1731,58 @@
       "provider": "Mistral AI",
       "releaseDate": "2026-05-19",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://cohere.com/blog/command-a-plus"
+      },
+      "id": "command-a-plus-05-2026",
+      "name": "Command A+ (05-2026)",
+      "provider": "Cohere",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "30B (dense)",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://www.ibm.com/granite/docs/models/granite4-1"
+      },
+      "id": "granite-4.1-30b",
+      "name": "Granite 4.1 30B",
+      "provider": "IBM",
+      "releaseDate": "2026-05-18",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "8B (dense)",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://www.ibm.com/granite/docs/models/granite4-1"
+      },
+      "id": "granite-4.1-8b",
+      "name": "Granite 4.1 8B",
+      "provider": "IBM",
+      "releaseDate": "2026-05-18",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "3B (dense)",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://www.ibm.com/granite/docs/models/granite4-1"
+      },
+      "id": "granite-4.1-3b",
+      "name": "Granite 4.1 3B",
+      "provider": "IBM",
+      "releaseDate": "2026-05-18",
+      "license": "Apache-2.0"
     }
   ]
 }
