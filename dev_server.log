@@ -1,23 +1,19 @@
 $ astro dev
 [vite] connected.
-20:27:16 [types] Generated 1ms
+19:01:35 [types] Generated 1ms
 [vite] connected.
 
  update  ▶ New version of Astro available: 6.3.7
   Run bun x @astrojs/upgrade to update
 
-20:27:17 [content] Syncing content
-20:27:18 [content] Synced content
-20:27:18 [vite] Re-optimizing dependencies because vite config has changed
- astro  v6.1.5 ready in 4443 ms
+19:01:36 [content] Syncing content
+19:01:37 [content] Synced content
+19:01:37 [vite] Re-optimizing dependencies because vite config has changed
+ astro  v6.1.5 ready in 4311 ms
 ┃ Local    http://localhost:4321/
 ┃ Network  use --host to expose
-20:27:18 watching for file changes...
-20:28:06 [200] /models/qwen-25-72b 141ms
-20:28:06 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
-20:28:06 [vite] ✨ optimized dependencies changed. reloading
-20:29:26 [200] /models/qwen-25-72b 17ms
-20:30:12 [200] /models/qwen-25-72b 12ms
-20:30:36 [200] /models/qwen-25-72b 10ms
-20:31:14 [200] /models/qwen-25-72b 10ms
-20:31:16 [200] /models/deepseek-v4-pro 10ms
+19:01:37 watching for file changes...
+19:02:33 [200] /models/command-a-plus-05-2026 173ms
+19:02:33 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+19:02:33 [vite] ✨ optimized dependencies changed. reloading
+19:02:35 [200] /models/granite-41-30b 9ms
