@@ -1,11 +1,12 @@
 ---
 benchmarkId: mbpp
 domain: llm
-status: draft
-updated: 2026-05-05
+status: published
+updated: 2026-05-22
 sources:
   - https://huggingface.co/datasets/google-research-datasets/mbpp
   - https://arxiv.org/abs/2108.07732
+  - https://github.com/google-research/google-research/tree/master/mbpp
 organization: google-research
 paperUrl: https://arxiv.org/abs/2108.07732
 highlights:
