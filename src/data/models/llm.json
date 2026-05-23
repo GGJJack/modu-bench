@@ -1733,7 +1733,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "218B total / 25B active",
       "contextWindow": 128000,
       "pricing": null,
       "links": {
@@ -1743,7 +1743,7 @@
       "name": "Command A+ (05-2026)",
       "provider": "Cohere",
       "releaseDate": "2026-05-19",
-      "license": "Proprietary"
+      "license": "Apache-2.0"
     },
     {
       "parameterSize": "30B (dense)",
@@ -1783,6 +1783,86 @@
       "provider": "IBM",
       "releaseDate": "2026-05-18",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.6,
+        "output": 2.2
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "glm-4.7",
+      "name": "GLM 4.7",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "235B (22B active) MoE",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.53,
+        "output": 2.66
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "qwen-3-vl-235b",
+      "name": "Qwen3 VL 235B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.2
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "qwen-3-coder-next",
+      "name": "Qwen3 Coder Next",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.06,
+        "output": 0.23
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "nvidia-nemotron-nano-2",
+      "name": "NVIDIA Nemotron Nano 2",
+      "provider": "NVIDIA",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "120B (12B active) MoE",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.65
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "nvidia-nemotron-3-super-120b",
+      "name": "NVIDIA Nemotron 3 Super 120B",
+      "provider": "NVIDIA",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
     }
   ]
 }
