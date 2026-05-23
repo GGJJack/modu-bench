@@ -10,6 +10,7 @@ sources:
 features:
   toolUse: true
   vision: false
+  fineTuning: true
 highlights:
   - "30B 파라미터의 고성능 밀집(Dense) 언어 모델"
   - "15조 개 이상의 토큰으로 사전 훈련된 강력한 추론 능력"
