@@ -1,7 +1,7 @@
 ---
 benchmarkId: mcp-atlas
 domain: llm
-status: draft
+status: published
 updated: 2026-05-21
 sources:
   - https://arxiv.org/abs/2602.00933
