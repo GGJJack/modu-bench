@@ -350,6 +350,118 @@
         4000
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "livecodebench-v6",
+      "name": "LiveCodeBench v6",
+      "nameKo": "LiveCodeBench v6",
+      "category": "coding",
+      "description": "Holistic and contamination free evaluation of large language models for code (v6).",
+      "source": "https://livecodebench.github.io/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "hle",
+      "name": "Humanity's Last Exam (HLE)",
+      "nameKo": "Humanity's Last Exam (HLE)",
+      "category": "reasoning",
+      "description": "Cross-domain reasoning benchmark for highly advanced models.",
+      "source": "https://huggingface.co/datasets/cais/hle",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "swe-bench-multilingual",
+      "name": "SWE-bench Multilingual",
+      "nameKo": "SWE-bench Multilingual (다국어)",
+      "category": "coding",
+      "description": "Multilingual software engineering benchmark.",
+      "source": "https://www.swebench.com/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "tau-bench",
+      "name": "tau-Bench",
+      "nameKo": "tau-Bench (도구 호출 벤치마크)",
+      "category": "agent",
+      "description": "Interactive tool invocation benchmark.",
+      "source": "https://github.com/sierra-research/tau-bench",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "scicode",
+      "name": "SciCode",
+      "nameKo": "SciCode",
+      "category": "coding",
+      "description": "Scientific programming evaluation.",
+      "source": "https://scicode-bench.github.io/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "aime-2025",
+      "name": "AIME 2025",
+      "nameKo": "AIME 2025",
+      "category": "math",
+      "description": "Advanced math exam (AIME 2025).",
+      "source": "https://artofproblemsolving.com/wiki/index.php/2025_AIME_I",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "seccodebench-gen",
+      "name": "SecCodeBench (Generation)",
+      "nameKo": "SecCodeBench (생성)",
+      "category": "coding",
+      "description": "Secure code generation evaluation based on historical vulnerabilities.",
+      "source": "https://github.com/alibaba/sec-code-bench",
+      "unit": "pass@1",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "cweval",
+      "name": "CWEval",
+      "nameKo": "CWEval",
+      "category": "coding",
+      "description": "Multilingual secure code generation benchmark focusing on functionality and security.",
+      "source": "https://arxiv.org/abs/2502.14739",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -1291,6 +1403,44 @@
         "value": 7.76,
         "date": "2024-10-17",
         "source": "community"
+      }
+    },
+    "glm-4.7": {
+      "hle": {
+        "value": 42.8,
+        "date": "2025-12-22",
+        "source": "official",
+        "sourceUrl": "https://docs.z.ai/guides/llm/glm-4.7"
+      },
+      "livecodebench-v6": {
+        "value": 84.9,
+        "date": "2025-12-22",
+        "source": "official",
+        "sourceUrl": "https://docs.z.ai/guides/llm/glm-4.7"
+      },
+      "swe-bench-verified": {
+        "value": 73.8,
+        "date": "2025-12-22",
+        "source": "official",
+        "sourceUrl": "https://docs.z.ai/guides/llm/glm-4.7"
+      },
+      "swe-bench-multilingual": {
+        "value": 66.7,
+        "date": "2025-12-22",
+        "source": "official",
+        "sourceUrl": "https://docs.z.ai/guides/llm/glm-4.7"
+      },
+      "terminal-bench-2-0": {
+        "value": 41,
+        "date": "2025-12-22",
+        "source": "official",
+        "sourceUrl": "https://docs.z.ai/guides/llm/glm-4.7"
+      },
+      "tau-bench": {
+        "value": 84.7,
+        "date": "2025-12-22",
+        "source": "official",
+        "sourceUrl": "https://docs.z.ai/guides/llm/glm-4.7"
       }
     }
   }
