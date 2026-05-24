@@ -1235,7 +1235,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "3B (dense)",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.1,
@@ -1251,7 +1251,7 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "8B (dense)",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.15,
@@ -1267,7 +1267,7 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "14B (dense)",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.2,
@@ -1817,7 +1817,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "32B (dense)",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.5,
@@ -1862,6 +1862,86 @@
       "name": "NVIDIA Nemotron 3 Super 120B",
       "provider": "NVIDIA",
       "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "32B (dense)",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1545,
+        "output": 0.618
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "qwen-3-32b",
+      "name": "Qwen3 32B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.2,
+        "output": 0.6
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "nvidia-nemotron-nano-2-vl",
+      "name": "NVIDIA Nemotron Nano 2 VL",
+      "provider": "NVIDIA",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.6,
+        "output": 6
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "palmyra-x5",
+      "name": "Palmyra X5",
+      "provider": "Writer",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 2.5,
+        "output": 10
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "palmyra-x4",
+      "name": "Palmyra X4",
+      "provider": "Writer",
+      "releaseDate": "2025-10-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "palmyra-vision-7b",
+      "name": "Palmyra Vision 7B",
+      "provider": "Writer",
+      "releaseDate": "2025-10-01",
       "license": "Proprietary"
     }
   ]
