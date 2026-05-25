@@ -37,8 +37,8 @@
       "parameterSize": null,
       "contextWindow": 32000,
       "pricing": {
-        "input": 0.015,
-        "output": 0.015
+        "input": null,
+        "output": null
       },
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
@@ -321,7 +321,7 @@
       "name": "Mistral Small 4",
       "provider": "Mistral AI",
       "releaseDate": "2026-03-16",
-      "license": "Proprietary"
+      "license": "Modified MIT"
     },
     {
       "parameterSize": null,
@@ -421,8 +421,8 @@
       "parameterSize": "128B (dense)",
       "contextWindow": 256000,
       "pricing": {
-        "input": 0.5,
-        "output": 1.5
+        "input": 1.5,
+        "output": 7.5
       },
       "links": {
         "official": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
@@ -521,7 +521,7 @@
         "output": 0.28
       },
       "links": {
-        "official": "https://api-docs.deepseek.com/news/news260424"
+        "official": "https://api-docs.deepseek.com/quick_start/pricing"
       },
       "id": "deepseek-v4-flash",
       "name": "DeepSeek-V4-Flash",
@@ -1711,7 +1711,7 @@
         "output": 0.04
       },
       "links": {
-        "official": "https://aws.amazon.com/bedrock/pricing/"
+        "official": "https://docs.mistral.ai/models/model-cards/voxtral-tts-26-03"
       },
       "id": "voxtral-mini-1-0",
       "name": "Voxtral Mini 1.0",
@@ -1727,7 +1727,7 @@
         "output": 0.3
       },
       "links": {
-        "official": "https://aws.amazon.com/bedrock/pricing/"
+        "official": "https://docs.mistral.ai/models/model-cards/voxtral-tts-26-03"
       },
       "id": "voxtral-small-1-0",
       "name": "Voxtral Small 1.0",
@@ -1945,6 +1945,48 @@
       "name": "Palmyra Vision 7B",
       "provider": "Writer",
       "releaseDate": "2025-10-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "119B (6.5B active)",
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0,
+        "output": 0
+      },
+      "links": {
+        "official": "https://docs.mistral.ai/models/model-cards/leanstral-26-03"
+      },
+      "id": "leanstral",
+      "name": "Leanstral",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-03-16",
+      "license": "Modified MIT"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.ncloud.com/product/ai/clovaStudio"
+      },
+      "id": "hcx-007",
+      "name": "HCX-007",
+      "provider": "NAVER Cloud",
+      "releaseDate": "2026-05-25",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.ncloud.com/product/ai/clovaStudio"
+      },
+      "id": "hcx-dash-002",
+      "name": "HCX-DASH-002",
+      "provider": "NAVER Cloud",
+      "releaseDate": "2026-05-25",
       "license": "Proprietary"
     }
   ]
