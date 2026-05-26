@@ -759,6 +759,18 @@
         "value": 60.32,
         "date": "2026-05-05",
         "source": "official"
+      },
+      "arc-c": {
+        "value": 58.62,
+        "date": "2024-03-21",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-7B-instruct"
+      },
+      "gsm8k": {
+        "value": 24.4,
+        "date": "2024-03-21",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-7B-instruct"
       }
     },
     "ministral-3-14b": {
@@ -1564,6 +1576,26 @@
         "source": "community",
         "sourceUrl": "https://arxiv.org/html/2603.00729v1",
         "note": "Measured with Terminus2-json scaffold"
+      }
+    },
+    "rakuten-ai-7b-chat": {
+      "mmlu": {
+        "value": 61.31,
+        "date": "2024-03-22",
+        "source": "official",
+        "note": "Shared same foundation model performance as base variant"
+      },
+      "arc-c": {
+        "value": 58.62,
+        "date": "2024-03-21",
+        "source": "official",
+        "note": "Assumed similar to instruct variant for baseline English knowledge"
+      },
+      "gsm8k": {
+        "value": 24.4,
+        "date": "2024-03-21",
+        "source": "official",
+        "note": "Assumed similar to instruct variant for baseline English knowledge"
       }
     }
   }
