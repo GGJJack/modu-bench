@@ -1536,12 +1536,11 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "0.6B, 4B, 8B",
       "contextWindow": null,
       "pricing": null,
       "links": {
-        "official": "https://qwenlm.github.io/blog/qwen3guard/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen3Guard-Gen-8B"
+        "huggingface": "https://huggingface.co/collections/Qwen/qwen3guard-68d2729abbfae4716f3343a1"
       },
       "id": "qwen3guard",
       "name": "Qwen3Guard",
@@ -1599,7 +1598,7 @@
         "output": 9
       },
       "links": {
-        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+        "paper": "https://arxiv.org/abs/2601.11516v4"
       },
       "id": "gemini-3.5-flash",
       "name": "Gemini 3.5 Flash",
@@ -1965,7 +1964,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
@@ -1985,6 +1984,48 @@
       },
       "id": "hcx-dash-002",
       "name": "HCX-DASH-002",
+      "provider": "NAVER Cloud",
+      "releaseDate": "2026-05-25",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 1,
+        "output": 2
+      },
+      "links": {
+        "official": "https://x.ai/news/grok-build-cli"
+      },
+      "id": "grok-build-0.1",
+      "name": "Grok Build 0.1",
+      "provider": "xAI",
+      "releaseDate": "2026-05-25",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "480B total / 35B active",
+      "contextWindow": 256000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3-coder/"
+      },
+      "id": "qwen3-coder-480b-instruct",
+      "name": "Qwen3-Coder-480B-A35B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-07-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.ncloud.com/product/ai/clovaStudio"
+      },
+      "id": "hcx-005",
+      "name": "HCX-005",
       "provider": "NAVER Cloud",
       "releaseDate": "2026-05-25",
       "license": "Proprietary"
