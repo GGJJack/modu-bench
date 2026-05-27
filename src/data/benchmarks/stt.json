@@ -18,7 +18,7 @@
       "nameKo": "음절 오류율 (한국어 자발 발화)",
       "category": "korean",
       "description": "한국어 자발 발화 데이터셋의 음절 오류율",
-      "source": "https://aclanthology.org/2020.lrec-1.245/",
+      "source": "https://dx.doi.org/10.3390/app10196936",
       "unit": "%",
       "scoreRange": [0, 100],
       "higherIsBetter": false
