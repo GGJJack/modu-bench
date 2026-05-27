@@ -1977,7 +1977,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
@@ -2019,7 +2019,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
@@ -2029,6 +2029,35 @@
       "provider": "NAVER Cloud",
       "releaseDate": "2026-05-25",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "120B",
+      "contextWindow": null,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6
+      },
+      "links": {
+        "official": "https://openai.com/news"
+      },
+      "id": "gpt-oss-120b",
+      "name": "GPT-OSS-120B",
+      "provider": "OpenAI",
+      "releaseDate": "2026-05-20",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "20B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/news"
+      },
+      "id": "gpt-oss-20b",
+      "name": "GPT-OSS-20B",
+      "provider": "OpenAI",
+      "releaseDate": "2026-05-20",
+      "license": "Apache-2.0"
     }
   ]
 }
