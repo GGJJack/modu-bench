@@ -1597,6 +1597,13 @@
         "source": "official",
         "note": "Assumed similar to instruct variant for baseline English knowledge"
       }
+    },
+    "baichuan2-13b-chat": {
+      "mmlu": {
+        "value": 57.32,
+        "date": "2023-09-06",
+        "source": "official"
+      }
     }
   }
 }
