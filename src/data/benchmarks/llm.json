@@ -354,9 +354,9 @@
     {
       "id": "livecodebench-v6",
       "name": "LiveCodeBench v6",
-      "nameKo": "LiveCodeBench v6",
+      "nameKo": "라이브코드벤치 v6",
       "category": "coding",
-      "description": "Holistic and contamination free evaluation of large language models for code (v6).",
+      "description": "오염되지 않은 최신 코딩 콘테스트 문제를 활용한 LLM 코딩 능력 평가.",
       "source": "https://livecodebench.github.io/",
       "unit": "%",
       "scoreRange": [
@@ -368,10 +368,10 @@
     {
       "id": "hle",
       "name": "Humanity's Last Exam (HLE)",
-      "nameKo": "Humanity's Last Exam (HLE)",
+      "nameKo": "인류의 마지막 시험 (HLE)",
       "category": "reasoning",
-      "description": "Cross-domain reasoning benchmark for highly advanced models.",
-      "source": "https://huggingface.co/datasets/cais/hle",
+      "description": "인류 지식의 한계에 도전하는 전문가 수준의 학술 벤치마크.",
+      "source": "https://lastexam.ai/",
       "unit": "%",
       "scoreRange": [
         0,
@@ -410,9 +410,9 @@
     {
       "id": "scicode",
       "name": "SciCode",
-      "nameKo": "SciCode",
+      "nameKo": "사이코드 (SciCode)",
       "category": "coding",
-      "description": "Scientific programming evaluation.",
+      "description": "실제 과학 연구 문제를 해결하기 위한 프로그래밍 능력 평가.",
       "source": "https://scicode-bench.github.io/",
       "unit": "%",
       "scoreRange": [
@@ -456,6 +456,34 @@
       "category": "coding",
       "description": "Multilingual secure code generation benchmark focusing on functionality and security.",
       "source": "https://arxiv.org/abs/2502.14739",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "deepsearchqa",
+      "name": "DeepSearchQA",
+      "nameKo": "딥서치QA (DeepSearchQA)",
+      "category": "reasoning",
+      "description": "복잡한 정보 검색 및 추론 능력을 평가하는 벤치마크.",
+      "source": "https://deepmind.google/technologies/gemini/deep-research/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "terminal-bench-hard",
+      "name": "Terminal-Bench Hard",
+      "nameKo": "터미널벤치 하드 (Terminal-Bench Hard)",
+      "category": "agent",
+      "description": "고급 터미널 조작 및 도구 사용 능력을 평가하는 고난도 에이전트 벤치마크.",
+      "source": "https://github.com/pro-researcher/TerminalBench",
       "unit": "%",
       "scoreRange": [
         0,
