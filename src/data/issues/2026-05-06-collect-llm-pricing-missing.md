@@ -22,3 +22,7 @@ target: llm/multiple
 
 ## 진행 내역 (2026-05-23)
 - `hyperclova-x`의 공식 링크를 NCP CLOVA Studio(https://www.ncloud.com/product/ai/clovaStudio)로 갱신함. 소비자용 CLOVA X 서비스는 2026년 4월 9일 종료되었으나, 기업용 API는 유지됨. 상세 가격 정보는 콘솔 로그인이 필요하여 추가 보강은 보류함.
+
+## 진행 내역 (2026-05-28)
+- `yi-large` 및 `baichuan-4`의 context window 를 32,768 (32K/33K)로 업데이트함.
+- `yi-large`와 `baichuan-4`의 공식 API 가격 정보는 여전히 공개 텍스트 형태로 확인되지 않아 추가 조사가 필요함.
