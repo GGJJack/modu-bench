@@ -608,7 +608,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 1048576,
+      "contextWindow": 1000000,
       "pricing": {
         "input": 0.25,
         "output": 1.5
@@ -1549,9 +1549,12 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "1.6T total / 49B active",
       "contextWindow": 1000000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.435,
+        "output": 0.87
+      },
       "links": {
         "official": "https://www.deepseek.com"
       },
@@ -1592,7 +1595,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 1048576,
+      "contextWindow": 1000000,
       "pricing": {
         "input": 1.5,
         "output": 9
@@ -2032,7 +2035,7 @@
     },
     {
       "parameterSize": "120B",
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": {
         "input": 0.15,
         "output": 0.6
@@ -2048,7 +2051,7 @@
     },
     {
       "parameterSize": "20B",
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://openai.com/news"
@@ -2058,6 +2061,35 @@
       "provider": "OpenAI",
       "releaseDate": "2026-05-20",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1048576,
+      "pricing": {
+        "input": 0.25,
+        "output": 1.5
+      },
+      "links": {
+        "official": "https://ai.google.dev/gemini-api/docs/models"
+      },
+      "id": "gemini-3-1-flash-tts",
+      "name": "Gemini 3.1 Flash TTS",
+      "provider": "Google",
+      "releaseDate": "2026-05-28",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/introducing-physics-ai-at-mistral"
+      },
+      "id": "mistral-physics-ai-emmi",
+      "name": "Mistral Physics AI (Emmi)",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-05-27",
+      "license": "Proprietary"
     }
   ]
 }
