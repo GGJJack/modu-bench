@@ -26,3 +26,8 @@ target: llm/multiple
 ## 진행 내역 (2026-05-28)
 - `yi-large` 및 `baichuan-4`의 context window 를 32,768 (32K/33K)로 업데이트함.
 - `yi-large`와 `baichuan-4`의 공식 API 가격 정보는 여전히 공개 텍스트 형태로 확인되지 않아 추가 조사가 필요함.
+
+## 진행 내역 (2026-05-29)
+- `hcx-005`의 context window를 128,000으로, `hcx-dash-002`를 32,000으로 공식 가이드(https://api.ncloud-docs.com/docs/clovastudio-chatcompletionsv3)에 따라 업데이트함.
+- `yi-large`의 context window를 33,000으로 업데이트함 (OpenRouter 기준).
+- 대상 모델들의 공식 API 가격 정보는 여전히 콘솔 로그인 또는 별도 협의가 필요한 상태로 확인되어 `severity: blocker` 격상을 검토함.

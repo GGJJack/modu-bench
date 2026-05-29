@@ -756,7 +756,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 32768,
+      "contextWindow": 33000,
       "pricing": {
         "input": 2.8,
         "output": 2.8
@@ -1980,7 +1980,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 32768,
+      "contextWindow": 32000,
       "pricing": null,
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
@@ -2022,7 +2022,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 32768,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
