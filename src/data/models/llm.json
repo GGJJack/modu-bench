@@ -758,8 +758,8 @@
       "parameterSize": null,
       "contextWindow": 33000,
       "pricing": {
-        "input": 2.8,
-        "output": 2.8
+        "input": 0.3,
+        "output": 0.3
       },
       "links": {
         "official": "https://www.01.ai/"

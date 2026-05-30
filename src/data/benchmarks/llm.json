@@ -1632,6 +1632,34 @@
         "date": "2023-09-06",
         "source": "official"
       }
+    },
+    "sakana-fugu-mini": {
+      "gpqa": {
+        "value": 92.4,
+        "date": "2026-04-24",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/fugu-beta/"
+      },
+      "livecodebench-v6": {
+        "value": 90.4,
+        "date": "2026-04-24",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/fugu-beta/"
+      }
+    },
+    "sakana-fugu-ultra": {
+      "gpqa": {
+        "value": 95.1,
+        "date": "2026-04-24",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/fugu-beta/"
+      },
+      "livecodebench-v6": {
+        "value": 93.2,
+        "date": "2026-04-24",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/fugu-beta/"
+      }
     }
   }
 }
