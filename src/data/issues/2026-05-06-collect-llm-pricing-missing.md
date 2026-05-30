@@ -1,7 +1,7 @@
 ---
 created: 2026-05-06
 agent: collect-llm
-severity: minor
+severity: blocker
 target: llm/multiple
 ---
 
@@ -31,3 +31,8 @@ target: llm/multiple
 - `hcx-005`의 context window를 128,000으로, `hcx-dash-002`를 32,000으로 공식 가이드(https://api.ncloud-docs.com/docs/clovastudio-chatcompletionsv3)에 따라 업데이트함.
 - `yi-large`의 context window를 33,000으로 업데이트함 (OpenRouter 기준).
 - 대상 모델들의 공식 API 가격 정보는 여전히 콘솔 로그인 또는 별도 협의가 필요한 상태로 확인되어 `severity: blocker` 격상을 검토함.
+
+## 진행 내역 (2026-05-30)
+- `yi-large`의 가격 정보를 $0.3/$0.3 (per 1M tokens)으로 업데이트함 (OpenRouter 기준).
+- `baichuan-4`의 가격 정보를 $1.4/$1.4 (per 1M tokens)으로 유지/확인함 (API 파트너사 정보 기반).
+- `hyperclova-x`(HCX-007, 005, DASH-002)의 공식 가격은 여전히 NCP 콘솔 외부에서 확인 불가능함. 해당 이슈는 사람 에스컬레이션이 필요한 것으로 판단하여 severity를 blocker로 격상함.

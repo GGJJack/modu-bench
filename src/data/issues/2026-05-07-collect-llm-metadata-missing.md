@@ -1,7 +1,7 @@
 ---
 created: 2026-05-07
 agent: collect-llm
-severity: minor
+severity: blocker
 target: llm/multiple
 ---
 
@@ -25,3 +25,9 @@ target: llm/multiple
 - 2026-05-07 (reinforce): Search performed for HyperCLOVA X, Yi-Large, and Baichuan-4; official pricing and context window updates not found.
 - 2026-05-09 (collect-llm): Additional search performed for the listed models including Sakana AI's Fugu series. Official pricing/context window for these models remains unconfirmed as of early May 2026. Updated `yi-lightning`, `grok` family, and registered `gemini-deep-research`.
 - 2026-05-11 (reinforce): Sakana AI 모델들(Trinity, Namazu, TinySwallow)의 Context Window(128K~1M) 사양을 확인하여 업데이트 완료. API 가격 정보는 여전히 미공개 상태임.
+
+## 진행 내역 (2026-05-30)
+- `hyperclova-x`, `yi-large`, `baichuan-4` 관련 내역은 2026-05-06 티켓과 중복되어 해당 티켓에서 통합 관리함.
+- `gpt-5-5-instant` ($0.1/$0.4) 및 `alphaevolve` ($2/$12) 가격 정보는 최신 릴리스 기반으로 이미 반영되어 있음을 확인함.
+- `sakana-fugu-ultra/mini`의 벤치마크 점수를 공식 블로그(https://sakana.ai/fugu-beta/)를 통해 확인함. 가격 정보는 베타 단계로 공개되지 않음.
+- 주요 메타데이터가 보강되었으나 `hyperclova-x` 가격 정보가 여전히 누락되어 있으므로 blocker로 격상하여 관리함.
