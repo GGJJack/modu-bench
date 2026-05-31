@@ -1,8 +1,8 @@
 ---
 benchmarkId: codeforces
 domain: llm
-status: draft
-updated: 2026-05-22
+status: published
+updated: 2026-05-31
 sources:
   - "https://en.wikipedia.org/wiki/Codeforces"
 organization: codeforces

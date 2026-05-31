@@ -1,8 +1,8 @@
 ---
 benchmarkId: livecodebench-v6
 domain: llm
-status: draft
-updated: 2026-05-25
+status: published
+updated: 2026-05-31
 sources:
   - "https://arxiv.org/abs/2403.07974"
   - "https://livecodebench.github.io/"
