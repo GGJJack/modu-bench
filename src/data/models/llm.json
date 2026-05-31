@@ -425,12 +425,13 @@
         "output": 7.5
       },
       "links": {
-        "official": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04"
+        "official": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
+        "huggingface": "https://huggingface.co/mistralai/Mistral-Medium-3.5-Preview"
       },
       "id": "mistral-medium-3-5",
       "name": "Mistral Medium 3.5",
       "provider": "Mistral AI",
-      "releaseDate": "2026-04-29",
+      "releaseDate": "2026-05-22",
       "license": "Modified MIT"
     },
     {
@@ -1000,7 +1001,10 @@
     {
       "parameterSize": "33B",
       "contextWindow": 256000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6
+      },
       "links": {
         "official": "https://www.lgresearch.ai/",
         "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-4.5-33B"
@@ -1610,6 +1614,7 @@
         "output": 9
       },
       "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
         "paper": "https://arxiv.org/abs/2601.11516v4"
       },
       "id": "gemini-3.5-flash",
@@ -1989,7 +1994,10 @@
     {
       "parameterSize": null,
       "contextWindow": 32768,
-      "pricing": null,
+      "pricing": {
+        "input": 0.5,
+        "output": 2
+      },
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
       },
@@ -2121,7 +2129,10 @@
     {
       "parameterSize": "24B",
       "contextWindow": 32768,
-      "pricing": null,
+      "pricing": {
+        "input": 0.7,
+        "output": 0.7
+      },
       "links": {
         "official": "https://docs.mistral.ai/models/model-cards/mistral-saba-25-02"
       },
@@ -2194,6 +2205,61 @@
       "provider": "OpenAI",
       "releaseDate": "2026-05-20",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 5,
+        "output": 25
+      },
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-opus-4-8"
+      },
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "provider": "Anthropic",
+      "releaseDate": "2026-05-28",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/gemini-image/"
+      },
+      "id": "nano-banana",
+      "name": "Nano Banana",
+      "provider": "Google",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/gemini-audio/"
+      },
+      "id": "gemini-audio",
+      "name": "Gemini Audio",
+      "provider": "Google",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+      },
+      "id": "gemini-3-5-pro",
+      "name": "Gemini 3.5 Pro",
+      "provider": "Google",
+      "releaseDate": "2026-06-01",
+      "license": "Proprietary"
     }
   ]
 }
