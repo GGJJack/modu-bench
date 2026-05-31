@@ -523,6 +523,11 @@
         "value": 9.41,
         "date": "2024-05-13",
         "source": "community"
+      },
+      "hle": {
+        "value": 2.7,
+        "date": "2025-04-03",
+        "source": "official"
       }
     },
     "claude-4-sonnet": {
@@ -550,12 +555,12 @@
     "mistral-medium-3-5": {
       "swe-bench-verified": {
         "value": 77.6,
-        "date": "2026-04-30",
+        "date": "2026-05-22",
         "source": "official"
       },
       "tau-bench-telecom": {
         "value": 91.4,
-        "date": "2026-04-29",
+        "date": "2026-05-22",
         "source": "official"
       }
     },
@@ -1300,6 +1305,11 @@
         "date": "2026-05-19",
         "source": "official",
         "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+      },
+      "hle": {
+        "value": 8.5,
+        "date": "2025-04-03",
+        "source": "official"
       }
     },
     "gemini-3.5-flash": {
@@ -1637,28 +1647,104 @@
       "gpqa": {
         "value": 92.4,
         "date": "2026-04-24",
-        "source": "official",
-        "sourceUrl": "https://sakana.ai/fugu-beta/"
+        "source": "official"
       },
       "livecodebench-v6": {
         "value": 90.4,
         "date": "2026-04-24",
-        "source": "official",
-        "sourceUrl": "https://sakana.ai/fugu-beta/"
+        "source": "official"
+      },
+      "swe-bench-pro": {
+        "value": 51.3,
+        "date": "2026-04-24",
+        "source": "official"
       }
     },
     "sakana-fugu-ultra": {
       "gpqa": {
         "value": 95.1,
         "date": "2026-04-24",
-        "source": "official",
-        "sourceUrl": "https://sakana.ai/fugu-beta/"
+        "source": "official"
       },
       "livecodebench-v6": {
         "value": 93.2,
         "date": "2026-04-24",
-        "source": "official",
-        "sourceUrl": "https://sakana.ai/fugu-beta/"
+        "source": "official"
+      },
+      "swe-bench-pro": {
+        "value": 54.2,
+        "date": "2026-04-24",
+        "source": "official"
+      }
+    },
+    "gemini-3-pro": {
+      "hle": {
+        "value": 38.3,
+        "date": "2025-04-03",
+        "source": "official"
+      }
+    },
+    "gpt-5": {
+      "hle": {
+        "value": 25.3,
+        "date": "2025-04-03",
+        "source": "official"
+      }
+    },
+    "grok-4": {
+      "hle": {
+        "value": 24.5,
+        "date": "2025-04-03",
+        "source": "official"
+      }
+    },
+    "gemini-2-5-pro": {
+      "hle": {
+        "value": 21.6,
+        "date": "2025-04-03",
+        "source": "official"
+      }
+    },
+    "gpt-5-mini": {
+      "hle": {
+        "value": 19.4,
+        "date": "2025-04-03",
+        "source": "official"
+      }
+    },
+    "claude-4-5-sonnet": {
+      "hle": {
+        "value": 13.7,
+        "date": "2025-04-03",
+        "source": "official"
+      }
+    },
+    "gemini-2-5-flash": {
+      "hle": {
+        "value": 12.1,
+        "date": "2025-04-03",
+        "source": "official"
+      }
+    },
+    "o1": {
+      "hle": {
+        "value": 8,
+        "date": "2025-04-03",
+        "source": "official"
+      }
+    },
+    "gpt-5-5-instant": {
+      "hle": {
+        "value": 19.4,
+        "date": "2025-04-03",
+        "source": "official"
+      }
+    },
+    "o3-mini": {
+      "hle": {
+        "value": 38.3,
+        "date": "2025-04-03",
+        "source": "official"
       }
     }
   }
