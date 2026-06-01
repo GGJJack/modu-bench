@@ -490,6 +490,62 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "online-mind2web",
+      "name": "Online-Mind2Web",
+      "nameKo": "Online-Mind2Web",
+      "category": "agent",
+      "description": "웹 브라우저 상호작용 및 에이전트 능력 평가",
+      "source": "https://osu-nlp-group.github.io/Mind2Web/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "cursor-bench",
+      "name": "CursorBench",
+      "nameKo": "CursorBench",
+      "category": "coding",
+      "description": "에이전트 기반의 코드 작업 벤치마크",
+      "source": "https://www.cursor.com/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "legal-agent-bench",
+      "name": "Legal Agent Benchmark",
+      "nameKo": "Legal Agent Benchmark (법률 에이전트 벤치마크)",
+      "category": "agent",
+      "description": "에이전트의 법률 업무 수행 능력 평가",
+      "source": "https://hebbia.ai/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "charxiv-reasoning",
+      "name": "CharXiv Reasoning",
+      "nameKo": "CharXiv Reasoning",
+      "category": "reasoning",
+      "description": "추론 능력 평가 벤치마크",
+      "source": "https://arxiv.org/abs/2601.11516v4",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -556,12 +612,14 @@
       "swe-bench-verified": {
         "value": 77.6,
         "date": "2026-05-22",
-        "source": "official"
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
       },
       "tau-bench-telecom": {
         "value": 91.4,
         "date": "2026-05-22",
-        "source": "official"
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
       }
     },
     "mistral-large-3": {
@@ -1745,6 +1803,20 @@
         "value": 38.3,
         "date": "2025-04-03",
         "source": "official"
+      }
+    },
+    "claude-opus-4-8": {
+      "online-mind2web": {
+        "value": 84,
+        "date": "2026-05-28",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8"
+      },
+      "legal-agent-bench": {
+        "value": 10,
+        "date": "2026-05-28",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8"
       }
     }
   }
