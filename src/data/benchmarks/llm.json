@@ -539,7 +539,7 @@
       "nameKo": "CharXiv Reasoning",
       "category": "reasoning",
       "description": "추론 능력 평가 벤치마크",
-      "source": "https://arxiv.org/abs/2601.11516v4",
+      "source": "https://arxiv.org/abs/2406.18521v1",
       "unit": "%",
       "scoreRange": [
         0,
