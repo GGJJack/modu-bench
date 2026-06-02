@@ -403,7 +403,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": {
         "input": 2,
         "output": 5
@@ -2224,8 +2224,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.4
+      },
       "links": {
         "official": "https://deepmind.google/models/gemini-image/"
       },
@@ -2250,7 +2253,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 2000000,
       "pricing": null,
       "links": {
         "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
@@ -2301,8 +2304,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 2000000,
+      "pricing": {
+        "input": 1.25,
+        "output": 10
+      },
       "links": {},
       "id": "gemini-2-5-pro",
       "name": "Gemini 2.5 Pro",
@@ -2323,8 +2329,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 0.3,
+        "output": 2.5
+      },
       "links": {},
       "id": "gemini-2-5-flash",
       "name": "Gemini 2.5 Flash",
@@ -2394,6 +2403,86 @@
       "name": "GPT-5 Nano",
       "provider": "OpenAI",
       "releaseDate": "2025-05-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.5
+      },
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "magistral-small-1-2",
+      "name": "Magistral Small 1.2",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-09-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.1
+      },
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "mistral-moderation-2",
+      "name": "Mistral Moderation 2",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-03-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3
+      },
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "mistral-small-creative",
+      "name": "Mistral Small Creative",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-12-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": {
+        "input": 2,
+        "output": 12
+      },
+      "links": {
+        "official": "https://ai.google.dev/pricing"
+      },
+      "id": "gemini-3-pro-image",
+      "name": "Gemini 3 Pro Image",
+      "provider": "Google",
+      "releaseDate": "2026-04-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": {
+        "input": 0.5,
+        "output": 3
+      },
+      "links": {
+        "official": "https://ai.google.dev/pricing"
+      },
+      "id": "gemini-3.1-flash-image",
+      "name": "Gemini 3.1 Flash Image",
+      "provider": "Google",
+      "releaseDate": "2026-04-22",
       "license": "Proprietary"
     }
   ]
