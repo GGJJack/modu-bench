@@ -20,3 +20,6 @@ target: llm/unverified-scores
 
 ## 요청
 - 향후 해당 모델들의 공식 성능 지표 발표 또는 신뢰할 수 있는 리더보드 등재 시 점수 수집 및 반영 요망
+
+## 진행 내역 (2026-06-02)
+- (reinforce): `kimi-k2.5`, `qwen-3-30b-a3b`, `gemma-3-4b`, `gemma-3-12b`, `nvidia-nemotron-3-nano` 모델의 MMLU, GPQA 등 벤치마크 점수를 재조사하였으나 공식 출처나 검증된 점수를 확보하지 못함. 제조사의 공식 발표를 지속적으로 대기함.
