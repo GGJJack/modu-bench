@@ -2,7 +2,7 @@
 benchmarkId: osworld-verified
 domain: llm
 status: published
-updated: 2026-05-15
+updated: 2026-06-04
 sources:
   - "https://huggingface.co/spaces/xlang-ai/OSWorld-Leaderboard"
   - "https://os-world.github.io/"
