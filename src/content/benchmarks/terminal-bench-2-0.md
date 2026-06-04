@@ -1,11 +1,13 @@
 ---
 benchmarkId: terminal-bench-2-0
 domain: llm
-status: draft
-updated: 2026-05-17
+status: published
+updated: 2026-06-04
 sources:
   - https://www.tbench.ai/leaderboard/terminal-bench/2.0
   - https://arxiv.org/abs/2601.11868
+  - https://github.com/laude-institute/terminal-bench
+organization: laude-institute
 paperUrl: https://arxiv.org/abs/2601.11868
 highlights:
   - "터미널 기반 워크플로우 평가"
