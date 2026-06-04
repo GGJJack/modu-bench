@@ -2583,6 +2583,32 @@
       "provider": "StepFun",
       "releaseDate": "2026-05-25",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+      },
+      "id": "gpt-rosalind",
+      "name": "GPT-Rosalind",
+      "provider": "OpenAI",
+      "releaseDate": "2026-06-03",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/"
+      },
+      "id": "rosalind-biodefense",
+      "name": "Rosalind Biodefense",
+      "provider": "OpenAI",
+      "releaseDate": "2026-05-29",
+      "license": "Proprietary"
     }
   ]
 }
