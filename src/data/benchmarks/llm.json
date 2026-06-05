@@ -546,6 +546,20 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "lifescibench",
+      "name": "LifeSciBench",
+      "nameKo": "LifeSciBench",
+      "category": "reasoning",
+      "description": "Foundational aspects in life sciences research: evidence handling, analysis, design and optimization, scientific reasoning, validation and operations, and translation and communication.",
+      "source": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
