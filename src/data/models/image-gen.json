@@ -61,6 +61,19 @@
       "provider": "Google",
       "releaseDate": "2026-04-22",
       "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://x.ai/news/grok-imagine-1-5"
+      },
+      "id": "grok-imagine-video-1.5-preview",
+      "name": "Grok Imagine Video 1.5 Preview",
+      "provider": "xAI",
+      "releaseDate": "2026-06-03",
+      "license": "Proprietary"
     }
   ]
 }

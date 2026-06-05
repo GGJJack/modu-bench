@@ -872,12 +872,12 @@
         "output": 12
       },
       "links": {
-        "official": "https://deepmind.google/blog/alphaevolve-impact/"
+        "official": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
       },
       "id": "alphaevolve",
       "name": "AlphaEvolve",
       "provider": "Google",
-      "releaseDate": "2026-05-06",
+      "releaseDate": "2026-05-26",
       "license": "Proprietary"
     },
     {
