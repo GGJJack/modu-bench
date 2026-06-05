@@ -560,6 +560,76 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "medchembench",
+      "name": "MedChemBench",
+      "nameKo": "메드켐벤치 (의약화학 평가)",
+      "category": "reasoning",
+      "description": "생체 외 및 생체 내 약물 효능, 독성 및 ADME 예측 등 의약 화학 워크플로우를 평가하는 벤치마크.",
+      "source": "official",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "genebench",
+      "name": "GeneBench",
+      "nameKo": "진벤치 (유전학 및 정량 생물학 평가)",
+      "category": "reasoning",
+      "description": "유전학 및 정량 생물학 분야의 장기적, 엔드투엔드 분석 능력을 평가하는 에이전틱 벤치마크.",
+      "source": "official",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "labworkbench",
+      "name": "LabWorkBench",
+      "nameKo": "랩워크벤치 (실제 실험실 업무 지원 평가)",
+      "category": "reasoning",
+      "description": "실제 습식 실험실(wet lab) 프로토콜의 문제 해결 및 최적화 능력을 평가하는 벤치마크.",
+      "source": "official",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "bixbench",
+      "name": "BixBench",
+      "nameKo": "빅스벤치 (생물정보학 및 데이터 분석 평가)",
+      "category": "reasoning",
+      "description": "실제 생물정보학 및 데이터 분석 시나리오를 바탕으로 모델의 성능을 평가하는 벤치마크.",
+      "source": "official",
+      "unit": "Score",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "labbench2",
+      "name": "LABBench2",
+      "nameKo": "랩벤치2 (생물학 연구 워크플로우 평가)",
+      "category": "reasoning",
+      "description": "문헌 검색, 데이터베이스 접근, 서열 조작 및 프로토콜 설계 등 생물학 연구 과업을 평가하는 벤치마크.",
+      "source": "official",
+      "unit": "Score",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -1199,6 +1269,12 @@
         "date": "2026-05-12",
         "source": "official",
         "sourceUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+      },
+      "labbench2": {
+        "value": 45.4,
+        "date": "2026-04-16",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-gpt-rosalind/"
       }
     },
     "gpt-5-5-pro": {
@@ -1239,6 +1315,24 @@
         "date": "2026-05-12",
         "source": "community",
         "sourceUrl": "https://o-mega.ai/articles/gpt-5-5-the-complete-guide-2026"
+      },
+      "medchembench": {
+        "value": 25.1,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+      },
+      "genebench": {
+        "value": 20.4,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+      },
+      "labworkbench": {
+        "value": 55.8,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
       }
     },
     "gemini-3-flash": {
@@ -1831,6 +1925,52 @@
         "date": "2026-05-28",
         "source": "official",
         "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8"
+      }
+    },
+    "hcx-007": {
+      "kmmlu": {
+        "value": 55.21,
+        "date": "2026-06-05",
+        "source": "official",
+        "url": "https://clova.ai/hyperclova#case"
+      }
+    },
+    "gpt-rosalind": {
+      "medchembench": {
+        "value": 27.5,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+      },
+      "genebench": {
+        "value": 21.6,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+      },
+      "labworkbench": {
+        "value": 63.2,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+      },
+      "lifescibench": {
+        "value": 100,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+      },
+      "bixbench": {
+        "value": 100,
+        "date": "2026-04-16",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-gpt-rosalind/"
+      },
+      "labbench2": {
+        "value": 54.5,
+        "date": "2026-04-16",
+        "source": "official",
+        "url": "https://openai.com/index/introducing-gpt-rosalind/"
       }
     }
   }

@@ -2010,7 +2010,10 @@
     {
       "parameterSize": null,
       "contextWindow": 32000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.5,
+        "output": 2
+      },
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
       },
@@ -2052,7 +2055,10 @@
     {
       "parameterSize": null,
       "contextWindow": 128000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.5,
+        "output": 2
+      },
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
       },
@@ -2586,7 +2592,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
         "official": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
@@ -2599,7 +2605,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
         "official": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/"
