@@ -53,6 +53,27 @@
       "provider": "Cohere",
       "releaseDate": "2026-05-19",
       "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 1.25,
+        "output": 10
+      },
+      "links": {
+        "official": "https://deepmind.google/models/gemini-omni/"
+      },
+      "id": "gemini-omni-pro",
+      "name": "Gemini Omni Pro",
+      "provider": "Google",
+      "releaseDate": "2026-05-14",
+      "license": "Proprietary"
     }
   ]
 }
