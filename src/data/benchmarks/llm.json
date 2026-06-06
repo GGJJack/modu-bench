@@ -567,7 +567,7 @@
       "nameKo": "메드켐벤치 (의약화학 평가)",
       "category": "reasoning",
       "description": "생체 외 및 생체 내 약물 효능, 독성 및 ADME 예측 등 의약 화학 워크플로우를 평가하는 벤치마크.",
-      "source": "official",
+      "source": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
       "unit": "%",
       "scoreRange": [
         0,
@@ -581,7 +581,7 @@
       "nameKo": "진벤치 (유전학 및 정량 생물학 평가)",
       "category": "reasoning",
       "description": "유전학 및 정량 생물학 분야의 장기적, 엔드투엔드 분석 능력을 평가하는 에이전틱 벤치마크.",
-      "source": "official",
+      "source": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
       "unit": "%",
       "scoreRange": [
         0,
@@ -595,7 +595,7 @@
       "nameKo": "랩워크벤치 (실제 실험실 업무 지원 평가)",
       "category": "reasoning",
       "description": "실제 습식 실험실(wet lab) 프로토콜의 문제 해결 및 최적화 능력을 평가하는 벤치마크.",
-      "source": "official",
+      "source": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
       "unit": "%",
       "scoreRange": [
         0,
@@ -1482,20 +1482,22 @@
       "terminal-bench-2-1": {
         "value": 76.2,
         "date": "2026-05-19",
-        "source": "official",
-        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+        "source": "official"
       },
       "gdpval-aa": {
         "value": 1656,
         "date": "2026-05-19",
-        "source": "official",
-        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+        "source": "official"
       },
       "mcp-atlas": {
         "value": 83.6,
         "date": "2026-05-19",
-        "source": "official",
-        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+        "source": "official"
+      },
+      "charxiv-reasoning": {
+        "value": 84.2,
+        "date": "2026-05-19",
+        "source": "official"
       }
     },
     "qwen-plus": {
