@@ -1608,23 +1608,6 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 1000000,
-      "pricing": {
-        "input": 1.5,
-        "output": 9
-      },
-      "links": {
-        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-        "paper": "https://arxiv.org/abs/2601.11516v4"
-      },
-      "id": "gemini-3.5-flash",
-      "name": "Gemini 3.5 Flash",
-      "provider": "Google",
-      "releaseDate": "2026-05-19",
-      "license": "Proprietary"
-    },
-    {
-      "parameterSize": null,
       "contextWindow": 1048576,
       "pricing": {
         "input": 1.5,
@@ -2678,6 +2661,22 @@
       "name": "Step 3.7 Pro",
       "provider": "StepFun",
       "releaseDate": "2026-06-03",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 0.25,
+        "output": 1
+      },
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+      },
+      "id": "gemini-3.5-flash",
+      "name": "Gemini 3.5 Flash",
+      "provider": "Google",
+      "releaseDate": "2026-05-19",
       "license": "Proprietary"
     }
   ]
