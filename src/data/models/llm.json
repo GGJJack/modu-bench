@@ -67,8 +67,8 @@
       "parameterSize": "31B",
       "contextWindow": 128000,
       "pricing": {
-        "input": 0.15,
-        "output": 0.6
+        "input": 0.25,
+        "output": 1
       },
       "links": {
         "official": "https://www.upstage.ai/blog/en/solar-pro-3-0127"
@@ -2521,7 +2521,7 @@
         "output": 10
       },
       "links": {
-        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"
+        "official": "https://deepmind.google/models/gemini-omni/"
       },
       "id": "gemini-omni",
       "name": "Gemini Omni",
@@ -2614,6 +2614,70 @@
       "name": "Rosalind Biodefense",
       "provider": "OpenAI",
       "releaseDate": "2026-05-29",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.25,
+        "output": 1
+      },
+      "links": {
+        "official": "https://www.upstage.ai/blog/en/solar-pro-2-launch"
+      },
+      "id": "solar-pro-2",
+      "name": "Solar Pro 2",
+      "provider": "Upstage",
+      "releaseDate": "2025-07-10",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0,
+        "output": 0
+      },
+      "links": {
+        "official": "https://www.upstage.ai/blog/en/solar-pro-2-preview-small-powerful-now-with-reasoning"
+      },
+      "id": "solar-pro-2-preview",
+      "name": "Solar Pro 2 Preview",
+      "provider": "Upstage",
+      "releaseDate": "2025-05-20",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.015,
+        "output": 0.015
+      },
+      "links": {
+        "official": "https://www.zhipuai.cn/news"
+      },
+      "id": "glm-4-7-pro",
+      "name": "GLM-4.7 Pro",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-05-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3
+      },
+      "links": {
+        "official": "https://www.stepfun.com/news"
+      },
+      "id": "step-3-7-pro",
+      "name": "Step 3.7 Pro",
+      "provider": "StepFun",
+      "releaseDate": "2026-06-03",
       "license": "Proprietary"
     }
   ]
