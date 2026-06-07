@@ -2,7 +2,7 @@
 benchmarkId: lifescibench
 domain: llm
 status: draft
-updated: 2026-06-05
+updated: 2026-06-07
 sources:
   - https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/
 organization: openai
