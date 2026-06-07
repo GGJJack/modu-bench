@@ -1974,6 +1974,20 @@
         "source": "official",
         "url": "https://openai.com/index/introducing-gpt-rosalind/"
       }
+    },
+    "glm-5": {
+      "swe-bench-verified": {
+        "value": 77.8,
+        "date": "2026-06-07",
+        "source": "official",
+        "url": "https://www.zhipuai.cn/news"
+      },
+      "terminal-bench-2-0": {
+        "value": 56.2,
+        "date": "2026-06-07",
+        "source": "official",
+        "url": "https://www.zhipuai.cn/news"
+      }
     }
   }
 }
