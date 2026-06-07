@@ -1976,7 +1976,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 32768,
+      "contextWindow": 128000,
       "pricing": {
         "input": 0.5,
         "output": 2

@@ -1988,6 +1988,40 @@
         "source": "official",
         "url": "https://www.zhipuai.cn/news"
       }
+    },
+    "qwen-3-235b": {
+      "arena-hard-v2": {
+        "value": 95.6,
+        "date": "2025-04-29",
+        "source": "official"
+      },
+      "codeforces": {
+        "value": 2056,
+        "date": "2025-04-29",
+        "source": "official"
+      },
+      "aime-2025": {
+        "value": 81.5,
+        "date": "2025-04-29",
+        "source": "official"
+      }
+    },
+    "qwen-3-32b": {
+      "arena-hard-v2": {
+        "value": 93.8,
+        "date": "2025-04-29",
+        "source": "official"
+      },
+      "codeforces": {
+        "value": 1977,
+        "date": "2025-04-29",
+        "source": "official"
+      },
+      "aime-2025": {
+        "value": 72.9,
+        "date": "2025-04-29",
+        "source": "official"
+      }
     }
   }
 }
