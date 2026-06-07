@@ -36,3 +36,8 @@ target: llm/multiple
 - `yi-large`의 가격 정보를 $0.3/$0.3 (per 1M tokens)으로 업데이트함 (OpenRouter 기준).
 - `baichuan-4`의 가격 정보를 $1.4/$1.4 (per 1M tokens)으로 유지/확인함 (API 파트너사 정보 기반).
 - `hyperclova-x`(HCX-007, 005, DASH-002)의 공식 가격은 여전히 NCP 콘솔 외부에서 확인 불가능함. 해당 이슈는 사람 에스컬레이션이 필요한 것으로 판단하여 severity를 blocker로 격상함.
+
+## 진행 내역 (2026-06-07)
+- `hcx-007`의 context window를 128,000으로 업데이트함 (v3 API 문서 확인).
+- `yi-large`의 context window를 33,000으로 재확인 및 업데이트함 (OpenRouter 기준).
+- NCP 공식 홈페이지의 CLOVA Studio 요금 안내 페이지에서 HCX-007, HCX-005, HCX-DASH-002 의 가격 항목이 '기본' 및 '튜닝' 구분으로 존재하나 구체적인 수치는 여전히 공개되지 않음 (상담 필요).
