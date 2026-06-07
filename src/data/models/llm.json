@@ -2196,7 +2196,7 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "2.5T",
       "contextWindow": 1000000,
       "pricing": {
         "input": 5,
@@ -2241,7 +2241,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "2T",
       "contextWindow": 2000000,
       "pricing": {
         "input": 1.25,
@@ -2529,7 +2529,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "2.5B",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.01,
@@ -2648,7 +2648,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "1.5T",
       "contextWindow": 1000000,
       "pricing": {
         "input": 0.1,
@@ -2678,6 +2678,77 @@
       "provider": "Google",
       "releaseDate": "2026-05-19",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 200000,
+      "pricing": {
+        "input": 3,
+        "output": 15
+      },
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-3-7-sonnet"
+      },
+      "id": "claude-3-7-sonnet",
+      "name": "Claude 3.7 Sonnet",
+      "provider": "Anthropic",
+      "releaseDate": "2025-02-24",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 200000,
+      "pricing": {
+        "input": 0.25,
+        "output": 1.25
+      },
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-3-7-sonnet"
+      },
+      "id": "claude-3-7-haiku",
+      "name": "Claude 3.7 Haiku",
+      "provider": "Anthropic",
+      "releaseDate": "2025-03-10",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/blog/llama-3-3/"
+      },
+      "id": "llama-3-3-70b-instruct",
+      "name": "Llama 3.3 70B Instruct",
+      "provider": "Meta",
+      "releaseDate": "2024-12-06",
+      "license": "Llama 3.3"
+    },
+    {
+      "parameterSize": "14B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://azure.microsoft.com/en-us/blog/introducing-phi-4-microsofts-newest-small-language-model-now-available-on-azure-ai-models-as-a-service/"
+      },
+      "id": "phi-4",
+      "name": "Phi-4",
+      "provider": "Microsoft",
+      "releaseDate": "2024-12-12",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "5.6B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/microsoft/phi-4-multimodal-instruct"
+      },
+      "id": "phi-4-multimodal-instruct",
+      "name": "Phi-4 Multimodal Instruct",
+      "provider": "Microsoft",
+      "releaseDate": "2025-02-19",
+      "license": "MIT"
     }
   ]
 }
