@@ -2546,15 +2546,18 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.25,
+        "output": 0.75
+      },
       "links": {
-        "official": "https://www.inceptionlabs.ai/mercury-2"
+        "official": "https://www.inceptionlabs.ai/blog/introducing-mercury-2"
       },
       "id": "mercury-2",
       "name": "Mercury 2",
       "provider": "Inception Labs",
-      "releaseDate": "2026-05-28",
+      "releaseDate": "2026-02-24",
       "license": "Proprietary"
     },
     {
@@ -2600,7 +2603,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "31B",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.25,
@@ -2749,6 +2752,64 @@
       "provider": "Microsoft",
       "releaseDate": "2025-02-19",
       "license": "MIT"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": {
+        "input": 25,
+        "output": 125
+      },
+      "links": {
+        "official": "https://www.anthropic.com/glasswing"
+      },
+      "id": "mythos-preview",
+      "name": "Claude Mythos Preview",
+      "provider": "Anthropic",
+      "releaseDate": "2026-05-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 5,
+        "output": 25
+      },
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-opus-4-6"
+      },
+      "id": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "provider": "Anthropic",
+      "releaseDate": "2026-02-05",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/namazu-alpha/"
+      },
+      "id": "llama-3-1-namazu-405b",
+      "name": "Llama-3.1-Namazu-405B",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-03-24",
+      "license": "Llama 3.1 License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/namazu-alpha/"
+      },
+      "id": "namazu-gpt-oss-120b",
+      "name": "Namazu-gpt-oss-120B",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-03-24",
+      "license": "Apache-2.0"
     }
   ]
 }
