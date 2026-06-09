@@ -204,7 +204,10 @@
     {
       "parameterSize": null,
       "contextWindow": null,
-      "pricing": null,
+      "pricing": {
+        "input": 25,
+        "output": 125
+      },
       "links": {
         "official": "https://www.anthropic.com/glasswing"
       },
@@ -321,7 +324,7 @@
       "name": "Mistral Small 4",
       "provider": "Mistral AI",
       "releaseDate": "2026-03-16",
-      "license": "Modified MIT"
+      "license": "Apache-2.0"
     },
     {
       "parameterSize": null,
@@ -2755,22 +2758,6 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": {
-        "input": 25,
-        "output": 125
-      },
-      "links": {
-        "official": "https://www.anthropic.com/glasswing"
-      },
-      "id": "mythos-preview",
-      "name": "Claude Mythos Preview",
-      "provider": "Anthropic",
-      "releaseDate": "2026-05-22",
-      "license": "Proprietary"
-    },
-    {
-      "parameterSize": null,
       "contextWindow": 1000000,
       "pricing": {
         "input": 5,
@@ -2810,6 +2797,38 @@
       "provider": "Sakana AI",
       "releaseDate": "2026-03-24",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": {
+        "input": 10,
+        "output": 50
+      },
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "id": "claude-fable-5",
+      "name": "Claude Fable 5",
+      "provider": "Anthropic",
+      "releaseDate": "2026-06-09",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": {
+        "input": 10,
+        "output": 50
+      },
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "id": "claude-mythos-5",
+      "name": "Claude Mythos 5",
+      "provider": "Anthropic",
+      "releaseDate": "2026-06-09",
+      "license": "Proprietary"
     }
   ]
 }
