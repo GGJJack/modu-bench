@@ -2022,6 +2022,94 @@
         "date": "2025-04-29",
         "source": "official"
       }
+    },
+    "command-a-plus-05-2026": {
+      "tau-bench-telecom": {
+        "value": 85,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://cohere.com/blog/command-a-plus"
+      },
+      "terminal-bench-hard": {
+        "value": 25,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://cohere.com/blog/command-a-plus"
+      },
+      "charxiv-reasoning": {
+        "value": 52.7,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://cohere.com/blog/command-a-plus"
+      },
+      "aime-2025": {
+        "value": 13.7,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://cohere.com/blog/command-a-plus"
+      }
+    },
+    "command-a-reasoning-08-2025": {
+      "tau-bench-telecom": {
+        "value": 37,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://cohere.com/blog/command-a-plus"
+      },
+      "terminal-bench-hard": {
+        "value": 3,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://cohere.com/blog/command-a-plus"
+      }
+    },
+    "command-a-vision-07-2025": {
+      "charxiv-reasoning": {
+        "value": 46.9,
+        "date": "2026-05-19",
+        "source": "official",
+        "sourceUrl": "https://cohere.com/blog/command-a-plus"
+      }
+    },
+    "eeve-korean-10.8b": {
+      "mmlu": {
+        "value": 64.51,
+        "date": "2024-03-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/yanolja/EEVE-Korean-10.8B-v1.0/discussions/1"
+      },
+      "gsm8k": {
+        "value": 50.49,
+        "date": "2024-03-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/yanolja/EEVE-Korean-10.8B-v1.0/discussions/1"
+      },
+      "arc-c": {
+        "value": 62.8,
+        "date": "2024-03-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/yanolja/EEVE-Korean-10.8B-v1.0/discussions/1"
+      }
+    },
+    "eeve-korean-instruct-10.8b": {
+      "mmlu": {
+        "value": 64.23,
+        "date": "2024-03-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0"
+      },
+      "gsm8k": {
+        "value": 50.72,
+        "date": "2024-03-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0"
+      },
+      "arc-c": {
+        "value": 64.85,
+        "date": "2024-03-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0"
+      }
     }
   }
 }

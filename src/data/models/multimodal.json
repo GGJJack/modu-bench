@@ -52,7 +52,7 @@
       "name": "Command A+ (05-2026)",
       "provider": "Cohere",
       "releaseDate": "2026-05-19",
-      "license": "Proprietary"
+      "license": "Apache-2.0"
     },
     {
       "supportedModalities": [
@@ -73,6 +73,20 @@
       "name": "Gemini Omni Pro",
       "provider": "Google",
       "releaseDate": "2026-05-14",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {},
+      "id": "command-a-vision-07-2025",
+      "name": "Command A Vision",
+      "provider": "Cohere",
+      "releaseDate": "2025-07-01",
       "license": "Proprietary"
     }
   ]

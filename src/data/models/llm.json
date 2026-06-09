@@ -2829,6 +2829,17 @@
       "provider": "Anthropic",
       "releaseDate": "2026-06-09",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "10.8B (dense)",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {},
+      "id": "eeve-korean-instruct-10.8b",
+      "name": "EEVE-Korean-Instruct-10.8B",
+      "provider": "Yanolja",
+      "releaseDate": "2024-03-04",
+      "license": "Apache-2.0"
     }
   ]
 }
