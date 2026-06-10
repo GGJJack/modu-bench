@@ -367,8 +367,8 @@
     },
     {
       "id": "hle",
-      "name": "Humanity's Last Exam (HLE)",
-      "nameKo": "인류의 마지막 시험 (HLE)",
+      "name": "Humanity's Last Exam (HLE) (no tools)",
+      "nameKo": "인류의 마지막 시험 (HLE) (no tools)",
       "category": "reasoning",
       "description": "인류 지식의 한계에 도전하는 전문가 수준의 학술 벤치마크.",
       "source": "https://lastexam.ai/",
@@ -630,6 +630,132 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "frontiercode-diamond",
+      "name": "FrontierCode (Diamond)",
+      "nameKo": "FrontierCode (Diamond)",
+      "category": "coding",
+      "description": "프론티어 코딩 에이전트 성능 평가 (Diamond 난이도)",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "gdp-pdf",
+      "name": "GDP.pdf",
+      "nameKo": "GDP.pdf",
+      "category": "reasoning",
+      "description": "PDF 문서 기반 지식 및 추론 능력 평가 (시각 정보 포함)",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "blueprint-bench-2",
+      "name": "Blueprint-Bench 2",
+      "nameKo": "Blueprint-Bench 2 (공간 추론)",
+      "category": "reasoning",
+      "description": "복잡한 설계도 및 공간 정보에 대한 추론 능력 평가",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "automationbench",
+      "name": "AutomationBench",
+      "nameKo": "AutomationBench (도구 사용)",
+      "category": "agent",
+      "description": "에이전트의 자동화 및 도구 사용 능력 평가",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "biomysterybench-hard",
+      "name": "BioMysteryBench (Hard)",
+      "nameKo": "BioMysteryBench (생물학 - Hard)",
+      "category": "reasoning",
+      "description": "고난도 생물학 미스터리 해결 및 추론 평가",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "biomysterybench-human",
+      "name": "BioMysteryBench (Human Solved)",
+      "nameKo": "BioMysteryBench (생물학 - Human Solved)",
+      "category": "reasoning",
+      "description": "전문가가 해결한 생물학 난제 기반 성능 평가",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "exploitbench-cap",
+      "name": "ExploitBench (Cap%)",
+      "nameKo": "ExploitBench (보안 취약점 공격 성공률)",
+      "category": "reasoning",
+      "description": "사이버 보안 취약점 발견 및 공격 성공률 평가",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "healthbench-professional",
+      "name": "HealthBench Professional",
+      "nameKo": "HealthBench Professional (의료)",
+      "category": "reasoning",
+      "description": "전문가 수준의 의료 지식 및 추론 평가",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "hle-with-tools",
+      "name": "Humanity's Last Exam (HLE) (with tools)",
+      "nameKo": "인류의 마지막 시험 (HLE) (with tools)",
+      "category": "reasoning",
+      "description": "도구 사용을 허용한 전문가 수준 학술 벤치마크 평가",
+      "source": "https://lastexam.ai/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -787,7 +913,47 @@
       },
       "swe-bench-pro": {
         "value": 54.2,
-        "date": "2026-04-24",
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "gdp-pdf": {
+        "value": 16.7,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "blueprint-bench-2": {
+        "value": 26.5,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "automationbench": {
+        "value": 9.6,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "hle-with-tools": {
+        "value": 51.4,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "hle": {
+        "value": 44.4,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "osworld-verified": {
+        "value": 76.2,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "legal-agent-bench": {
+        "value": 0,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "terminal-bench-2-1": {
+        "value": 70.7,
+        "date": "2026-06-09",
         "source": "official"
       }
     },
@@ -1312,9 +1478,8 @@
       },
       "swe-bench-pro": {
         "value": 58.6,
-        "date": "2026-05-12",
-        "source": "community",
-        "sourceUrl": "https://o-mega.ai/articles/gpt-5-5-the-complete-guide-2026"
+        "date": "2026-06-09",
+        "source": "official"
       },
       "medchembench": {
         "value": 25.1,
@@ -1333,6 +1498,66 @@
         "date": "2026-06-03",
         "source": "official",
         "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/"
+      },
+      "frontiercode-diamond": {
+        "value": 5.7,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "gdp-pdf": {
+        "value": 24.9,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "blueprint-bench-2": {
+        "value": 36.2,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "automationbench": {
+        "value": 12.9,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "exploitbench-cap": {
+        "value": 34,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "healthbench-professional": {
+        "value": 51.8,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "hle-with-tools": {
+        "value": 52.2,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "gdpval-aa": {
+        "value": 1769,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "hle": {
+        "value": 41.4,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "osworld-verified": {
+        "value": 78.7,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "legal-agent-bench": {
+        "value": 2.1,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "terminal-bench-2-1": {
+        "value": 83.4,
+        "date": "2026-06-09",
+        "source": "official"
       }
     },
     "gemini-3-flash": {
@@ -1947,16 +2172,60 @@
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
       },
       "hle": {
-        "value": 57.9,
+        "value": 49.8,
         "date": "2026-06-09",
-        "source": "official",
-        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+        "source": "official"
       },
       "terminal-bench-2-1": {
         "value": 82.7,
         "date": "2026-06-09",
         "source": "official",
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "frontiercode-diamond": {
+        "value": 13.4,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "gdp-pdf": {
+        "value": 22.5,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "blueprint-bench-2": {
+        "value": 14.5,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "automationbench": {
+        "value": 15.5,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "biomysterybench-hard": {
+        "value": 40,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "biomysterybench-human": {
+        "value": 80.4,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "exploitbench-cap": {
+        "value": 40,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "healthbench-professional": {
+        "value": 56.9,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "hle-with-tools": {
+        "value": 57.9,
+        "date": "2026-06-09",
+        "source": "official"
       }
     },
     "hcx-007": {
@@ -2167,16 +2436,60 @@
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
       },
       "hle": {
-        "value": 64.5,
+        "value": 59,
         "date": "2026-06-09",
-        "source": "official",
-        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+        "source": "official"
       },
       "terminal-bench-2-1": {
         "value": 88,
         "date": "2026-06-09",
         "source": "official",
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "frontiercode-diamond": {
+        "value": 29.3,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "gdp-pdf": {
+        "value": 29.8,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "blueprint-bench-2": {
+        "value": 38.6,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "automationbench": {
+        "value": 17.4,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "biomysterybench-hard": {
+        "value": 46.1,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "biomysterybench-human": {
+        "value": 83.9,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "exploitbench-cap": {
+        "value": 78,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "healthbench-professional": {
+        "value": 66,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "hle-with-tools": {
+        "value": 64.5,
+        "date": "2026-06-09",
+        "source": "official"
       }
     },
     "claude-mythos-5": {
@@ -2205,16 +2518,60 @@
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
       },
       "hle": {
-        "value": 64.5,
+        "value": 59,
         "date": "2026-06-09",
-        "source": "official",
-        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+        "source": "official"
       },
       "terminal-bench-2-1": {
         "value": 88,
         "date": "2026-06-09",
         "source": "official",
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "frontiercode-diamond": {
+        "value": 29.3,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "gdp-pdf": {
+        "value": 29.8,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "blueprint-bench-2": {
+        "value": 38.6,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "automationbench": {
+        "value": 17.4,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "biomysterybench-hard": {
+        "value": 46.1,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "biomysterybench-human": {
+        "value": 83.9,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "exploitbench-cap": {
+        "value": 78,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "healthbench-professional": {
+        "value": 66,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "hle-with-tools": {
+        "value": 64.5,
+        "date": "2026-06-09",
+        "source": "official"
       }
     },
     "claude-mythos-preview": {
@@ -2231,10 +2588,34 @@
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
       },
       "hle": {
+        "value": 56.8,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "biomysterybench-hard": {
+        "value": 29.6,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "biomysterybench-human": {
+        "value": 82.6,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "exploitbench-cap": {
+        "value": 69,
+        "date": "2026-06-09",
+        "source": "official"
+      },
+      "healthbench-professional": {
         "value": 64.7,
         "date": "2026-06-09",
-        "source": "official",
-        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+        "source": "official"
+      },
+      "hle-with-tools": {
+        "value": 64.7,
+        "date": "2026-06-09",
+        "source": "official"
       }
     },
     "mistral-small-4": {
