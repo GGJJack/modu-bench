@@ -697,13 +697,13 @@
         "value": 77.6,
         "date": "2026-05-22",
         "source": "official",
-        "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+        "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
       },
       "tau-bench-telecom": {
         "value": 91.4,
         "date": "2026-05-22",
         "source": "official",
-        "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+        "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
       }
     },
     "mistral-large-3": {
@@ -1923,10 +1923,40 @@
         "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8"
       },
       "legal-agent-bench": {
-        "value": 10,
-        "date": "2026-05-28",
+        "value": 10.4,
+        "date": "2026-06-09",
         "source": "official",
-        "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8"
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "swe-bench-pro": {
+        "value": 69.2,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "gdpval-aa": {
+        "value": 1890,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "osworld-verified": {
+        "value": 83.4,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "hle": {
+        "value": 57.9,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "terminal-bench-2-1": {
+        "value": 82.7,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
       }
     },
     "hcx-007": {
@@ -2109,6 +2139,116 @@
         "date": "2024-03-04",
         "source": "community",
         "sourceUrl": "https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0"
+      }
+    },
+    "claude-fable-5": {
+      "swe-bench-pro": {
+        "value": 80.3,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "gdpval-aa": {
+        "value": 1932,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "osworld-verified": {
+        "value": 85,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "legal-agent-bench": {
+        "value": 13.3,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "hle": {
+        "value": 64.5,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "terminal-bench-2-1": {
+        "value": 88,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      }
+    },
+    "claude-mythos-5": {
+      "swe-bench-pro": {
+        "value": 80.3,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "gdpval-aa": {
+        "value": 1932,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "osworld-verified": {
+        "value": 85,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "legal-agent-bench": {
+        "value": 13.3,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "hle": {
+        "value": 64.5,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "terminal-bench-2-1": {
+        "value": 88,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      }
+    },
+    "claude-mythos-preview": {
+      "swe-bench-pro": {
+        "value": 77.8,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "osworld-verified": {
+        "value": 85.4,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      },
+      "hle": {
+        "value": 64.7,
+        "date": "2026-06-09",
+        "source": "official",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+      }
+    },
+    "mistral-small-4": {
+      "aime-2025": {
+        "value": 83.8,
+        "date": "2026-03-16",
+        "source": "official",
+        "url": "https://mistral.ai/news/mistral-small-4/"
+      },
+      "livecodebench-v6": {
+        "value": 63.6,
+        "date": "2026-03-16",
+        "source": "official",
+        "url": "https://mistral.ai/news/mistral-small-4/"
       }
     }
   }
