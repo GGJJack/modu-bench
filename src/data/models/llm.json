@@ -282,8 +282,8 @@
       "parameterSize": null,
       "contextWindow": 1000000,
       "pricing": {
-        "input": 30,
-        "output": 180
+        "input": 5,
+        "output": 30
       },
       "links": {
         "official": "https://openai.com/index/introducing-gpt-5-5/"
