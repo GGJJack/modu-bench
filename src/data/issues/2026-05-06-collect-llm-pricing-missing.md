@@ -41,3 +41,8 @@ target: llm/multiple
 - `hcx-007`의 context window를 128,000으로 업데이트함 (v3 API 문서 확인).
 - `yi-large`의 context window를 33,000으로 재확인 및 업데이트함 (OpenRouter 기준).
 - NCP 공식 홈페이지의 CLOVA Studio 요금 안내 페이지에서 HCX-007, HCX-005, HCX-DASH-002 의 가격 항목이 '기본' 및 '튜닝' 구분으로 존재하나 구체적인 수치는 여전히 공개되지 않음 (상담 필요).
+
+## 진행 내역 (2026-06-11)
+- (reinforce): OpenAI 공식 가격 페이지(https://openai.com/api/pricing/)를 통해 GPT-5.5의 정식 가격($5/$30 per 1M tokens)을 확인하여 업데이트함.
+- HyperCLOVA X, Yi-Large, Baichuan-4의 공식 API 가격은 여전히 상담 또는 콘솔 로그인이 필요한 비공개 상태임.
+- GPT-5-5-instant 등 대기 중이던 OpenAI 모델들의 가격 정보를 최신화함.
