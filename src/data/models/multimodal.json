@@ -35,7 +35,7 @@
       "id": "mistral-ocr-3",
       "name": "OCR 3",
       "provider": "Mistral AI",
-      "releaseDate": "2025-12-01",
+      "releaseDate": "2025-12-17",
       "license": "Proprietary"
     },
     {
@@ -87,6 +87,21 @@
       "name": "Command A Vision",
       "provider": "Cohere",
       "releaseDate": "2025-07-01",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "audio"
+      ],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/"
+      },
+      "id": "gemini-3.5-live-translate",
+      "name": "Gemini 3.5 Live Translate",
+      "provider": "Google",
+      "releaseDate": "2026-06-09",
       "license": "Proprietary"
     }
   ]
