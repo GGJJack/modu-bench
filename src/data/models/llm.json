@@ -2800,7 +2800,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 200000,
       "pricing": {
         "input": 10,
         "output": 50
@@ -2816,7 +2816,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 200000,
       "pricing": {
         "input": 10,
         "output": 50
@@ -2839,6 +2839,32 @@
       "name": "EEVE-Korean-Instruct-10.8B",
       "provider": "Yanolja",
       "releaseDate": "2024-03-04",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "12B (dense)",
+      "contextWindow": 256000,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/"
+      },
+      "id": "gemma-4-12b",
+      "name": "Gemma 4 12B",
+      "provider": "Google",
+      "releaseDate": "2026-06-03",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "26B (3.8B active)",
+      "contextWindow": 256000,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
+      },
+      "id": "diffusion-gemma",
+      "name": "DiffusionGemma",
+      "provider": "Google",
+      "releaseDate": "2026-06-10",
       "license": "Apache-2.0"
     }
   ]
