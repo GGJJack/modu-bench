@@ -46,3 +46,6 @@ target: llm/multiple
 - (reinforce): OpenAI 공식 가격 페이지(https://openai.com/api/pricing/)를 통해 GPT-5.5의 정식 가격($5/$30 per 1M tokens)을 확인하여 업데이트함.
 - HyperCLOVA X, Yi-Large, Baichuan-4의 공식 API 가격은 여전히 상담 또는 콘솔 로그인이 필요한 비공개 상태임.
 - GPT-5-5-instant 등 대기 중이던 OpenAI 모델들의 가격 정보를 최신화함.
+
+## 진행 내역 (2026-06-12)
+- (reinforce): NCP CLOVA Studio 공식 요금 페이지(https://www.ncloud.com/product/ai/clovaStudio)를 재점검하였으나, HCX-007, HCX-005, HCX-DASH-002 등의 요금은 여전히 '-'로 표시되어 있으며 구체적인 수치는 공개되지 않음. Yi-Large 및 Baichuan-4 역시 공식 웹사이트와 OpenRouter에서 새로운 가격 변동이나 공식 확정 공지가 확인되지 않아 기존 추정치를 유지함.

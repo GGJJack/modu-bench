@@ -644,13 +644,13 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 1048576,
+      "contextWindow": 131072,
       "pricing": {
         "input": 1,
         "output": 5
       },
       "links": {
-        "official": "https://ai.google.dev/gemini-api/docs/models/gemini#gemini-robotics-er-1-6"
+        "official": "https://ai.google.dev/gemini-api/docs/robotics-overview"
       },
       "id": "gemini-robotics-er-1-6",
       "name": "Gemini Robotics-ER 1.6",
