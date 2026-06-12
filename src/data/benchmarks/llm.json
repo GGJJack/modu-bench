@@ -756,6 +756,48 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "mmmlu",
+      "name": "MMMLU",
+      "nameKo": "MMMLU (다국어 다중과제 언어 이해)",
+      "category": "knowledge",
+      "description": "MMLU 벤치마크를 다국어로 확장한 버전으로, 다양한 언어로 된 지식 및 추론 능력을 평가합니다.",
+      "source": "https://github.com/openai/simple-evals",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mmmu-pro",
+      "name": "MMMU Pro",
+      "nameKo": "MMMU Pro",
+      "category": "reasoning",
+      "description": "멀티모달 능력을 평가하는 MMMU의 더 어려운 확장 버전입니다.",
+      "source": "https://mmmu-benchmark.github.io/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "aime-2026",
+      "name": "AIME 2026",
+      "nameKo": "AIME 2026",
+      "category": "math",
+      "description": "AIME 2026 수학 경시대회 문제입니다.",
+      "source": "https://huggingface.co/datasets/MathArena/aime_2026",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -2630,6 +2672,62 @@
         "date": "2026-03-16",
         "source": "official",
         "url": "https://mistral.ai/news/mistral-small-4/"
+      }
+    },
+    "gemma-4-12b": {
+      "mmlu-pro": {
+        "value": 77.2,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://huggingface.co/google/gemma-4-12B-it"
+      },
+      "livecodebench-v6": {
+        "value": 72,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://huggingface.co/google/gemma-4-12B-it"
+      },
+      "codeforces": {
+        "value": 1659,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://huggingface.co/google/gemma-4-12B-it"
+      },
+      "gpqa": {
+        "value": 78.8,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://huggingface.co/google/gemma-4-12B-it"
+      },
+      "tau-bench": {
+        "value": 69,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://huggingface.co/google/gemma-4-12B-it"
+      },
+      "hle": {
+        "value": 5.2,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://huggingface.co/google/gemma-4-12B-it"
+      },
+      "mmmlu": {
+        "value": 83.4,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://huggingface.co/google/gemma-4-12B-it"
+      },
+      "mmmu-pro": {
+        "value": 69.1,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://huggingface.co/google/gemma-4-12B-it"
+      },
+      "aime-2026": {
+        "value": 77.5,
+        "date": "2026-06-03",
+        "source": "official",
+        "url": "https://huggingface.co/google/gemma-4-12B-it"
       }
     }
   }
