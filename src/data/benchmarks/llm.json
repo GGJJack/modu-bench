@@ -2729,6 +2729,62 @@
         "source": "official",
         "url": "https://huggingface.co/google/gemma-4-12B-it"
       }
+    },
+    "diffusion-gemma": {
+      "mmlu-pro": {
+        "value": 77.6,
+        "date": "2026-06-13",
+        "source": "official",
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      },
+      "aime-2026": {
+        "value": 69.1,
+        "date": "2026-06-13",
+        "source": "official",
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      },
+      "livecodebench-v6": {
+        "value": 69.1,
+        "date": "2026-06-13",
+        "source": "official",
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      },
+      "codeforces": {
+        "value": 1429,
+        "date": "2026-06-13",
+        "source": "official",
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      },
+      "gpqa": {
+        "value": 73.2,
+        "date": "2026-06-13",
+        "source": "official",
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      },
+      "tau-bench": {
+        "value": 56.2,
+        "date": "2026-06-13",
+        "source": "official",
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      },
+      "hle": {
+        "value": 11,
+        "date": "2026-06-13",
+        "source": "official",
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      },
+      "mmmlu": {
+        "value": 81.5,
+        "date": "2026-06-13",
+        "source": "official",
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      },
+      "mmmu-pro": {
+        "value": 54.3,
+        "date": "2026-06-13",
+        "source": "official",
+        "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+      }
     }
   }
 }
