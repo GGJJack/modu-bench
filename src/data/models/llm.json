@@ -2878,7 +2878,7 @@
       "name": "Mistral 3",
       "provider": "Mistral AI",
       "releaseDate": "2025-12-02",
-      "license": "Mistral Non-Production License"
+      "license": "Apache-2.0"
     },
     {
       "parameterSize": null,
