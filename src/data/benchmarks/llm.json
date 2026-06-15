@@ -2785,6 +2785,14 @@
         "source": "official",
         "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
       }
+    },
+    "ministral-14b-3.0": {
+      "aime-2025": {
+        "value": 85,
+        "date": "2025-12-02",
+        "source": "official",
+        "url": "https://mistral.ai/news/mistral-3"
+      }
     }
   }
 }
