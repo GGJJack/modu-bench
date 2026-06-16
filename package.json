@@ -22,6 +22,8 @@
     "preact": "^10.29.1"
   },
   "devDependencies": {
+    "@playwright/browser-chromium": "^1.61.0",
+    "@playwright/test": "^1.61.0",
     "tailwindcss": "3"
   }
 }
