@@ -307,7 +307,8 @@
         0,
         3000
       ],
-      "higherIsBetter": true
+      "higherIsBetter": true,
+      "organization": "artificial-analysis"
     },
     {
       "id": "mcp-atlas",
@@ -335,7 +336,8 @@
         0,
         100
       ],
-      "higherIsBetter": true
+      "higherIsBetter": true,
+      "organization": "laude-institute"
     },
     {
       "id": "codeforces",

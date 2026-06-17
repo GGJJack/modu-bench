@@ -1,12 +1,13 @@
 ---
 benchmarkId: terminal-bench-2-1
 domain: llm
-status: draft
-updated: 2026-05-21
+status: published
+updated: 2026-06-17
 sources:
   - https://arxiv.org/abs/2605.12233
   - https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/
   - https://www.tbench.ai/benchmarks
+organization: laude-institute
 paperUrl: https://arxiv.org/abs/2605.12233
 highlights:
   - "터미널 환경에서 에이전트의 자율적 태스크 해결 능력 측정"
