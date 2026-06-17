@@ -2,9 +2,11 @@
 benchmarkId: gdpval-aa
 domain: llm
 status: published
-updated: 2026-06-10
+updated: 2026-06-17
 sources:
   - https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/
+  - https://artificialanalysis.ai/models/claude-3-7-sonnet
+organization: artificial-analysis
 highlights:
   - "44개 직업군 및 9개 주요 산업에 걸친 실제 지식 노동 측정"
   - "다양한 형태(문서, 슬라이드, 스프레드시트 등)의 실제 업무 산출물 생성 평가"
