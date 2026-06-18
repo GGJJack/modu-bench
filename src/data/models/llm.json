@@ -297,10 +297,7 @@
     {
       "parameterSize": "675B total / 41B active",
       "contextWindow": 256000,
-      "pricing": {
-        "input": 0.5,
-        "output": 1.5
-      },
+      "pricing": null,
       "links": {
         "official": "https://docs.mistral.ai/models"
       },
@@ -551,11 +548,8 @@
     },
     {
       "parameterSize": "Grok 4.3 (MoE)",
-      "contextWindow": 1000000,
-      "pricing": {
-        "input": 1.25,
-        "output": 2.5
-      },
+      "contextWindow": null,
+      "pricing": null,
       "links": {
         "official": "https://docs.x.ai/developers/models"
       },
@@ -1004,10 +998,7 @@
     {
       "parameterSize": "33B",
       "contextWindow": 256000,
-      "pricing": {
-        "input": 0.15,
-        "output": 0.6
-      },
+      "pricing": null,
       "links": {
         "official": "https://www.lgresearch.ai/",
         "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-4.5-33B"
@@ -1074,10 +1065,7 @@
     {
       "parameterSize": null,
       "contextWindow": 1000000,
-      "pricing": {
-        "input": 30,
-        "output": 180
-      },
+      "pricing": null,
       "links": {
         "official": "https://openai.com/news/"
       },
@@ -1980,10 +1968,7 @@
     {
       "parameterSize": null,
       "contextWindow": 128000,
-      "pricing": {
-        "input": 0.5,
-        "output": 2
-      },
+      "pricing": null,
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio"
       },
@@ -2103,7 +2088,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "12B",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.016,
@@ -2832,9 +2817,12 @@
     },
     {
       "parameterSize": "10.8B (dense)",
-      "contextWindow": null,
+      "contextWindow": 4096,
       "pricing": null,
-      "links": {},
+      "links": {
+        "official": "https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0",
+        "paper": "https://arxiv.org/abs/2402.14714"
+      },
       "id": "eeve-korean-instruct-10.8b",
       "name": "EEVE-Korean-Instruct-10.8B",
       "provider": "Yanolja",
@@ -2927,7 +2915,7 @@
     },
     {
       "parameterSize": "8B (1B active)",
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
@@ -2936,7 +2924,20 @@
       "name": "LFM2.5-8B-A1B",
       "provider": "Liquid AI",
       "releaseDate": "2026-05-28",
-      "license": "Proprietary"
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "35B (3B active) MoE",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwen.ai/blog"
+      },
+      "id": "qwen-3-6-35b-a3b",
+      "name": "Qwen 3.6 35B A3B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2026-06-09",
+      "license": "Apache-2.0"
     }
   ]
 }
