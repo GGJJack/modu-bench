@@ -31,3 +31,6 @@ target: llm/multiple
 - `gpt-5-5-instant` ($0.1/$0.4) 및 `alphaevolve` ($2/$12) 가격 정보는 최신 릴리스 기반으로 이미 반영되어 있음을 확인함.
 - `sakana-fugu-ultra/mini`의 벤치마크 점수를 공식 블로그(https://sakana.ai/fugu-beta/)를 통해 확인함. 가격 정보는 베타 단계로 공개되지 않음.
 - 주요 메타데이터가 보강되었으나 `hyperclova-x` 가격 정보가 여전히 누락되어 있으므로 blocker로 격상하여 관리함.
+
+## 진행 내역 (2026-06-18)
+- (reinforce): HyperCLOVA X, Yi-Large, Baichuan-4 관련 가격 정보 부재 상황을 재확인함. Sakana AI Fugu 시리즈 등 베타 단계 모델들의 공식 가격 정보 또한 여전히 공개되지 않음. 주요 엔터프라이즈 및 베타 모델들에 대한 정기 모니터링을 지속함.
