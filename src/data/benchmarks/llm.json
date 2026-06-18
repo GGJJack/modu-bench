@@ -2795,6 +2795,52 @@
         "source": "official",
         "url": "https://mistral.ai/news/mistral-3"
       }
+    },
+    "lfm2-5-8b-a1b": {
+      "if-bench": {
+        "value": 56.47,
+        "date": "2026-05-28",
+        "source": "official",
+        "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+      },
+      "math": {
+        "value": 88.76,
+        "date": "2026-05-28",
+        "source": "official",
+        "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+      },
+      "aime-2025": {
+        "value": 42.53,
+        "date": "2026-05-28",
+        "source": "official",
+        "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+      },
+      "tau-bench-telecom": {
+        "value": 88.07,
+        "date": "2026-05-28",
+        "source": "official",
+        "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b"
+      }
+    },
+    "minimax-m3": {
+      "swe-bench-pro": {
+        "value": 59,
+        "date": "2026-06-01",
+        "source": "official",
+        "url": "https://www.minimaxi.com/blog/minimax-m3"
+      },
+      "terminal-bench-2-1": {
+        "value": 66,
+        "date": "2026-06-01",
+        "source": "official",
+        "url": "https://www.minimaxi.com/blog/minimax-m3"
+      },
+      "mcp-atlas": {
+        "value": 74.2,
+        "date": "2026-06-01",
+        "source": "official",
+        "url": "https://www.minimaxi.com/blog/minimax-m3"
+      }
     }
   }
 }
