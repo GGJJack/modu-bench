@@ -14,7 +14,7 @@ highlights:
   - "Zhipu AI의 차세대 플래그십 모델로 '에이전트 공학(Agentic Engineering)' 최적화"
   - "SWE-bench Verified 등 코딩 및 에이전트 벤치마크에서 SOTA 수준 성능 기록"
   - "Claude Opus 4.5 및 GPT-5급의 복잡한 추론 및 도구 사용 능력 보유"
-relatedOrganization: zhipuai
+relatedOrganization: zhipu-ai
 ---
 
 # GLM-5 소개
