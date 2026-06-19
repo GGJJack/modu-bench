@@ -43,3 +43,6 @@ Gemini Robotics-ER 1.6 의 벤치마크 점수를 공식 문서 및 커뮤니티
 
 ## 진행 내역 (2026-06-18)
 - (reinforce): 공식 모델 페이지(https://ai.google.dev/gemini-api/docs/robotics-overview)를 재점검함. 2026년 6월 4일 업데이트된 문서에서도 MMLU, GPQA 등 표준 LLM 벤치마크 데이터는 여전히 제공되지 않음. 해당 모델은 공간 지능 및 로봇 제어에 특화된 모델로, 일반 벤치마크 점수 누락은 제품의 특수 목적에 따른 의도적인 것으로 최종 재확인됨.
+
+## 진행 내역 (2026-06-19)
+- (reinforce): 공식 기술 문서(https://ai.google.dev/gemini-api/docs/robotics-overview, 2026-06-18 업데이트)를 재확인함. Robotics-ER 1.6의 컨텍스트 윈도우(128k) 및 API 가격(Input $1 / Output $5 per 1M tokens)은 이미 등록되어 있으나, MMLU, GPQA 등 표준 LLM 벤치마크 점수는 여전히 공개되지 않음. 해당 모델의 로보틱스 특화 성격을 고려할 때 일반 벤치마크 점수는 의도적으로 배제된 것으로 보임.
