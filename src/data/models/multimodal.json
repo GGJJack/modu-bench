@@ -142,6 +142,22 @@
       "provider": "Mistral AI",
       "releaseDate": "2026-02-04",
       "license": "Apache-2.0"
+    },
+    {
+      "supportedModalities": [
+        "image",
+        "video"
+      ],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://x.ai/news/grok-imagine-video-1-5"
+      },
+      "id": "grok-imagine-video-1-5",
+      "name": "Grok Imagine Video 1.5",
+      "provider": "xAI",
+      "releaseDate": "2026-06-16",
+      "license": "Proprietary"
     }
   ]
 }

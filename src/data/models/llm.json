@@ -548,8 +548,11 @@
     },
     {
       "parameterSize": "Grok 4.3 (MoE)",
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 1.25,
+        "output": 2.5
+      },
       "links": {
         "official": "https://docs.x.ai/developers/models"
       },
@@ -2937,6 +2940,33 @@
       "name": "Qwen 3.6 35B A3B",
       "provider": "Alibaba Cloud",
       "releaseDate": "2026-06-09",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "753B total MoE",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://zhipuai.cn/",
+        "huggingface": "https://huggingface.co/zai-org/GLM-5.2"
+      },
+      "id": "glm-5-2",
+      "name": "GLM-5.2",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-06-18",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "3B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "huggingface": "https://huggingface.co/WeiboAI/VibeThinker-3B"
+      },
+      "id": "vibethinker-3b",
+      "name": "VibeThinker-3B",
+      "provider": "WeiboAI",
+      "releaseDate": "2026-06-18",
       "license": "Apache-2.0"
     }
   ]
