@@ -297,7 +297,10 @@
     {
       "parameterSize": "675B total / 41B active",
       "contextWindow": 256000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.5
+      },
       "links": {
         "official": "https://docs.mistral.ai/models"
       },
@@ -2958,9 +2961,11 @@
     },
     {
       "parameterSize": "3B",
-      "contextWindow": null,
+      "contextWindow": 64000,
       "pricing": null,
       "links": {
+        "official": "https://github.com/WeiboAI/VibeThinker",
+        "paper": "https://arxiv.org/abs/2606.16140",
         "huggingface": "https://huggingface.co/WeiboAI/VibeThinker-3B"
       },
       "id": "vibethinker-3b",
@@ -2968,6 +2973,32 @@
       "provider": "WeiboAI",
       "releaseDate": "2026-06-18",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://zhipuai.cn/"
+      },
+      "id": "glm-5-turbo",
+      "name": "GLM-5-Turbo",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-06-18",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://zhipuai.cn/"
+      },
+      "id": "glm-5v-turbo",
+      "name": "GLM-5V-Turbo",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-06-18",
+      "license": "Proprietary"
     }
   ]
 }
