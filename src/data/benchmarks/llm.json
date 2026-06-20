@@ -652,7 +652,7 @@
       "name": "GDP.pdf",
       "nameKo": "GDP.pdf",
       "category": "reasoning",
-      "description": "PDF 문서 기반 지식 및 추론 능력 평가 (시각 정보 포함)",
+      "description": "PDF 문서 기반 지식 및 추론 능력 평가 (시각 정보 포함, Anthropic 공식 발표문 이미지 내 확인)",
       "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "unit": "%",
       "scoreRange": [
@@ -666,7 +666,7 @@
       "name": "Blueprint-Bench 2",
       "nameKo": "Blueprint-Bench 2 (공간 추론)",
       "category": "reasoning",
-      "description": "복잡한 설계도 및 공간 정보에 대한 추론 능력 평가",
+      "description": "복잡한 설계도 및 공간 정보에 대한 추론 능력 평가 (Anthropic 공식 발표문 이미지 내 확인)",
       "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "unit": "%",
       "scoreRange": [
