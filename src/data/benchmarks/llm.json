@@ -800,6 +800,34 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "ifeval",
+      "name": "IFEval",
+      "nameKo": "IFEval (명령어 준수 평가)",
+      "category": "instruction",
+      "description": "IFEval은 언어 모델이 주어진 복잡한 제약 조건과 지시사항을 얼마나 정확히 따르는지 검증하기 위한 벤치마크입니다.",
+      "source": "https://arxiv.org/abs/2311.07911",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "hmmt-25",
+      "name": "HMMT 25",
+      "nameKo": "HMMT 25",
+      "category": "math",
+      "description": "HMMT (Harvard-MIT Mathematics Tournament) 2025 수학 경시대회 문제를 활용한 수학 추론 평가.",
+      "source": "https://www.hmmt.org/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -2840,6 +2868,32 @@
         "date": "2026-06-01",
         "source": "official",
         "url": "https://www.minimaxi.com/blog/minimax-m3"
+      }
+    },
+    "vibethinker-3b": {
+      "aime-2026": {
+        "value": 94.3,
+        "date": "2026-06-15",
+        "source": "official",
+        "url": "https://arxiv.org/abs/2606.16140"
+      },
+      "livecodebench-v6": {
+        "value": 80.2,
+        "date": "2026-06-15",
+        "source": "official",
+        "url": "https://arxiv.org/abs/2606.16140"
+      },
+      "ifeval": {
+        "value": 93.4,
+        "date": "2026-06-15",
+        "source": "official",
+        "url": "https://arxiv.org/abs/2606.16140"
+      },
+      "hmmt-25": {
+        "value": 89.3,
+        "date": "2026-06-15",
+        "source": "official",
+        "url": "https://arxiv.org/abs/2606.16140"
       }
     }
   }
