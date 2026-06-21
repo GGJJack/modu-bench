@@ -193,12 +193,12 @@
       "contextWindow": 256000,
       "pricing": null,
       "links": {
-        "official": "https://sakana.ai/marlin-beta/"
+        "official": "https://sakana.ai/marlin-release/"
       },
       "id": "sakana-marlin",
       "name": "Sakana Marlin",
       "provider": "Sakana AI",
-      "releaseDate": "2026-04-02",
+      "releaseDate": "2026-06-15",
       "license": "Proprietary"
     },
     {
@@ -432,7 +432,7 @@
         "huggingface": "https://huggingface.co/mistralai/Mistral-Medium-3.5-Preview"
       },
       "id": "mistral-medium-3-5",
-      "name": "Mistral Medium 3.5",
+      "name": "Mistral Medium 3.5 Vibe",
       "provider": "Mistral AI",
       "releaseDate": "2026-05-22",
       "license": "Modified MIT"
@@ -1127,22 +1127,6 @@
       "name": "Gemini 3 Flash",
       "provider": "Google",
       "releaseDate": "2026-04-22",
-      "license": "Proprietary"
-    },
-    {
-      "parameterSize": "128B (dense)",
-      "contextWindow": 256000,
-      "pricing": {
-        "input": 1.5,
-        "output": 7.5
-      },
-      "links": {
-        "official": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5"
-      },
-      "id": "mistral-medium-3-5-vibe",
-      "name": "Mistral Medium 3.5 Vibe",
-      "provider": "Mistral AI",
-      "releaseDate": "2026-04-29",
       "license": "Proprietary"
     },
     {
@@ -2999,6 +2983,32 @@
       "provider": "Zhipu AI",
       "releaseDate": "2026-06-18",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "350M",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.liquid.ai/blog/lfm2-5-retrievers"
+      },
+      "id": "lfm2-5-embedding-350m",
+      "name": "LFM2.5-Embedding-350M",
+      "provider": "Liquid AI",
+      "releaseDate": "2026-06-18",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "350M",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.liquid.ai/blog/lfm2-5-retrievers"
+      },
+      "id": "lfm2-5-colbert-350m",
+      "name": "LFM2.5-ColBERT-350M",
+      "provider": "Liquid AI",
+      "releaseDate": "2026-06-18",
+      "license": "Apache-2.0"
     }
   ]
 }
