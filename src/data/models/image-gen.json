@@ -74,6 +74,19 @@
       "provider": "xAI",
       "releaseDate": "2026-06-03",
       "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/gemini-image/"
+      },
+      "id": "nano-banana",
+      "name": "Nano Banana",
+      "provider": "Google",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
     }
   ]
 }

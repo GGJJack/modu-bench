@@ -1,0 +1,199 @@
+📋 llm 도메인 모델 목록 (197개):
+
+  - gpt-4o | GPT-4o | OpenAI | 2024-05-13
+  - claude-4-sonnet | Claude 4 Sonnet | Anthropic | 2025-05-22
+  - hyperclova-x | HyperCLOVA X | NAVER Cloud | 2023-08-24
+  - exaone-3.0 | EXAONE 3.0 | LG AI Research | 2024-08-07
+  - solar-pro-3 | Solar Pro 3 | Upstage | 2026-01-26
+  - llama-3.1-405b | Llama 3.1 405B | Meta | 2024-07-23
+  - deepseek-v3 | DeepSeek-V3 | DeepSeek | 2024-12-26
+  - gemini-3-1-pro | Gemini 3.1 Pro | Google | 2026-04-22
+  - qwen-2.5-72b | Qwen2.5-72B | Alibaba Cloud | 2024-09-19
+  - deepseek-v4-pro | DeepSeek-V4-Pro | DeepSeek | 2026-04-24
+  - claude-opus-4-7 | Claude Opus 4.7 | Anthropic | 2026-04-16
+  - sakana-fugu-ultra | Sakana Fugu Ultra | Sakana AI | 2026-04-24
+  - sakana-marlin | Sakana Marlin | Sakana AI | 2026-06-15
+  - claude-mythos-preview | Claude Mythos Preview | Anthropic | 2026-04-07
+  - sakana-fugu-mini | Sakana Fugu Mini | Sakana AI | 2026-04-24
+  - claude-sonnet-4-6 | Claude Sonnet 4.6 | Anthropic | 2026-02-17
+  - claude-haiku-4-5 | Claude Haiku 4.5 | Anthropic | 2025-10-01
+  - gpt-5-4 | GPT-5.4 | OpenAI | 2026-03-05
+  - gpt-5-5 | GPT-5.5 | OpenAI | 2026-04-23
+  - mistral-large-3 | Mistral Large 3 | Mistral AI | 2026-04-27
+  - mistral-small-4 | Mistral Small 4 | Mistral AI | 2026-03-16
+  - mistral-medium-3-1 | Mistral Medium 3.1 | Mistral AI | 2025-08-01
+  - command-a-03-2025 | Command A (03-2025) | Cohere | 2025-03-01
+  - grok-4-20 | Grok 4.20 | xAI | 2026-04-16
+  - ministral-3-14b | Ministral 3 14B | Mistral AI | 2026-04-27
+  - devstral-2 | Devstral 2 | Mistral AI | 2025-12-01
+  - magistral-medium-1-2 | Magistral Medium 1.2 | Mistral AI | 2025-09-01
+  - mistral-medium-3-5 | Mistral Medium 3.5 Vibe | Mistral AI | 2026-05-22
+  - ministral-3-8b | Ministral 3 8B | Mistral AI | 2026-04-27
+  - ministral-3-3b | Ministral 3 3B | Mistral AI | 2026-04-27
+  - ministral-3-14b-reasoning | Ministral 3 14B Reasoning | Mistral AI | 2026-04-27
+  - ministral-3-8b-reasoning | Ministral 3 8B Reasoning | Mistral AI | 2026-04-27
+  - ministral-3-3b-reasoning | Ministral 3 3B Reasoning | Mistral AI | 2026-04-27
+  - deepseek-v4-flash | DeepSeek-V4-Flash | DeepSeek | 2026-04-24
+  - qwen-plus | Qwen-Plus | Alibaba Cloud | 2024-09-19
+  - grok-4-3 | Grok 4.3 | xAI | 2026-05-12
+  - qwen-turbo | Qwen-Turbo | Alibaba Cloud | 2024-09-19
+  - gpt-5-3-instant | GPT-5.3 Instant | OpenAI | 2026-04-23
+  - gpt-5-3-codex | GPT-5.3-Codex | OpenAI | 2026-04-23
+  - gemini-3-1-flash-lite | Gemini 3.1 Flash-Lite | Google | 2026-04-22
+  - gemini-3-1-flash-live | Gemini 3.1 Flash-Live | Google | 2026-04-22
+  - gemini-robotics-er-1-6 | Gemini Robotics-ER 1.6 | Google | 2026-04-22
+  - rakuten-ai-7b | Rakuten AI 7B | Rakuten | 2024-03-21
+  - rakuten-ai-7b-instruct | Rakuten AI 7B Instruct | Rakuten | 2024-03-21
+  - rakuten-ai-7b-chat | Rakuten AI 7B Chat | Rakuten | 2024-03-21
+  - minimax-m2-7 | MiniMax M2.5 | MiniMax | 2026-03-18
+  - yi-1-5-34b-chat | Yi-1.5-34B-Chat | 01.AI | 2024-05-13
+  - baichuan2-13b-chat | Baichuan2-13B-Chat | Baichuan Intelligent Technology | 2023-09-06
+  - glm-4-9b-chat | GLM-4-9B-Chat | Zhipu AI | 2024-06-05
+  - yi-large | Yi-Large | 01.AI | 2024-05-13
+  - glm-4-flash | GLM-4-Flash | Zhipu AI | 2024-08-27
+  - baichuan-4 | Baichuan-4 | Baichuan Intelligent Technology | 2024-05-22
+  - gpt-realtime-2 | GPT-Realtime-2 | OpenAI | 2026-05-07
+  - gpt-realtime-translate | GPT-Realtime-Translate | OpenAI | 2026-05-07
+  - gpt-realtime-whisper | GPT-Realtime-Whisper | OpenAI | 2026-05-07
+  - gpt-5-5-instant | GPT-5.5 Instant | OpenAI | 2026-05-05
+  - alphaevolve | AlphaEvolve | Google | 2026-05-26
+  - gemma-4-31b-dense | Gemma 4 31B Dense | Google | 2026-04-02
+  - gemma-4-26b-moe | Gemma 4 26B MoE | Google | 2026-04-02
+  - gemma-4-e4b | Gemma 4 E4B | Google | 2026-04-02
+  - gemma-4-e2b | Gemma 4 E2B | Google | 2026-04-02
+  - yi-lightning | Yi-Lightning | 01.AI | 2024-10-01
+  - gemini-deep-research | Gemini Deep Research | Google | 2026-05-08
+  - grok-4.1-fast | Grok 4.1 Fast | xAI | 2025-11-17
+  - grok-4.20-multi-agent | Grok 4.20 Multi-Agent | xAI | 2026-03-09
+  - exaone-4-5-33b | EXAONE 4.5 33B | LG AI Research | 2026-04-10
+  - trinity-coordinator | Trinity Coordinator | Sakana AI | 2026-04-26
+  - namazu-deepseek-v3-1 | Namazu-DeepSeek-V3.1-Terminus | Sakana AI | 2026-03-24
+  - tinyswallow-1-5b | TinySwallow-1.5B | Sakana AI | 2025-01-30
+  - sakana-marlin-beta | Sakana Marlin (Beta) | Sakana AI | 2026-04-02
+  - gpt-5-5-pro | GPT-5.5 Pro | OpenAI | 2026-05-05
+  - gpt-5-4-mini | GPT-5.4 Mini | OpenAI | 2026-03-05
+  - gpt-5-4-nano | GPT-5.4 Nano | OpenAI | 2026-03-05
+  - gemini-3-flash | Gemini 3 Flash | Google | 2026-04-22
+  - gemma-3-27b | Gemma 3 27B | Google | 2026-05-11
+  - deepseek-v3.2 | DeepSeek-V3.2 | DeepSeek | 2026-05-11
+  - qwen-3-235b | Qwen3-235B | Alibaba Cloud | 2026-05-11
+  - glm-5 | GLM-5 | Zhipu AI | 2026-05-11
+  - llama-4-maverick-17b | Llama 4 Maverick 17B | Meta | 2026-04-23
+  - llama-4-scout-17b | Llama 4 Scout 17B | Meta | 2026-04-23
+  - ministral-3b-3.0 | Ministral 3B 3.0 | Mistral AI | 2026-04-27
+  - ministral-8b-3.0 | Ministral 8B 3.0 | Mistral AI | 2026-04-27
+  - ministral-14b-3.0 | Ministral 14B 3.0 | Mistral AI | 2026-04-27
+  - qwen-3-next-80b | Qwen3 Next 80B A3B | Alibaba Cloud | 2026-05-11
+  - glm-4.7-flash | GLM-4.7 Flash | Zhipu AI | 2026-05-11
+  - llama-4-maverick-8b | Llama 4 Maverick 8B | Meta | 2026-04-23
+  - llama-4-scout-8b | Llama 4 Scout 8B | Meta | 2026-04-23
+  - gemma-3-4b | Gemma 3 4B | Google | 2026-05-11
+  - gemma-3-12b | Gemma 3 12B | Google | 2026-05-11
+  - kimi-k2.5 | Kimi K2.5 | Moonshot AI | 2026-05-11
+  - qwen-3-30b-a3b | Qwen3-30B-A3B | Alibaba Cloud | 2026-05-11
+  - nvidia-nemotron-3-nano | NVIDIA Nemotron 3 Nano 30B A3B | NVIDIA | 2026-05-11
+  - eeve-korean-10.8b | EEVE-Korean-10.8B | Yanolja | 2024-02-22
+  - kimi-k2.6 | Kimi K2.6 | Moonshot AI | 2026-04-20
+  - command-a-reasoning-08-2025 | Command A Reasoning | Cohere | 2025-08-01
+  - command-a-translate-08-2025 | Command A Translate | Cohere | 2025-08-01
+  - command-a-vision-07-2025 | Command A Vision | Cohere | 2025-07-01
+  - solar-mini | Solar Mini | Upstage | 2024-01-25
+  - syn-pro | Syn Pro | Upstage | 2025-10-23
+  - qwen-mt | Qwen-MT | Alibaba Cloud | 2025-07-24
+  - qwen3guard | Qwen3Guard | Alibaba Cloud | 2025-09-23
+  - deepseek-v4-preview | DeepSeek-V4 Preview | DeepSeek | 2026-05-18
+  - claude-design | Claude Design | Anthropic | 2026-04-17
+  - deepseek-r1 | DeepSeek-R1 | DeepSeek | 2025-01-20
+  - gemini-omni-flash | Gemini Omni Flash | Google | 2026-05-19
+  - google-antigravity-2.0 | Google Antigravity 2.0 | Google | 2026-05-19
+  - deep-research-max | Deep Research Max | Google | 2026-04-21
+  - gemini-3-1-flash-lite-preview | Gemini 3.1 Flash-Lite Preview | Google | 2026-05-18
+  - amazon-nova-2-omni | Amazon Nova 2 Omni | Amazon | 2026-05-19
+  - amazon-nova-2-pro | Amazon Nova 2 Pro | Amazon | 2026-05-19
+  - voxtral-mini-1-0 | Voxtral Mini 1.0 | Mistral AI | 2026-05-19
+  - voxtral-small-1-0 | Voxtral Small 1.0 | Mistral AI | 2026-05-19
+  - command-a-plus-05-2026 | Command A+ (05-2026) | Cohere | 2026-05-19
+  - granite-4.1-30b | Granite 4.1 30B | IBM | 2026-05-18
+  - granite-4.1-8b | Granite 4.1 8B | IBM | 2026-05-18
+  - granite-4.1-3b | Granite 4.1 3B | IBM | 2026-05-18
+  - glm-4.7 | GLM 4.7 | Zhipu AI | 2026-05-11
+  - qwen-3-vl-235b | Qwen3 VL 235B | Alibaba Cloud | 2026-05-11
+  - qwen-3-coder-next | Qwen3 Coder Next | Alibaba Cloud | 2026-05-11
+  - nvidia-nemotron-nano-2 | NVIDIA Nemotron Nano 2 | NVIDIA | 2026-05-11
+  - nvidia-nemotron-3-super-120b | NVIDIA Nemotron 3 Super 120B | NVIDIA | 2026-05-11
+  - qwen-3-32b | Qwen3 32B | Alibaba Cloud | 2026-05-11
+  - nvidia-nemotron-nano-2-vl | NVIDIA Nemotron Nano 2 VL | NVIDIA | 2026-05-11
+  - palmyra-x5 | Palmyra X5 | Writer | 2026-05-19
+  - palmyra-x4 | Palmyra X4 | Writer | 2025-10-01
+  - palmyra-vision-7b | Palmyra Vision 7B | Writer | 2025-10-01
+  - leanstral | Leanstral | Mistral AI | 2026-03-16
+  - hcx-007 | HCX-007 | NAVER Cloud | 2026-05-25
+  - hcx-dash-002 | HCX-DASH-002 | NAVER Cloud | 2026-05-25
+  - grok-build-0.1 | Grok Build 0.1 | xAI | 2026-05-25
+  - qwen3-coder-480b-instruct | Qwen3-Coder-480B-A35B-Instruct | Alibaba Cloud | 2025-07-22
+  - hcx-005 | HCX-005 | NAVER Cloud | 2026-05-25
+  - gpt-oss-120b | GPT-OSS-120B | OpenAI | 2026-05-20
+  - gpt-oss-20b | GPT-OSS-20B | OpenAI | 2026-05-20
+  - gemini-3-1-flash-tts | Gemini 3.1 Flash TTS | Google | 2026-05-28
+  - mistral-physics-ai-emmi | Mistral Physics AI (Emmi) | Mistral AI | 2026-05-27
+  - mistral-saba | Mistral Saba | Mistral AI | 2025-02-17
+  - devstral-small-2 | Devstral Small 2 | Mistral AI | 2025-12-09
+  - kimi-k2-thinking | Kimi K2 Thinking | Moonshot AI | 2026-05-11
+  - gpt-oss-safeguard-20b | GPT-OSS-Safeguard-20B | OpenAI | 2026-05-20
+  - gpt-oss-safeguard-120b | GPT-OSS-Safeguard-120B | OpenAI | 2026-05-20
+  - claude-opus-4-8 | Claude Opus 4.8 | Anthropic | 2026-05-28
+  - nano-banana | Nano Banana | Google | 2026-05-19
+  - gemini-audio | Gemini Audio | Google | 2026-05-19
+  - gemini-3-5-pro | Gemini 3.5 Pro | Google | 2026-06-01
+  - o1 | OpenAI o1 | OpenAI | 2024-09-12
+  - gemini-3-pro | Gemini 3 Pro | Google | 2026-05-01
+  - grok-4 | Grok 4 | xAI | 2026-05-01
+  - gemini-2-5-pro | Gemini 2.5 Pro | Google | 2025-10-01
+  - claude-4-5-sonnet | Claude 4.5 Sonnet | Anthropic | 2026-01-01
+  - gemini-2-5-flash | Gemini 2.5 Flash | Google | 2025-10-01
+  - o3-mini | OpenAI o3-mini | OpenAI | 2025-01-31
+  - gpt-5 | GPT-5 | OpenAI | 2025-05-01
+  - gpt-5-mini | GPT-5 Mini | OpenAI | 2025-05-01
+  - gpt-5-nano | GPT-5 Nano | OpenAI | 2025-05-01
+  - magistral-small-1-2 | Magistral Small 1.2 | Mistral AI | 2025-09-01
+  - mistral-moderation-2 | Mistral Moderation 2 | Mistral AI | 2026-03-01
+  - mistral-small-creative | Mistral Small Creative | Mistral AI | 2025-12-01
+  - gemini-3-pro-image | Gemini 3 Pro Image | Google | 2026-04-22
+  - gemini-3.1-flash-image | Gemini 3.1 Flash Image | Google | 2026-04-22
+  - gemini-omni | Gemini Omni | Google | 2026-05-14
+  - composer-2-5 | Composer 2.5 | xAI | 2026-06-01
+  - qwen-3.5-2b | Qwen3.5-2B | Alibaba Cloud | 2026-05-20
+  - mercury-2 | Mercury 2 | Inception Labs | 2026-02-24
+  - step-3-7-flash | Step 3.7 Flash | StepFun | 2026-05-25
+  - gpt-rosalind | GPT-Rosalind | OpenAI | 2026-06-03
+  - rosalind-biodefense | Rosalind Biodefense | OpenAI | 2026-05-29
+  - solar-pro-2 | Solar Pro 2 | Upstage | 2025-07-10
+  - solar-pro-2-preview | Solar Pro 2 Preview | Upstage | 2025-05-20
+  - glm-4-7-pro | GLM-4.7 Pro | Zhipu AI | 2026-05-11
+  - step-3-7-pro | Step 3.7 Pro | StepFun | 2026-06-03
+  - gemini-3.5-flash | Gemini 3.5 Flash | Google | 2026-05-19
+  - claude-3-7-sonnet | Claude 3.7 Sonnet | Anthropic | 2025-02-24
+  - claude-3-7-haiku | Claude 3.7 Haiku | Anthropic | 2025-03-10
+  - llama-3-3-70b-instruct | Llama 3.3 70B Instruct | Meta | 2024-12-06
+  - phi-4 | Phi-4 | Microsoft | 2024-12-12
+  - phi-4-multimodal-instruct | Phi-4 Multimodal Instruct | Microsoft | 2025-02-19
+  - claude-opus-4-6 | Claude Opus 4.6 | Anthropic | 2026-02-05
+  - llama-3-1-namazu-405b | Llama-3.1-Namazu-405B | Sakana AI | 2026-03-24
+  - namazu-gpt-oss-120b | Namazu-gpt-oss-120B | Sakana AI | 2026-03-24
+  - claude-fable-5 | Claude Fable 5 | Anthropic | 2026-06-09
+  - claude-mythos-5 | Claude Mythos 5 | Anthropic | 2026-06-09
+  - eeve-korean-instruct-10.8b | EEVE-Korean-Instruct-10.8B | Yanolja | 2024-03-04
+  - gemma-4-12b | Gemma 4 12B | Google | 2026-06-03
+  - diffusion-gemma | DiffusionGemma | Google | 2026-06-10
+  - mistral-3 | Mistral 3 | Mistral AI | 2025-12-02
+  - gemini-3-5-live-translate | Gemini 3.5 Live Translate | Google | 2026-06-09
+  - north-mini-code | North Mini Code | Cohere | 2026-06-09
+  - minimax-m3 | MiniMax M3 | MiniMax | 2026-06-10
+  - lfm2-5-8b-a1b | LFM2.5-8B-A1B | Liquid AI | 2026-05-28
+  - qwen-3-6-35b-a3b | Qwen 3.6 35B A3B | Alibaba Cloud | 2026-06-09
+  - glm-5-2 | GLM-5.2 | Zhipu AI | 2026-06-18
+  - vibethinker-3b | VibeThinker-3B | WeiboAI | 2026-06-18
+  - glm-5-turbo | GLM-5-Turbo | Zhipu AI | 2026-06-18
+  - glm-5v-turbo | GLM-5V-Turbo | Zhipu AI | 2026-06-18
+  - lfm2-5-embedding-350m | LFM2.5-Embedding-350M | Liquid AI | 2026-06-18
+  - lfm2-5-colbert-350m | LFM2.5-ColBERT-350M | Liquid AI | 2026-06-18

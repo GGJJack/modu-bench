@@ -2918,7 +2918,7 @@
     },
     {
       "parameterSize": "35B (3B active) MoE",
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://qwen.ai/blog"
@@ -2931,7 +2931,7 @@
     },
     {
       "parameterSize": "753B total MoE",
-      "contextWindow": null,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
         "official": "https://zhipuai.cn/",
@@ -2941,7 +2941,7 @@
       "name": "GLM-5.2",
       "provider": "Zhipu AI",
       "releaseDate": "2026-06-18",
-      "license": "Proprietary"
+      "license": "Apache-2.0"
     },
     {
       "parameterSize": "3B",
@@ -2960,7 +2960,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://zhipuai.cn/"
@@ -2973,7 +2973,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://zhipuai.cn/"
@@ -2986,7 +2986,7 @@
     },
     {
       "parameterSize": "350M",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://www.liquid.ai/blog/lfm2-5-retrievers"
@@ -2999,7 +2999,7 @@
     },
     {
       "parameterSize": "350M",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://www.liquid.ai/blog/lfm2-5-retrievers"
@@ -3009,6 +3009,97 @@
       "provider": "Liquid AI",
       "releaseDate": "2026-06-18",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "9B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://zhipuai.cn/"
+      },
+      "id": "autoglm",
+      "name": "AutoGLM",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-06-18",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/mistral-ocr-3/"
+      },
+      "id": "mistral-ocr-3-llm",
+      "name": "Mistral OCR 3 (LLM)",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-12-17",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/genie/"
+      },
+      "id": "genie-3",
+      "name": "Genie 3",
+      "provider": "Google",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwen.ai/blog"
+      },
+      "id": "qwen-3-embedding-0-6b",
+      "name": "Qwen3-Embedding-0.6B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2026-06-18",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
+      },
+      "id": "lfm2-5-350m-base",
+      "name": "LFM2.5-350M-Base",
+      "provider": "Liquid AI",
+      "releaseDate": "2026-03-16",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://zhipuai.cn/"
+      },
+      "id": "autoglm-2026",
+      "name": "AutoGLM (2026)",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-06-18",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/vibe-agent/"
+      },
+      "id": "vibe-agent",
+      "name": "Vibe Agent",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-05-28",
+      "license": "Proprietary"
     }
   ]
 }
