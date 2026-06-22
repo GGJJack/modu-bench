@@ -828,6 +828,34 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "nanobeir",
+      "name": "NanoBEIR Multilingual Extended (NDCG@10)",
+      "nameKo": "NanoBEIR 다국어 확장 (NDCG@10)",
+      "category": "knowledge",
+      "description": "NanoBEIR multilingual dataset for retrieval performance evaluation.",
+      "source": "https://www.liquid.ai/blog/lfm2-5-retrievers",
+      "unit": "NDCG@10",
+      "scoreRange": [
+        0,
+        1
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mkqa-11",
+      "name": "MKQA-11 (Recall@20)",
+      "nameKo": "MKQA-11 (Recall@20)",
+      "category": "knowledge",
+      "description": "Cross-lingual open-domain QA dataset.",
+      "source": "https://www.liquid.ai/blog/lfm2-5-retrievers",
+      "unit": "Recall@20",
+      "scoreRange": [
+        0,
+        1
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -2894,6 +2922,34 @@
         "date": "2026-06-15",
         "source": "official",
         "url": "https://arxiv.org/abs/2606.16140"
+      }
+    },
+    "lfm2-5-colbert-350m": {
+      "nanobeir": {
+        "value": 0.605,
+        "date": "2026-06-18",
+        "source": "official",
+        "url": "https://www.liquid.ai/blog/lfm2-5-retrievers"
+      },
+      "mkqa-11": {
+        "value": 0.694,
+        "date": "2026-06-18",
+        "source": "official",
+        "url": "https://www.liquid.ai/blog/lfm2-5-retrievers"
+      }
+    },
+    "lfm2-5-embedding-350m": {
+      "nanobeir": {
+        "value": 0.577,
+        "date": "2026-06-18",
+        "source": "official",
+        "url": "https://www.liquid.ai/blog/lfm2-5-retrievers"
+      },
+      "mkqa-11": {
+        "value": 0.691,
+        "date": "2026-06-18",
+        "source": "official",
+        "url": "https://www.liquid.ai/blog/lfm2-5-retrievers"
       }
     }
   }
