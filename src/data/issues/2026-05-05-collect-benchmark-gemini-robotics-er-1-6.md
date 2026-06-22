@@ -52,3 +52,6 @@ Gemini Robotics-ER 1.6 의 벤치마크 점수를 공식 문서 및 커뮤니티
 
 ## 진행 내역 (2026-06-21)
 - (reinforce): 공식 기술 문서(https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview, 2026-06-18 업데이트)를 재확인함. Robotics-ER 1.6의 토큰 제한(Input 131k, Output 65k) 등 상세 기술 사양은 지속 업데이트되고 있으나, MMLU, GPQA 등 표준 LLM 벤치마크 점수는 여전히 공개되지 않음. 해당 모델은 로보틱스 특화 모델로서 일반 언어 능력보다 물리 세계에서의 추론 및 제어 성능에 집중하고 있으며, 일반 벤치마크 누락은 제품 포지셔닝에 따른 의도적인 것으로 최종 확인됨. 정기 추적을 유지하되 추가 공개 가능성은 매우 낮음.
+
+## 진행 내역 (2026-06-22)
+- (reinforce): 공식 기술 문서(https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview, 2026-04-30 최종 업데이트 확인)를 재점검함. MMLU, GPQA 등 표준 LLM 벤치마크 점수는 여전히 제공되지 않으며, 해당 모델이 로보틱스 특화 VLM임을 고려할 때 일반 벤치마크 점수의 공개 가능성은 매우 낮음. 정기 모니터링 대상으로 유지함.
