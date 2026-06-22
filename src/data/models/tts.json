@@ -37,7 +37,9 @@
         "Arabic"
       ],
       "realtime": false,
-      "pricing": null,
+      "pricing": {
+        "perCharacter": 0.000016
+      },
       "links": {
         "official": "https://mistral.ai/news/voxtral-tts"
       },

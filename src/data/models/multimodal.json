@@ -27,8 +27,11 @@
         "text",
         "image"
       ],
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.002,
+        "output": 0.002
+      },
       "links": {
         "official": "https://docs.mistral.ai/models/model-cards/ocr-3-25-12"
       },
@@ -157,6 +160,88 @@
       "name": "Grok Imagine Video 1.5",
       "provider": "xAI",
       "releaseDate": "2026-06-16",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://zhipuai.cn/"
+      },
+      "id": "glm-5v-turbo-mm",
+      "name": "GLM-5V-Turbo (Multimodal)",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-06-18",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "contextWindow": 256000,
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/gemma/"
+      },
+      "id": "gemma-4-12b-mm",
+      "name": "Gemma 4 12B (Multimodal)",
+      "provider": "Google",
+      "releaseDate": "2026-06-03",
+      "license": "Apache-2.0"
+    },
+    {
+      "supportedModalities": [
+        "video",
+        "audio"
+      ],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/veo/"
+      },
+      "id": "veo",
+      "name": "Veo",
+      "provider": "Google",
+      "releaseDate": "2024-05-14",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "audio"
+      ],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/lyria/"
+      },
+      "id": "lyria",
+      "name": "Lyria",
+      "provider": "Google",
+      "releaseDate": "2023-11-16",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "video",
+        "audio",
+        "text"
+      ],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/genie/"
+      },
+      "id": "genie-3-mm",
+      "name": "Genie 3 (Multimodal)",
+      "provider": "Google",
+      "releaseDate": "2026-05-19",
       "license": "Proprietary"
     }
   ]
