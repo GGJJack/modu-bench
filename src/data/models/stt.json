@@ -52,6 +52,51 @@
       "provider": "Sakana AI",
       "releaseDate": "2026-04-29",
       "license": null
+    },
+    {
+      "supportedLanguages": [],
+      "realtime": false,
+      "pricing": {
+        "perMinute": 0.004
+      },
+      "links": {
+        "official": "https://mistral.ai/news/voxtral/"
+      },
+      "id": "voxtral-small",
+      "name": "Voxtral Small",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-07-15",
+      "license": "Proprietary"
+    },
+    {
+      "supportedLanguages": [],
+      "realtime": false,
+      "pricing": {
+        "perMinute": 0.003
+      },
+      "links": {
+        "official": "https://mistral.ai/news/voxtral-transcribe-2/"
+      },
+      "id": "voxtral-mini-transcribe-2",
+      "name": "Voxtral Mini Transcribe 2",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-02-04",
+      "license": "Proprietary"
+    },
+    {
+      "supportedLanguages": [],
+      "realtime": false,
+      "pricing": {
+        "perMinute": 0.006
+      },
+      "links": {
+        "official": "https://mistral.ai/news/voxtral-transcribe-2/"
+      },
+      "id": "voxtral-mini-transcribe-realtime",
+      "name": "Voxtral Mini Transcribe Realtime",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-02-04",
+      "license": "Apache-2.0"
     }
   ]
 }

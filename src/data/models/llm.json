@@ -314,8 +314,8 @@
       "parameterSize": "119B (6.5B active)",
       "contextWindow": 256000,
       "pricing": {
-        "input": 0.1,
-        "output": 0.3
+        "input": 0.15,
+        "output": 0.6
       },
       "links": {
         "official": "https://docs.mistral.ai/models"
@@ -1992,7 +1992,7 @@
         "output": 2
       },
       "links": {
-        "official": "https://x.ai/news/grok-build-cli"
+        "official": "https://x.ai/news/introducing-goal"
       },
       "id": "grok-build-0.1",
       "name": "Grok Build 0.1",
@@ -3099,6 +3099,35 @@
       "name": "Vibe Agent",
       "provider": "Mistral AI",
       "releaseDate": "2026-05-28",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/ocr-4/"
+      },
+      "id": "mistral-ocr-4",
+      "name": "Mistral OCR 4",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-06-23",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.4
+      },
+      "links": {
+        "official": "https://mistral.ai/news/voxtral/"
+      },
+      "id": "voxtral-small",
+      "name": "Voxtral Small",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-07-15",
       "license": "Proprietary"
     }
   ]
