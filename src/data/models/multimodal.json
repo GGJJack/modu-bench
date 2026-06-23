@@ -116,7 +116,7 @@
       "contextWindow": null,
       "pricing": {
         "input": 0.003,
-        "output": null
+        "output": 0
       },
       "links": {
         "official": "https://mistral.ai/news/voxtral-transcribe-2/"
@@ -135,7 +135,7 @@
       "contextWindow": null,
       "pricing": {
         "input": 0.006,
-        "output": null
+        "output": 0
       },
       "links": {
         "official": "https://mistral.ai/news/voxtral-transcribe-2/"
@@ -242,6 +242,25 @@
       "name": "Genie 3 (Multimodal)",
       "provider": "Google",
       "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "image",
+        "text"
+      ],
+      "contextWindow": null,
+      "pricing": {
+        "input": 0.004,
+        "output": 0
+      },
+      "links": {
+        "official": "https://mistral.ai/news/ocr-4/"
+      },
+      "id": "mistral-ocr-4",
+      "name": "Mistral OCR 4",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-06-23",
       "license": "Proprietary"
     }
   ]
