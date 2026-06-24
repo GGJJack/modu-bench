@@ -37,3 +37,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-06-20)
 - (reinforce): HyperCLOVA X, Yi-Large, Baichuan-4 및 Sakana AI Fugu 시리즈의 공식 API 가격 정보를 재조사하였으나 여전히 '상담 필요' 또는 비공개 상태임. 주요 엔터프라이즈 및 베타 모델들에 대한 정기 모니터링을 유지함.
+
+## 진행 내역 (2026-06-24)
+- (reinforce): 대상 모델들의 공식 가격 및 메타데이터를 재점검함. HyperCLOVA X, Yi-Large, Baichuan-4 및 Sakana AI 베타 모델들의 가격 정보는 여전히 공개되지 않음. 정기 모니터링을 지속함.
