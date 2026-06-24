@@ -3104,7 +3104,10 @@
     {
       "parameterSize": null,
       "contextWindow": 128000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.004,
+        "output": 0
+      },
       "links": {
         "official": "https://mistral.ai/news/ocr-4/"
       },
