@@ -318,7 +318,7 @@
         "output": 0.6
       },
       "links": {
-        "official": "https://docs.mistral.ai/models"
+        "official": "https://mistral.ai/news/mistral-small-4/"
       },
       "id": "mistral-small-4",
       "name": "Mistral Small 4",
@@ -1534,6 +1534,7 @@
       "contextWindow": null,
       "pricing": null,
       "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3guard/",
         "huggingface": "https://huggingface.co/collections/Qwen/qwen3guard-68d2729abbfae4716f3343a1"
       },
       "id": "qwen3guard",
@@ -2181,7 +2182,8 @@
         "output": 25
       },
       "links": {
-        "official": "https://www.anthropic.com/news/claude-opus-4-8"
+        "official": "https://www.anthropic.com/news/claude-opus-4-8",
+        "blog": "https://www.anthropic.com/news/introducing-claude-tag"
       },
       "id": "claude-opus-4-8",
       "name": "Claude Opus 4.8",
@@ -3109,7 +3111,8 @@
         "output": 0
       },
       "links": {
-        "official": "https://mistral.ai/news/ocr-4/"
+        "official": "https://mistral.ai/news/ocr-4/",
+        "webinar": "https://learn.mistral.ai/public/events/ocr4-webinar"
       },
       "id": "mistral-ocr-4",
       "name": "Mistral OCR 4",
@@ -3132,6 +3135,58 @@
       "provider": "Mistral AI",
       "releaseDate": "2025-07-15",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
+      },
+      "id": "gpt-5-3-codex-spark",
+      "name": "GPT-5.3-Codex-Spark",
+      "provider": "OpenAI",
+      "releaseDate": "2026-06-24",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/mistral-small-3-1/"
+      },
+      "id": "mistral-small-3-1",
+      "name": "Mistral Small 3.1",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-03-17",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen-image-edit/"
+      },
+      "id": "qwen-image-edit",
+      "name": "Qwen-Image-Edit",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-08-19",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen-image/"
+      },
+      "id": "qwen-image",
+      "name": "Qwen-Image",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-08-04",
+      "license": "Apache-2.0"
     }
   ]
 }
