@@ -1,7 +1,7 @@
 ---
-benchmarkId: biomysterybench-hard
-name: BioMysteryBench (Hard)
-nameKo: BioMysteryBench (생물학 - Hard)
+benchmarkId: healthbench-professional
+name: HealthBench Professional
+nameKo: HealthBench Professional (의료)
 category: reasoning
 domain: llm
 status: published
@@ -10,10 +10,10 @@ sources:
   - https://www.anthropic.com/news/claude-fable-5-mythos-5
 ---
 
-# BioMysteryBench (Hard)
+# HealthBench Professional
 
 ## 개요
-고난도 생물학 미스터리 해결 및 추론 평가
+전문가 수준의 의료 지식 및 추론 평가
 
 ## 평가 방법
 평가 단위는 %를 사용합니다.
