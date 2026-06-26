@@ -677,7 +677,7 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://corp.rakuten.co.jp/innovation/ai/",
+        "official": "https://corp.rakuten.co.jp/news/press/2024/0321_01.html",
         "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B-instruct"
       },
       "id": "rakuten-ai-7b-instruct",
@@ -691,7 +691,7 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://corp.rakuten.co.jp/innovation/ai/",
+        "official": "https://corp.rakuten.co.jp/news/press/2024/0321_01.html",
         "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B-chat"
       },
       "id": "rakuten-ai-7b-chat",
@@ -1006,7 +1006,7 @@
       "contextWindow": 256000,
       "pricing": null,
       "links": {
-        "official": "https://www.lgresearch.ai/",
+        "official": "https://www.lgresearch.ai/exaone",
         "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-4.5-33B"
       },
       "id": "exaone-4-5-33b",
@@ -1557,7 +1557,12 @@
       "name": "DeepSeek-V4 Preview",
       "provider": "DeepSeek",
       "releaseDate": "2026-05-18",
-      "license": "DeepSeek Model License"
+      "license": "DeepSeek Model License",
+      "highlights": [
+        "세계 최고 수준의 추론 성능",
+        "에이전트 능력 대폭 향상",
+        "웹, 앱 및 API 출시"
+      ]
     },
     {
       "parameterSize": null,
