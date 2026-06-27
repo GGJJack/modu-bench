@@ -3116,8 +3116,7 @@
         "output": 0
       },
       "links": {
-        "official": "https://mistral.ai/news/ocr-4/",
-        "webinar": "https://learn.mistral.ai/public/events/ocr4-webinar"
+        "official": "https://mistral.ai/news/ocr-4/"
       },
       "id": "mistral-ocr-4",
       "name": "Mistral OCR 4",
@@ -3192,6 +3191,45 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2025-08-04",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/index/previewing-gpt-5-6-sol/"
+      },
+      "id": "gpt-5-6-sol",
+      "name": "GPT-5.6 Sol",
+      "provider": "OpenAI",
+      "releaseDate": "2026-06-26",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/index/previewing-gpt-5-6-sol/"
+      },
+      "id": "gpt-5-6-terra",
+      "name": "GPT-5.6 Terra",
+      "provider": "OpenAI",
+      "releaseDate": "2026-06-26",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://openai.com/index/previewing-gpt-5-6-sol/"
+      },
+      "id": "gpt-5-6-luna",
+      "name": "GPT-5.6 Luna",
+      "provider": "OpenAI",
+      "releaseDate": "2026-06-26",
+      "license": "Proprietary"
     }
   ]
 }
