@@ -91,3 +91,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-06-26)
 - (reinforce): NCP CLOVA Studio 요금 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 API 가이드(https://api.ncloud-docs.com/docs/clovastudio-chatcompletionsv3)를 재점검함. HCX-007, 005, DASH-002 의 가격은 여전히 '상담 필요(-)' 상태임. 다만 HCX-005(128k), HCX-DASH-002(32k)의 Context Window 사양은 공식 문서를 통해 재확인함. Yi-Large 및 Baichuan-4 또한 공식적인 공개 가격표 업데이트가 없어 기존 추적 상태를 유지함.
+
+## 진행 내역 (2026-06-27)
+- (reinforce): NCP CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio)를 재확인한 결과, HyperCLOVA X 계열(HCX-007, 005, DASH-002)의 가격은 여전히 비공개(상담 필요) 상태임. Yi-Large 및 Baichuan-4 또한 공식 홈페이지에서 일반 공개용 가격표는 식별되지 않음. OpenRouter 등 3사 플랫폼 정보를 참고하여 최신성을 유지하되, 공식 가격 확보를 위한 모니터링을 지속함.
