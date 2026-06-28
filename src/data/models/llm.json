@@ -3154,7 +3154,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "24B",
       "contextWindow": 128000,
       "pricing": null,
       "links": {
@@ -3194,8 +3194,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 5,
+        "output": 30
+      },
       "links": {
         "official": "https://openai.com/index/previewing-gpt-5-6-sol/"
       },
@@ -3207,8 +3210,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 2.5,
+        "output": 15
+      },
       "links": {
         "official": "https://openai.com/index/previewing-gpt-5-6-sol/"
       },
@@ -3220,8 +3226,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 1,
+        "output": 6
+      },
       "links": {
         "official": "https://openai.com/index/previewing-gpt-5-6-sol/"
       },
