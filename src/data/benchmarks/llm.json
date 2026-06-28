@@ -856,6 +856,34 @@
         1
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "frontierbench",
+      "name": "FrontierBench",
+      "nameKo": "프론티어벤치 (FrontierBench)",
+      "category": "coding",
+      "description": "Cognition의 프론티어 코딩 평가(frontier coding eval)",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "vibench",
+      "name": "ViBench",
+      "nameKo": "ViBench (Vibe-coding benchmark)",
+      "category": "coding",
+      "description": "end-to-end vibe-coding benchmark",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -2950,6 +2978,30 @@
         "date": "2026-06-18",
         "source": "official",
         "url": "https://www.liquid.ai/blog/lfm2-5-retrievers"
+      }
+    },
+    "gpt-5-6-sol": {
+      "healthbench-professional": {
+        "value": 60.5,
+        "date": "2026-06-26",
+        "source": "official",
+        "url": "https://deploymentsafety.openai.com/gpt-5-6-preview"
+      }
+    },
+    "gpt-5-6-terra": {
+      "healthbench-professional": {
+        "value": 57.7,
+        "date": "2026-06-26",
+        "source": "official",
+        "url": "https://deploymentsafety.openai.com/gpt-5-6-preview"
+      }
+    },
+    "gpt-5-6-luna": {
+      "healthbench-professional": {
+        "value": 55.7,
+        "date": "2026-06-26",
+        "source": "official",
+        "url": "https://deploymentsafety.openai.com/gpt-5-6-preview"
       }
     }
   }
