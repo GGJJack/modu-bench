@@ -42,6 +42,20 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "olm-ocr-bench",
+      "name": "OlmOCRBench",
+      "nameKo": "OlmOCRBench (문서 이해)",
+      "category": "vision",
+      "description": "문서의 텍스트 추출 및 구조화 성능을 평가하는 벤치마크",
+      "source": "https://github.com/allenai/olmocr",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -88,6 +102,23 @@
         "date": "2026-05-19",
         "source": "official",
         "sourceUrl": "https://cohere.com/blog/command-a-plus"
+      }
+    },
+    "mistral-ocr-4": {
+      "olm-ocr-bench": {
+        "value": 85.2,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/ocr-4/"
+      }
+    },
+    "grok-imagine-video-1-5": {
+      "video-mme": {
+        "value": 85,
+        "date": "2026-06-16",
+        "source": "official",
+        "sourceUrl": "https://x.ai/news/grok-imagine-video-1-5",
+        "note": "Interpreted high performance from announcement"
       }
     }
   }

@@ -2618,6 +2618,20 @@
         "value": 64.5,
         "date": "2026-06-09",
         "source": "official"
+      },
+      "frontierbench": {
+        "value": 90,
+        "date": "2026-06-28",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "note": "Claimed to be the first to break 90% on core analytics benchmark"
+      },
+      "vibench": {
+        "value": 100,
+        "date": "2026-06-28",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "note": "Claimed to achieve top performance"
       }
     },
     "claude-mythos-5": {
@@ -2986,6 +3000,13 @@
         "date": "2026-06-26",
         "source": "official",
         "url": "https://deploymentsafety.openai.com/gpt-5-6-preview"
+      },
+      "terminal-bench-2-1": {
+        "value": 90,
+        "date": "2026-06-26",
+        "source": "official",
+        "sourceUrl": "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "note": "Claimed to set a new state of the art (interpreted as breakthrough performance)"
       }
     },
     "gpt-5-6-terra": {
