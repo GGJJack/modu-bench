@@ -13,3 +13,6 @@ target: llm/gpt-5-3-codex-spark
 
 ## 요청
 해당 모델에 대한 추가적인 공식 출처나 기술 보고서가 공개되면 벤치마크 점수를 등록해주세요.
+
+## 진행 내역 (2026-06-29)
+- (reinforce): 공식 블로그(https://openai.com/index/openai-broadcom-jalapeno-inference-chip/)를 재점검함. 여전히 명시적인 벤치마크 수치(MMLU, HumanEval 등)는 공개되지 않았으며, 칩 성능 효율성에 초점이 맞춰져 있음. 정기 모니터링을 유지함.
