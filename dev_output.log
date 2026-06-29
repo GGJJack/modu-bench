@@ -1,0 +1,2 @@
+Node.js v22.6.0 is not supported by Astro!
+Please upgrade Node.js to a supported version: ">=22.12.0"
