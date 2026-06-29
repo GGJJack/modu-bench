@@ -177,20 +177,20 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 128000,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
-        "official": "https://sakana.ai/fugu-beta/"
+        "official": "https://sakana.ai/fugu-release/"
       },
       "id": "sakana-fugu-ultra",
       "name": "Sakana Fugu Ultra",
       "provider": "Sakana AI",
-      "releaseDate": "2026-04-24",
+      "releaseDate": "2026-06-22",
       "license": "Proprietary"
     },
     {
       "parameterSize": null,
-      "contextWindow": 256000,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/marlin-release/"
@@ -219,15 +219,15 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 32000,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://sakana.ai/fugu-beta/"
+        "official": "https://sakana.ai/fugu-release/"
       },
       "id": "sakana-fugu-mini",
-      "name": "Sakana Fugu Mini",
+      "name": "Sakana Fugu",
       "provider": "Sakana AI",
-      "releaseDate": "2026-04-24",
+      "releaseDate": "2026-06-22",
       "license": "Proprietary"
     },
     {
@@ -766,7 +766,7 @@
         "output": 0.3
       },
       "links": {
-        "official": "https://www.01.ai/"
+        "official": "https://www.01.ai/models"
       },
       "id": "yi-large",
       "name": "Yi-Large",
@@ -2907,7 +2907,7 @@
       "id": "minimax-m3",
       "name": "MiniMax M3",
       "provider": "MiniMax",
-      "releaseDate": "2026-06-10",
+      "releaseDate": "2026-06-01",
       "license": "Proprietary"
     },
     {
@@ -3238,6 +3238,22 @@
       "name": "GPT-5.6 Luna",
       "provider": "OpenAI",
       "releaseDate": "2026-06-26",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 0.25,
+        "output": 1
+      },
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3.5-flash/"
+      },
+      "id": "gemini-3.5-flash-computer-use",
+      "name": "Gemini 3.5 Flash (Computer Use)",
+      "provider": "Google",
+      "releaseDate": "2026-06-25",
       "license": "Proprietary"
     }
   ]

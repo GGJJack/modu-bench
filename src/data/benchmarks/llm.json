@@ -884,6 +884,26 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "coffeebench",
+      "name": "CoffeeBench",
+      "nameKo": "커피벤치",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-06-26",
+      "license": "Proprietary",
+      "category": "agent",
+      "description": "Long-term task benchmark for LLM agents in a multi-agent economic environment.",
+      "source": "official",
+      "unit": "score",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true,
+      "links": {
+        "official": "https://sakana.ai/coffee-bench/"
+      }
     }
   ],
   "scores": {
