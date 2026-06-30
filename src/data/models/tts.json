@@ -38,7 +38,7 @@
       ],
       "realtime": false,
       "pricing": {
-        "perCharacter": 0.000016
+        "perCharacter": 0.016
       },
       "links": {
         "official": "https://mistral.ai/news/voxtral-tts"
