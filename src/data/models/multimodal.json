@@ -29,8 +29,8 @@
       ],
       "contextWindow": 128000,
       "pricing": {
-        "input": 0.002,
-        "output": 0.002
+        "input": 2,
+        "output": 2
       },
       "links": {
         "official": "https://docs.mistral.ai/models/model-cards/ocr-3-25-12"
@@ -249,9 +249,9 @@
         "image",
         "text"
       ],
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": {
-        "input": 0.004,
+        "input": 4,
         "output": 0
       },
       "links": {
@@ -262,6 +262,120 @@
       "provider": "Mistral AI",
       "releaseDate": "2026-06-23",
       "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 2,
+        "output": 5
+      },
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "magistral-medium-mm",
+      "name": "Magistral Medium (Multimodal)",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-09-01",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.5
+      },
+      "links": {
+        "official": "https://docs.mistral.ai/models"
+      },
+      "id": "magistral-small-mm",
+      "name": "Magistral Small (Multimodal)",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-09-01",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3
+      },
+      "links": {
+        "official": "https://docs.mistral.ai/models/model-cards/devstral-small-2-25-12"
+      },
+      "id": "devstral-small-2-mm",
+      "name": "Devstral Small 2 (Multimodal)",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-12-09",
+      "license": "Modified MIT"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3
+      },
+      "links": {
+        "official": "https://mistral.ai/news/mistral-small-3-1/"
+      },
+      "id": "mistral-small-3-1-mm",
+      "name": "Mistral Small 3.1 (Multimodal)",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-03-17",
+      "license": "Apache-2.0"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6
+      },
+      "links": {
+        "official": "https://mistral.ai/news/mistral-small-4/"
+      },
+      "id": "mistral-small-4-mm",
+      "name": "Mistral Small 4 (Multimodal)",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-03-16",
+      "license": "Apache-2.0"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 1.5,
+        "output": 7.5
+      },
+      "links": {
+        "official": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+      },
+      "id": "mistral-medium-3-5-mm",
+      "name": "Mistral Medium 3.5 Vibe (Multimodal)",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-05-22",
+      "license": "Modified MIT"
     }
   ]
 }

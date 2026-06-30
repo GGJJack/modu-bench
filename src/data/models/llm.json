@@ -311,7 +311,7 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": "119B (6.5B active)",
+      "parameterSize": "24B",
       "contextWindow": 256000,
       "pricing": {
         "input": 0.15,
@@ -2009,7 +2009,10 @@
     {
       "parameterSize": "480B total / 35B active",
       "contextWindow": 256000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.2,
+        "output": 0.6
+      },
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3-coder/"
       },
@@ -3032,8 +3035,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
-      "pricing": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 2,
+        "output": 2
+      },
       "links": {
         "official": "https://mistral.ai/news/mistral-ocr-3/"
       },
@@ -3070,8 +3076,8 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "350M",
+      "contextWindow": 32000,
       "pricing": null,
       "links": {
         "official": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind"
@@ -3109,10 +3115,10 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "24B",
       "contextWindow": 128000,
       "pricing": {
-        "input": 0.004,
+        "input": 4,
         "output": 0
       },
       "links": {
@@ -3156,7 +3162,10 @@
     {
       "parameterSize": "24B",
       "contextWindow": 128000,
-      "pricing": null,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.3
+      },
       "links": {
         "official": "https://mistral.ai/news/mistral-small-3-1/"
       },
