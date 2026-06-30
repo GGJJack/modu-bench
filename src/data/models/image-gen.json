@@ -78,7 +78,9 @@
     {
       "maxResolution": null,
       "supportedStyles": [],
-      "pricing": null,
+      "pricing": {
+        "perImage": 0.001
+      },
       "links": {
         "official": "https://deepmind.google/models/gemini-image/"
       },

@@ -29,7 +29,9 @@
     {
       "supportedLanguages": [],
       "realtime": false,
-      "pricing": null,
+      "pricing": {
+        "perMinute": 0.003
+      },
       "links": {
         "official": "https://docs.mistral.ai/models/model-cards/voxtral-mini-transcribe-realtime-26-02"
       },
