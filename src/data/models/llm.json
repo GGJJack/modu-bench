@@ -1556,7 +1556,7 @@
       "id": "deepseek-v4-preview",
       "name": "DeepSeek-V4 Preview",
       "provider": "DeepSeek",
-      "releaseDate": "2026-05-18",
+      "releaseDate": "2026-04-24",
       "license": "DeepSeek Model License",
       "highlights": [
         "세계 최고 수준의 추론 성능",
