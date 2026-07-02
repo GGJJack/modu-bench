@@ -16,3 +16,6 @@ target: llm/qwen-image-edit
 
 ## 진행 내역 (2026-06-29)
 - (reinforce): 공식 블로그(https://qwenlm.github.io/blog/qwen-image-edit/)를 재점검함. "Strong Benchmark Performance" 섹션에서 SOTA 성능을 주장하고 있으나, 수치화된 데이터 테이블은 여전히 제공되지 않음. 모델 카드 및 관련 논문 업데이트를 지속 모니터링함.
+
+## 진행 내역 (2026-07-02)
+- (reinforce): 2026년 7월 2일 기준, QwenLM 공식 블로그 및 관련 논문을 재점검함. Qwen-Image-Edit의 SOTA 성능 주장을 뒷받침하는 수치화된 데이터 테이블은 여전히 공표되지 않음. 정기 모니터링을 유지함.

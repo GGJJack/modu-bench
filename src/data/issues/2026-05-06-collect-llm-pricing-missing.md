@@ -106,3 +106,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-07-01)
 - (reinforce): 2026년 7월 1일 기준, NCP CLOVA Studio 요금 페이지 및 주요 API 제공사 채널을 재조사함. HyperCLOVA X, Yi-Large, Baichuan-4의 공식 API 요금은 여전히 상담 필요 또는 비공개 상태임. 엔터프라이즈 기조에 따른 정보 비공개가 지속되어 정기 모니터링을 유지함.
+
+## 진행 내역 (2026-07-02)
+- (reinforce): 2026년 7월 2일 기준, NCP CLOVA Studio 요금 페이지 및 주요 API 제공사 채널을 재조사함. HyperCLOVA X, Yi-Large, Baichuan-4의 공식 API 요금은 여전히 상담 필요 또는 비공개 상태임. 엔터프라이즈 기조에 따른 정보 비공개가 지속되어 정기 모니터링을 유지함.
