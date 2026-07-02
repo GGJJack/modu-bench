@@ -1423,12 +1423,14 @@
       "if-bench": {
         "value": 55.78,
         "date": "2026-01-26",
-        "source": "official"
+        "source": "official",
+        "url": "https://www.upstage.ai/blog/en/solar-pro-3-0127"
       },
       "arena-hard-v2": {
         "value": 62.5,
         "date": "2026-01-26",
-        "source": "official"
+        "source": "official",
+        "url": "https://www.upstage.ai/blog/en/solar-pro-3-0127"
       }
     },
     "ministral-3-8b": {
