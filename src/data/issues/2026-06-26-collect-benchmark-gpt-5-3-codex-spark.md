@@ -16,3 +16,6 @@ target: llm/gpt-5-3-codex-spark
 
 ## 진행 내역 (2026-06-29)
 - (reinforce): 공식 블로그(https://openai.com/index/openai-broadcom-jalapeno-inference-chip/)를 재점검함. 여전히 명시적인 벤치마크 수치(MMLU, HumanEval 등)는 공개되지 않았으며, 칩 성능 효율성에 초점이 맞춰져 있음. 정기 모니터링을 유지함.
+
+## 진행 내역 (2026-07-02)
+- (reinforce): 2026년 7월 2일 기준, OpenAI 공식 채널을 재조사하였으나 GPT-5.3-Codex-Spark의 구체적인 벤치마크 점수는 여전히 공개되지 않음. 정기 모니터링을 지속함.
