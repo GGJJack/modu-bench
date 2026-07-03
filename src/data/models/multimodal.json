@@ -376,6 +376,58 @@
       "provider": "Mistral AI",
       "releaseDate": "2026-05-22",
       "license": "Modified MIT"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "contextWindow": 1048576,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
+      },
+      "id": "gemini-omni-flash",
+      "name": "Gemini Omni Flash",
+      "provider": "Google",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [
+        "text"
+      ],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/leanstral-1-5/"
+      },
+      "id": "leanstral-1-5",
+      "name": "Leanstral 1.5",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-07-02",
+      "license": "Apache-2.0"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": 200000,
+      "pricing": {
+        "input": 3,
+        "output": 15
+      },
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-sonnet-5"
+      },
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "provider": "Anthropic",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
     }
   ]
 }
