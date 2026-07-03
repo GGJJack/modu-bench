@@ -89,6 +89,21 @@
       "provider": "Google",
       "releaseDate": "2026-05-19",
       "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": {
+        "perImage": 0.000034
+      },
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
+      },
+      "id": "nano-banana-2-lite",
+      "name": "Nano Banana 2 Lite",
+      "provider": "Google",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
     }
   ]
 }
