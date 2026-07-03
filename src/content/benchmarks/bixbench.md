@@ -1,8 +1,9 @@
 ---
 benchmarkId: bixbench
 domain: llm
-status: draft
-updated: 2026-06-09
+status: published
+updated: 2026-07-03
+organization: "future-house"
 sources:
   - https://github.com/Future-House/BixBench
 highlights:
