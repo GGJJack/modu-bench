@@ -18,5 +18,8 @@ target: llm/multiple
 - Google DeepMind, Meta, LG AI Research 공식 블로그 및 뉴스룸 스캔.
 - Amazon Bedrock Pricing 및 Google AI Developer Pricing 페이지 확인.
 
+## 진행 내역 (2026-07-03)
+- (reinforce): 2026년 7월 3일 기준, Amazon Bedrock, Google Cloud, LG AI Research 공식 채널을 재조사함. Llama 4 Maverick/Scout, EXAONE 4.5 33B, Gemini Omni Flash 등의 공식 API 가격은 여전히 비공개(상담 필요) 또는 프리뷰 단계로 명시적인 가격표가 확인되지 않음. DeepSeek V4 Preview 또한 정식 가격 체계 발표 대기 중임. 정기 모니터링을 지속함.
+
 ## 요청
 `reinforce` 스킬에서 각 클라우드 제공사(AWS, Google Cloud, NCP 등)의 콘솔에 직접 접속하거나 최신 기술 문서를 확보하여 pricing 정보를 보강해줄 것을 요청함.

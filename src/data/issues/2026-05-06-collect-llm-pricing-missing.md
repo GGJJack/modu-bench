@@ -109,3 +109,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-07-02)
 - (reinforce): 2026년 7월 2일 기준, NCP CLOVA Studio 요금 페이지 및 주요 API 제공사 채널을 재조사함. HyperCLOVA X, Yi-Large, Baichuan-4의 공식 API 요금은 여전히 상담 필요 또는 비공개 상태임. 엔터프라이즈 기조에 따른 정보 비공개가 지속되어 정기 모니터링을 유지함.
+
+## 진행 내역 (2026-07-03)
+- (reinforce): 2026년 7월 3일 기준, NCP CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio)를 재확인함. HCX-007, 005, DASH-002 모델의 공식 요금은 여전히 '-' (상담 필요) 상태임. Yi-Large 및 Baichuan-4 또한 공식 홈페이지에서 공개 가격표 업데이트가 식별되지 않음. 정기 모니터링을 지속함.
