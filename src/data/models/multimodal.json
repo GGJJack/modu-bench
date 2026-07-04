@@ -385,7 +385,10 @@
         "video"
       ],
       "contextWindow": 1048576,
-      "pricing": null,
+      "pricing": {
+        "input": 1.5,
+        "output": 9
+      },
       "links": {
         "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/"
       },

@@ -104,6 +104,32 @@
       "provider": "Google",
       "releaseDate": "2026-06-30",
       "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/veo/"
+      },
+      "id": "veo-3",
+      "name": "Veo 3",
+      "provider": "Google",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/veo/"
+      },
+      "id": "veo-3-1",
+      "name": "Veo 3.1",
+      "provider": "Google",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
     }
   ]
 }
