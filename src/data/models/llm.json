@@ -3282,9 +3282,12 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": "119B total / 6B active",
-      "contextWindow": null,
-      "pricing": null,
+      "parameterSize": "119B total / 6.5B active",
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0,
+        "output": 0
+      },
       "links": {
         "official": "https://mistral.ai/news/leanstral-1-5/"
       },
