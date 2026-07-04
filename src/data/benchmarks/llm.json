@@ -904,6 +904,25 @@
       "links": {
         "official": "https://sakana.ai/coffee-bench/"
       }
+    },
+    {
+      "id": "flteval",
+      "name": "FLTEval",
+      "nameKo": "FLTEval",
+      "category": "coding",
+      "description": "Formal Logic Theorem Evaluation",
+      "source": "https://github.com/mistralai/FLTEval",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true,
+      "metric": "pass@1",
+      "subMetrics": [
+        "pass@1",
+        "pass@8"
+      ]
     }
   ],
   "scores": {
@@ -3054,6 +3073,18 @@
         "source": "official",
         "sourceUrl": "https://mistral.ai/news/mistral-small-3-1/",
         "note": "Interpreted from GPQA-Diamond performance chart"
+      }
+    },
+    "leanstral-1-5": {
+      "flteval": {
+        "value": 28.9,
+        "date": "2026-07-03",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/leanstral-1-5/",
+        "subscores": {
+          "pass@1": 28.9,
+          "pass@8": 43.2
+        }
       }
     }
   }
