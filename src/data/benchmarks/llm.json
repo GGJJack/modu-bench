@@ -3086,6 +3086,44 @@
           "pass@8": 43.2
         }
       }
+    },
+    "claude-sonnet-5": {
+      "swe-bench-pro": {
+        "value": 63.2,
+        "date": "2026-06-30",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
+      },
+      "terminal-bench-2-1": {
+        "value": 80.4,
+        "date": "2026-06-30",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
+      },
+      "hle": {
+        "value": 43.2,
+        "date": "2026-06-30",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
+      },
+      "hle-with-tools": {
+        "value": 57.4,
+        "date": "2026-06-30",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
+      },
+      "osworld-verified": {
+        "value": 81.2,
+        "date": "2026-06-30",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
+      },
+      "gdpval-aa": {
+        "value": 1618,
+        "date": "2026-06-30",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
+      }
     }
   }
 }
