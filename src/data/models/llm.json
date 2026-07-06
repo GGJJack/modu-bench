@@ -2658,8 +2658,8 @@
       "parameterSize": null,
       "contextWindow": 1000000,
       "pricing": {
-        "input": 0.25,
-        "output": 1
+        "input": 1.5,
+        "output": 9
       },
       "links": {
         "official": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
@@ -3267,7 +3267,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 200000,
+      "contextWindow": 1000000,
       "pricing": {
         "input": 3,
         "output": 15
