@@ -418,7 +418,7 @@
         "text",
         "image"
       ],
-      "contextWindow": 200000,
+      "contextWindow": 1000000,
       "pricing": {
         "input": 3,
         "output": 15

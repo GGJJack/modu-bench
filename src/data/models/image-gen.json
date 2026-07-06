@@ -130,6 +130,45 @@
       "provider": "Google",
       "releaseDate": "2026-06-30",
       "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/gemini-image/"
+      },
+      "id": "nano-banana-2",
+      "name": "Nano Banana 2",
+      "provider": "Google",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/gemini-image/"
+      },
+      "id": "nano-banana-pro",
+      "name": "Nano Banana Pro",
+      "provider": "Google",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://deepmind.google/models/veo/"
+      },
+      "id": "veo-3.1-lite-preview",
+      "name": "Veo 3.1 Lite Preview",
+      "provider": "Google",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
     }
   ]
 }
