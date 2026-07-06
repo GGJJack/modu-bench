@@ -2,7 +2,7 @@
 modelId: nano-banana-2-lite
 domain: image-gen
 status: published
-updated: 2026-07-04
+updated: 2026-07-06
 sources:
   - https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/
 highlights:
