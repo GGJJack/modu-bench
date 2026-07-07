@@ -56,6 +56,76 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "ai2d",
+      "name": "AI2D",
+      "nameKo": "AI2D (다이어그램 이해)",
+      "category": "vision",
+      "description": "초등학교 과학 다이어그램 이해도 평가",
+      "source": "https://arxiv.org/abs/1603.07396",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "chartqa",
+      "name": "ChartQA",
+      "nameKo": "ChartQA (차트 이해)",
+      "category": "vision",
+      "description": "차트 기반 시각 질의응답 평가",
+      "source": "https://arxiv.org/abs/2203.10244",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "docvqa",
+      "name": "DocVQA",
+      "nameKo": "DocVQA (문서 이해)",
+      "category": "vision",
+      "description": "문서 이미지 기반 시각 질의응답 평가",
+      "source": "https://arxiv.org/abs/2007.00398",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "ocrbench",
+      "name": "OCRBench",
+      "nameKo": "OCRBench (OCR 성능 평가)",
+      "category": "vision",
+      "description": "LMM의 OCR 능력을 종합적으로 평가하는 벤치마크",
+      "source": "https://arxiv.org/abs/2305.07895",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        1000
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "ocrbenchv2",
+      "name": "OCRBenchv2",
+      "nameKo": "OCRBenchv2 (OCR 성능 평가 v2)",
+      "category": "vision",
+      "description": "향상된 OCR 성능 평가 벤치마크 (v2)",
+      "source": "https://arxiv.org/abs/2501.00321",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -104,14 +174,6 @@
         "sourceUrl": "https://cohere.com/blog/command-a-plus"
       }
     },
-    "mistral-ocr-4": {
-      "olm-ocr-bench": {
-        "value": 85.2,
-        "date": "2026-06-23",
-        "source": "official",
-        "sourceUrl": "https://mistral.ai/news/ocr-4/"
-      }
-    },
     "grok-imagine-video-1-5": {
       "video-mme": {
         "value": 85,
@@ -119,6 +181,82 @@
         "source": "official",
         "sourceUrl": "https://x.ai/news/grok-imagine-video-1-5",
         "note": "Interpreted high performance from announcement"
+      }
+    },
+    "nvidia-nemotron-nano-2-vl": {
+      "mmmu": {
+        "value": 68,
+        "date": "2026-07-07",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+      },
+      "mathvista": {
+        "value": 76.9,
+        "date": "2026-07-07",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+      },
+      "video-mme": {
+        "value": 65.9,
+        "date": "2026-07-07",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+      },
+      "ai2d": {
+        "value": 87.11,
+        "date": "2026-07-07",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+      },
+      "chartqa": {
+        "value": 89.72,
+        "date": "2026-07-07",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+      },
+      "docvqa": {
+        "value": 94.39,
+        "date": "2026-07-07",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+      },
+      "ocrbench": {
+        "value": 85.6,
+        "date": "2026-07-07",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+      },
+      "ocrbenchv2": {
+        "value": 61.2,
+        "date": "2026-07-07",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+      }
+    },
+    "mistral-ocr-4": {
+      "olm-ocr-bench": {
+        "value": 85.2,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-ocr/"
+      },
+      "mmmu": {
+        "value": 68,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-ocr/"
+      },
+      "mathvista": {
+        "value": 73.2,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-ocr/"
+      },
+      "video-mme": {
+        "value": 65.9,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-ocr/"
       }
     }
   }
