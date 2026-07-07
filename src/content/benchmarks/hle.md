@@ -1,7 +1,7 @@
 ---
 benchmarkId: hle
 domain: llm
-status: draft
+status: published
 updated: 2026-05-25
 sources:
   - "https://arxiv.org/abs/2501.14249"
