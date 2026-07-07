@@ -431,6 +431,17 @@
       "provider": "Anthropic",
       "releaseDate": "2026-06-30",
       "license": "Proprietary"
+    },
+    {
+      "supportedModalities": [],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {},
+      "id": "nvidia-nemotron-nano-2-vl",
+      "name": "NVIDIA Nemotron Nano 2 VL",
+      "provider": "NVIDIA",
+      "releaseDate": "2025-10-28",
+      "license": "nvidia-open-model-license"
     }
   ]
 }
