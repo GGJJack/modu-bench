@@ -3324,10 +3324,16 @@
       "name": "Sakana Translate",
       "provider": "Sakana AI",
       "releaseDate": "2026-07-06",
-      "license": "Proprietary"
+      "license": "Proprietary",
+      "highlights": [
+        "Namazu 엔진 채택",
+        "일어/영어/중국어 양방향 번역",
+        "번역·첨삭·질의 3가지 모드 제공",
+        "Web 앱 무료 공개"
+      ]
     },
     {
-      "parameterSize": null,
+      "parameterSize": "450M",
       "contextWindow": null,
       "pricing": null,
       "links": {
@@ -3338,6 +3344,32 @@
       "provider": "Liquid AI",
       "releaseDate": "2026-04-08",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.liquid.ai/blog/no-cloud-tool-calling-agents-consumer-hardware-lfm2-24b-a2b"
+      },
+      "id": "lfm2-24b-a2b",
+      "name": "LFM2-24B-A2B",
+      "provider": "Liquid AI",
+      "releaseDate": "2026-03-05",
+      "license": null
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.liquid.ai/blog/lfm2-5-230m"
+      },
+      "id": "lfm2-5-230m-base",
+      "name": "LFM2.5-230M-Base",
+      "provider": "Liquid AI",
+      "releaseDate": "2026-06-25",
+      "license": null
     }
   ]
 }
