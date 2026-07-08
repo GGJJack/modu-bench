@@ -923,6 +923,48 @@
         "pass@1",
         "pass@8"
       ]
+    },
+    {
+      "id": "wmt-2024-xcomet-xl",
+      "name": "WMT 2024 General Translation (XCOMET-XL)",
+      "nameKo": "WMT 2024 일반 번역 (XCOMET-XL)",
+      "category": "knowledge",
+      "description": "WMT 2024 General Translation task dataset evaluated using XCOMET-XL.",
+      "source": "https://huggingface.co/datasets/wmt/wmt24",
+      "unit": "Score",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "multi-if",
+      "name": "Multi-IF",
+      "nameKo": "Multi-IF (다중 지시문 준수)",
+      "category": "instruction",
+      "description": "Multi-turn instruction following benchmark.",
+      "source": "https://huggingface.co/datasets/HuggingFaceH4/multi_if",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "bfcl-v4",
+      "name": "BFCLv4",
+      "nameKo": "BFCLv4 (버클리 함수 호출 리더보드 v4)",
+      "category": "agent",
+      "description": "Berkeley Function Calling Leaderboard v4.",
+      "source": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -3123,6 +3165,70 @@
         "date": "2026-06-30",
         "source": "official",
         "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5"
+      }
+    },
+    "lfm2-5-230m": {
+      "gpqa": {
+        "value": 25.41,
+        "date": "2026-06-25",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
+      },
+      "mmlu-pro": {
+        "value": 20.25,
+        "date": "2026-06-25",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
+      },
+      "ifeval": {
+        "value": 71.71,
+        "date": "2026-06-25",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
+      },
+      "if-bench": {
+        "value": 38.4,
+        "date": "2026-06-25",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
+      },
+      "multi-if": {
+        "value": 37.7,
+        "date": "2026-06-25",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
+      }
+    },
+    "lfm2-5-vl-450m": {
+      "gpqa": {
+        "value": 25.66,
+        "date": "2026-04-08",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+      },
+      "mmlu-pro": {
+        "value": 19.32,
+        "date": "2026-04-08",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+      },
+      "ifeval": {
+        "value": 61.16,
+        "date": "2026-04-08",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+      },
+      "multi-if": {
+        "value": 34.63,
+        "date": "2026-04-08",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+      },
+      "bfcl-v4": {
+        "value": 21.08,
+        "date": "2026-04-08",
+        "source": "official",
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
       }
     }
   }
