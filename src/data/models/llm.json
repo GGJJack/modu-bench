@@ -3370,6 +3370,32 @@
       "provider": "Liquid AI",
       "releaseDate": "2026-06-25",
       "license": null
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/robostral-navigate/"
+      },
+      "id": "robostral-navigate",
+      "name": "Robostral Navigate",
+      "provider": "Mistral AI",
+      "releaseDate": "2026-07-08",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.anthropic.com/news/introducing-claude-tag"
+      },
+      "id": "claude-tag",
+      "name": "Claude Tag",
+      "provider": "Anthropic",
+      "releaseDate": "2026-06-23",
+      "license": "Proprietary"
     }
   ]
 }
