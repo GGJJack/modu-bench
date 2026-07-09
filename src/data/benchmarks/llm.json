@@ -965,6 +965,48 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "bfcl-v3",
+      "name": "Berkeley Function Calling Leaderboard v3",
+      "nameKo": "버클리 함수 호출 리더보드 v3",
+      "category": "coding",
+      "description": "멀티 턴 및 멀티 스텝 함수 호출 능력을 평가하는 벤치마크",
+      "source": "https://gorilla.cs.berkeley.edu/blogs/13_bfcl_v3_multi_turn.html",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "casereportbench",
+      "name": "CaseReportBench",
+      "nameKo": "케이스 리포트 벤치",
+      "category": "reasoning",
+      "description": "의학 사례 보고서 분석 능력을 평가하는 벤치마크",
+      "source": "https://liquid.ai",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "tau-bench-retail",
+      "name": "Tau-bench (Retail)",
+      "nameKo": "타우벤치 (리테일)",
+      "category": "instruction",
+      "description": "에이전트의 도구 사용 및 실제 비즈니스 시나리오 해결 능력 평가 (리테일 도메인)",
+      "source": "https://github.com/sierra-research/tau-bench",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -3170,77 +3212,63 @@
     "lfm2-5-230m": {
       "gpqa": {
         "value": 25.41,
-        "date": "2026-07-09",
+        "date": "2026-06-25",
         "source": "official",
         "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
       },
       "mmlu-pro": {
         "value": 20.25,
-        "date": "2026-07-09",
+        "date": "2026-06-25",
         "source": "official",
         "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
       },
       "ifeval": {
         "value": 71.71,
-        "date": "2026-07-09",
+        "date": "2026-06-25",
         "source": "official",
         "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
       },
       "if-bench": {
         "value": 38.4,
-        "date": "2026-07-09",
+        "date": "2026-06-25",
         "source": "official",
         "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
       },
       "multi-if": {
         "value": 37.7,
-        "date": "2026-07-09",
+        "date": "2026-06-25",
         "source": "official",
         "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
       },
       "bfcl-v4": {
         "value": 21.03,
-        "date": "2026-07-09",
+        "date": "2026-06-25",
         "source": "official",
         "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
       },
       "tau-bench-telecom": {
         "value": 5.26,
-        "date": "2026-07-09",
+        "date": "2026-06-25",
         "source": "official",
         "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
-      }
-    },
-    "lfm2-5-vl-450m": {
-      "gpqa": {
-        "value": 25.66,
-        "date": "2026-07-09",
-        "source": "official",
-        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
       },
-      "mmlu-pro": {
-        "value": 19.32,
-        "date": "2026-07-09",
+      "casereportbench": {
+        "value": 22.51,
+        "date": "2026-06-25",
         "source": "official",
-        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
       },
-      "ifeval": {
-        "value": 61.16,
-        "date": "2026-07-09",
+      "bfcl-v3": {
+        "value": 43.26,
+        "date": "2026-06-25",
         "source": "official",
-        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
       },
-      "multi-if": {
-        "value": 34.63,
-        "date": "2026-07-09",
+      "tau-bench-retail": {
+        "value": 13.68,
+        "date": "2026-06-25",
         "source": "official",
-        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
-      },
-      "bfcl-v4": {
-        "value": 21.08,
-        "date": "2026-07-09",
-        "source": "official",
-        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-vl-450m"
+        "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
       }
     }
   }
