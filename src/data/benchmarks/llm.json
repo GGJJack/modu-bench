@@ -1007,6 +1007,21 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "r2r-ce",
+      "name": "R2R-CE",
+      "nameKo": "R2R-CE",
+      "category": "agent",
+      "description": "R2R-CE",
+      "source": "https://mistral.ai/news/robostral-navigate/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true,
+      "metric": "Success Rate"
     }
   ],
   "scores": {
@@ -3269,6 +3284,14 @@
         "date": "2026-06-25",
         "source": "official",
         "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-230m"
+      }
+    },
+    "robostral-navigate": {
+      "r2r-ce": {
+        "value": 76.6,
+        "date": "2026-07-08",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/robostral-navigate/"
       }
     }
   }
