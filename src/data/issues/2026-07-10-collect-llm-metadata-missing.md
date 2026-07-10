@@ -20,3 +20,6 @@ target: llm/multiple
 
 ## 요청
 `reinforce` 스킬에서 해당 모델들의 API가 정식 출시되거나 상세 기술 리포트가 공개되는 시점에 pricing 및 contextWindow 정보를 보강해줄 것을 요청함.
+
+## 진행 내역 (2026-07-10)
+- (reinforce): OpenAI 및 Mistral AI 공식 블로그와 기술 문서를 재조사함. GPT-Live-1 및 Mini 모델은 여전히 ChatGPT 유료 사용자 대상 서비스로 제공되며, 개발자 API용 상세 가격 및 기술 사양은 공개되지 않음. Robostral Navigate 8B 역시 구체적인 컨텍스트 윈도우와 API 가격 정보가 미공개 상태임. 정기 추적을 유지함.
