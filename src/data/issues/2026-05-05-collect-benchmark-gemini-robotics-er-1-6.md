@@ -106,3 +106,6 @@ Gemini Robotics-ER 1.6 의 벤치마크 점수를 공식 문서 및 커뮤니티
 
 ## 진행 내역 (2026-07-10)
 - (reinforce): 2026년 7월 10일 기준, Google AI Developers 공식 문서(https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview) 및 DeepMind 로보틱스 페이지를 재조사함. 여전히 MMLU, GPQA 등 표준 LLM 벤치마크 데이터는 공개되지 않았으며, 물리적 공간 추론 및 제어 성능 위주의 지표 유지가 확고함. 정기 모니터링을 지속함.
+
+## 진행 내역 (2026-07-11)
+- (reinforce): 2026년 7월 11일 기준, 공식 기술 문서 및 최신 AI 리더보드를 재점검함. Gemini Robotics-ER 1.6에 대한 MMLU, GPQA 등 표준 언어 모델 성능 수치는 여전히 제공되지 않음. 해당 모델은 로보틱스 특화 VLM으로서 공간 지능 및 물리적 상호작용 성능에 집중하고 있으며, 일반 벤치마크 배제 기조가 계속되고 있음을 확인하여 정기 모니터링 대상으로 유지함.
