@@ -1022,6 +1022,36 @@
       ],
       "higherIsBetter": true,
       "metric": "Success Rate"
+    },
+    {
+      "id": "olm-ocr-bench",
+      "name": "OlmOCRBench",
+      "nameKo": "OlmOCRBench (문서 인식 평가)",
+      "category": "agent",
+      "description": "OlmOCRBench evaluates the performance of OCR models in processing and structuring document content, including text, tables, and equations.",
+      "source": "https://mistral.ai/news/ocr-4/",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true,
+      "metric": "Score"
+    },
+    {
+      "id": "omni-doc-bench",
+      "name": "OmniDocBench",
+      "nameKo": "OmniDocBench (다목적 문서 평가)",
+      "category": "agent",
+      "description": "OmniDocBench is a benchmark for evaluating document parsing and text extraction capabilities of AI models across varied document structures.",
+      "source": "https://mistral.ai/news/ocr-4/",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true,
+      "metric": "Score"
     }
   ],
   "scores": {
@@ -3292,6 +3322,20 @@
         "date": "2026-07-08",
         "source": "official",
         "sourceUrl": "https://mistral.ai/news/robostral-navigate/"
+      }
+    },
+    "mistral-ocr-4": {
+      "olm-ocr-bench": {
+        "value": 85.2,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/ocr-4/"
+      },
+      "omni-doc-bench": {
+        "value": 93.07,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/ocr-4/"
       }
     }
   }
