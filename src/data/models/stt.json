@@ -99,6 +99,22 @@
       "provider": "Mistral AI",
       "releaseDate": "2026-02-04",
       "license": "Apache-2.0"
+    },
+    {
+      "supportedLanguages": [
+        "Arabic",
+        "English"
+      ],
+      "realtime": false,
+      "pricing": null,
+      "links": {
+        "official": "https://cohere.com/blog/transcribe-arabic"
+      },
+      "id": "cohere-transcribe-arabic",
+      "name": "Cohere Transcribe Arabic",
+      "provider": "Cohere",
+      "releaseDate": "2026-07-07",
+      "license": "Apache-2.0"
     }
   ]
 }
