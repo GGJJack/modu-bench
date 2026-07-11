@@ -169,6 +169,19 @@
       "provider": "Google",
       "releaseDate": "2026-06-30",
       "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {
+        "official": "https://docs.x.ai/developers/models"
+      },
+      "id": "grok-imagine-image-quality",
+      "name": "Grok Imagine Image Quality",
+      "provider": "xAI",
+      "releaseDate": "2026-05-06",
+      "license": "Proprietary"
     }
   ]
 }
