@@ -130,3 +130,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-07-10)
 - (reinforce): 2026년 7월 10일 기준, NCP(NAVER Cloud Platform) 요금 페이지 및 Yi-Large, Baichuan-4 공식 채널을 재점검함. HyperCLOVA X 모델들의 가격은 여전히 비공개(상담 필요) 상태이며, Yi-Large 및 Baichuan-4 또한 새로운 공식 가격 발표가 확인되지 않음. 엔터프라이즈 모델 특성상 공개 정보 획득이 계속 제한되어 정기 모니터링 체제를 유지함.
+
+## 진행 내역 (2026-07-11)
+- (reinforce): 2026년 7월 11일 기준, NCP CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio)를 재확인함. HCX-007, 005, DASH-002 등의 요금은 여전히 '-' (상담 필요)로 표시되어 있으며 구체적인 공식 단가는 비공개 상태임. Yi-Large 및 Baichuan-4 또한 공식 홈페이지에서 신규 가격 정책이나 공개 가격표 업데이트가 식별되지 않아 정기 모니터링을 지속함.

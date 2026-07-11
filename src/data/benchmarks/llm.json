@@ -3337,6 +3337,14 @@
         "source": "official",
         "sourceUrl": "https://mistral.ai/news/ocr-4/"
       }
+    },
+    "sakana-translate": {
+      "wmt-2024-xcomet-xl": {
+        "value": 0.835,
+        "date": "2026-07-06",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/translate-release/"
+      }
     }
   }
 }

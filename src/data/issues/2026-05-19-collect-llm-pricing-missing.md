@@ -21,5 +21,8 @@ target: llm/multiple
 ## 진행 내역 (2026-07-03)
 - (reinforce): 2026년 7월 3일 기준, Amazon Bedrock, Google Cloud, LG AI Research 공식 채널을 재조사함. Llama 4 Maverick/Scout, EXAONE 4.5 33B, Gemini Omni Flash 등의 공식 API 가격은 여전히 비공개(상담 필요) 또는 프리뷰 단계로 명시적인 가격표가 확인되지 않음. DeepSeek V4 Preview 또한 정식 가격 체계 발표 대기 중임. 정기 모니터링을 지속함.
 
+## 진행 내역 (2026-07-11)
+- (reinforce): 2026년 7월 11일 기준, Amazon Bedrock 및 Google Cloud 공식 요금 페이지를 재점검함. Llama 4 Maverick/Scout 17B, Gemini Omni Flash 등은 여전히 공식 가격표에 등재되지 않았거나 프리뷰 단계에 머물러 있음. DeepSeek V4 Preview 또한 정식 출시 전까지 프리뷰 가격($0.435/$0.87)이 유지되고 있음을 확인하여 정기 모니터링 대상으로 유지함.
+
 ## 요청
 `reinforce` 스킬에서 각 클라우드 제공사(AWS, Google Cloud, NCP 등)의 콘솔에 직접 접속하거나 최신 기술 문서를 확보하여 pricing 정보를 보강해줄 것을 요청함.
