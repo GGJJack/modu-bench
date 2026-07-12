@@ -943,8 +943,8 @@
       "name": "Multi-IF",
       "nameKo": "Multi-IF (다중 지시문 준수)",
       "category": "instruction",
-      "description": "Multi-turn instruction following benchmark.",
-      "source": "https://huggingface.co/datasets/HuggingFaceH4/multi_if",
+      "description": "Multi-turn instruction following benchmark used by Liquid AI. Source URL HuggingFaceH4/multi_if is currently private or restricted.",
+      "source": "https://www.liquid.ai/blog/lfm2-5-230m",
       "unit": "%",
       "scoreRange": [
         0,
