@@ -36,7 +36,9 @@
     {
       "maxResolution": null,
       "supportedStyles": [],
-      "pricing": null,
+      "pricing": {
+        "perSecond": 0.05
+      },
       "links": {
         "official": "https://x.ai/news/grok-imagine-api"
       },
@@ -173,7 +175,9 @@
     {
       "maxResolution": null,
       "supportedStyles": [],
-      "pricing": null,
+      "pricing": {
+        "perImage": 0.02
+      },
       "links": {
         "official": "https://docs.x.ai/developers/models"
       },
