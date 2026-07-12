@@ -115,6 +115,19 @@
       "provider": "Cohere",
       "releaseDate": "2026-07-07",
       "license": "Apache-2.0"
+    },
+    {
+      "supportedLanguages": [],
+      "realtime": false,
+      "pricing": null,
+      "links": {
+        "official": "https://www.liquid.ai/models"
+      },
+      "id": "lfm2-5-audio-1-5b",
+      "name": "LFM2.5-Audio-1.5B",
+      "provider": "Liquid AI",
+      "releaseDate": "2026-06-25",
+      "license": "LFM Open License"
     }
   ]
 }

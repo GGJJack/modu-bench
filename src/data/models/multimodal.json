@@ -442,6 +442,32 @@
       "provider": "NVIDIA",
       "releaseDate": "2025-10-28",
       "license": "nvidia-open-model-license"
+    },
+    {
+      "supportedModalities": [],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.liquid.ai/models"
+      },
+      "id": "lfm2-5-vl-1-6b",
+      "name": "LFM2.5-VL-1.6B",
+      "provider": "Liquid AI",
+      "releaseDate": "2026-06-18",
+      "license": "LFM Open License"
+    },
+    {
+      "supportedModalities": [],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.liquid.ai/models"
+      },
+      "id": "lfm2-vl-3b",
+      "name": "LFM2-VL-3B",
+      "provider": "Liquid AI",
+      "releaseDate": "2025-10-22",
+      "license": "LFM Open License"
     }
   ]
 }
