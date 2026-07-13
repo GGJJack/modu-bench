@@ -468,6 +468,20 @@
       "provider": "Liquid AI",
       "releaseDate": "2025-10-22",
       "license": "LFM Open License"
+    },
+    {
+      "supportedModalities": [
+        "text",
+        "image"
+      ],
+      "contextWindow": null,
+      "pricing": null,
+      "links": {},
+      "id": "north-mini-code",
+      "name": "North Mini Code",
+      "provider": "Cohere",
+      "releaseDate": "2026-06-09",
+      "license": "Apache-2.0"
     }
   ]
 }
