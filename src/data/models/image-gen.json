@@ -186,6 +186,17 @@
       "provider": "xAI",
       "releaseDate": "2026-05-06",
       "license": "Proprietary"
+    },
+    {
+      "maxResolution": null,
+      "supportedStyles": [],
+      "pricing": null,
+      "links": {},
+      "id": "grok-imagine-video-1-5",
+      "name": "Grok Imagine Video 1.5",
+      "provider": "xAI",
+      "releaseDate": "2026-06-16",
+      "license": "Proprietary"
     }
   ]
 }
