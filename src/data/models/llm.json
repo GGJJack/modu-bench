@@ -923,8 +923,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": 128000,
-      "pricing": null,
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0.04,
+        "output": 0.08
+      },
       "links": {
         "official": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
       },
@@ -3595,6 +3598,154 @@
       "provider": "Liquid AI",
       "releaseDate": "2026-02-24",
       "license": "LFM Open License"
+    },
+    {
+      "parameterSize": "105B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
+        "huggingface": "https://huggingface.co/sarvamai/sarvam-105b"
+      },
+      "id": "sarvam-105b",
+      "name": "Sarvam 105B",
+      "provider": "Sarvam AI",
+      "releaseDate": "2026-03-06",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "30B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
+        "huggingface": "https://huggingface.co/sarvamai/sarvam-30b"
+      },
+      "id": "sarvam-30b",
+      "name": "Sarvam 30B",
+      "provider": "Sarvam AI",
+      "releaseDate": "2026-03-06",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1048576,
+      "pricing": {
+        "input": 0.06,
+        "output": 0.24
+      },
+      "links": {
+        "official": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-2-lite-a-fast-cost-effective-reasoning-model/"
+      },
+      "id": "amazon-nova-2-lite",
+      "name": "Amazon Nova 2 Lite",
+      "provider": "Amazon",
+      "releaseDate": "2026-05-19",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "31B",
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0.14,
+        "output": 0.4
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "gemma-4-31b",
+      "name": "Gemma 4 31B",
+      "provider": "Google",
+      "releaseDate": "2026-06-03",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "26B",
+      "contextWindow": 256000,
+      "pricing": {
+        "input": 0.13,
+        "output": 0.4
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "gemma-4-26b-a4b",
+      "name": "Gemma 4 26B A4B",
+      "provider": "Google",
+      "releaseDate": "2026-06-03",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.62,
+        "output": 1.85
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "deepseek-v3-2",
+      "name": "DeepSeek-V3.2",
+      "provider": "DeepSeek",
+      "releaseDate": "2026-06-18",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.5974,
+        "output": 1.7304
+      },
+      "links": {
+        "official": "https://aws.amazon.com/bedrock/pricing/"
+      },
+      "id": "deepseek-v3-1",
+      "name": "DeepSeek-V3.1",
+      "provider": "DeepSeek",
+      "releaseDate": "2026-06-18",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": null,
+      "links": {
+        "official": "https://zhipuai.cn/"
+      },
+      "id": "glm-5-2-max",
+      "name": "GLM-5.2 Max",
+      "provider": "Zhipu AI",
+      "releaseDate": "2026-06-18",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-2-sonic-next-generation-speech-to-speech-model-for-conversational-ai/"
+      },
+      "id": "amazon-nova-2-sonic",
+      "name": "Amazon Nova 2 Sonic",
+      "provider": "Amazon",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "24B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.sarvam.ai/",
+        "huggingface": "https://huggingface.co/sarvamai/sarvam-m"
+      },
+      "id": "sarvam-m",
+      "name": "Sarvam-M",
+      "provider": "Sarvam AI",
+      "releaseDate": "2025-05-28",
+      "license": "Apache-2.0"
     }
   ]
 }

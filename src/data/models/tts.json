@@ -95,6 +95,40 @@
       "provider": "Liquid AI",
       "releaseDate": "2026-06-25",
       "license": "LFM Open License"
+    },
+    {
+      "supportedLanguages": [],
+      "realtime": false,
+      "pricing": null,
+      "links": {},
+      "id": "amazon-nova-2-sonic",
+      "name": "Amazon Nova 2 Sonic",
+      "provider": "Amazon",
+      "releaseDate": "2026-06-30",
+      "license": "Proprietary"
+    },
+    {
+      "supportedLanguages": [
+        "Bengali",
+        "Gujarati",
+        "Hindi",
+        "Kannada",
+        "Malayalam",
+        "Marathi",
+        "Oriya",
+        "Punjabi",
+        "Tamil",
+        "Telugu",
+        "English"
+      ],
+      "realtime": false,
+      "pricing": null,
+      "links": {},
+      "id": "sarvam-bulbul",
+      "name": "Bulbul",
+      "provider": "Sarvam AI",
+      "releaseDate": "2026-03-06",
+      "license": "Proprietary"
     }
   ]
 }
