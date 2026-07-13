@@ -26,3 +26,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-07-11)
 - (reinforce): OpenAI 및 Mistral AI 공식 채널을 재조사함. GPT-Live-1 시리즈는 여전히 앱 기반 서비스로 유지되고 있으며, API 출시 계획이나 구체적인 기술 명세(Context Window 등)는 발표되지 않음. Robostral Navigate 8B 모델 또한 공식 블로그(https://mistral.ai/news/robostral-navigate/) 및 모델 카드에서 R2R-CE 벤치마크 성과(76.6%) 외에 토큰 제한이나 API 가격 체계는 명시되지 않음. 정기 모니터링 대상으로 유지함.
+
+## 진행 내역 (2026-07-13)
+- (reinforce): 2026년 7월 13일 기준, OpenAI 및 Mistral AI의 최신 공지를 재검토함. GPT-Live-1 계열은 여전히 소비자용 서비스(ChatGPT)에 국한되어 있으며, 개발자용 API 사양 및 가격은 공개되지 않음. Robostral Navigate 8B 또한 R2R-CE 성능 홍보에 집중하고 있으며, 일반 API로의 제공 여부나 컨텍스트 윈도우 등 세부 사양은 여전히 미공개 상태임. 정기 추적을 유지함.
