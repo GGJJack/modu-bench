@@ -3345,6 +3345,222 @@
         "source": "official",
         "sourceUrl": "https://sakana.ai/translate-release/"
       }
+    },
+    "sarvam-105b": {
+      "mmlu": {
+        "value": 90.6,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "mmlu-pro": {
+        "value": 81.7,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "arena-hard-v2": {
+        "value": 71,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "ifeval": {
+        "value": 84.8,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 78.7,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "hmmt-25": {
+        "value": 85.8,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "hle": {
+        "value": 11.2,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "livecodebench-v6": {
+        "value": 71.7,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "swe-bench-verified": {
+        "value": 45,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "aime-2025": {
+        "value": 88.3,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "tau-bench": {
+        "value": 68.3,
+        "date": "2026-03-06",
+        "source": "official"
+      }
+    },
+    "sarvam-30b": {
+      "mmlu": {
+        "value": 85.1,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "mmlu-pro": {
+        "value": 80,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "arena-hard-v2": {
+        "value": 49,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 66.5,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "hmmt-25": {
+        "value": 73.3,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 92.1,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 92.7,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "livecodebench-v6": {
+        "value": 70,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "swe-bench-verified": {
+        "value": 34,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "aime-2025": {
+        "value": 80,
+        "date": "2026-03-06",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 97,
+        "date": "2026-03-06",
+        "source": "official"
+      }
+    },
+    "amazon-nova-2-lite": {
+      "mmlu": {
+        "value": 81.2,
+        "date": "2026-05-19",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 56.4,
+        "date": "2026-05-19",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 85,
+        "date": "2026-05-19",
+        "source": "official"
+      },
+      "mt-bench": {
+        "value": 8.8,
+        "date": "2026-05-19",
+        "source": "official"
+      },
+      "ifeval": {
+        "value": 82.5,
+        "date": "2026-05-19",
+        "source": "official"
+      }
+    },
+    "amazon-nova-2-sonic": {
+      "mmlu": {
+        "value": 83.5,
+        "date": "2026-06-30",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 59.8,
+        "date": "2026-06-30",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 88.2,
+        "date": "2026-06-30",
+        "source": "official"
+      },
+      "mt-bench": {
+        "value": 9.1,
+        "date": "2026-06-30",
+        "source": "official"
+      }
+    },
+    "gemma-4-31b": {
+      "mmlu": {
+        "value": 88.4,
+        "date": "2026-06-03",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 72.5,
+        "date": "2026-06-03",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 90.1,
+        "date": "2026-06-03",
+        "source": "official"
+      }
+    },
+    "gemma-4-26b-a4b": {
+      "mmlu": {
+        "value": 86.7,
+        "date": "2026-06-03",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 68.9,
+        "date": "2026-06-03",
+        "source": "official"
+      }
+    },
+    "deepseek-v3-1": {
+      "mmlu": {
+        "value": 89.2,
+        "date": "2026-06-18",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 91.5,
+        "date": "2026-06-18",
+        "source": "official"
+      }
+    },
+    "deepseek-v3-2": {
+      "mmlu": {
+        "value": 90.5,
+        "date": "2026-06-18",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 93.2,
+        "date": "2026-06-18",
+        "source": "official"
+      }
     }
   }
 }
