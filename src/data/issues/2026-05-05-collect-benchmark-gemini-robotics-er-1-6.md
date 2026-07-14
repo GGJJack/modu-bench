@@ -115,3 +115,6 @@ Gemini Robotics-ER 1.6 의 벤치마크 점수를 공식 문서 및 커뮤니티
 
 ## 진행 내역 (2026-07-13)
 - (reinforce): 2026년 7월 13일 기준, 공식 기술 문서(https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview)를 재점검함. 최종 업데이트일(2026-06-23) 및 모델 사양(131k context) 등 기존 정보에서 변동이 없으며, MMLU/GPQA 등 표준 LLM 벤치마크 점수 또한 여전히 제공되지 않음. 로보틱스 특화 모델로서의 포지셔닝에 따른 의도적 지표 배제가 지속되고 있음을 확인하여 정기 모니터링을 유지함.
+
+## 진행 내역 (2026-07-14)
+- (reinforce): 2026년 7월 14일 기준, 공식 기술 문서(https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview)를 재점검함. MMLU, GPQA 등 표준 LLM 벤치마크 점수는 여전히 제공되지 않으며, 일반 지표보다는 공간 추론 및 로보틱스 액션 제어 위주의 성능 지표 구성 기조가 계속 이어지고 있음. 추적 상태를 유지함.
