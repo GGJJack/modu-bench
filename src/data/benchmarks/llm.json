@@ -3349,13 +3349,15 @@
     "sarvam-105b": {
       "mmlu": {
         "value": 90.6,
-        "date": "2026-03-06",
-        "source": "official"
+        "date": "2026-07-15",
+        "source": "official",
+        "sourceUrl": "https://www.sarvam.ai/blogs/sarvam-30b-105b"
       },
       "mmlu-pro": {
         "value": 81.7,
-        "date": "2026-03-06",
-        "source": "official"
+        "date": "2026-07-15",
+        "source": "official",
+        "sourceUrl": "https://www.sarvam.ai/blogs/sarvam-30b-105b"
       },
       "arena-hard-v2": {
         "value": 71,
@@ -3369,8 +3371,9 @@
       },
       "gpqa": {
         "value": 78.7,
-        "date": "2026-03-06",
-        "source": "official"
+        "date": "2026-07-15",
+        "source": "official",
+        "sourceUrl": "https://www.sarvam.ai/blogs/sarvam-30b-105b"
       },
       "hmmt-25": {
         "value": 85.8,
