@@ -598,7 +598,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://openai.com/news/"
@@ -3153,7 +3153,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
@@ -3746,6 +3746,74 @@
       "provider": "Sarvam AI",
       "releaseDate": "2025-05-28",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/blog/meta-llama-3/"
+      },
+      "id": "llama-3-8b",
+      "name": "Llama 3 8B",
+      "provider": "Meta",
+      "releaseDate": "2024-04-18",
+      "license": "Llama 3"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/blog/meta-llama-3-1/"
+      },
+      "id": "llama-3.1-8b",
+      "name": "Llama 3.1 8B",
+      "provider": "Meta",
+      "releaseDate": "2024-07-23",
+      "license": "Llama 3.1"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/blog/meta-llama-3-1/"
+      },
+      "id": "llama-3.1-70b",
+      "name": "Llama 3.1 70B",
+      "provider": "Meta",
+      "releaseDate": "2024-07-23",
+      "license": "Llama 3.1"
+    },
+    {
+      "parameterSize": "3B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/blog/llama-3-2-connect-open-multimodal-edge-models/"
+      },
+      "id": "llama-3.2-3b",
+      "name": "Llama 3.2 3B",
+      "provider": "Meta",
+      "releaseDate": "2024-09-25",
+      "license": "Llama 3.2"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6
+      },
+      "links": {
+        "official": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+      },
+      "id": "gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "provider": "OpenAI",
+      "releaseDate": "2024-07-18",
+      "license": "Proprietary"
     }
   ]
 }
