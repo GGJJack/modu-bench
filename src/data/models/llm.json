@@ -2763,8 +2763,8 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "405B",
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/namazu-alpha/"
@@ -2776,8 +2776,8 @@
       "license": "Llama 3.1 License"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "120B",
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/namazu-alpha/"
@@ -3526,7 +3526,7 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://www.liquid.ai/models"
+        "official": "https://docs.liquid.ai/lfm/models/lfm25-1.2b-jp"
       },
       "id": "lfm2-5-1-2b-jp",
       "name": "LFM2.5-1.2B-JP",
@@ -3565,7 +3565,7 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://www.liquid.ai/models"
+        "official": "https://docs.liquid.ai/lfm/models/lfm25-vl-1.6b"
       },
       "id": "lfm2-5-vl-1-6b",
       "name": "LFM2.5-VL-1.6B",
@@ -3814,6 +3814,58 @@
       "provider": "OpenAI",
       "releaseDate": "2024-07-18",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "4B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b"
+      },
+      "id": "hyperclova-x-seed-4b",
+      "name": "HyperCLOVA X SEED 4B",
+      "provider": "NAVER Cloud",
+      "releaseDate": "2026-06-23",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/namazu-alpha/"
+      },
+      "id": "namazu-deepseek-v3-1-terminus",
+      "name": "Namazu-DeepSeek-V3.1-Terminus",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-03-24",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "1.5B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.liquid.ai/lfm/models/lfm25-audio-1.5b"
+      },
+      "id": "lfm2-5-audio-1-5b",
+      "name": "LFM2.5-Audio-1.5B",
+      "provider": "Liquid AI",
+      "releaseDate": "2026-06-18",
+      "license": "LFM Open License"
+    },
+    {
+      "parameterSize": "1.5B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.liquid.ai/lfm/models/lfm25-audio-1.5b-jp"
+      },
+      "id": "lfm2-5-audio-1-5b-jp",
+      "name": "LFM2.5-Audio-1.5B-JP",
+      "provider": "Liquid AI",
+      "releaseDate": "2026-06-18",
+      "license": "LFM Open License"
     }
   ]
 }
