@@ -1289,6 +1289,12 @@
         "value": 8.84,
         "date": "2026-05-04",
         "source": "community"
+      },
+      "mmlu": {
+        "value": 87.3,
+        "date": "2024-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B"
       }
     },
     "qwen-2.5-72b": {
@@ -3563,6 +3569,74 @@
         "value": 93.2,
         "date": "2026-06-18",
         "source": "official"
+      }
+    },
+    "llama-3.1-8b": {
+      "mmlu": {
+        "value": 69.4,
+        "date": "2024-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B"
+      },
+      "gpqa": {
+        "value": 30.4,
+        "date": "2024-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B"
+      }
+    },
+    "llama-3.1-70b": {
+      "mmlu": {
+        "value": 83.6,
+        "date": "2024-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B"
+      },
+      "gpqa": {
+        "value": 46.7,
+        "date": "2024-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B"
+      }
+    },
+    "llama-3.2-3b": {
+      "mmlu": {
+        "value": 58,
+        "date": "2024-09-25",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Llama-3.2-3B"
+      },
+      "arc-c": {
+        "value": 69.1,
+        "date": "2024-09-25",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Llama-3.2-3B"
+      },
+      "gpqa": {
+        "value": 32.8,
+        "date": "2024-09-25",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Llama-3.2-3B"
+      }
+    },
+    "llama-3-8b": {
+      "mmlu": {
+        "value": 66.6,
+        "date": "2024-04-18",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
+      },
+      "arc-c": {
+        "value": 78.6,
+        "date": "2024-04-18",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
+      },
+      "gpqa": {
+        "value": 34.2,
+        "date": "2024-04-18",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
       }
     }
   }
