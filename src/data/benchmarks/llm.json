@@ -1052,6 +1052,34 @@
       ],
       "higherIsBetter": true,
       "metric": "Score"
+    },
+    {
+      "id": "konet",
+      "name": "KoNET",
+      "nameKo": "KoNET (한국어 추론)",
+      "category": "korean",
+      "description": "Korean reasoning benchmark at college-entrance level.",
+      "source": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "konet-ged",
+      "name": "KoNET (GED)",
+      "nameKo": "KoNET GED (한국어 추론 검정고시)",
+      "category": "korean",
+      "description": "Korean reasoning benchmark at GED level.",
+      "source": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -3637,6 +3665,44 @@
         "date": "2024-04-18",
         "source": "community",
         "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
+      }
+    },
+    "hyperclova-x-seed-4b": {
+      "konet": {
+        "value": 74.6,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b"
+      },
+      "konet-ged": {
+        "value": 92.6,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b"
+      },
+      "gsm8k": {
+        "value": 95,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b"
+      },
+      "aime-2025": {
+        "value": 60.6,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b"
+      },
+      "gpqa": {
+        "value": 54,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b"
+      },
+      "ifeval": {
+        "value": 77.8,
+        "date": "2026-06-23",
+        "source": "official",
+        "sourceUrl": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b"
       }
     }
   }
