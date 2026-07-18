@@ -1421,7 +1421,7 @@
     },
     {
       "parameterSize": "10.8B (dense)",
-      "contextWindow": null,
+      "contextWindow": 4096,
       "pricing": null,
       "links": {
         "official": "https://huggingface.co/yanolja/EEVE-Korean-10.8B-v1.0"
@@ -3328,7 +3328,7 @@
       "releaseDate": "2026-07-06",
       "license": "Proprietary",
       "highlights": [
-        "Namazu 엔진 채택",
+        "Namazu 번역 엔진 채택",
         "일어/영어/중국어 양방향 번역",
         "번역·첨삭·질의 3가지 모드 제공",
         "Web 앱 무료 공개"
@@ -3829,7 +3829,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "671B (37B active)",
       "contextWindow": null,
       "pricing": null,
       "links": {
@@ -3866,6 +3866,58 @@
       "provider": "Liquid AI",
       "releaseDate": "2026-06-18",
       "license": "LFM Open License"
+    },
+    {
+      "parameterSize": "32B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://arxiv.org/abs/2601.03286"
+      },
+      "id": "hyperclova-x-32b-think",
+      "name": "HyperCLOVA X 32B Think",
+      "provider": "NAVER Cloud",
+      "releaseDate": "2026-01-15",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://arxiv.org/abs/2601.01792"
+      },
+      "id": "hyperclova-x-8b-omni",
+      "name": "HyperCLOVA X 8B Omni",
+      "provider": "NAVER Cloud",
+      "releaseDate": "2026-01-15",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://corp.rakuten.co.jp/"
+      },
+      "id": "rakuten-ai-3-0",
+      "name": "Rakuten AI 3.0",
+      "provider": "Rakuten",
+      "releaseDate": "2026-03-20",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.anthropic.com/news/claude-science-ai-workbench"
+      },
+      "id": "claude-science",
+      "name": "Claude Science",
+      "provider": "Anthropic",
+      "releaseDate": "2026-07-03",
+      "license": "Proprietary"
     }
   ]
 }
