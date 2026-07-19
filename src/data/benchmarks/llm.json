@@ -1080,6 +1080,62 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "click",
+      "name": "CLIcK",
+      "nameKo": "CLIcK (한국어 상식 및 문화 지식 평가)",
+      "category": "korean",
+      "description": "CLIcK evaluates cultural and social commonsense knowledge in Korean.",
+      "source": "https://arxiv.org/abs/2403.06412",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "haerae-bench",
+      "name": "HAERAE Bench 1.0",
+      "nameKo": "HAERAE Bench 1.0 (한국어 상식 및 지식 평가)",
+      "category": "korean",
+      "description": "HAERAE Bench 1.0 evaluates general knowledge, reasoning, and reading comprehension in Korean.",
+      "source": "https://github.com/HAERAE-HUB/HAERAE-BENCH",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "piqa",
+      "name": "PIQA",
+      "nameKo": "PIQA (물리적 상식 추론)",
+      "category": "reasoning",
+      "description": "PIQA evaluates physical commonsense reasoning.",
+      "source": "https://arxiv.org/abs/1911.11641",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "hellaswag",
+      "name": "HellaSwag",
+      "nameKo": "HellaSwag (상식 추론)",
+      "category": "reasoning",
+      "description": "HellaSwag evaluates commonsense reasoning and contextual completion.",
+      "source": "https://arxiv.org/abs/1905.07830",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -3703,6 +3759,70 @@
         "date": "2026-06-23",
         "source": "official",
         "sourceUrl": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b"
+      }
+    },
+    "hyperclova-x-32b-think": {
+      "kmmlu": {
+        "value": 75.2,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.03286"
+      },
+      "click": {
+        "value": 75.2,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.03286"
+      },
+      "haerae-bench": {
+        "value": 87.4,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.03286"
+      },
+      "mmlu": {
+        "value": 87.7,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.03286"
+      },
+      "hellaswag": {
+        "value": 57.2,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.03286"
+      },
+      "piqa": {
+        "value": 76.7,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.03286"
+      }
+    },
+    "hyperclova-x-8b-omni": {
+      "haerae-bench": {
+        "value": 75.3,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.01792"
+      },
+      "mmlu": {
+        "value": 75.7,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.01792"
+      },
+      "mmlu-pro": {
+        "value": 54.2,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.01792"
+      },
+      "gsm8k": {
+        "value": 87.3,
+        "date": "2026-01-15",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2601.01792"
       }
     }
   }
