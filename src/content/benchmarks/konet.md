@@ -1,7 +1,9 @@
 ---
 benchmarkId: konet
 domain: llm
-status: draft
+status: published
+organization: naver-cloud
+paperUrl: https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b
 updated: 2026-07-18
 sources:
   - https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b
