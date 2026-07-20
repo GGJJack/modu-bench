@@ -1101,7 +1101,7 @@
       "nameKo": "HAERAE Bench 1.0 (한국어 상식 및 지식 평가)",
       "category": "korean",
       "description": "HAERAE Bench 1.0 evaluates general knowledge, reasoning, and reading comprehension in Korean.",
-      "source": "https://github.com/HAERAE-HUB/HAERAE-BENCH",
+      "source": "https://github.com/HAE-RAE/HAE-RAE-BENCH",
       "unit": "%",
       "scoreRange": [
         0,
