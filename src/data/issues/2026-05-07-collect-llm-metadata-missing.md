@@ -73,3 +73,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-07-16)
 - (reinforce): 2026년 7월 16일 기준, HyperCLOVA X, Yi-Large, Baichuan-4 및 Sakana AI Fugu/Marlin 모델의 공식 API 가격 정책을 재조사함. 사카나 AI의 Fugu 시리즈(Ultra/Mini/Marlin) 등은 여전히 베타 테스터 신청 단계 및 비공개 상태이며, 엔터프라이즈 및 클로즈드 베타 기조의 미공개 가격 현황을 재점검하여 지속적인 정기 모니터링 대상으로 유지함.
+
+## 진행 내역 (2026-07-20)
+- (reinforce): 2026년 7월 20일 기준, NCP 및 01.AI, Baichuan AI, Sakana AI 등 주요 모델 제공 플랫폼을 재조사함. HyperCLOVA X 계열의 공식 API 요금 비공개 기조가 유지되고 있으며, Sakana Fugu 시리즈 등 베타 단계 모델들 역시 공식 가격 정보가 공개되지 않았습니다. severity: blocker를 유지하며 정기 모니터링을 지속합니다.
