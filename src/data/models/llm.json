@@ -731,7 +731,7 @@
     },
     {
       "parameterSize": "13B",
-      "contextWindow": null,
+      "contextWindow": 4096,
       "pricing": null,
       "links": {
         "official": "https://www.baichuan-ai.com/",
@@ -2612,7 +2612,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "22B",
       "contextWindow": 128000,
       "pricing": {
         "input": 0,
@@ -3908,7 +3908,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 200000,
       "pricing": null,
       "links": {
         "official": "https://www.anthropic.com/news/claude-science-ai-workbench"
@@ -3918,6 +3918,80 @@
       "provider": "Anthropic",
       "releaseDate": "2026-07-03",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 3,
+        "output": 12
+      },
+      "links": {
+        "official": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/"
+      },
+      "id": "o1-mini",
+      "name": "OpenAI o1-mini",
+      "provider": "OpenAI",
+      "releaseDate": "2024-09-12",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 15,
+        "output": 60
+      },
+      "links": {
+        "official": "https://openai.com/index/introducing-openai-o1-preview/"
+      },
+      "id": "o1-preview",
+      "name": "OpenAI o1-preview",
+      "provider": "OpenAI",
+      "releaseDate": "2024-09-12",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "123B",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 2,
+        "output": 6
+      },
+      "links": {
+        "official": "https://mistral.ai/news/mistral-large-2407/"
+      },
+      "id": "mistral-large-2",
+      "name": "Mistral Large 2",
+      "provider": "Mistral AI",
+      "releaseDate": "2024-07-24",
+      "license": "Mistral Research License"
+    },
+    {
+      "parameterSize": "2.4B (dense)",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/LGAI-Research/EXAONE-3.0-2.4B-Instruct"
+      },
+      "id": "exaone-3.0-2.4b-instruct",
+      "name": "EXAONE 3.0 2.4B Instruct",
+      "provider": "LG AI Research",
+      "releaseDate": "2024-08-07",
+      "license": "EXAONE AI Model License Agreement 1.0 (Apache-2.0 compatible for non-commercial)"
+    },
+    {
+      "parameterSize": "10.7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
+      },
+      "id": "solar-10.7b",
+      "name": "Solar 10.7B Instruct",
+      "provider": "Upstage",
+      "releaseDate": "2023-12-14",
+      "license": "Apache-2.0"
     }
   ]
 }
