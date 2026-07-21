@@ -3824,6 +3824,52 @@
         "source": "official",
         "sourceUrl": "https://arxiv.org/abs/2601.01792"
       }
+    },
+    "mistral-large-2": {
+      "mmlu": {
+        "value": 84,
+        "date": "2024-07-24",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-large-2407/"
+      },
+      "mmmlu": {
+        "value": 84,
+        "date": "2024-07-24",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-large-2407/"
+      },
+      "mt-bench": {
+        "value": 8.4,
+        "date": "2024-07-24",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-large-2407/"
+      },
+      "humaneval": {
+        "value": 92,
+        "date": "2024-07-24",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-large-2407/"
+      },
+      "math": {
+        "value": 76.7,
+        "date": "2024-07-24",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-large-2407/"
+      },
+      "gsm8k": {
+        "value": 91.1,
+        "date": "2024-07-24",
+        "source": "official",
+        "sourceUrl": "https://mistral.ai/news/mistral-large-2407/"
+      }
+    },
+    "solar-10.7b": {
+      "mmlu": {
+        "value": 74.2,
+        "date": "2023-12-14",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
+      }
     }
   }
 }
