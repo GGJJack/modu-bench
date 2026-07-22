@@ -3894,11 +3894,12 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "671B (37B active) MoE",
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://corp.rakuten.co.jp/"
+        "official": "https://corp.rakuten.co.jp/news/press/2026/0317_01.html",
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-3.0"
       },
       "id": "rakuten-ai-3-0",
       "name": "Rakuten AI 3.0",
@@ -3991,6 +3992,71 @@
       "name": "Solar 10.7B Instruct",
       "provider": "Upstage",
       "releaseDate": "2023-12-14",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/fugu-cyber-release/"
+      },
+      "id": "sakana-fugu-cyber",
+      "name": "Sakana Fugu Cyber",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-07-21",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "2B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-mini"
+      },
+      "id": "rakuten-ai-2-0-mini",
+      "name": "RakutenAI-2.0-mini",
+      "provider": "Rakuten",
+      "releaseDate": "2025-02-10",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "2B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-mini-instruct"
+      },
+      "id": "rakuten-ai-2-0-mini-instruct",
+      "name": "RakutenAI-2.0-mini-instruct",
+      "provider": "Rakuten",
+      "releaseDate": "2025-02-26",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "47B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
+      },
+      "id": "rakuten-ai-2-0-8x7b",
+      "name": "RakutenAI-2.0-8x7B",
+      "provider": "Rakuten",
+      "releaseDate": "2025-02-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "47B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B-instruct"
+      },
+      "id": "rakuten-ai-2-0-8x7b-instruct",
+      "name": "RakutenAI-2.0-8x7B-instruct",
+      "provider": "Rakuten",
+      "releaseDate": "2025-02-26",
       "license": "Apache-2.0"
     }
   ]
