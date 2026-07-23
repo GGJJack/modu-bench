@@ -3870,6 +3870,54 @@
         "source": "community",
         "sourceUrl": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
       }
+    },
+    "rakuten-ai-2-0-mini-instruct": {
+      "mt-bench": {
+        "value": 4.91,
+        "date": "2026-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-2.0-mini-instruct"
+      }
+    },
+    "rakuten-ai-2-0-8x7b-instruct": {
+      "mt-bench": {
+        "value": 7.08,
+        "date": "2026-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B-instruct"
+      }
+    },
+    "rakuten-ai-2-0-8x7b": {
+      "mmlu": {
+        "value": 65.5,
+        "date": "2026-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
+      },
+      "arc-c": {
+        "value": 66.38,
+        "date": "2026-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
+      },
+      "gsm8k": {
+        "value": 51.4,
+        "date": "2026-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
+      },
+      "mmlu-pro": {
+        "value": 25.22,
+        "date": "2026-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
+      },
+      "ifeval": {
+        "value": 22.9,
+        "date": "2026-07-23",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
+      }
     }
   }
 }
