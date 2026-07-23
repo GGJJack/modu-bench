@@ -1,10 +1,11 @@
 ---
 benchmarkId: click
 domain: llm
-status: draft
-updated: 2026-07-20
+status: published
+updated: 2026-07-23
 sources:
   - https://arxiv.org/abs/2403.06412
+organization: kaist
 paperUrl: https://arxiv.org/abs/2403.06412
 highlights:
   - "한국어 문화 및 언어 지능 평가 (1,995 QA 쌍)"
