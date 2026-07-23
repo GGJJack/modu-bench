@@ -1,8 +1,8 @@
 ---
 benchmarkId: hellaswag
 domain: llm
-status: draft
-updated: 2026-07-21
+status: published
+updated: 2026-07-23
 sources:
   - https://arxiv.org/abs/1905.07830
 organization: university-of-washington
