@@ -96,7 +96,7 @@
       "license": "Llama 3.1 Community License"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "671B (37B active) MoE",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.14,
@@ -178,7 +178,10 @@
     {
       "parameterSize": null,
       "contextWindow": 1000000,
-      "pricing": null,
+      "pricing": {
+        "input": 5,
+        "output": 30
+      },
       "links": {
         "official": "https://sakana.ai/fugu-release/"
       },
@@ -3894,7 +3897,7 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": "671B (37B active) MoE",
+      "parameterSize": "700B (MoE)",
       "contextWindow": 128000,
       "pricing": null,
       "links": {
@@ -3997,7 +4000,10 @@
     {
       "parameterSize": null,
       "contextWindow": null,
-      "pricing": null,
+      "pricing": {
+        "input": 6,
+        "output": 36
+      },
       "links": {
         "official": "https://sakana.ai/fugu-cyber-release/"
       },
