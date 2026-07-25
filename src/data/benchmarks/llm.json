@@ -1136,6 +1136,48 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "jamc-qa",
+      "name": "JamC-QA",
+      "nameKo": "JamC-QA (일본 고유 문화·역사 지식 QA)",
+      "category": "knowledge",
+      "description": "일본 고유의 문화·역사 지식 QA",
+      "source": "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q2-18.pdf",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mmlu-prox-jp",
+      "name": "MMLU-ProX (Japanese)",
+      "nameKo": "MMLU-ProX (일본어)",
+      "category": "reasoning",
+      "description": "대학원 수준의 추론",
+      "source": "https://arxiv.org/abs/2503.10497",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "math-100-jp",
+      "name": "MATH-100 (Japanese)",
+      "nameKo": "MATH-100 (일본어)",
+      "category": "math",
+      "description": "경기 수준의 수학",
+      "source": "https://arxiv.org/html/2502.17407v2",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -3924,6 +3966,26 @@
         "date": "2026-07-23",
         "source": "community",
         "sourceUrl": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
+      }
+    },
+    "rakuten-ai-3-0": {
+      "jamc-qa": {
+        "value": 76.9,
+        "date": "2026-03-17",
+        "source": "official",
+        "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0317_01.html"
+      },
+      "mmlu-prox-jp": {
+        "value": 71.7,
+        "date": "2026-03-17",
+        "source": "official",
+        "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0317_01.html"
+      },
+      "math-100-jp": {
+        "value": 86.9,
+        "date": "2026-03-17",
+        "source": "official",
+        "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0317_01.html"
       }
     }
   }
