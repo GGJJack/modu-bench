@@ -1,11 +1,12 @@
 ---
 modelId: phi-4
 domain: llm
-status: draft
-updated: 2026-06-10
+status: published
+updated: 2026-07-26
 sources:
   - https://huggingface.co/microsoft/phi-4
   - https://arxiv.org/abs/2412.08905
+  - https://azure.microsoft.com/en-us/blog/introducing-phi-4-microsofts-newest-small-language-model-now-available-on-azure-ai-models-as-a-service/
 features:
   toolUse: true
 highlights:
