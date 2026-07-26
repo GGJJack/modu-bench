@@ -23,3 +23,6 @@ target: llm/unverified-scores
 
 ## 진행 내역 (2026-06-02)
 - (reinforce): `kimi-k2.5`, `qwen-3-30b-a3b`, `gemma-3-4b`, `gemma-3-12b`, `nvidia-nemotron-3-nano` 모델의 MMLU, GPQA 등 벤치마크 점수를 재조사하였으나 공식 출처나 검증된 점수를 확보하지 못함. 제조사의 공식 발표를 지속적으로 대기함.
+
+## 진행 내역 (2026-07-26)
+- (reinforce): `kimi-k2.5` 모델의 기존 커뮤니티 점수(SWE-Bench, Terminal-Bench)는 유지 중이나, MMLU/GPQA 등 공식적인 일반 벤치마크 점수는 추가 발표되지 않음. `qwen-3-30b-a3b`, `gemma-3-4b`, `gemma-3-12b`, `nvidia-nemotron-3-nano` 모델 역시 공식 벤치마크 데이터가 미공개된 상태가 지속되고 있어 정기 추적을 유지함.
