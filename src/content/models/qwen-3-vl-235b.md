@@ -1,11 +1,12 @@
 ---
 modelId: qwen-3-vl-235b
 domain: multimodal
-status: draft
-updated: 2026-06-04
+status: published
+updated: 2026-07-26
 sources:
   - https://qwenlm.github.io/blog/qwen3-vl/
   - https://aws.amazon.com/bedrock/pricing/
+  - https://github.com/QwenLM/Qwen
 features:
   vision: true
   toolUse: true
