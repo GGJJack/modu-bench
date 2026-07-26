@@ -23,3 +23,6 @@ Google Search를 통해 해당 모델들의 주요 벤치마크(MMLU-Pro, GPQA �
 
 ## 진행 내역 (2026-07-02)
 - (reinforce): 2026년 7월 2일 기준, DeepSeek 및 Meta 공식 채널을 재조사함. DeepSeek V3.2, Llama 4 Maverick/Scout 모델의 공식 벤치마크 수치는 여전히 공개되지 않음. 정기 모니터링을 지속함.
+
+## 진행 내역 (2026-07-26)
+- (reinforce): `deepseek-v3-2` 모델의 기존 점수(MMLU, HumanEval)는 유지되고 있으며, 타 표준 벤치마크 점수는 추가 공개되지 않음. `llama-4-maverick-17b` 및 `llama-4-scout-17b` 모델의 경우에도 여전히 신뢰할 수 있는 공식 학술 벤치마크 점수(MMLU, GPQA 등)가 공개되지 않았음을 확인하여 추적 및 정기 모니터링을 지속함.
