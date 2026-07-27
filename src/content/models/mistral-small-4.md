@@ -1,11 +1,12 @@
 ---
 modelId: mistral-small-4
 domain: llm
-status: draft
-updated: 2026-06-10
+status: published
+updated: 2026-07-27
 sources:
   - https://docs.mistral.ai/models/model-cards/mistral-small-4-0-26-03
   - https://mistral.ai/news/mistral-small-4/
+  - https://huggingface.co/mistralai/Mistral-Small-4-Instruct
 features:
   toolUse: true
   vision: true
