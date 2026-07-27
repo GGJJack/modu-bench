@@ -3722,14 +3722,26 @@
       "mmlu": {
         "value": 83.6,
         "date": "2024-07-23",
-        "source": "community",
-        "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B"
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
       },
       "gpqa": {
         "value": 46.7,
         "date": "2024-07-23",
         "source": "community",
         "sourceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B"
+      },
+      "mmlu-pro": {
+        "value": 66.4,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "humaneval": {
+        "value": 80.5,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
       }
     },
     "llama-3.2-3b": {
