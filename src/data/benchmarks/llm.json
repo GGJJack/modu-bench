@@ -3999,6 +3999,18 @@
         "source": "official",
         "sourceUrl": "https://corp.rakuten.co.jp/news/press/2026/0317_01.html"
       }
+    },
+    "deep-research-max": {
+      "deepsearchqa": {
+        "value": 93.3,
+        "date": "2026-04-21",
+        "source": "official"
+      },
+      "hle": {
+        "value": 54.6,
+        "date": "2026-04-21",
+        "source": "official"
+      }
     }
   }
 }
