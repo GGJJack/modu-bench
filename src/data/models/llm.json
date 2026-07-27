@@ -3999,7 +3999,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1000000,
       "pricing": {
         "input": 6,
         "output": 36
