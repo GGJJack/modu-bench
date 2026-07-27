@@ -1,11 +1,12 @@
 ---
 modelId: step-3-7-pro
 domain: llm
-status: draft
-updated: 2026-06-06
+status: published
+updated: 2026-07-27
 sources:
   - https://platform.stepfun.com/
   - https://www.stepfun.com/news
+  - https://github.com/stepfun-ai
 features:
   toolUse: true
   vision: true
