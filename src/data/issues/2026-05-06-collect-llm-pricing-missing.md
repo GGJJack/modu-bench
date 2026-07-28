@@ -166,3 +166,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-07-27)
 - (reinforce): 2026년 7월 27일 기준, NCP CLOVA Studio, 01.AI, Baichuan AI 공식 요금 페이지를 재확인함. 하이퍼클로바X 모델군 및 Yi-Large, Baichuan-4의 공식 API 단가는 여전히 '상담 필요' 또는 비공개 상태임. 해당 품목들은 엔터프라이즈 맞춤형 정책으로 운영되고 있어 일반적인 자동 수집 범위 밖인 것으로 판단되며, severity: blocker 상태를 유지하며 지속 추적함.
+
+## 진행 내역 (2026-07-28)
+- (reinforce): 2026년 7월 28일 기준, NAVER Cloud CLOVA Studio, 01.AI, Baichuan AI 공식 홈페이지를 재점검함. HyperCLOVA X, Yi-Large, Baichuan-4의 공식 API 요금은 여전히 상담 필요(비공개) 상태로 유지되고 있음. 엔터프라이즈 특화 정책으로 비공개 기조가 유지되고 있으므로, severity: blocker 상태 및 모니터링을 지속함.

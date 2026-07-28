@@ -82,3 +82,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-07-25)
 - (reinforce): 2026년 7월 25일 기준, NCP 및 Sakana AI, 01.AI, Baichuan AI 공식 플랫폼을 최종 재확인함. HyperCLOVA X 모델들의 API 요금은 여전히 비공개 상태이며, Sakana Fugu/Marlin 시리즈 등 베타 모델들의 가격 정책 및 정식 공개 요금표 또한 추가로 업데이트되지 않았음. 이에 따라 severity: blocker 상태를 유지하며 정기 모니터링 및 추적을 계속 유지함.
+
+## 진행 내역 (2026-07-28)
+- (reinforce): 2026년 7월 28일 기준, NCP, Sakana AI, 01.AI, Baichuan AI 등 공식 플랫폼을 재조사함. HyperCLOVA X 계열의 공식 API 요금 비공개 기조 및 Sakana Fugu 시리즈 등 베타 단계 모델들의 공식 가격 비공개 기조가 지속되고 있음을 확인하여, severity: blocker 상태를 유지하고 지속 모니터링함.
