@@ -1021,7 +1021,7 @@
       "license": "EXAONE AI Model License Agreement 1.0"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "< 20K (learnable params)",
       "contextWindow": 1000000,
       "pricing": null,
       "links": {
@@ -3833,7 +3833,7 @@
     },
     {
       "parameterSize": "671B (37B active)",
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/namazu-alpha/"
@@ -3875,7 +3875,8 @@
       "contextWindow": null,
       "pricing": null,
       "links": {
-        "official": "https://arxiv.org/abs/2601.03286"
+        "official": "https://arxiv.org/abs/2601.03286",
+        "paper": "https://arxiv.org/abs/2601.03286"
       },
       "id": "hyperclova-x-32b-think",
       "name": "HyperCLOVA X 32B Think",
@@ -3888,7 +3889,8 @@
       "contextWindow": null,
       "pricing": null,
       "links": {
-        "official": "https://arxiv.org/abs/2601.01792"
+        "official": "https://arxiv.org/abs/2601.01792",
+        "paper": "https://arxiv.org/abs/2601.01792"
       },
       "id": "hyperclova-x-8b-omni",
       "name": "HyperCLOVA X 8B Omni",
@@ -4015,7 +4017,7 @@
     },
     {
       "parameterSize": "2B",
-      "contextWindow": null,
+      "contextWindow": 131072,
       "pricing": null,
       "links": {
         "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-mini"
@@ -4028,7 +4030,7 @@
     },
     {
       "parameterSize": "2B",
-      "contextWindow": null,
+      "contextWindow": 131072,
       "pricing": null,
       "links": {
         "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-mini-instruct"
@@ -4041,7 +4043,7 @@
     },
     {
       "parameterSize": "47B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
@@ -4054,7 +4056,7 @@
     },
     {
       "parameterSize": "47B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B-instruct"
