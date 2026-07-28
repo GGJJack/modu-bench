@@ -1,10 +1,12 @@
 ---
 modelId: step-3-7-flash
 domain: llm
-status: draft
-updated: 2026-06-04
+status: published
+updated: 2026-07-28
 sources:
   - https://www.stepfun.com/news
+  - https://platform.stepfun.com/
+  - https://github.com/stepfun-ai
 features:
   toolUse: true
   vision: true

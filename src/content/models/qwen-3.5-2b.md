@@ -1,10 +1,12 @@
 ---
 modelId: qwen-3.5-2b
 domain: llm
-status: draft
-updated: 2026-06-05
+status: published
+updated: 2026-07-28
 sources:
   - https://qwen.ai/research
+  - https://github.com/QwenLM/Qwen3.5
+  - https://huggingface.co/Qwen/Qwen3.5-2B-Instruct
 features:
   toolUse: true
 highlights:
