@@ -3746,22 +3746,40 @@
     },
     "llama-3.2-3b": {
       "mmlu": {
-        "value": 58,
-        "date": "2024-09-25",
-        "source": "community",
-        "sourceUrl": "https://huggingface.co/meta-llama/Llama-3.2-3B"
+        "value": 63.4,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
       },
       "arc-c": {
-        "value": 69.1,
-        "date": "2024-09-25",
-        "source": "community",
-        "sourceUrl": "https://huggingface.co/meta-llama/Llama-3.2-3B"
+        "value": 78.6,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
       },
       "gpqa": {
         "value": 32.8,
-        "date": "2024-09-25",
-        "source": "community",
-        "sourceUrl": "https://huggingface.co/meta-llama/Llama-3.2-3B"
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
+      },
+      "math": {
+        "value": 48,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
+      },
+      "hellaswag": {
+        "value": 69.8,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
+      },
+      "ifeval": {
+        "value": 77.4,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
       }
     },
     "llama-3-8b": {
@@ -4010,6 +4028,44 @@
         "value": 54.6,
         "date": "2026-04-21",
         "source": "official"
+      }
+    },
+    "llama-3.2-1b": {
+      "mmlu": {
+        "value": 49.3,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
+      },
+      "math": {
+        "value": 30.6,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
+      },
+      "arc-c": {
+        "value": 59.4,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
+      },
+      "gpqa": {
+        "value": 27.2,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
+      },
+      "hellaswag": {
+        "value": 41.2,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
+      },
+      "ifeval": {
+        "value": 59.5,
+        "date": "2026-07-28",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
       }
     }
   }
