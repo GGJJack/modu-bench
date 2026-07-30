@@ -2,7 +2,7 @@
 benchmarkId: jamc-qa
 domain: llm
 status: draft
-updated: 2026-07-29
+updated: 2026-07-30
 sources:
   - https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q2-18.pdf
 organization: sbintuitions
