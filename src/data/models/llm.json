@@ -4138,6 +4138,92 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-11-12",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "32.5B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct"
+      },
+      "id": "qwen-2.5-coder-32b-instruct",
+      "name": "Qwen2.5-Coder-32B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "14.7B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct"
+      },
+      "id": "qwen-2.5-coder-14b-instruct",
+      "name": "Qwen2.5-Coder-14B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.54B",
+      "contextWindow": 32000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct"
+      },
+      "id": "qwen-2.5-coder-1.5b-instruct",
+      "name": "Qwen2.5-Coder-1.5B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "32B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-R1",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
+      },
+      "id": "deepseek-r1-distill-qwen-32b",
+      "name": "DeepSeek-R1-Distill-Qwen-32B",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-01-20",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "14B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-R1",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+      },
+      "id": "deepseek-r1-distill-qwen-14b",
+      "name": "DeepSeek-R1-Distill-Qwen-14B",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-01-20",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 1000000,
+      "pricing": {
+        "input": 5,
+        "output": 25
+      },
+      "links": {
+        "official": "https://sakana.ai/fugu-1-1-claude-code-interface/"
+      },
+      "id": "sakana-fugu-ultra-1-1",
+      "name": "Sakana Fugu Ultra v1.1",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-07-24",
+      "license": "Proprietary"
     }
   ]
 }
