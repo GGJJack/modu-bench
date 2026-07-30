@@ -2,7 +2,7 @@
 benchmarkId: math-100-jp
 domain: llm
 status: draft
-updated: 2026-07-27
+updated: 2026-07-30
 sources:
   - https://arxiv.org/abs/2502.17407
 paperUrl: https://arxiv.org/abs/2502.17407
@@ -19,4 +19,4 @@ MATH-100(MCLM)은 수학적 추론 능력을 평가하는 다국어 벤치마크
 모델의 다국어 수학적 추론 능력을 평가하기 위해 Outcome Reward Modeling (ORM), Process Reward Modeling (PRM), Budget Forcing (BF) 등 세 가지 테스트 타임 스케일링 기법을 적용하여 모델 성능을 측정합니다.
 
 ## 성능 해석
-테스트 타임 스케일링이 다국어 작업에서는 영어 환경만큼 효과적으로 일반화되지 않을 수 있음을 시사합니다. Budget Forcing 기법 적용 시 영어 AIME에서는 큰 향상을 보였지만 다른 언어들에서는 평균 1.94점의 향상만을 보였습니다.
+테스트 타임 스케일링이 다국어 작업에서는 영어 환경만큼 효과적으로 일반화되지 않을 수 있음을 시사합니다. Budget Forcing 기법 적용 시 영어 AIME에서는 큰 향상을 보였지만 다른 언어들에서는 평균 1.94점의 향상만을 보였습니다. Qwen2.5-1.5B Math 모델에 ORM을 적용 시 35.8점을 달성하였으며, MR1-1.5B에 BF를 적용 시 35.2점을 달성하였습니다.
