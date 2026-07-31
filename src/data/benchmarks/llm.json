@@ -4103,6 +4103,90 @@
         "source": "official",
         "sourceUrl": "https://sakana.ai/fugu/"
       }
+    },
+    "qwen-2.5-coder-32b-instruct": {
+      "humaneval": {
+        "value": 92.7,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "mbpp": {
+        "value": 90.2,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      }
+    },
+    "qwen-2.5-coder-14b-instruct": {
+      "humaneval": {
+        "value": 89.6,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "mbpp": {
+        "value": 86.2,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      }
+    },
+    "qwen-2.5-coder-7b-instruct": {
+      "humaneval": {
+        "value": 88.4,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "mbpp": {
+        "value": 83.5,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      }
+    },
+    "qwen-2.5-coder-3b-instruct": {
+      "humaneval": {
+        "value": 84.1,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "mbpp": {
+        "value": 73.6,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      }
+    },
+    "qwen-2.5-coder-1.5b-instruct": {
+      "humaneval": {
+        "value": 70.7,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "mbpp": {
+        "value": 69.2,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      }
+    },
+    "qwen-2.5-coder-0.5b-instruct": {
+      "humaneval": {
+        "value": 61.6,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "mbpp": {
+        "value": 52.4,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      }
     }
   }
 }

@@ -4224,6 +4224,34 @@
       "provider": "Sakana AI",
       "releaseDate": "2026-07-24",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "3.09B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct"
+      },
+      "id": "qwen-2.5-coder-3b-instruct",
+      "name": "Qwen2.5-Coder-3B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "0.49B",
+      "contextWindow": 32000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct"
+      },
+      "id": "qwen-2.5-coder-0.5b-instruct",
+      "name": "Qwen2.5-Coder-0.5B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
     }
   ]
 }
