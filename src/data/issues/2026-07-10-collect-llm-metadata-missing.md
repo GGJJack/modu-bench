@@ -29,3 +29,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-07-13)
 - (reinforce): 2026년 7월 13일 기준, OpenAI 및 Mistral AI의 최신 공지를 재검토함. GPT-Live-1 계열은 여전히 소비자용 서비스(ChatGPT)에 국한되어 있으며, 개발자용 API 사양 및 가격은 공개되지 않음. Robostral Navigate 8B 또한 R2R-CE 성능 홍보에 집중하고 있으며, 일반 API로의 제공 여부나 컨텍스트 윈도우 등 세부 사양은 여전히 미공개 상태임. 정기 추적을 유지함.
+
+## 진행 내역 (2026-07-31)
+- (collect-llm): OpenAI 및 Mistral AI 공식 채널을 다시 한 번 면밀히 검토함. GPT-Live-1 시리즈 및 Robostral Navigate 8B의 공식 개발자용 API 단가나 세부 명세(컨텍스트 윈도우 등)는 여전히 발표되지 않음. 정기 추적 대상을 유지함.
