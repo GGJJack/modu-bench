@@ -4079,6 +4079,30 @@
         "source": "official",
         "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md"
       }
+    },
+    "deepseek-r1-distill-qwen-32b": {
+      "livecodebench-v6": {
+        "value": 57.2,
+        "date": "2025-01-20",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+      }
+    },
+    "deepseek-r1-distill-qwen-14b": {
+      "livecodebench-v6": {
+        "value": 53.1,
+        "date": "2025-01-20",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1"
+      }
+    },
+    "sakana-fugu-ultra-1-1": {
+      "livecodebench-v6": {
+        "value": 93.2,
+        "date": "2026-07-24",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/fugu/"
+      }
     }
   }
 }
