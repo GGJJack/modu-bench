@@ -4022,7 +4022,8 @@
       "contextWindow": 131072,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-mini"
+        "official": "https://corp.rakuten.co.jp/innovation/ai/",
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-2.0-mini"
       },
       "id": "rakuten-ai-2-0-mini",
       "name": "RakutenAI-2.0-mini",
@@ -4035,7 +4036,8 @@
       "contextWindow": 131072,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-mini-instruct"
+        "official": "https://corp.rakuten.co.jp/innovation/ai/",
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-2.0-mini-instruct"
       },
       "id": "rakuten-ai-2-0-mini-instruct",
       "name": "RakutenAI-2.0-mini-instruct",
@@ -4048,7 +4050,8 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
+        "official": "https://corp.rakuten.co.jp/innovation/ai/",
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B"
       },
       "id": "rakuten-ai-2-0-8x7b",
       "name": "RakutenAI-2.0-8x7B",
@@ -4061,7 +4064,8 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B-instruct"
+        "official": "https://corp.rakuten.co.jp/innovation/ai/",
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B-instruct"
       },
       "id": "rakuten-ai-2-0-8x7b-instruct",
       "name": "RakutenAI-2.0-8x7B-instruct",
@@ -4252,6 +4256,76 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-11-12",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-R1",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+      },
+      "id": "deepseek-r1-distill-llama-70b",
+      "name": "DeepSeek-R1-Distill-Llama-70B",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-01-20",
+      "license": "Llama-3.1"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-R1",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+      },
+      "id": "deepseek-r1-distill-llama-8b",
+      "name": "DeepSeek-R1-Distill-Llama-8B",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-01-20",
+      "license": "Llama-3.1"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-R1",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+      },
+      "id": "deepseek-r1-distill-qwen-7b",
+      "name": "DeepSeek-R1-Distill-Qwen-7B",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-01-20",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "1.5B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-R1",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+      },
+      "id": "deepseek-r1-distill-qwen-1-5b",
+      "name": "DeepSeek-R1-Distill-Qwen-1.5B",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-01-20",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/",
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Chat"
+      },
+      "id": "baichuan2-7b-chat",
+      "name": "Baichuan2-7B-Chat",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2023-09-06",
+      "license": "Baichuan 2 Community License"
     }
   ]
 }
