@@ -178,3 +178,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-07-31)
 - (reinforce): NCP CLOVA Studio 및 Yi-Large, Baichuan-4 제공사 공식 API 사이트를 최종 재검토하였으나, HyperCLOVA X 모델들(HCX-007, 005, DASH-002)의 공식 단가는 여전히 '-' (상담 필요) 상태의 비공개입니다. Yi-Large와 Baichuan-4 역시 공식 플랫폼에서 직접적인 가격표 공개 대신 비공개 개별 협의 또는 OpenRouter 등의 파트너사 API를 참조하는 기조가 유지되고 있습니다. 해당 엔터프라이즈 및 맞춤 요금 정책 모델들의 공식 가격 직접 수집은 불가하므로 severity: blocker 상태를 계속 유지합니다.
+
+## 진행 내역 (2026-08-01)
+- (reinforce): NAVER Cloud, 01.AI, Baichuan AI의 공식 요금 안내 채널을 재조사하였습니다. 하이퍼클로바X 계열 모델들의 공식 단가는 여전히 '상담 필요' 상태로 비공개되어 있으며, Yi-Large 및 Baichuan-4 역시 제공사 직영 API 사이트에서는 명확한 공개 가격표 없이 엔터프라이즈 맞춤형 협의 대상으로 분류되어 있어 직접적인 가격 수집이 불가합니다. OpenRouter 등의 글로벌 파트너사 가격을 참조하는 기조와 `severity: blocker` 상태를 유지하며 추적을 지속합니다.
