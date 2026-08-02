@@ -181,3 +181,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-08-01)
 - (reinforce): NAVER Cloud, 01.AI, Baichuan AI의 공식 요금 안내 채널을 재조사하였습니다. 하이퍼클로바X 계열 모델들의 공식 단가는 여전히 '상담 필요' 상태로 비공개되어 있으며, Yi-Large 및 Baichuan-4 역시 제공사 직영 API 사이트에서는 명확한 공개 가격표 없이 엔터프라이즈 맞춤형 협의 대상으로 분류되어 있어 직접적인 가격 수집이 불가합니다. OpenRouter 등의 글로벌 파트너사 가격을 참조하는 기조와 `severity: blocker` 상태를 유지하며 추적을 지속합니다.
+
+## 진행 내역 (2026-08-02)
+- (reinforce): NAVER Cloud CLOVA Studio, 01.AI, Baichuan AI 공식 채널을 재점검하였습니다. 하이퍼클로바X 모델군(HCX-007, 005, DASH-002)의 공식 API 단가는 여전히 비공개('상담 필요') 상태이며, Yi-Large와 Baichuan-4 역시 제공사의 공개 단가표 대신 엔터프라이즈 전용 개별 상담 정책이 유지되고 있습니다. 자동 수집이 불가한 맞춤형 협의 품목 상태이므로, severity: blocker 상태를 유지하며 정기 모니터링을 지속합니다.
