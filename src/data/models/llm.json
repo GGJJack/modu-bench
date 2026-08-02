@@ -56,7 +56,8 @@
       "links": {
         "official": "https://www.lgresearch.ai/models/exaone",
         "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-3.0-7.8B-Instruct",
-        "github": "https://github.com/LG-AI-Research/EXAONE-3.0"
+        "github": "https://github.com/LG-AI-Research/EXAONE-3.0",
+        "paper": "https://arxiv.org/abs/2408.03541"
       },
       "id": "exaone-3.0",
       "name": "EXAONE 3.0",
@@ -725,7 +726,8 @@
       "pricing": null,
       "links": {
         "official": "https://github.com/01-ai/Yi-1.5",
-        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat",
+        "github": "https://github.com/01-ai/Yi-1.5"
       },
       "id": "yi-1-5-34b-chat",
       "name": "Yi-1.5-34B-Chat",
@@ -739,7 +741,8 @@
       "pricing": null,
       "links": {
         "official": "https://www.baichuan-ai.com/",
-        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat"
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat",
+        "github": "https://github.com/baichuan-inc/Baichuan2"
       },
       "id": "baichuan2-13b-chat",
       "name": "Baichuan2-13B-Chat",
@@ -4319,13 +4322,72 @@
       "pricing": null,
       "links": {
         "official": "https://www.baichuan-ai.com/",
-        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Chat"
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Chat",
+        "github": "https://github.com/baichuan-inc/Baichuan2"
       },
       "id": "baichuan2-7b-chat",
       "name": "Baichuan2-7B-Chat",
       "provider": "Baichuan Intelligent Technology",
       "releaseDate": "2023-09-06",
       "license": "Baichuan 2 Community License"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/",
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Base"
+      },
+      "id": "baichuan2-7b-base",
+      "name": "Baichuan2-7B-Base",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2023-09-06",
+      "license": "Baichuan 2 Community License"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/",
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Base"
+      },
+      "id": "baichuan2-13b-base",
+      "name": "Baichuan2-13B-Base",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2023-09-06",
+      "license": "Baichuan 2 Community License"
+    },
+    {
+      "parameterSize": "9B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-1.5",
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat",
+        "github": "https://github.com/01-ai/Yi-1.5"
+      },
+      "id": "yi-1-5-9b-chat",
+      "name": "Yi-1.5-9B-Chat",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "6B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-1.5",
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat",
+        "github": "https://github.com/01-ai/Yi-1.5"
+      },
+      "id": "yi-1-5-6b-chat",
+      "name": "Yi-1.5-6B-Chat",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Apache-2.0"
     }
   ]
 }
