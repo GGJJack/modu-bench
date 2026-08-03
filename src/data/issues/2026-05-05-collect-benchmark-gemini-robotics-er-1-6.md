@@ -160,3 +160,6 @@ Gemini Robotics-ER 1.6 의 벤치마크 점수를 공식 문서 및 커뮤니티
 
 ## 진행 내역 (2026-08-02)
 - (reinforce): 공식 기술 문서(https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview) 및 DeepMind 연구 페이지를 재조사하였습니다. 해당 모델(Robotics-ER 1.6)에 대한 MMLU, GPQA 등 범용 표준 언어 이해 지표 및 벤치마크 데이터는 여전히 미공개 상태입니다. 특수 목적 로보틱스 제어 성능 위주의 포지셔닝에 따른 의도적 누락으로 최종 확인되며, severity: blocker 및 "사람 에스컬레이션 필요" 상태를 유지하며 추적을 지속합니다.
+
+## 진행 내역 (2026-08-03)
+- (reinforce): 공식 문서 및 구글 딥마인드 로보틱스 개발 가이드라인을 재검토함. MMLU, GPQA 등의 표준 범용 벤치마크 점수는 여전히 발표되거나 공개되지 않았음. 해당 모델은 로보틱스 특화 VLM으로서 일반 언어 이해 지표의 공개 가능성은 극히 낮으므로 severity: blocker 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
