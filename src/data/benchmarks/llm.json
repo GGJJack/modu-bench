@@ -1634,6 +1634,12 @@
         "date": "2024-05-13",
         "source": "official",
         "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
+      },
+      "math": {
+        "value": 50.1,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat"
       }
     },
     "gemma-4-31b-dense": {
@@ -2464,13 +2470,6 @@
         "date": "2024-03-21",
         "source": "official",
         "note": "Assumed similar to instruct variant for baseline English knowledge"
-      }
-    },
-    "baichuan2-13b-chat": {
-      "mmlu": {
-        "value": 57.32,
-        "date": "2023-09-06",
-        "source": "official"
       }
     },
     "sakana-fugu-mini": {
@@ -4186,6 +4185,98 @@
         "date": "2024-11-12",
         "source": "official",
         "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      }
+    },
+    "baichuan2-7b-base": {
+      "mmlu": {
+        "value": 54.16,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Base"
+      }
+    },
+    "baichuan2-13b-base": {
+      "mmlu": {
+        "value": 59.17,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Base"
+      }
+    },
+    "yi-1-5-9b-chat": {
+      "mmlu": {
+        "value": 69.5,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat"
+      },
+      "math": {
+        "value": 47.7,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat"
+      },
+      "humaneval": {
+        "value": 66.5,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat"
+      },
+      "mbpp": {
+        "value": 78.8,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat"
+      },
+      "mt-bench": {
+        "value": 8.2,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat"
+      },
+      "gsm8k": {
+        "value": 84.8,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat"
+      }
+    },
+    "yi-1-5-6b-chat": {
+      "mmlu": {
+        "value": 62.8,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat"
+      },
+      "math": {
+        "value": 40.5,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat"
+      },
+      "humaneval": {
+        "value": 64,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat"
+      },
+      "mbpp": {
+        "value": 70.9,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat"
+      },
+      "mt-bench": {
+        "value": 7.5,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat"
+      },
+      "gsm8k": {
+        "value": 78.9,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat"
       }
     }
   }
