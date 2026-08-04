@@ -187,3 +187,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-08-03)
 - (reinforce): NAVER Cloud CLOVA Studio 요금 안내 페이지, 01.AI 및 Baichuan AI 공식 채널을 재검토함. 하이퍼클로바X 모델들의 공식 단가는 여전히 '-' (상담 필요) 상태의 비공개임. Yi-Large 및 Baichuan-4 가격 정책 또한 일반 공개가 불가능한 엔터프라이즈 전용 개별 상담 정책이 유지되고 있음. 자동 수집 불가한 맞춤형 협의 품목 상태이므로 severity: blocker 상태를 유지함.
+
+## 진행 내역 (2026-08-04)
+- (reinforce): NCP CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 Yi-Large, Baichuan-4 공식 플랫폼을 재확인함. HyperCLOVA X 계열(HCX-007, 005, DASH-002)의 요금은 여전히 '-' (상담 필요)로 비공개 상태이며, Yi-Large 및 Baichuan-4 가격 정책 또한 일반 공개가 불가능한 엔터프라이즈 전용 협의 사항으로 유지되고 있음. 자동 수집이 불가능한 맞춤형 협의 품목 상태이므로, severity: blocker 상태를 지속 유지함.

@@ -94,3 +94,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-08-01)
 - (reinforce): NCP CLOVA Studio 및 Sakana AI, 01.AI, Baichuan AI 등 공식 요금 안내 채널 및 개발자 문서를 재검토하였습니다. 하이퍼클로바X 계열 모델들의 공식 단가는 여전히 '상담 필요' 상태이며, Sakana Fugu/Marlin 시리즈 등 베타 모델들의 가격 정책 및 정식 공개 요금표 또한 추가로 업데이트되지 않았습니다. 해당 엔터프라이즈 전용 및 클로즈드 베타 특성상 일반적인 자동 수집 범위 밖인 점을 재확인하여 `severity: blocker` 상태 및 추적을 지속 유지합니다.
+
+## 진행 내역 (2026-08-04)
+- (reinforce): HyperCLOVA X 계열, Yi-Large, Baichuan-4 및 Sakana AI Fugu/Marlin 시리즈의 공식 가격 및 메타데이터를 재검토함. 여전히 공식적인 공개 가격표는 확인되지 않으며, 엔터프라이즈 및 클로즈드 베타 기조에 따른 비공개 현황이 지속되고 있음. 자동 수집 범위 외이므로 severity: blocker 상태를 유지하며 정기 모니터링함.
