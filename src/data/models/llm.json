@@ -727,7 +727,8 @@
       "links": {
         "official": "https://github.com/01-ai/Yi-1.5",
         "huggingface": "https://huggingface.co/01-ai/Yi-1.5-34B-Chat",
-        "github": "https://github.com/01-ai/Yi-1.5"
+        "github": "https://github.com/01-ai/Yi-1.5",
+        "paper": "https://arxiv.org/abs/2403.04652"
       },
       "id": "yi-1-5-34b-chat",
       "name": "Yi-1.5-34B-Chat",
@@ -742,7 +743,8 @@
       "links": {
         "official": "https://www.baichuan-ai.com/",
         "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat",
-        "github": "https://github.com/baichuan-inc/Baichuan2"
+        "github": "https://github.com/baichuan-inc/Baichuan2",
+        "paper": "https://arxiv.org/abs/2309.10305"
       },
       "id": "baichuan2-13b-chat",
       "name": "Baichuan2-13B-Chat",
@@ -756,7 +758,9 @@
       "pricing": null,
       "links": {
         "official": "https://github.com/THUDM/GLM-4",
-        "huggingface": "https://huggingface.co/THUDM/glm-4-9b-chat"
+        "huggingface": "https://huggingface.co/THUDM/glm-4-9b-chat",
+        "github": "https://github.com/THUDM/GLM-4",
+        "paper": "https://arxiv.org/abs/2406.12793"
       },
       "id": "glm-4-9b-chat",
       "name": "GLM-4-9B-Chat",
@@ -3982,8 +3986,10 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/LGAI-Research/EXAONE-3.0-2.4B-Instruct",
-        "github": "https://github.com/LG-AI-Research/EXAONE-3.0"
+        "official": "https://www.lgresearch.ai/models/exaone",
+        "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-3.0-2.4B-Instruct",
+        "github": "https://github.com/LG-AI-Research/EXAONE-3.0",
+        "paper": "https://arxiv.org/abs/2408.03541"
       },
       "id": "exaone-3.0-2.4b-instruct",
       "name": "EXAONE 3.0 2.4B Instruct",
@@ -4323,7 +4329,8 @@
       "links": {
         "official": "https://www.baichuan-ai.com/",
         "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Chat",
-        "github": "https://github.com/baichuan-inc/Baichuan2"
+        "github": "https://github.com/baichuan-inc/Baichuan2",
+        "paper": "https://arxiv.org/abs/2309.10305"
       },
       "id": "baichuan2-7b-chat",
       "name": "Baichuan2-7B-Chat",
@@ -4385,6 +4392,82 @@
       },
       "id": "yi-1-5-6b-chat",
       "name": "Yi-1.5-6B-Chat",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "250B",
+      "contextWindow": 1000000,
+      "pricing": null,
+      "links": {
+        "official": "https://www.upstage.ai/blog/en/solar-open-2",
+        "huggingface": "https://huggingface.co/upstage/Solar-Open2-250B",
+        "paper": "https://arxiv.org/abs/2607.20062"
+      },
+      "id": "solar-open2-250b",
+      "name": "Solar Open 2 250B",
+      "provider": "Upstage",
+      "releaseDate": "2026-07-22",
+      "license": "Upstage Solar License"
+    },
+    {
+      "parameterSize": "102B",
+      "contextWindow": 131072,
+      "pricing": null,
+      "links": {
+        "official": "https://upstage.ai",
+        "huggingface": "https://huggingface.co/upstage/Solar-Open-100B",
+        "paper": "https://arxiv.org/abs/2601.07022"
+      },
+      "id": "solar-open-100b",
+      "name": "Solar Open 100B",
+      "provider": "Upstage",
+      "releaseDate": "2025-12-10",
+      "license": "Upstage Solar License"
+    },
+    {
+      "parameterSize": "750B",
+      "contextWindow": 262144,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai/news/view?seq=678",
+        "huggingface": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+        "github": "https://github.com/LG-AI-EXAONE/K-EXAONE-2.0",
+        "paper": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/blob/main/assets/K-EXAONE-2.0-Technical-Report.pdf"
+      },
+      "id": "k-exaone-2-0-750b-a37b",
+      "name": "K-EXAONE 2.0 750B A37B",
+      "provider": "LG AI Research",
+      "releaseDate": "2026-07-29",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.5B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/taid-jp/",
+        "huggingface": "https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct",
+        "paper": "https://arxiv.org/abs/2501.16937"
+      },
+      "id": "tinyswallow-1-5b-instruct",
+      "name": "TinySwallow-1.5B-Instruct",
+      "provider": "Sakana AI",
+      "releaseDate": "2025-01-08",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "34B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-1.5",
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-34B",
+        "paper": "https://arxiv.org/abs/2403.04652"
+      },
+      "id": "yi-1-5-34b",
+      "name": "Yi-1.5-34B",
       "provider": "01.AI",
       "releaseDate": "2024-05-13",
       "license": "Apache-2.0"
