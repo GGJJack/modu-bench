@@ -1,22 +1,27 @@
 ---
 benchmarkId: mkqa-11
 domain: llm
-status: draft
-updated: 2026-08-02
+status: published
+updated: 2026-08-05
 sources:
   - https://www.liquid.ai/blog/lfm2-5-retrievers
+  - https://arxiv.org/abs/2007.15207
+  - https://huggingface.co/datasets/apple/mkqa
+organization: apple
+paperUrl: https://arxiv.org/abs/2007.15207
 highlights:
-  - "Cross-lingual open-domain QA dataset"
-  - "11개 지원 언어 전반에 걸친 교차 언어 검색 성능 평가"
+  - "11개 지원 언어 전반에 걸친 교차 언어 검색 성능 평가 (Recall@20)"
+  - "총 26개 언어를 지원하는 다국어 오픈 도메인 질문 답변 데이터셋 중 11개 언어 채택"
+  - "Natural Questions를 샘플링 및 번역하여 언어 간 문맥 독립적인 정답을 구축"
 ---
 
 # MKQA-11 (Recall@20)
 
 ## 개요
-MKQA-11은 언어 간 경계를 넘나드는 오픈 도메인 질문 답변(QA) 능력을 평가하기 위한 데이터셋입니다.
+MKQA(Multilingual Knowledge Questions and Answers)는 다국어 오픈 도메인 질문 답변(QA) 능력을 평가하기 위해 고안된 데이터셋입니다. 기존 영문 위주의 데이터셋이 가진 한계를 극복하고자 Google Natural Questions에서 샘플링한 1만 개의 질문-답변 쌍을 번역하여 구축되었습니다. MKQA-11은 이 중 11개 지원 언어(아랍어, 독일어, 영어, 스페인어, 프랑스어, 이탈리아어, 일본어, 한국어, 노르웨이어, 포르투갈어, 스웨덴어)를 대상으로 언어 간 정보 검색 및 교차 언어 질문 답변 성능을 중점적으로 평가합니다.
 
 ## 평가 방법
-언어 간의 정보 검색 및 답변 추출 능력을 Recall@20 지표를 통해 측정합니다.
+언어 간 경계를 넘나드는 정보 검색 및 답변 추출 능력을 Recall@20 지표를 통해 측정합니다. 특정 언어로 제기된 질문에 대해 모델이 다국어 문서 풀에서 관련성 높은 상위 20개 문서를 얼마나 잘 검색하고 그 안에서 올바른 문맥을 포착할 수 있는지를 확인합니다. 정답은 특정 언어의 구절에 종속되지 않는 데이터 표현을 사용하므로 언어 간 직접적인 성능 비교가 용이합니다.
 
 ## 활용 및 의의
-11개 지원 언어(ar, de, en, es, fr, it, ja, ko, no, pt, sv) 전반에 걸쳐 교차 언어 오픈 도메인 QA 능력을 평가하여 모델이 언어 경계를 넘어 관련 문서를 검색할 수 있는지(cross-lingual open-domain QA)를 테스트합니다.
+MKQA 데이터셋 원본은 26개 언어에 걸쳐 총 26만 개의 질문-답변 쌍을 제공하여 넓은 범위의 다국어 QA 평가를 가능케 합니다. 최근 평가 환경에서는 이 중 주요 11개 언어를 차용하여 교차 언어 오픈 도메인 QA 능력을 테스트합니다. 이 평가는 단순히 한 언어 내에서의 문서 검색을 넘어서, 모델이 언어적 경계에 구애받지 않고 다국어로 흩어진 지식들을 종합적으로 검색하고 답변할 수 있는지 검증하는 중요한 척도로 사용됩니다.
