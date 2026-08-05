@@ -4278,6 +4278,33 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat"
       }
+    },
+    "amazon-nova-2-omni": {
+      "mmlu-pro": {
+        "value": 80.7,
+        "date": "2026-05-19",
+        "source": "official"
+      },
+      "aime-2025": {
+        "value": 92.1,
+        "date": "2026-05-19",
+        "source": "official"
+      },
+      "if-bench": {
+        "value": 68.7,
+        "date": "2026-05-19",
+        "source": "official"
+      },
+      "bfcl-v4": {
+        "value": 58.3,
+        "date": "2026-05-19",
+        "source": "official"
+      },
+      "mmmu-pro": {
+        "value": 61.4,
+        "date": "2026-05-19",
+        "source": "official"
+      }
     }
   }
 }
