@@ -4305,6 +4305,46 @@
         "date": "2026-05-19",
         "source": "official"
       }
+    },
+    "solar-open-100b": {
+      "mmlu": {
+        "value": 88.2,
+        "date": "2025-12-10",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open-100B"
+      },
+      "mmlu-pro": {
+        "value": 80.4,
+        "date": "2025-12-10",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open-100B"
+      },
+      "gpqa": {
+        "value": 68.1,
+        "date": "2025-12-10",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open-100B"
+      },
+      "ifeval": {
+        "value": 88,
+        "date": "2025-12-10",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open-100B"
+      }
+    },
+    "solar-open2-250b": {
+      "mmlu-pro": {
+        "value": 86.2,
+        "date": "2026-07-22",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B"
+      },
+      "gpqa": {
+        "value": 86.3,
+        "date": "2026-07-22",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B"
+      }
     }
   }
 }
