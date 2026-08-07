@@ -97,3 +97,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-08-04)
 - (reinforce): HyperCLOVA X 계열, Yi-Large, Baichuan-4 및 Sakana AI Fugu/Marlin 시리즈의 공식 가격 및 메타데이터를 재검토함. 여전히 공식적인 공개 가격표는 확인되지 않으며, 엔터프라이즈 및 클로즈드 베타 기조에 따른 비공개 현황이 지속되고 있음. 자동 수집 범위 외이므로 severity: blocker 상태를 유지하며 정기 모니터링함.
+
+## 진행 내역 (2026-08-07)
+- (reinforce): 2026년 8월 7일 기준, Sakana AI Fugu 시리즈(Ultra, Mini, Marlin)의 공식 API 요금 정보는 클로즈드 베타 및 개별 상담 방식으로만 접근 가능하여 미공개 상태가 유지되고 있습니다. HyperCLOVA X(HCX-007, 005, DASH-002 등), Yi-Large, Baichuan-4의 공식 가격 또한 여전히 일반에 단가가 공표되지 않고 기업 협상 방식으로 제공되고 있어 직접 수집이 불가합니다. 이 외에 `gpt-5-5-instant` 및 `alphaevolve` 등은 이미 데이터베이스에 올바른 메타데이터가 등록 및 유지되어 있는 상태임을 확인했습니다. 비공개 기조가 뚜렷하므로 `severity: blocker` 및 추적 관리를 유지합니다.
