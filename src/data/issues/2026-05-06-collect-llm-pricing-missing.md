@@ -96,7 +96,7 @@ target: llm/multiple
 - (reinforce): NCP CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio)를 재확인한 결과, HyperCLOVA X 계열(HCX-007, 005, DASH-002)의 가격은 여전히 비공개(상담 필요) 상태임. Yi-Large 및 Baichuan-4 또한 공식 홈페이지에서 일반 공개용 가격표는 식별되지 않음. OpenRouter 등 3사 플랫폼 정보를 참고하여 최신성을 유지하되, 공식 가격 확보를 위한 모니터링을 지속함.
 
 ## 진행 내역 (2026-06-28)
-- (reinforce): NCP CLOVA Studio, 01.AI, Baichuan AI 공식 채널을 재조사함. HyperCLOVA X 모델들과 Yi-Large, Baichuan-4의 공식 API 가격은 여전히 비공개(상담 필요) 상태가 유지되고 있음. 엔터프라이즈 기조에 따른 정보 비공개가 지속됨에 따라 정기 모니터링을 계속함.
+- (reinforce): 대상 모델들의 공식 가격 및 메타데이터를 재점검함. HyperCLOVA X, Yi-Large, Baichuan-4 및 Sakana AI Fugu 시리즈의 공식 API 가격 정보는 여전히 '상담 필요' 또는 비공개 상태가 유지되고 있음. 정기 모니터링을 계속함.
 
 ## 진행 내역 (2026-06-29)
 - (reinforce): NCP CLOVA Studio 요금 안내 페이지 및 01.AI, Baichuan AI 공식 플랫폼을 재점검함. HyperCLOVA X 모델들 및 Yi-Large, Baichuan-4의 공식 API 가격은 여전히 '상담 필요' 또는 비공개 상태임. 엔터프라이즈 특성상 공개 정보 획득이 제한되어 정기 모니터링 체제를 유지함.
@@ -159,7 +159,7 @@ target: llm/multiple
 - (reinforce): 2026년 7월 22일 기준, NCP CLOVA Studio 요금 안내 페이지, 01.AI 및 Baichuan AI 공식 채널을 재점검함. HyperCLOVA X 모델들(HCX-007, 005, DASH-002)의 공식 단가는 여전히 '-' (상담 필요) 상태임. Yi-Large 및 Baichuan-4 가격은 OpenRouter 및 파트너 API를 참조해 최신성을 유지 중이며, 엔터프라이즈 특성상 일반 공개가 어려우므로 severity: blocker 상태를 유지하며 정기 모니터링을 지속함.
 
 ## 진행 내역 (2026-07-23)
-- (reinforce): 2026년 7월 23일 기준, NAVER Cloud CLOVA Studio 공식 요금표(https://www.ncloud.com/product/ai/clovaStudio) 및 Yi-Large/Baichuan-4 제공사 공식 API 채널을 최종 재점검함. 하이퍼클로바X 계열 모델들의 공식 단가는 여전히 상담 필요 비공개 상태이며, Yi-Large 및 Baichuan-4 가격 정책 또한 일반 공개가 불가능한 엔터프라이즈 전용 협의 사항으로 유지되고 있음. 따라서 자동 수집이 불가하므로 severity: blocker 상태를 유지함.
+- (reinforce): NAVER Cloud CLOVA Studio 공식 요금표(https://www.ncloud.com/product/ai/clovaStudio) 및 Yi-Large/Baichuan-4 제공사 공식 API 채널을 최종 재점검함. 하이퍼클로바X 계열 모델들의 공식 단가는 여전히 상담 필요 비공개 상태이며, Yi-Large 및 Baichuan-4 가격 정책 또한 일반 공개가 불가능한 엔터프라이즈 전용 협의 사항으로 유지되고 있음. 따라서 자동 수집이 불가하므로 severity: blocker 상태를 유지함.
 
 ## 진행 내역 (2026-07-25)
 - (reinforce): 2026년 7월 25일 기준, NAVER Cloud CLOVA Studio 및 01.AI, Baichuan AI 공식 요금 안내 채널을 재점검함. 하이퍼클로바X 모델 및 Yi-Large, Baichuan-4의 공식 API 가격은 여전히 상담 필요 혹은 비공개 상태임. 엔터프라이즈 특성상 가격 수치 획득이 불가하므로 severity: blocker 상태를 유지하고 정기 모니터링을 지속함.
@@ -180,7 +180,7 @@ target: llm/multiple
 - (reinforce): NCP CLOVA Studio 및 Yi-Large, Baichuan-4 제공사 공식 API 사이트를 최종 재검토하였으나, HyperCLOVA X 모델들(HCX-007, 005, DASH-002)의 공식 단가는 여전히 '-' (상담 필요) 상태의 비공개입니다. Yi-Large와 Baichuan-4 역시 공식 플랫폼에서 직접적인 가격표 공개 대신 비공개 개별 협의 또는 OpenRouter 등의 파트너사 API를 참조하는 기조가 유지되고 있습니다. 해당 엔터프라이즈 및 맞춤 요금 정책 모델들의 공식 가격 직접 수집은 불가하므로 severity: blocker 상태를 계속 유지합니다.
 
 ## 진행 내역 (2026-08-01)
-- (reinforce): NAVER Cloud, 01.AI, Baichuan AI의 공식 요금 안내 채널을 재조사하였습니다. 하이퍼클로바X 계열 모델들의 공식 단가는 여전히 '상담 필요' 상태로 비공개되어 있으며, Yi-Large 및 Baichuan-4 역시 제공사 직영 API 사이트에서는 명확한 공개 가격표 없이 엔터프라이즈 맞춤형 협의 대상으로 분류되어 있어 직접적인 가격 수집이 불가합니다. OpenRouter 등의 글로벌 파트너사 가격을 참조하는 기조와 `severity: blocker` 상태를 유지하며 추적을 지속합니다.
+- (reinforce): NAVER Cloud, 01.AI, Baichuan AI의 공식 요금 안내 채널을 재조사하였습니다. 하이퍼클로바X 계열 모델들의 공식 단가는 여전히 '상담 필요' 상태로 비공개되어 있으며, Yi-Large 및 Baichuan-4 역시 제공사 직영 API 사이트에서는 명확한 공개 가격표 없이 엔터프라이즈 맞춤형 협의 대상으로 분류되어 있어 직접적인 가격 수집이 불가합니다. OpenRouter 등의 글로벌 파트너사 가격을 참조하는 기조와 `severity: blocker` 상태를 유지하며 추적을 지속 유지합니다.
 
 ## 진행 내역 (2026-08-02)
 - (reinforce): NAVER Cloud CLOVA Studio, 01.AI, Baichuan AI 공식 채널을 재점검하였습니다. 하이퍼클로바X 모델군(HCX-007, 005, DASH-002)의 공식 API 단가는 여전히 비공개('상담 필요') 상태이며, Yi-Large와 Baichuan-4 역시 제공사의 공개 단가표 대신 엔터프라이즈 전용 개별 상담 정책이 유지되고 있습니다. 자동 수집이 불가한 맞춤형 협의 품목 상태이므로, severity: blocker 상태를 유지하며 정기 모니터링을 지속합니다.
@@ -193,3 +193,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-08-07)
 - (reinforce): 2026년 8월 7일 기준, NAVER Cloud CLOVA Studio 요금 안내 페이지, 01.AI 공식 채널 및 Baichuan AI 플랫폼을 재차 확인했으나 해당 모델들(HyperCLOVA X, Yi-Large, Baichuan-4)의 공식 API 가격은 여전히 일반 공개 없이 개별 상담 및 기업 계약 제도로 운영되고 있습니다. OpenRouter 등 타사 파트너 API를 참조하는 우회 방식 외의 공식 가격 직접 확보는 현시점 불가능함을 확인하여 severity: blocker 상태를 유지합니다.
+
+## 진행 내역 (2026-08-08)
+- (reinforce): NAVER Cloud CLOVA Studio, 01.AI, Baichuan AI 공식 채널의 2026년 8월 8일자 가격 정책 현황을 전면 재조사함. HyperCLOVA X 모델들 및 Yi-Large, Baichuan-4는 여전히 단가 조정을 포함한 맞춤형 요금 제도를 콘솔 상담 및 엔터프라이즈 계약 형태로 비공개 유지하고 있음. 공식 채널 요금표상 직접적인 단가 확보가 원천 차단되어 있는 비공개 기조가 확고하므로 `severity: blocker` 및 사람 에스컬레이션 요청을 유지함.
