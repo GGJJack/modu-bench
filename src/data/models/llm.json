@@ -185,7 +185,8 @@
         "output": 30
       },
       "links": {
-        "official": "https://sakana.ai/fugu-release/"
+        "official": "https://sakana.ai/fugu-release/",
+        "paper": "https://arxiv.org/abs/2606.21228"
       },
       "id": "sakana-fugu-ultra",
       "name": "Sakana Fugu Ultra",
@@ -227,7 +228,8 @@
       "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://sakana.ai/fugu-release/"
+        "official": "https://sakana.ai/fugu-release/",
+        "paper": "https://arxiv.org/abs/2606.21228"
       },
       "id": "sakana-fugu-mini",
       "name": "Sakana Fugu",
@@ -4018,7 +4020,8 @@
         "output": 36
       },
       "links": {
-        "official": "https://sakana.ai/fugu-cyber-release/"
+        "official": "https://sakana.ai/fugu-cyber-release/",
+        "paper": "https://arxiv.org/abs/2606.21228"
       },
       "id": "sakana-fugu-cyber",
       "name": "Sakana Fugu Cyber",
@@ -4227,10 +4230,11 @@
       "contextWindow": 1000000,
       "pricing": {
         "input": 5,
-        "output": 25
+        "output": 30
       },
       "links": {
-        "official": "https://sakana.ai/fugu-1-1-claude-code-interface/"
+        "official": "https://sakana.ai/fugu-1-1-claude-code-interface/",
+        "paper": "https://arxiv.org/abs/2606.21228"
       },
       "id": "sakana-fugu-ultra-1-1",
       "name": "Sakana Fugu Ultra v1.1",
@@ -4471,6 +4475,52 @@
       "provider": "01.AI",
       "releaseDate": "2024-05-13",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "9B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-1.5",
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-9B",
+        "paper": "https://arxiv.org/abs/2403.04652"
+      },
+      "id": "yi-1-5-9b",
+      "name": "Yi-1.5-9B",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "6B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-1.5",
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-6B",
+        "paper": "https://arxiv.org/abs/2403.04652"
+      },
+      "id": "yi-1-5-6b",
+      "name": "Yi-1.5-6B",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "9B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/THUDM/GLM-4",
+        "huggingface": "https://huggingface.co/THUDM/glm-4-9b",
+        "github": "https://github.com/THUDM/GLM-4",
+        "paper": "https://arxiv.org/abs/2406.12793"
+      },
+      "id": "glm-4-9b",
+      "name": "GLM-4-9B",
+      "provider": "Zhipu AI",
+      "releaseDate": "2024-06-05",
+      "license": "GLM-4 License"
     }
   ]
 }
