@@ -4397,6 +4397,70 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
       }
+    },
+    "yi-1-5-9b": {
+      "mmlu": {
+        "value": 69.5,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B"
+      },
+      "gsm8k": {
+        "value": 73.7,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B"
+      },
+      "math": {
+        "value": 32.6,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B"
+      },
+      "humaneval": {
+        "value": 41.4,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B"
+      },
+      "mbpp": {
+        "value": 61.1,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-9B"
+      }
+    },
+    "yi-1-5-6b": {
+      "mmlu": {
+        "value": 63.5,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B"
+      },
+      "gsm8k": {
+        "value": 62.2,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B"
+      },
+      "math": {
+        "value": 28.42,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B"
+      },
+      "humaneval": {
+        "value": 36.5,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B"
+      },
+      "mbpp": {
+        "value": 56.8,
+        "date": "2024-05-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B"
+      }
     }
   }
 }
