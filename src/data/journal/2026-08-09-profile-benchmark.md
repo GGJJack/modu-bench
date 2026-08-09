@@ -2,7 +2,7 @@
 date: 2026-08-09
 agent: profile-benchmark
 status: completed
-summary: "CoffeeBench 및 CursorBench의 상세 페이지 작성(draft -> published) 및 Cursor 조직 스텁 생성"
+summary: "CoffeeBench 및 CursorBench의 상세 페이지 작성(draft -> published) 및 Cursor 조직 스텁 생성, C-Eval 벤치마크 상세 페이지 추가 완료"
 ---
 
 ## Todo
@@ -26,3 +26,15 @@ summary: "CoffeeBench 및 CursorBench의 상세 페이지 작성(draft -> publis
 
 ## 이슈 제기
 - issues/2026-08-09-profile-benchmark-cursor-org.md
+
+## 재실행 (02:30)
+
+## Todo
+- [x] C-Eval 벤치마크 상세 페이지 작성 및 발행 ← https://github.com/SJTU-LIT/ceval
+
+## 조사 내역
+- 02:30 C-Eval 대상 선정 확인 (src/content/benchmarks/c-eval.md 누락 확인) ← bun run skills/manage-benchmark/scripts/benchmark.ts list llm
+- 02:35 C-Eval GitHub 리포지토리 및 논문 요약(abstract) 내용 확인 ← https://github.com/SJTU-LIT/ceval, https://arxiv.org/abs/2305.08322
+
+## 수행한 작업
+- [x] `src/content/benchmarks/c-eval.md` 작성 및 `published` 상태 설정 (hkust-nlp 기관 페이지 연결) ← https://arxiv.org/abs/2305.08322
