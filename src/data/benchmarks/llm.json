@@ -1178,6 +1178,20 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "c-eval",
+      "name": "C-Eval",
+      "nameKo": "C-Eval (중국어 평가)",
+      "category": "reasoning",
+      "description": "중국어 기반 다목적 추론 및 지식 평가 벤치마크",
+      "source": "https://github.com/SJTU-LIT/ceval",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -4344,6 +4358,44 @@
         "date": "2026-07-22",
         "source": "community",
         "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B"
+      }
+    },
+    "glm-4-9b": {
+      "mmlu": {
+        "value": 74.7,
+        "date": "2024-06-05",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+      },
+      "c-eval": {
+        "value": 77.1,
+        "date": "2024-06-05",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+      },
+      "gpqa": {
+        "value": 34.3,
+        "date": "2024-06-05",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+      },
+      "gsm8k": {
+        "value": 84,
+        "date": "2024-06-05",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+      },
+      "math": {
+        "value": 30.4,
+        "date": "2024-06-05",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+      },
+      "humaneval": {
+        "value": 70.1,
+        "date": "2024-06-05",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
       }
     }
   }
