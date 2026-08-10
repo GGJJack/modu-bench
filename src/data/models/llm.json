@@ -1064,7 +1064,8 @@
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/taid-jp/",
-        "huggingface": "https://huggingface.co/SakanaAI/TinySwallow-1.5B"
+        "huggingface": "https://huggingface.co/SakanaAI/TinySwallow-1.5B",
+        "paper": "https://arxiv.org/abs/2501.16937"
       },
       "id": "tinyswallow-1-5b",
       "name": "TinySwallow-1.5B",
@@ -4356,7 +4357,9 @@
       "pricing": null,
       "links": {
         "official": "https://www.baichuan-ai.com/",
-        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Base"
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Base",
+        "github": "https://github.com/baichuan-inc/Baichuan2",
+        "paper": "https://arxiv.org/abs/2309.10305"
       },
       "id": "baichuan2-7b-base",
       "name": "Baichuan2-7B-Base",
@@ -4370,7 +4373,9 @@
       "pricing": null,
       "links": {
         "official": "https://www.baichuan-ai.com/",
-        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Base"
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Base",
+        "github": "https://github.com/baichuan-inc/Baichuan2",
+        "paper": "https://arxiv.org/abs/2309.10305"
       },
       "id": "baichuan2-13b-base",
       "name": "Baichuan2-13B-Base",
@@ -4385,7 +4390,8 @@
       "links": {
         "official": "https://github.com/01-ai/Yi-1.5",
         "huggingface": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat",
-        "github": "https://github.com/01-ai/Yi-1.5"
+        "github": "https://github.com/01-ai/Yi-1.5",
+        "paper": "https://arxiv.org/abs/2403.04652"
       },
       "id": "yi-1-5-9b-chat",
       "name": "Yi-1.5-9B-Chat",
@@ -4400,7 +4406,8 @@
       "links": {
         "official": "https://github.com/01-ai/Yi-1.5",
         "huggingface": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat",
-        "github": "https://github.com/01-ai/Yi-1.5"
+        "github": "https://github.com/01-ai/Yi-1.5",
+        "paper": "https://arxiv.org/abs/2403.04652"
       },
       "id": "yi-1-5-6b-chat",
       "name": "Yi-1.5-6B-Chat",
@@ -4576,6 +4583,78 @@
       "name": "Qwen2.5 1.5B Instruct",
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-09-19",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 2048,
+      "pricing": null,
+      "links": {
+        "official": "https://llm-jp.nii.ac.jp/",
+        "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-13b-instruct",
+        "github": "https://github.com/llm-jp/llm-jp-3"
+      },
+      "id": "llm-jp-3-13b-instruct",
+      "name": "LLM-jp-3 13B Instruct",
+      "provider": "LLM-jp",
+      "releaseDate": "2024-10-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.8B",
+      "contextWindow": 2048,
+      "pricing": null,
+      "links": {
+        "official": "https://llm-jp.nii.ac.jp/",
+        "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-1.8b-instruct",
+        "github": "https://github.com/llm-jp/llm-jp-3"
+      },
+      "id": "llm-jp-3-1.8b-instruct",
+      "name": "LLM-jp-3 1.8B Instruct",
+      "provider": "LLM-jp",
+      "releaseDate": "2024-10-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://tokyotech-llm.github.io/",
+        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-7b-instruct"
+      },
+      "id": "swallow-7b-instruct",
+      "name": "Swallow 7B Instruct",
+      "provider": "Tokyo Tech / AIST",
+      "releaseDate": "2023-12-19",
+      "license": "Llama 2 Community License Agreement"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://tokyotech-llm.github.io/",
+        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-13b-instruct"
+      },
+      "id": "swallow-13b-instruct",
+      "name": "Swallow 13B Instruct",
+      "provider": "Tokyo Tech / AIST",
+      "releaseDate": "2023-12-19",
+      "license": "Llama 2 Community License Agreement"
+    },
+    {
+      "parameterSize": "700B (MoE)",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://corp.rakuten.co.jp/news/press/2026/0317_01.html",
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-3.0-instruct"
+      },
+      "id": "rakuten-ai-3-0-instruct",
+      "name": "Rakuten AI 3.0 Instruct",
+      "provider": "Rakuten",
+      "releaseDate": "2026-03-20",
       "license": "Apache-2.0"
     }
   ]
