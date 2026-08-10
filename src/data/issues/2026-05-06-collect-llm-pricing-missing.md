@@ -196,3 +196,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-08-08)
 - (reinforce): NAVER Cloud CLOVA Studio, 01.AI, Baichuan AI 공식 채널의 2026년 8월 8일자 가격 정책 현황을 전면 재조사함. HyperCLOVA X 모델들 및 Yi-Large, Baichuan-4는 여전히 단가 조정을 포함한 맞춤형 요금 제도를 콘솔 상담 및 엔터프라이즈 계약 형태로 비공개 유지하고 있음. 공식 채널 요금표상 직접적인 단가 확보가 원천 차단되어 있는 비공개 기조가 확고하므로 `severity: blocker` 및 사람 에스컬레이션 요청을 유지함.
+
+## 진행 내역 (2026-08-10)
+- (reinforce): 2026년 8월 10일 기준, NCP CLOVA Studio 요금 안내 페이지 및 Yi-Large, Baichuan-4 공식 API 제공 플랫폼 현황을 전수 확인 및 재조사함. 하이퍼클로바X 및 기타 엔터프라이즈 지향 중국 플랫폼 모델들의 직접적인 요금은 여전히 상담 필요 또는 비공개 상태임. 자동 수집 불가하므로 글로벌 OpenRouter 등 서드파티 파트너 정보를 바탕으로 최신 스펙을 참조하고, 직접 수집 blocker 상태 및 `severity: blocker` 기조를 그대로 지속 유지함.

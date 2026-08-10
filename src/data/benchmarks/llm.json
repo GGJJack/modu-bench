@@ -4768,6 +4768,30 @@
         "date": "2024-09-19",
         "source": "official",
         "sourceUrl": "https://qwen.ai/blog?id=qwen2.5-llm"
+      },
+      "mmlu-pro": {
+        "value": 71.1,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+      },
+      "math": {
+        "value": 83.1,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+      },
+      "humaneval": {
+        "value": 86.6,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-llm/"
+      },
+      "gpqa": {
+        "value": 49,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-llm/"
       }
     },
     "qwen-2.5-1.5b-instruct": {
