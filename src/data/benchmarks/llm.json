@@ -1192,6 +1192,160 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "komt-bench",
+      "name": "KoMT-Bench",
+      "nameKo": "KoMT-Bench (한국어 멀티턴 대화 평가)",
+      "category": "korean",
+      "description": "Korean version of MT-Bench.",
+      "source": "https://arxiv.org/abs/2408.03541",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        10
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "wildbench",
+      "name": "WildBench",
+      "nameKo": "WildBench (실제 사용자 명령어 기반 평가)",
+      "category": "instruction",
+      "description": "A benchmark for evaluating LLMs on challenging real-world user queries.",
+      "source": "https://huggingface.co/spaces/allenai/WildBench",
+      "unit": "점",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "alpacaeval-2-0-lc",
+      "name": "AlpacaEval 2.0 LC",
+      "nameKo": "AlpacaEval 2.0 LC (길이 제어)",
+      "category": "instruction",
+      "description": "AlpacaEval 2.0 with length-controlled win rate.",
+      "source": "https://tatsu-lab.github.io/alpaca_eval/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "bbh",
+      "name": "BBH",
+      "nameKo": "BBH (BIG-Bench Hard)",
+      "category": "reasoning",
+      "description": "A suite of 23 challenging BIG-Bench tasks.",
+      "source": "https://github.com/suzgunmirza/BIG-Bench-Hard",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "musr",
+      "name": "MuSR",
+      "nameKo": "MuSR (다단계 추론)",
+      "category": "reasoning",
+      "description": "Multistep Soft Reasoning Benchmark.",
+      "source": "https://huggingface.co/datasets/TAUR-Lab/MuSR",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "kobest-boolq",
+      "name": "KoBEST-BoolQ",
+      "nameKo": "KoBEST-BoolQ",
+      "category": "korean",
+      "description": "Korean reading comprehension task.",
+      "source": "https://huggingface.co/datasets/skt/kobest_v1",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "kobest-copa",
+      "name": "KoBEST-COPA",
+      "nameKo": "KoBEST-COPA",
+      "category": "korean",
+      "description": "Korean causal reasoning task.",
+      "source": "https://huggingface.co/datasets/skt/kobest_v1",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "kobest-wic",
+      "name": "KoBEST-WiC",
+      "nameKo": "KoBEST-WiC",
+      "category": "korean",
+      "description": "Korean word-in-context disambiguation task.",
+      "source": "https://huggingface.co/datasets/skt/kobest_v1",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "kobest-hellaswag",
+      "name": "KoBEST-HellaSwag",
+      "nameKo": "KoBEST-HellaSwag",
+      "category": "korean",
+      "description": "Korean commonsense reasoning task.",
+      "source": "https://huggingface.co/datasets/skt/kobest_v1",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "kobest-sentineg",
+      "name": "KoBEST-SentiNeg",
+      "nameKo": "KoBEST-SentiNeg",
+      "category": "korean",
+      "description": "Korean sentiment analysis task.",
+      "source": "https://huggingface.co/datasets/skt/kobest_v1",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "belebele",
+      "name": "Belebele",
+      "nameKo": "Belebele",
+      "category": "knowledge",
+      "description": "A parallel multilingual reading comprehension dataset.",
+      "source": "https://github.com/facebookresearch/belebele",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -4460,6 +4614,180 @@
         "date": "2024-05-13",
         "source": "official",
         "sourceUrl": "https://huggingface.co/01-ai/Yi-1.5-6B"
+      }
+    },
+    "exaone-3.0-7.8b-instruct": {
+      "mt-bench": {
+        "value": 9.01,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "arena-hard-v2": {
+        "value": 46.8,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "wildbench": {
+        "value": 48.2,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "alpacaeval-2-0-lc": {
+        "value": 45,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "gsm8k": {
+        "value": 79.8,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "math": {
+        "value": 34.4,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "humaneval": {
+        "value": 72,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "mbpp": {
+        "value": 47.4,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "arc-c": {
+        "value": 63.7,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "gpqa": {
+        "value": 10.1,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "ifeval": {
+        "value": 72.1,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "bbh": {
+        "value": 26.1,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "musr": {
+        "value": 10.1,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "mmlu-pro": {
+        "value": 27.4,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "komt-bench": {
+        "value": 8.92,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "logickor": {
+        "value": 8.62,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "kmmlu": {
+        "value": 44.5,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "kobest-boolq": {
+        "value": 91.5,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "kobest-copa": {
+        "value": 85,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "kobest-wic": {
+        "value": 71.2,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "kobest-hellaswag": {
+        "value": 49.1,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "kobest-sentineg": {
+        "value": 98.7,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      },
+      "belebele": {
+        "value": 78.6,
+        "date": "2024-08-07",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2408.03541"
+      }
+    },
+    "qwen-2.5-72b-instruct": {
+      "mmlu": {
+        "value": 86.1,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://qwen.ai/blog?id=qwen2.5-llm"
+      },
+      "mbpp": {
+        "value": 88.2,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://qwen.ai/blog?id=qwen2.5-llm"
+      }
+    },
+    "qwen-2.5-1.5b-instruct": {
+      "mmlu": {
+        "value": 47.69,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2412.15115v1"
+      },
+      "math": {
+        "value": 40.99,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2412.15115v1"
+      },
+      "humaneval": {
+        "value": 42.23,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2412.15115v1"
       }
     }
   }
