@@ -2637,7 +2637,8 @@
         "output": 0
       },
       "links": {
-        "official": "https://www.upstage.ai/blog/en/solar-pro-2-preview-small-powerful-now-with-reasoning"
+        "official": "https://www.upstage.ai/blog/en/solar-pro-2-preview-small-powerful-now-with-reasoning",
+        "huggingface": "https://huggingface.co/upstage/solar-pro-2-preview"
       },
       "id": "solar-pro-2-preview",
       "name": "Solar Pro 2 Preview",
@@ -2846,6 +2847,8 @@
       "pricing": null,
       "links": {
         "official": "https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0",
+        "huggingface": "https://huggingface.co/yanolja/EEVE-Korean-Instruct-10.8B-v1.0",
+        "github": "https://github.com/yanolja/EEVE-Korean",
         "paper": "https://arxiv.org/abs/2402.14714"
       },
       "id": "eeve-korean-instruct-10.8b",
@@ -4621,7 +4624,8 @@
       "pricing": null,
       "links": {
         "official": "https://tokyotech-llm.github.io/",
-        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-7b-instruct"
+        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-7b-instruct",
+        "github": "https://github.com/tokyotech-llm/swallow"
       },
       "id": "swallow-7b-instruct",
       "name": "Swallow 7B Instruct",
@@ -4635,7 +4639,8 @@
       "pricing": null,
       "links": {
         "official": "https://tokyotech-llm.github.io/",
-        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-13b-instruct"
+        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-13b-instruct",
+        "github": "https://github.com/tokyotech-llm/swallow"
       },
       "id": "swallow-13b-instruct",
       "name": "Swallow 13B Instruct",
@@ -4656,6 +4661,82 @@
       "provider": "Rakuten",
       "releaseDate": "2026-03-20",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "10.7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.upstage.ai",
+        "huggingface": "https://huggingface.co/upstage/SOLAR-10.7B-v1.0",
+        "paper": "https://arxiv.org/abs/2312.15166"
+      },
+      "id": "solar-10.7b-base",
+      "name": "Solar 10.7B Base",
+      "provider": "Upstage",
+      "releaseDate": "2023-12-14",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7.8B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai/models/exaone",
+        "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-3.0-7.8B-Base",
+        "github": "https://github.com/LG-AI-Research/EXAONE-3.0",
+        "paper": "https://arxiv.org/abs/2408.03541"
+      },
+      "id": "exaone-3.0-7.8b-base",
+      "name": "EXAONE 3.0 7.8B Base",
+      "provider": "LG AI Research",
+      "releaseDate": "2024-08-07",
+      "license": "EXAONE AI Model License Agreement 1.0 (Apache-2.0 compatible for non-commercial)"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/",
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan-7B",
+        "github": "https://github.com/baichuan-inc/baichuan-7B"
+      },
+      "id": "baichuan-7b",
+      "name": "Baichuan-7B",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2023-06-15",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/",
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan-13B-Base",
+        "github": "https://github.com/baichuan-inc/Baichuan-13B"
+      },
+      "id": "baichuan-13b-base",
+      "name": "Baichuan-13B-Base",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2023-07-11",
+      "license": "Baichuan-13B License"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/",
+        "huggingface": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat",
+        "github": "https://github.com/baichuan-inc/Baichuan-13B"
+      },
+      "id": "baichuan-13b-chat",
+      "name": "Baichuan-13B-Chat",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2023-07-11",
+      "license": "Baichuan-13B License"
     }
   ]
 }
