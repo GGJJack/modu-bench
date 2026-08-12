@@ -4911,6 +4911,60 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/llm-jp/llm-jp-3-1.8b-instruct"
       }
+    },
+    "baichuan-7b": {
+      "mmlu": {
+        "value": 42.3,
+        "date": "2026-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-7B"
+      },
+      "c-eval": {
+        "value": 42.8,
+        "date": "2026-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-7B"
+      }
+    },
+    "baichuan-13b-base": {
+      "c-eval": {
+        "value": 52.4,
+        "date": "2026-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
+      },
+      "mmlu": {
+        "value": 51.6,
+        "date": "2026-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
+      },
+      "cmmlu": {
+        "value": 55.3,
+        "date": "2026-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
+      }
+    },
+    "baichuan-13b-chat": {
+      "c-eval": {
+        "value": 51.5,
+        "date": "2026-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
+      },
+      "mmlu": {
+        "value": 52.1,
+        "date": "2026-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
+      },
+      "cmmlu": {
+        "value": 55.8,
+        "date": "2026-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
+      }
     }
   }
 }
