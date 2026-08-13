@@ -1360,6 +1360,34 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "agieval",
+      "name": "AGIEval",
+      "nameKo": "AGIEval",
+      "category": "Reasoning",
+      "description": "AGIEval is a human-centric benchmark specifically designed to evaluate the general abilities of foundation models in tasks pertinent to human cognition and problem-solving.",
+      "source": "https://github.com/microsoft/AGIEval",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "gaokao",
+      "name": "Gaokao",
+      "nameKo": "가오카오(Gaokao)",
+      "category": "Reasoning",
+      "description": "The GAOKAO-bench is an evaluation framework that utilizes Chinese high school university entrance examination (GAOKAO) questions to evaluate Large Language Models.",
+      "source": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -4372,25 +4400,37 @@
     "baichuan2-7b-base": {
       "mmlu": {
         "value": 54.16,
-        "date": "2023-09-19",
+        "date": "2023-09-06",
         "source": "official",
         "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
       },
       "c-eval": {
         "value": 54,
-        "date": "2023-09-19",
+        "date": "2023-09-06",
         "source": "official",
         "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
       },
       "bbh": {
         "value": 41.56,
-        "date": "2023-09-19",
+        "date": "2023-09-06",
         "source": "official",
         "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
       },
       "cmmlu": {
         "value": 57.07,
-        "date": "2023-09-19",
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
+      },
+      "agieval": {
+        "value": 42.73,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
+      },
+      "gaokao": {
+        "value": 47.47,
+        "date": "2023-09-06",
         "source": "official",
         "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
       }
@@ -4398,25 +4438,37 @@
     "baichuan2-13b-base": {
       "mmlu": {
         "value": 59.17,
-        "date": "2023-09-19",
+        "date": "2023-09-06",
         "source": "official",
         "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
       },
       "c-eval": {
         "value": 58.1,
-        "date": "2023-09-19",
+        "date": "2023-09-06",
         "source": "official",
         "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
       },
       "bbh": {
         "value": 48.78,
-        "date": "2023-09-19",
+        "date": "2023-09-06",
         "source": "official",
         "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
       },
       "cmmlu": {
         "value": 61.97,
-        "date": "2023-09-19",
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
+      },
+      "agieval": {
+        "value": 48.17,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
+      },
+      "gaokao": {
+        "value": 54.33,
+        "date": "2023-09-06",
         "source": "official",
         "sourceUrl": "https://github.com/baichuan-inc/Baichuan2"
       }
@@ -4915,13 +4967,19 @@
     "baichuan-7b": {
       "mmlu": {
         "value": 42.3,
-        "date": "2026-08-12",
+        "date": "2023-06-15",
         "source": "official",
         "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-7B"
       },
       "c-eval": {
         "value": 42.8,
-        "date": "2026-08-12",
+        "date": "2023-06-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-7B"
+      },
+      "cmmlu": {
+        "value": 44.02,
+        "date": "2023-06-15",
         "source": "official",
         "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-7B"
       }
@@ -4929,19 +4987,19 @@
     "baichuan-13b-base": {
       "c-eval": {
         "value": 52.4,
-        "date": "2026-08-12",
+        "date": "2023-07-11",
         "source": "official",
         "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
       },
       "mmlu": {
         "value": 51.6,
-        "date": "2026-08-12",
+        "date": "2023-07-11",
         "source": "official",
         "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
       },
       "cmmlu": {
         "value": 55.3,
-        "date": "2026-08-12",
+        "date": "2023-07-11",
         "source": "official",
         "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
       }
