@@ -672,7 +672,8 @@
       "pricing": null,
       "links": {
         "official": "https://corp.rakuten.co.jp/innovation/ai/",
-        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B"
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B",
+        "github": "https://github.com/Rakuten/RakutenAI-7B"
       },
       "id": "rakuten-ai-7b",
       "name": "Rakuten AI 7B",
@@ -686,7 +687,8 @@
       "pricing": null,
       "links": {
         "official": "https://corp.rakuten.co.jp/news/press/2024/0321_01.html",
-        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B-instruct"
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B-instruct",
+        "github": "https://github.com/Rakuten/RakutenAI-7B"
       },
       "id": "rakuten-ai-7b-instruct",
       "name": "Rakuten AI 7B Instruct",
@@ -700,7 +702,8 @@
       "pricing": null,
       "links": {
         "official": "https://corp.rakuten.co.jp/news/press/2024/0321_01.html",
-        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B-chat"
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-7B-chat",
+        "github": "https://github.com/Rakuten/RakutenAI-7B"
       },
       "id": "rakuten-ai-7b-chat",
       "name": "Rakuten AI 7B Chat",
@@ -4089,7 +4092,8 @@
       "pricing": null,
       "links": {
         "official": "https://corp.rakuten.co.jp/innovation/ai/",
-        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B-instruct"
+        "huggingface": "https://huggingface.co/Rakuten/RakutenAI-2.0-8x7B-instruct",
+        "github": "https://github.com/Rakuten/RakutenAI-2.0"
       },
       "id": "rakuten-ai-2-0-8x7b-instruct",
       "name": "RakutenAI-2.0-8x7B-instruct",
@@ -4821,6 +4825,84 @@
       "provider": "Tokyo Tech / AIST",
       "releaseDate": "2023-12-19",
       "license": "Llama 2 Community License Agreement"
+    },
+    {
+      "parameterSize": "2.4B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai/models/exaone",
+        "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-3.0-2.4B-Base",
+        "github": "https://github.com/LG-AI-Research/EXAONE-3.0",
+        "paper": "https://arxiv.org/abs/2408.03541"
+      },
+      "id": "exaone-3.0-2.4b-base",
+      "name": "EXAONE 3.0 2.4B Base",
+      "provider": "LG AI Research",
+      "releaseDate": "2024-08-07",
+      "license": "EXAONE AI Model License Agreement 1.0 (Apache-2.0 compatible for non-commercial)"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 2048,
+      "pricing": null,
+      "links": {
+        "official": "https://llm-jp.nii.ac.jp/",
+        "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-13b",
+        "github": "https://github.com/llm-jp/llm-jp-3"
+      },
+      "id": "llm-jp-3-13b",
+      "name": "LLM-jp-3 13B",
+      "provider": "LLM-jp",
+      "releaseDate": "2024-10-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.8B",
+      "contextWindow": 2048,
+      "pricing": null,
+      "links": {
+        "official": "https://llm-jp.nii.ac.jp/",
+        "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-1.8b",
+        "github": "https://github.com/llm-jp/llm-jp-3"
+      },
+      "id": "llm-jp-3-1.8b",
+      "name": "LLM-jp-3 1.8B",
+      "provider": "LLM-jp",
+      "releaseDate": "2024-10-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.5B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-1.5B",
+        "github": "https://github.com/QwenLM/Qwen2.5",
+        "paper": "https://arxiv.org/abs/2412.15115"
+      },
+      "id": "qwen-2.5-1.5b",
+      "name": "Qwen2.5 1.5B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "0.5B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2.5",
+        "paper": "https://arxiv.org/abs/2412.15115"
+      },
+      "id": "qwen-2.5-0.5b-instruct",
+      "name": "Qwen2.5 0.5B Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Apache-2.0"
     }
   ]
 }
