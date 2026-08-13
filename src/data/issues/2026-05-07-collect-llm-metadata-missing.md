@@ -106,3 +106,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-08-12)
 - (reinforce): Sakana AI Fugu 및 Marlin 시리즈, HyperCLOVA X 모델군, Yi-Large 및 Baichuan-4 등의 최신 단가 및 공개 사양 현황을 전면 재확인함. 여전히 베타 단계 및 엔터프라이즈 특성상 가격 산정 및 접근 권한이 상담/신청 필요 단계로 묶여 있어, 일반 사용자를 위한 공식 API 요금 정보의 부재가 지속됨. 해당 모델들의 공식 가격 및 미공개 메타데이터의 직접적인 자동 수집이 불가능한 현 기조를 확인하여 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 계속 유지함.
+
+## 진행 내역 (2026-08-13)
+- (reinforce): 2026년 8월 13일 기준, Sakana AI 및 NCP CLOVA Studio, 01.AI, Baichuan AI 등 공식 페이지를 최신화하여 스캔하였으나, Fugu/Marlin 시리즈 등 베타 모델의 요금 및 HyperCLOVA X 등의 공식 API 단가는 여전히 '상담 필요' 또는 비공개 기조가 유지되고 있어 직접 수집이 원천적으로 불가함. 이에 따라 타사 및 OpenRouter 등 서드파티 가격 참조를 유지하며 `severity: blocker` 및 "사람 에스컬레이션 필요" 요청을 계속 유지함.
