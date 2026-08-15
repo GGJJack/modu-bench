@@ -1388,6 +1388,34 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "livebench",
+      "name": "LiveBench",
+      "nameKo": "LiveBench",
+      "category": "reasoning",
+      "description": "A benchmark for evaluating LLMs on live problems to prevent contamination.",
+      "source": "https://huggingface.co/spaces/LiveBench/LiveBench",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "eqbench",
+      "name": "EQ-Bench",
+      "nameKo": "EQ-Bench",
+      "category": "reasoning",
+      "description": "Emotional Intelligence Benchmark for LLMs",
+      "source": "https://eqbench.com/",
+      "unit": "점수",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -5022,6 +5050,294 @@
         "date": "2026-08-12",
         "source": "official",
         "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
+      }
+    },
+    "exaone-3-5-7-8b-instruct": {
+      "mt-bench": {
+        "value": 8.29,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "livebench": {
+        "value": 39.8,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "arena-hard-v2": {
+        "value": 68.7,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "alpacaeval-2-0-lc": {
+        "value": 54.2,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "ifeval": {
+        "value": 78.9,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "komt-bench": {
+        "value": 7.96,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "logickor": {
+        "value": 9.08,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      }
+    },
+    "qwen-2.5-7b": {
+      "mt-bench": {
+        "value": 6.48,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "livebench": {
+        "value": 35.6,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "arena-hard-v2": {
+        "value": 48.9,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "alpacaeval-2-0-lc": {
+        "value": 31.7,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "ifeval": {
+        "value": 72.5,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "komt-bench": {
+        "value": 5.19,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      },
+      "logickor": {
+        "value": 6.38,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+      }
+    },
+    "exaone-3-5-2-4b-instruct": {
+      "mt-bench": {
+        "value": 7.81,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "livebench": {
+        "value": 33,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "arena-hard-v2": {
+        "value": 48.2,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "alpacaeval-2-0-lc": {
+        "value": 37.1,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "ifeval": {
+        "value": 73.6,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "komt-bench": {
+        "value": 7.24,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "logickor": {
+        "value": 8.51,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      }
+    },
+    "exaone-3-5-32b-instruct": {
+      "mt-bench": {
+        "value": 8.51,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "livebench": {
+        "value": 43,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "arena-hard-v2": {
+        "value": 78.6,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "alpacaeval-2-0-lc": {
+        "value": 60.6,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "ifeval": {
+        "value": 81.7,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "komt-bench": {
+        "value": 8.05,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "logickor": {
+        "value": 9.06,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      }
+    },
+    "qwen-2.5-32b": {
+      "mt-bench": {
+        "value": 8.49,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "livebench": {
+        "value": 50.6,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "arena-hard-v2": {
+        "value": 67,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "alpacaeval-2-0-lc": {
+        "value": 41,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "ifeval": {
+        "value": 78.7,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "komt-bench": {
+        "value": 7.75,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "logickor": {
+        "value": 8.89,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      }
+    },
+    "solar-pro-preview-instruct": {
+      "mmlu": {
+        "value": 79.14,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "mmlu-pro": {
+        "value": 52.11,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "ifeval": {
+        "value": 84.37,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "arc-c": {
+        "value": 68.86,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "gpqa": {
+        "value": 36.38,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "hellaswag": {
+        "value": 86.36,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "eqbench": {
+        "value": 77.91,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "bbh": {
+        "value": 67.31,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "musr": {
+        "value": 45.85,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "gsm8k": {
+        "value": 89.69,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      },
+      "mbpp": {
+        "value": 61.59,
+        "date": "2026-08-15",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
       }
     }
   }
