@@ -1447,7 +1447,10 @@
       "contextWindow": 4096,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/yanolja/EEVE-Korean-10.8B-v1.0"
+        "official": "https://huggingface.co/yanolja/EEVE-Korean-10.8B-v1.0",
+        "huggingface": "https://huggingface.co/yanolja/EEVE-Korean-10.8B-v1.0",
+        "github": "https://github.com/yanolja/EEVE-Korean",
+        "paper": "https://arxiv.org/abs/2402.14714"
       },
       "id": "eeve-korean-10.8b",
       "name": "EEVE-Korean-10.8B",
@@ -4684,6 +4687,7 @@
       "links": {
         "official": "https://www.upstage.ai",
         "huggingface": "https://huggingface.co/upstage/SOLAR-10.7B-v1.0",
+        "github": "https://github.com/UpstageAI/SOLAR-10.7B",
         "paper": "https://arxiv.org/abs/2312.15166"
       },
       "id": "solar-10.7b-base",
