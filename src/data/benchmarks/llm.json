@@ -1416,6 +1416,34 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "truthfulqa",
+      "name": "TruthfulQA",
+      "nameKo": "TruthfulQA",
+      "category": "reasoning",
+      "description": "TruthfulQA",
+      "source": "https://arxiv.org/abs/2109.07958",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "winogrande",
+      "name": "WinoGrande",
+      "nameKo": "WinoGrande",
+      "category": "reasoning",
+      "description": "WinoGrande",
+      "source": "https://arxiv.org/abs/1907.10641",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -4193,10 +4221,40 @@
     },
     "solar-10.7b": {
       "mmlu": {
-        "value": 74.2,
-        "date": "2023-12-14",
-        "source": "community",
-        "sourceUrl": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0"
+        "value": 66.21,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "arc-c": {
+        "value": 71.08,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "hellaswag": {
+        "value": 88.16,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "truthfulqa": {
+        "value": 71.43,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "winogrande": {
+        "value": 83.58,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "gsm8k": {
+        "value": 64.75,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
       }
     },
     "rakuten-ai-2-0-mini-instruct": {
@@ -5338,6 +5396,44 @@
         "date": "2026-08-15",
         "source": "official",
         "sourceUrl": "https://huggingface.co/Upstage/SOLAR-PRO-Preview-Instruct"
+      }
+    },
+    "solar-10.7b-base": {
+      "arc-c": {
+        "value": 61.95,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "hellaswag": {
+        "value": 84.6,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "mmlu": {
+        "value": 65.48,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "truthfulqa": {
+        "value": 45.04,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "winogrande": {
+        "value": 83.66,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "gsm8k": {
+        "value": 55.5,
+        "date": "2023-12-25",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2312.15166"
       }
     }
   }
