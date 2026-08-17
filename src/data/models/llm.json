@@ -3768,10 +3768,10 @@
     },
     {
       "parameterSize": "24B",
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://www.sarvam.ai/",
+        "official": "https://www.sarvam.ai/blogs/sarvam-m",
         "huggingface": "https://huggingface.co/sarvamai/sarvam-m"
       },
       "id": "sarvam-m",
@@ -4915,11 +4915,13 @@
     },
     {
       "parameterSize": "4B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3guard/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen3Guard-Gen-4B"
+        "huggingface": "https://huggingface.co/Qwen/Qwen3Guard-Gen-4B",
+        "github": "https://github.com/QwenLM/Qwen3Guard",
+        "paper": "https://arxiv.org/abs/2510.14276"
       },
       "id": "qwen3guard-gen-4b",
       "name": "Qwen3Guard-Gen-4B",
@@ -4929,11 +4931,13 @@
     },
     {
       "parameterSize": "4B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3guard/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen3Guard-Stream-4B"
+        "huggingface": "https://huggingface.co/Qwen/Qwen3Guard-Stream-4B",
+        "github": "https://github.com/QwenLM/Qwen3Guard",
+        "paper": "https://arxiv.org/abs/2510.14276"
       },
       "id": "qwen3guard-stream-4b",
       "name": "Qwen3Guard-Stream-4B",
@@ -5002,6 +5006,21 @@
       "provider": "Upstage",
       "releaseDate": "2024-09-08",
       "license": "MIT"
+    },
+    {
+      "parameterSize": "3.7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://llm-jp.nii.ac.jp/",
+        "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-3.7b-instruct",
+        "github": "https://github.com/llm-jp/llm-jp-3"
+      },
+      "id": "llm-jp-3-3.7b-instruct",
+      "name": "LLM-jp-3 3.7B Instruct",
+      "provider": "LLM-jp",
+      "releaseDate": "2024-10-23",
+      "license": "Apache-2.0"
     }
   ]
 }
