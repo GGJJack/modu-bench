@@ -1999,7 +1999,8 @@
         "output": null
       },
       "links": {
-        "official": "https://www.ncloud.com/product/ai/clovaStudio"
+        "official": "https://www.ncloud.com/product/ai/clovaStudio",
+        "paper": "https://arxiv.org/abs/2404.01954"
       },
       "id": "hcx-007",
       "name": "HCX-007",
@@ -2063,7 +2064,8 @@
         "output": 2
       },
       "links": {
-        "official": "https://www.ncloud.com/product/ai/clovaStudio"
+        "official": "https://www.ncloud.com/product/ai/clovaStudio",
+        "paper": "https://arxiv.org/abs/2404.01954"
       },
       "id": "hcx-005",
       "name": "HCX-005",
@@ -3853,7 +3855,8 @@
       "contextWindow": null,
       "pricing": null,
       "links": {
-        "official": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b"
+        "official": "https://clova.ai/en/tech-blog/seeing-and-hearing-the-field-for-ourselves-building-our-own-encoders-and-hyperclova-x-seed-4b",
+        "paper": "https://arxiv.org/abs/2404.01954"
       },
       "id": "hyperclova-x-seed-4b",
       "name": "HyperCLOVA X SEED 4B",
@@ -5021,6 +5024,53 @@
       "provider": "LLM-jp",
       "releaseDate": "2024-10-23",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "3.7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://llm-jp.nii.ac.jp/",
+        "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-3.7b",
+        "github": "https://github.com/llm-jp/llm-jp-3"
+      },
+      "id": "llm-jp-3-3.7b",
+      "name": "LLM-jp-3 3.7B",
+      "provider": "LLM-jp",
+      "releaseDate": "2024-10-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "3.09B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2.5",
+        "paper": "https://arxiv.org/abs/2412.15115"
+      },
+      "id": "qwen-2.5-3b-instruct",
+      "name": "Qwen2.5 3B Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Qwen Research License"
+    },
+    {
+      "parameterSize": "3.09B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-3B",
+        "github": "https://github.com/QwenLM/Qwen2.5",
+        "paper": "https://arxiv.org/abs/2412.15115"
+      },
+      "id": "qwen-2.5-3b",
+      "name": "Qwen2.5 3B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Qwen Research License"
     }
   ]
 }
