@@ -4692,14 +4692,68 @@
       "mmlu-pro": {
         "value": 86.2,
         "date": "2026-07-22",
-        "source": "community",
-        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B"
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
       },
       "gpqa": {
         "value": 86.3,
         "date": "2026-07-22",
-        "source": "community",
-        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B"
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
+      },
+      "hle": {
+        "value": 28.8,
+        "date": "2026-07-22",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
+      },
+      "livecodebench-v6": {
+        "value": 92.4,
+        "date": "2026-07-22",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
+      },
+      "aime-2026": {
+        "value": 95.7,
+        "date": "2026-07-22",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
+      },
+      "if-bench": {
+        "value": 80,
+        "date": "2026-07-22",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
+      },
+      "swe-bench-verified": {
+        "value": 70.4,
+        "date": "2026-07-22",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
+      },
+      "terminal-bench-hard": {
+        "value": 28.3,
+        "date": "2026-07-22",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
+      },
+      "mcp-atlas": {
+        "value": 58.2,
+        "date": "2026-07-22",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
+      },
+      "click": {
+        "value": 90.7,
+        "date": "2026-07-22",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
+      },
+      "haerae-bench": {
+        "value": 73.8,
+        "date": "2026-07-22",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/Solar-Open2-250B/raw/main/README.md"
       }
     },
     "glm-4-9b": {
@@ -5434,6 +5488,80 @@
         "date": "2023-12-25",
         "source": "official",
         "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      }
+    },
+    "k-exaone-2-0-750b-a37b": {
+      "mmlu-pro": {
+        "value": 83.5,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "swe-bench-verified": {
+        "value": 68.2,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "gpqa": {
+        "value": 82.2,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "terminal-bench-2-1": {
+        "value": 43.8,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "click": {
+        "value": 84.2,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "mmmlu": {
+        "value": 86.6,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "scicode": {
+        "value": 37.4,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "hle": {
+        "value": 18.3,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "aime-2026": {
+        "value": 92.3,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "ifeval": {
+        "value": 92.4,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "if-bench": {
+        "value": 72.6,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
+      },
+      "hmmt-25": {
+        "value": 78.4,
+        "date": "2026-07-29",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/raw/main/README.md"
       }
     }
   }
