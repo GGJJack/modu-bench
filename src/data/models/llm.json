@@ -4180,7 +4180,9 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen-2.5-coder-7b-instruct",
       "name": "Qwen2.5-Coder-7B-Instruct",
@@ -4194,7 +4196,9 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen-2.5-coder-32b-instruct",
       "name": "Qwen2.5-Coder-32B-Instruct",
@@ -4208,7 +4212,9 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen-2.5-coder-14b-instruct",
       "name": "Qwen2.5-Coder-14B-Instruct",
@@ -4222,7 +4228,9 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen-2.5-coder-1.5b-instruct",
       "name": "Qwen2.5-Coder-1.5B-Instruct",
@@ -4281,7 +4289,9 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen-2.5-coder-3b-instruct",
       "name": "Qwen2.5-Coder-3B-Instruct",
@@ -4295,7 +4305,9 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen-2.5-coder-0.5b-instruct",
       "name": "Qwen2.5-Coder-0.5B-Instruct",
@@ -5071,6 +5083,37 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-09-19",
       "license": "Qwen Research License"
+    },
+    {
+      "parameterSize": "53B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/",
+        "huggingface": "https://huggingface.co/baichuan-inc",
+        "paper": "https://arxiv.org/abs/2309.10305"
+      },
+      "id": "baichuan2-53b",
+      "name": "Baichuan2-53B",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2023-09-20",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "9B",
+      "contextWindow": 16384,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-1.5",
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-9B-16K-Chat",
+        "github": "https://github.com/01-ai/Yi-1.5",
+        "paper": "https://arxiv.org/abs/2403.04652"
+      },
+      "id": "yi-1-5-16k-chat",
+      "name": "Yi-1.5-9B-16K-Chat",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Apache-2.0"
     }
   ]
 }
