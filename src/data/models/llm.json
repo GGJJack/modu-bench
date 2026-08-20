@@ -4244,7 +4244,8 @@
       "pricing": null,
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-R1",
-        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        "paper": "https://arxiv.org/abs/2501.12948"
       },
       "id": "deepseek-r1-distill-qwen-32b",
       "name": "DeepSeek-R1-Distill-Qwen-32B",
@@ -4321,7 +4322,8 @@
       "pricing": null,
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-R1",
-        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+        "paper": "https://arxiv.org/abs/2501.12948"
       },
       "id": "deepseek-r1-distill-llama-70b",
       "name": "DeepSeek-R1-Distill-Llama-70B",
@@ -5111,6 +5113,21 @@
       },
       "id": "yi-1-5-16k-chat",
       "name": "Yi-1.5-9B-16K-Chat",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-1.5",
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-6B-16K-Chat",
+        "paper": "https://arxiv.org/abs/2403.04652"
+      },
+      "id": "yi-1-5-6b-16k-chat",
+      "name": "Yi-1.5-6B-16K-Chat",
       "provider": "01.AI",
       "releaseDate": "2024-05-13",
       "license": "Apache-2.0"
