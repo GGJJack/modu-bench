@@ -1444,6 +1444,20 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "h6",
+      "name": "Hugging Face Open LLM Leaderboard v1 (H6)",
+      "nameKo": "오픈 LLM 리더보드 v1 (H6)",
+      "category": "general",
+      "description": "Average score of 6 evaluation metrics (ARC, HellaSwag, MMLU, TruthfulQA, Winogrande, GSM8K) on Hugging Face Open LLM Leaderboard.",
+      "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -4255,6 +4269,12 @@
         "date": "2023-12-25",
         "source": "official",
         "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "h6": {
+        "value": 74.2,
+        "date": "2023-12-14",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0/raw/main/README.md"
       }
     },
     "rakuten-ai-2-0-mini-instruct": {
@@ -5488,6 +5508,12 @@
         "date": "2023-12-25",
         "source": "official",
         "sourceUrl": "https://arxiv.org/abs/2312.15166"
+      },
+      "h6": {
+        "value": 66.04,
+        "date": "2023-12-14",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0/raw/main/README.md"
       }
     },
     "k-exaone-2-0-750b-a37b": {
