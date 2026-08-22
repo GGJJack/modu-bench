@@ -1,8 +1,8 @@
 ---
 benchmarkId: winogrande
 domain: llm
-status: draft
-updated: 2026-08-21
+status: published
+updated: 2026-08-22
 sources:
   - https://arxiv.org/abs/1907.10641
   - https://epoch.ai/benchmarks/wino-grande
