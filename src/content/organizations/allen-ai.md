@@ -6,7 +6,7 @@ founded: "2014"
 headquarters: Seattle, Washington, USA
 website: https://allenai.org/
 status: published
-updated: 2026-06-01
+updated: 2026-08-22
 sources:
   - https://arxiv.org/abs/1803.05457
   - https://allenai.org/about

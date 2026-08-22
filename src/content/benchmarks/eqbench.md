@@ -1,8 +1,8 @@
 ---
 benchmarkId: eqbench
 domain: llm
-status: draft
-updated: 2026-08-20
+status: published
+updated: 2026-08-22
 sources:
   - https://github.com/eq-bench/eq-bench
   - https://arxiv.org/abs/2312.06281
