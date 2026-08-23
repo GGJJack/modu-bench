@@ -2,8 +2,8 @@
 orgId: truthfulqa-authors
 name: TruthfulQA Authors
 type: academic
-status: draft
-updated: 2026-08-20
+status: published
+updated: 2026-08-23
 sources:
   - https://github.com/sylinrl/TruthfulQA
   - https://arxiv.org/abs/2109.07958
