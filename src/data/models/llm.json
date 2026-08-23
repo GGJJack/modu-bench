@@ -5118,16 +5118,81 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "6B",
+      "contextWindow": 16384,
       "pricing": null,
       "links": {
         "official": "https://github.com/01-ai/Yi-1.5",
         "huggingface": "https://huggingface.co/01-ai/Yi-1.5-6B-16K-Chat",
+        "github": "https://github.com/01-ai/Yi-1.5",
         "paper": "https://arxiv.org/abs/2403.04652"
       },
       "id": "yi-1-5-6b-16k-chat",
       "name": "Yi-1.5-6B-16K-Chat",
+      "provider": "01.AI",
+      "releaseDate": "2024-05-13",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "2.4B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai/blog/view?seq=507",
+        "huggingface": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Base",
+        "github": "https://github.com/LG-AI-EXAONE/EXAONE-3.5",
+        "paper": "https://arxiv.org/abs/2412.04862"
+      },
+      "id": "exaone-3-5-2-4b-base",
+      "name": "EXAONE 3.5 2.4B Base",
+      "provider": "LG AI Research",
+      "releaseDate": "2024-12-16",
+      "license": "EXAONE AI Model License Agreement 1.1 - NC"
+    },
+    {
+      "parameterSize": "7.8B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai/blog/view?seq=507",
+        "huggingface": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-7.8B-Base",
+        "github": "https://github.com/LG-AI-EXAONE/EXAONE-3.5",
+        "paper": "https://arxiv.org/abs/2412.04862"
+      },
+      "id": "exaone-3-5-7-8b-base",
+      "name": "EXAONE 3.5 7.8B Base",
+      "provider": "LG AI Research",
+      "releaseDate": "2024-12-16",
+      "license": "EXAONE AI Model License Agreement 1.1 - NC"
+    },
+    {
+      "parameterSize": "32B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai/blog/view?seq=507",
+        "huggingface": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Base",
+        "github": "https://github.com/LG-AI-EXAONE/EXAONE-3.5",
+        "paper": "https://arxiv.org/abs/2412.04862"
+      },
+      "id": "exaone-3-5-32b-base",
+      "name": "EXAONE 3.5 32B Base",
+      "provider": "LG AI Research",
+      "releaseDate": "2024-12-16",
+      "license": "EXAONE AI Model License Agreement 1.1 - NC"
+    },
+    {
+      "parameterSize": "34B",
+      "contextWindow": 16384,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-1.5",
+        "huggingface": "https://huggingface.co/01-ai/Yi-1.5-34B-16K-Chat",
+        "github": "https://github.com/01-ai/Yi-1.5",
+        "paper": "https://arxiv.org/abs/2403.04652"
+      },
+      "id": "yi-1-5-34b-16k-chat",
+      "name": "Yi-1.5-34B-16K-Chat",
       "provider": "01.AI",
       "releaseDate": "2024-05-13",
       "license": "Apache-2.0"
