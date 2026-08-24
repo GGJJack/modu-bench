@@ -4224,7 +4224,7 @@
     },
     {
       "parameterSize": "1.54B",
-      "contextWindow": 32000,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
@@ -4286,7 +4286,7 @@
     },
     {
       "parameterSize": "3.09B",
-      "contextWindow": 128000,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
@@ -4302,7 +4302,7 @@
     },
     {
       "parameterSize": "0.49B",
-      "contextWindow": 32000,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
