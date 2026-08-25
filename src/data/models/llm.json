@@ -787,7 +787,9 @@
         "output": 0.3
       },
       "links": {
-        "official": "https://www.01.ai/models"
+        "official": "https://www.01.ai/models",
+        "github": "https://github.com/01-ai/Yi",
+        "paper": "https://arxiv.org/abs/2403.04652"
       },
       "id": "yi-large",
       "name": "Yi-Large",
@@ -800,7 +802,8 @@
       "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://bigmodel.cn/dev/how-to-use/model-introduction#glm-4-flash"
+        "official": "https://bigmodel.cn/dev/how-to-use/model-introduction#glm-4-flash",
+        "github": "https://github.com/THUDM/GLM-4"
       },
       "id": "glm-4-flash",
       "name": "GLM-4-Flash",
@@ -816,7 +819,8 @@
         "output": 1.4
       },
       "links": {
-        "official": "https://www.baichuan-ai.com/"
+        "official": "https://www.baichuan-ai.com/",
+        "paper": "https://arxiv.org/abs/2309.10305"
       },
       "id": "baichuan-4",
       "name": "Baichuan-4",
@@ -5196,6 +5200,45 @@
       "provider": "01.AI",
       "releaseDate": "2024-05-13",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/THUDM/GLM-4"
+      },
+      "id": "glm-4v-9b",
+      "name": "GLM-4V-9B",
+      "provider": "Zhipu AI",
+      "releaseDate": "2024-06-05",
+      "license": "GLM-4 License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi"
+      },
+      "id": "yi-coder-9b-instruct",
+      "name": "Yi-Coder-9B-Instruct",
+      "provider": "01.AI",
+      "releaseDate": "2024-09-05",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.minimaxi.com/"
+      },
+      "id": "minimax-text-01",
+      "name": "MiniMax-Text-01",
+      "provider": "MiniMax",
+      "releaseDate": "2025-01-16",
+      "license": "Proprietary"
     }
   ]
 }
