@@ -5202,11 +5202,13 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "13B",
+      "contextWindow": 8192,
       "pricing": null,
       "links": {
-        "official": "https://github.com/THUDM/GLM-4"
+        "official": "https://github.com/THUDM/GLM-4",
+        "huggingface": "https://huggingface.co/THUDM/glm-4v-9b",
+        "paper": "https://arxiv.org/abs/2406.12793"
       },
       "id": "glm-4v-9b",
       "name": "GLM-4V-9B",
@@ -5215,11 +5217,12 @@
       "license": "GLM-4 License"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "8.9B",
+      "contextWindow": 131072,
       "pricing": null,
       "links": {
-        "official": "https://github.com/01-ai/Yi"
+        "official": "https://github.com/01-ai/Yi-Coder",
+        "huggingface": "https://huggingface.co/01-ai/Yi-Coder-9B-Chat"
       },
       "id": "yi-coder-9b-instruct",
       "name": "Yi-Coder-9B-Instruct",
