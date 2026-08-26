@@ -1458,6 +1458,76 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "cybergym",
+      "name": "CyberGym",
+      "nameKo": "사이버짐 (CyberGym)",
+      "category": "reasoning",
+      "description": "Autonomous AI vulnerability research and PoC generation benchmark.",
+      "source": "https://www.cybergym.io/cybergym-e2e/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "cti-realm",
+      "name": "CTI-REALM",
+      "nameKo": "CTI-REALM",
+      "category": "reasoning",
+      "description": "Detection engineering benchmark evaluating AI agents on interpreting cyber threat intelligence.",
+      "source": "https://www.microsoft.com/en-us/research/publication/cti-realm-benchmark-to-evaluate-agent-performance-on-security-detection-rule-generation-capabilities/",
+      "unit": "Score",
+      "scoreRange": [
+        0,
+        1
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "deepswe-1-0",
+      "name": "DeepSWE 1.0",
+      "nameKo": "DeepSWE 1.0",
+      "category": "coding",
+      "description": "DeepSWE benchmark for coding capabilities.",
+      "source": "https://x.ai/news/grok-4-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "deepswe-1-1",
+      "name": "DeepSWE 1.1",
+      "nameKo": "DeepSWE 1.1",
+      "category": "coding",
+      "description": "DeepSWE 1.1 benchmark for coding capabilities.",
+      "source": "https://x.ai/news/grok-4-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "swe-marathon",
+      "name": "SWE Marathon",
+      "nameKo": "SWE Marathon",
+      "category": "coding",
+      "description": "SWE Marathon resolution rate benchmark.",
+      "source": "https://x.ai/news/grok-4-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -6108,6 +6178,52 @@
         "date": "2025-01-16",
         "source": "official",
         "sourceUrl": "https://huggingface.co/MiniMaxAI/MiniMax-Text-01"
+      }
+    },
+    "sakana-fugu-cyber": {
+      "cybergym": {
+        "value": 86.9,
+        "date": "2026-07-25",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/fugu-cyber-release/"
+      },
+      "cti-realm": {
+        "value": 0.721,
+        "date": "2026-07-25",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/fugu-cyber-release/"
+      }
+    },
+    "grok-4-5": {
+      "deepswe-1-0": {
+        "value": 62,
+        "date": "2026-07-08",
+        "source": "official",
+        "sourceUrl": "https://x.ai/news/grok-4-5"
+      },
+      "deepswe-1-1": {
+        "value": 53,
+        "date": "2026-07-08",
+        "source": "official",
+        "sourceUrl": "https://x.ai/news/grok-4-5"
+      },
+      "swe-marathon": {
+        "value": 29,
+        "date": "2026-07-08",
+        "source": "official",
+        "sourceUrl": "https://x.ai/news/grok-4-5"
+      },
+      "terminal-bench-2-1": {
+        "value": 83.3,
+        "date": "2026-07-08",
+        "source": "official",
+        "sourceUrl": "https://x.ai/news/grok-4-5"
+      },
+      "swe-bench-pro": {
+        "value": 64.7,
+        "date": "2026-07-08",
+        "source": "official",
+        "sourceUrl": "https://x.ai/news/grok-4-5"
       }
     }
   }
