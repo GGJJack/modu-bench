@@ -217,3 +217,6 @@ Gemini Robotics-ER 1.6 의 벤치마크 점수를 공식 문서 및 커뮤니티
 
 ## 진행 내역 (2026-08-25)
 - (reinforce): 2026년 8월 25일 기준, Google AI Developers 공식 모델 문서(https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview)를 재점검함. MMLU, GPQA 등 표준 LLM 벤치마크 수치는 여전히 미공개 상태이며, 물리 공간 추론 및 로봇 제어 특화 VLM으로서 일반 벤치마크 지표 배제 포지셔닝이 지속되고 있음을 확인함. 이에 따라 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
+
+## 진행 내역 (2026-08-26)
+- (reinforce): 2026년 8월 26일 기준, Google AI Developers 공식 로보틱스 문서(https://ai.google.dev/gemini-api/docs/robotics-overview)를 재조사함. Gemini Robotics ER 1.6 모델은 2026년 8월 말 셧다운 예정이며 ER 2 모델로의 업그레이드가 권장되고 있으나, ER 1.6에 대한 MMLU, GPQA 등 표준 LLM 벤치마크 점수는 여전히 공개되지 않음. 로보틱스 특화 모델 포지셔닝에 따른 일반 벤치마크 배제 기조가 지속되고 있으므로 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 유지함.
