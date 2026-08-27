@@ -1528,6 +1528,34 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "mme",
+      "name": "MME",
+      "nameKo": "MME (다중 모달 평가)",
+      "category": "reasoning",
+      "description": "다중 모달 평가",
+      "source": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "unit": "점수",
+      "scoreRange": [
+        0,
+        3000
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mmmu",
+      "name": "MMMU",
+      "nameKo": "MMMU (다중 모달 추론)",
+      "category": "reasoning",
+      "description": "대규모 다중 모달 다중 주제 이해 및 추론",
+      "source": "https://mmmu-benchmark.github.io/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -4851,37 +4879,37 @@
         "value": 74.7,
         "date": "2024-06-05",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b"
       },
       "c-eval": {
         "value": 77.1,
         "date": "2024-06-05",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b"
       },
       "gpqa": {
         "value": 34.3,
         "date": "2024-06-05",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b"
       },
       "gsm8k": {
         "value": 84,
         "date": "2024-06-05",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b"
       },
       "math": {
         "value": 30.4,
         "date": "2024-06-05",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b"
       },
       "humaneval": {
         "value": 70.1,
         "date": "2024-06-05",
         "source": "official",
-        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b/raw/main/README.md"
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4-9b"
       }
     },
     "yi-1-5-9b": {
@@ -6224,6 +6252,20 @@
         "date": "2026-07-08",
         "source": "official",
         "sourceUrl": "https://x.ai/news/grok-4-5"
+      }
+    },
+    "glm-4v-9b": {
+      "mme": {
+        "value": 2163.8,
+        "date": "2024-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4v-9b"
+      },
+      "mmmu": {
+        "value": 47.2,
+        "date": "2024-08-12",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/THUDM/glm-4v-9b"
       }
     }
   }
