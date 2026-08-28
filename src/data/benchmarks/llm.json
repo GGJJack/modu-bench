@@ -6267,6 +6267,38 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/THUDM/glm-4v-9b"
       }
+    },
+    "qwen-2-5-max": {
+      "arena-hard-v2": {
+        "value": 89.4,
+        "date": "2025-01-28",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-max/"
+      },
+      "mmlu-pro": {
+        "value": 76.1,
+        "date": "2025-01-28",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-max/"
+      },
+      "gpqa": {
+        "value": 60.1,
+        "date": "2025-01-28",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-max/"
+      },
+      "livecodebench-v6": {
+        "value": 38.7,
+        "date": "2025-01-28",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-max/"
+      },
+      "livebench": {
+        "value": 62.2,
+        "date": "2025-01-28",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-max/"
+      }
     }
   }
 }
