@@ -244,3 +244,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-08-26)
 - (reinforce): 2026년 8월 26일 기준, NCP CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 관련 공식 제공 플랫폼을 재점검함. HyperCLOVA X 모델들(HCX-007, HCX-005, HCX-DASH-002)의 인퍼런스 및 학습 공식 API 단가는 여전히 '상담 필요'('-') 비공개 상태임. 엔터프라이즈 맞춤형 개별 협의 정책이 유지되고 있어 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 계속 유지함.
+
+## 진행 내역 (2026-08-28)
+- (reinforce): 2026년 8월 28일 기준, NCP CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio)를 재점검함. HyperCLOVA X 계열 모델들의 인퍼런스 및 학습 공식 API 단가는 여전히 '상담 필요'('-') 상태의 비공개 기조를 유지함. 엔터프라이즈 전용 개별 맞춤 협의 정책이 계속됨에 따라 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 계속 유지함.
