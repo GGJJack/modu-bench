@@ -28,3 +28,23 @@ summary: "DeepSWE 1.0, SWE Marathon 벤치마크 및 Datacurve, Abundant AI 기�
 ## 이슈 제기
 - issues/2026-08-28-profile-benchmark-datacurve.md
 - issues/2026-08-28-profile-benchmark-abundant-ai.md
+
+## 이어서 (02:30)
+- [x] 신규 벤치마크 `deepswe-1-1`, `mme` 상세 페이지(Markdown) 작성 및 출처 검증
+- [x] 신규 기관 `mme-authors` 스텁(Markdown) 생성
+- [x] `bun run build` 스키마 검증 및 프로젝트 빌드 성공 확인
+
+## 조사 내역
+- 02:30 MME 정보 확인 (GitHub, NeurIPS) ← https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models
+- 02:35 DeepSWE 1.1 정보 확인 (Datacurve 공식 홈페이지, BenchLM) ← https://datacurve.ai/research, https://benchlm.ai/benchmarks/deepswe
+
+## 수행한 작업
+- [x] `mme` 상세 페이지 (`src/content/benchmarks/mme.md`) 생성 (`status: published`) ← https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models
+- [x] `mme-authors` 기관 스텁 (`src/content/organizations/mme-authors.md`) 생성 (`status: draft`)
+- [x] `deepswe-1-1` 상세 페이지 (`src/content/benchmarks/deepswe-1-1.md`) 생성 (`status: published`) ← https://datacurve.ai/research
+
+## 판단 / 고민
+- MME 저자들을 대표할 구체적 단일 기관을 확정하기 어려워 `mme-authors`라는 스텁을 생성하여 연결.
+
+## 이슈 제기
+- issues/2026-08-28-profile-benchmark-mme-authors.md
