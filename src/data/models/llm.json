@@ -4355,7 +4355,8 @@
       "pricing": null,
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-R1",
-        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "paper": "https://arxiv.org/abs/2501.12948"
       },
       "id": "deepseek-r1-distill-qwen-7b",
       "name": "DeepSeek-R1-Distill-Qwen-7B",
@@ -4369,7 +4370,8 @@
       "pricing": null,
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-R1",
-        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "paper": "https://arxiv.org/abs/2501.12948"
       },
       "id": "deepseek-r1-distill-qwen-1-5b",
       "name": "DeepSeek-R1-Distill-Qwen-1.5B",
@@ -5241,6 +5243,20 @@
       "name": "MiniMax-Text-01",
       "provider": "MiniMax",
       "releaseDate": "2025-01-16",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-max/",
+        "paper": "https://arxiv.org/abs/2501.15780"
+      },
+      "id": "qwen-2-5-max",
+      "name": "Qwen2.5-Max",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-01-26",
       "license": "Proprietary"
     }
   ]
