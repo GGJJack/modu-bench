@@ -112,3 +112,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-08-14)
 - (reinforce): 2026년 8월 14일 기준, Sakana AI 공식 채널(Fugu/Marlin 시리즈) 및 NCP CLOVA Studio, 01.AI, Baichuan AI를 재조사함. Sakana Fugu/Marlin 시리즈의 공식 API 가격표 및 정식 요금 정보는 여전히 클로즈드 베타 및 개별 문의 상태로 비공개되어 있으며, HyperCLOVA X 등 주요 엔터프라이즈 모델 또한 비공개 기조가 지속됨. 이에 따라 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 계속 유지함.
+
+## 진행 내역 (2026-08-29)
+- (reinforce): 2026년 8월 29일 기준, NCP CLOVA Studio 요금 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 Sakana AI(https://sakana.ai/fugu-beta/), 01.AI, Baichuan AI 공식 채널을 재점검함. HyperCLOVA X 계열 모델들의 공식 API 단가는 여전히 '상담 필요'('-') 비공개 상태이며, Sakana Fugu 시리즈 등 베타 단계 모델들 역시 공식 가격 정보가 공개되지 않았음을 확인함. 이에 따라 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
