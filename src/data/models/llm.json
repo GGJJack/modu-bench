@@ -5233,11 +5233,14 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "456B",
+      "contextWindow": 4000000,
       "pricing": null,
       "links": {
-        "official": "https://www.minimaxi.com/"
+        "official": "https://www.minimaxi.com/",
+        "huggingface": "https://huggingface.co/MiniMaxAI/MiniMax-Text-01",
+        "github": "https://github.com/MiniMax-AI/MiniMax-01",
+        "paper": "https://arxiv.org/abs/2501.08313"
       },
       "id": "minimax-text-01",
       "name": "MiniMax-Text-01",
@@ -5273,6 +5276,22 @@
       "provider": "BAAI",
       "releaseDate": "2024-02-05",
       "license": "mit"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.minimaxi.com/",
+        "huggingface": "https://huggingface.co/MiniMaxAI/MiniMax-VL-01",
+        "github": "https://github.com/MiniMax-AI/MiniMax-01",
+        "paper": "https://arxiv.org/abs/2501.08313"
+      },
+      "id": "minimax-vl-01",
+      "name": "MiniMax-VL-01",
+      "provider": "MiniMax",
+      "releaseDate": "2025-01-16",
+      "license": "Proprietary"
     }
   ]
 }
