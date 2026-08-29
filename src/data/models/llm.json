@@ -5258,6 +5258,21 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2025-01-26",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/BAAI/bge-m3",
+        "huggingface": "https://huggingface.co/BAAI/bge-m3",
+        "paper": "https://arxiv.org/abs/2402.03216"
+      },
+      "id": "bge-m3",
+      "name": "BGE-M3",
+      "provider": "BAAI",
+      "releaseDate": "2024-02-05",
+      "license": "mit"
     }
   ]
 }
