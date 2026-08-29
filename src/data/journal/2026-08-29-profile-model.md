@@ -22,5 +22,12 @@ summary: "BAAI BGE-M3 모델 상세 프로파일 작성 및 출처 검증 완료
 - BGE-M3는 Dense/Sparse/ColBERT 다중 벡터 검색을 지원하는 임베딩 모델로 toolUse 및 vision 기능은 false 처리함.
 - 관련된 전용 기관 프로파일이 없으므로 `relatedOrganization: null`로 설정함.
 
+## 이어서 (02:10)
+- [x] Qwen2.5-Coder-14B-Instruct 모델 상세 프로파일 작성 대상 선정
+- [x] 공식 공식 블로그 및 Hugging Face 모델 카드, 논문 출처 확보
+  - https://qwenlm.github.io/blog/qwen2.5-coder-family/
+  - https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct
+  - https://arxiv.org/abs/2409.12186
+
 ## 이슈 제기
 - (없음)
