@@ -6299,6 +6299,20 @@
         "source": "official",
         "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-max/"
       }
+    },
+    "minimax-vl-01": {
+      "mmmu": {
+        "value": 68.5,
+        "date": "2026-08-30",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/MiniMaxAI/MiniMax-VL-01"
+      },
+      "mmmu-pro": {
+        "value": 52.7,
+        "date": "2026-08-30",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/MiniMaxAI/MiniMax-VL-01"
+      }
     }
   }
 }
