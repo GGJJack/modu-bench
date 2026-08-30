@@ -733,7 +733,7 @@
     },
     {
       "parameterSize": "34B",
-      "contextWindow": 32000,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://github.com/01-ai/Yi-1.5",
@@ -4969,7 +4969,7 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": "7.8B",
+      "parameterSize": "7.8B (6.98B non-embed)",
       "contextWindow": 32768,
       "pricing": null,
       "links": {
@@ -5263,8 +5263,8 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "567M",
+      "contextWindow": 8192,
       "pricing": null,
       "links": {
         "official": "https://huggingface.co/BAAI/bge-m3",
@@ -5292,6 +5292,45 @@
       "provider": "MiniMax",
       "releaseDate": "2025-01-16",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://tokyotech-llm.github.io/"
+      },
+      "id": "swallow-70b-instruct",
+      "name": "Swallow 70B Instruct",
+      "provider": "Tokyo Tech / AIST",
+      "releaseDate": "2024-03-04",
+      "license": "Llama 2 Community License Agreement"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://tokyotech-llm.github.io/"
+      },
+      "id": "swallow-70b",
+      "name": "Swallow 70B",
+      "provider": "Tokyo Tech / AIST",
+      "releaseDate": "2024-03-04",
+      "license": "Llama 2 Community License Agreement"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://llm-jp.nii.ac.jp/"
+      },
+      "id": "llm-jp-3-70b-instruct",
+      "name": "LLM-jp-3 70B Instruct",
+      "provider": "LLM-jp",
+      "releaseDate": "2024-10-23",
+      "license": "Apache-2.0"
     }
   ]
 }
