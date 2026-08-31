@@ -5294,11 +5294,13 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "70B",
+      "contextWindow": 4096,
       "pricing": null,
       "links": {
-        "official": "https://tokyotech-llm.github.io/"
+        "official": "https://tokyotech-llm.github.io/",
+        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-70b-instruct-v0.1",
+        "github": "https://github.com/tokyotech-llm/swallow"
       },
       "id": "swallow-70b-instruct",
       "name": "Swallow 70B Instruct",
@@ -5307,11 +5309,13 @@
       "license": "Llama 2 Community License Agreement"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "70B",
+      "contextWindow": 4096,
       "pricing": null,
       "links": {
-        "official": "https://tokyotech-llm.github.io/"
+        "official": "https://tokyotech-llm.github.io/",
+        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-70b-v0.1",
+        "github": "https://github.com/tokyotech-llm/swallow"
       },
       "id": "swallow-70b",
       "name": "Swallow 70B",
@@ -5320,16 +5324,63 @@
       "license": "Llama 2 Community License Agreement"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "70B",
+      "contextWindow": 4096,
       "pricing": null,
       "links": {
-        "official": "https://llm-jp.nii.ac.jp/"
+        "official": "https://llm-jp.nii.ac.jp/",
+        "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-70b-instruct",
+        "github": "https://github.com/llm-jp/llm-jp-3"
       },
       "id": "llm-jp-3-70b-instruct",
       "name": "LLM-jp-3 70B Instruct",
       "provider": "LLM-jp",
       "releaseDate": "2024-10-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://llm-jp.nii.ac.jp/",
+        "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-70b",
+        "github": "https://github.com/llm-jp/llm-jp-3"
+      },
+      "id": "llm-jp-3-70b",
+      "name": "LLM-jp-3 70B",
+      "provider": "LLM-jp",
+      "releaseDate": "2024-10-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "8x7B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://tokyotech-llm.github.io/",
+        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-MX-8x7b-instruct-v0.1",
+        "github": "https://github.com/tokyotech-llm/swallow"
+      },
+      "id": "swallow-mx-8x7b-instruct",
+      "name": "Swallow MX 8x7B Instruct",
+      "provider": "Tokyo Tech / AIST",
+      "releaseDate": "2024-05-27",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://tokyotech-llm.github.io/",
+        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-MS-7b-instruct-v0.1",
+        "github": "https://github.com/tokyotech-llm/swallow"
+      },
+      "id": "swallow-ms-7b-instruct",
+      "name": "Swallow MS 7B Instruct",
+      "provider": "Tokyo Tech / AIST",
+      "releaseDate": "2024-04-26",
       "license": "Apache-2.0"
     }
   ]
