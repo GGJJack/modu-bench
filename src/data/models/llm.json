@@ -4666,7 +4666,8 @@
       "links": {
         "official": "https://tokyotech-llm.github.io/",
         "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-7b-instruct",
-        "github": "https://github.com/tokyotech-llm/swallow"
+        "github": "https://github.com/tokyotech-llm/swallow",
+        "paper": "https://arxiv.org/abs/2404.17790"
       },
       "id": "swallow-7b-instruct",
       "name": "Swallow 7B Instruct",
@@ -4681,7 +4682,8 @@
       "links": {
         "official": "https://tokyotech-llm.github.io/",
         "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-13b-instruct",
-        "github": "https://github.com/tokyotech-llm/swallow"
+        "github": "https://github.com/tokyotech-llm/swallow",
+        "paper": "https://arxiv.org/abs/2404.17790"
       },
       "id": "swallow-13b-instruct",
       "name": "Swallow 13B Instruct",
@@ -4835,7 +4837,8 @@
       "links": {
         "official": "https://tokyotech-llm.github.io/",
         "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-7b",
-        "github": "https://github.com/tokyotech-llm/swallow"
+        "github": "https://github.com/tokyotech-llm/swallow",
+        "paper": "https://arxiv.org/abs/2404.17790"
       },
       "id": "swallow-7b",
       "name": "Swallow 7B",
@@ -4850,7 +4853,8 @@
       "links": {
         "official": "https://tokyotech-llm.github.io/",
         "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-13b",
-        "github": "https://github.com/tokyotech-llm/swallow"
+        "github": "https://github.com/tokyotech-llm/swallow",
+        "paper": "https://arxiv.org/abs/2404.17790"
       },
       "id": "swallow-13b",
       "name": "Swallow 13B",
@@ -5381,6 +5385,62 @@
       "name": "Swallow MS 7B Instruct",
       "provider": "Tokyo Tech / AIST",
       "releaseDate": "2024-04-26",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://www.sbintuitions.co.jp/",
+        "huggingface": "https://huggingface.co/sbintuitions/sarashina2-70b"
+      },
+      "id": "sarashina2-70b",
+      "name": "Sarashina2 70B",
+      "provider": "SB Intuitions",
+      "releaseDate": "2024-08-06",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.sbintuitions.co.jp/",
+        "huggingface": "https://huggingface.co/sbintuitions/sarashina2-13b"
+      },
+      "id": "sarashina2-13b",
+      "name": "Sarashina2 13B",
+      "provider": "SB Intuitions",
+      "releaseDate": "2024-06-07",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.sbintuitions.co.jp/",
+        "huggingface": "https://huggingface.co/sbintuitions/sarashina2-7b"
+      },
+      "id": "sarashina2-7b",
+      "name": "Sarashina2 7B",
+      "provider": "SB Intuitions",
+      "releaseDate": "2024-06-07",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "22B",
+      "contextWindow": 16384,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/cyberagent/calm3-22b-chat",
+        "huggingface": "https://huggingface.co/cyberagent/calm3-22b-chat"
+      },
+      "id": "calm3-22b-chat",
+      "name": "CALM3 22B Chat",
+      "provider": "CyberAgent",
+      "releaseDate": "2024-07-01",
       "license": "Apache-2.0"
     }
   ]
