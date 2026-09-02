@@ -259,3 +259,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-09-01)
 - (reinforce): 2026년 9월 1일 기준, NCP CLOVA Studio 공식 요금 페이지(https://www.ncloud.com/product/ai/clovaStudio)를 재점검함. HyperCLOVA X 계열 모델들(HCX-007, HCX-005, HCX-DASH-002)의 요금은 여전히 '상담 필요'('-') 상태의 비공개 기조를 유지함. Yi-Large 및 Baichuan-4 역시 기업 맞춤 개별 협의 정책이 계속되어 직접 수집이 불가하므로 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
+
+## 진행 내역 (2026-09-02)
+- (reinforce): 2026년 9월 2일 기준, NCP CLOVA Studio 공식 요금 페이지(https://www.ncloud.com/product/ai/clovaStudio)를 재점검함. HyperCLOVA X 계열 모델들(HCX-007, HCX-005, HCX-DASH-002)의 요금은 여전히 '상담 필요'('-') 상태의 비공개 기조를 유지함. Yi-Large 및 Baichuan-4 역시 기업 맞춤 개별 협의 정책이 계속되어 직접 수집이 불가하므로 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
