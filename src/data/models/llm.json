@@ -5442,6 +5442,32 @@
       "provider": "CyberAgent",
       "releaseDate": "2024-07-01",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "14.7B",
+      "contextWindow": 131072,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "id": "qwen-2.5-coder-14b",
+      "name": "Qwen2.5-Coder-14B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "32.5B",
+      "contextWindow": 131072,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "id": "qwen-2.5-coder-32b",
+      "name": "Qwen2.5-Coder-32B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
     }
   ]
 }
