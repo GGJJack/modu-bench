@@ -3715,14 +3715,15 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "671B",
       "contextWindow": 128000,
       "pricing": {
         "input": 0.62,
         "output": 1.85
       },
       "links": {
-        "official": "https://aws.amazon.com/bedrock/pricing/"
+        "official": "https://aws.amazon.com/bedrock/pricing/",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-V3"
       },
       "id": "deepseek-v3-2",
       "name": "DeepSeek-V3.2",
@@ -5258,6 +5259,7 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-max/",
+        "huggingface": "https://huggingface.co/spaces/Qwen/Qwen2.5-Max-Demo",
         "paper": "https://arxiv.org/abs/2501.15780"
       },
       "id": "qwen-2-5-max",
