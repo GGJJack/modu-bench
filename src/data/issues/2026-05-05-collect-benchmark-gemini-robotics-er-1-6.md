@@ -238,3 +238,6 @@ Gemini Robotics-ER 1.6 의 벤치마크 점수를 공식 문서 및 커뮤니티
 
 ## 진행 내역 (2026-09-02)
 - (reinforce): 2026년 9월 2일 기준, Google AI Developers 공식 모델 문서(https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview)를 재점검함. MMLU, GPQA 등 표준 LLM 벤치마크 수치는 여전히 공개되지 않았으며, 공간 추론 및 로보틱스 제어 특화 VLM으로서 일반 벤치마크 지표 배제 포지셔닝이 지속되고 있음을 확인하여 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
+
+## 진행 내역 (2026-09-03)
+- (reinforce): 2026년 9월 3일 기준, Google AI Developers 공식 모델 문서(https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview)를 재점검함. MMLU, GPQA 등 표준 LLM 벤치마크 수치는 여전히 공개되지 않았으며, 공간 추론 및 로보틱스 제어 특화 VLM으로서 일반 벤치마크 지표 배제 포지셔닝이 지속되고 있음을 확인하여 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
