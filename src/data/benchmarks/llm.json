@@ -5240,6 +5240,24 @@
         "date": "2023-06-15",
         "source": "official",
         "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-7B"
+      },
+      "bbh": {
+        "value": 32.48,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2/blob/main/README_EN.md"
+      },
+      "agieval": {
+        "value": 34.44,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2/blob/main/README_EN.md"
+      },
+      "gaokao": {
+        "value": 36.34,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2/blob/main/README_EN.md"
       }
     },
     "baichuan-13b-base": {
@@ -5260,6 +5278,24 @@
         "date": "2023-07-11",
         "source": "official",
         "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat"
+      },
+      "bbh": {
+        "value": 43.01,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2/blob/main/README_EN.md"
+      },
+      "agieval": {
+        "value": 43.2,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2/blob/main/README_EN.md"
+      },
+      "gaokao": {
+        "value": 49.69,
+        "date": "2023-09-06",
+        "source": "official",
+        "sourceUrl": "https://github.com/baichuan-inc/Baichuan2/blob/main/README_EN.md"
       }
     },
     "baichuan-13b-chat": {
