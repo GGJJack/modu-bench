@@ -4528,7 +4528,8 @@
       "links": {
         "official": "https://github.com/01-ai/Yi-1.5",
         "huggingface": "https://huggingface.co/01-ai/Yi-1.5-34B",
-        "paper": "https://arxiv.org/abs/2403.04652"
+        "paper": "https://arxiv.org/abs/2403.04652",
+        "github": "https://github.com/01-ai/Yi-1.5"
       },
       "id": "yi-1-5-34b",
       "name": "Yi-1.5-34B",
@@ -4745,7 +4746,8 @@
       "links": {
         "official": "https://www.baichuan-ai.com/",
         "huggingface": "https://huggingface.co/baichuan-inc/Baichuan-7B",
-        "github": "https://github.com/baichuan-inc/baichuan-7B"
+        "github": "https://github.com/baichuan-inc/baichuan-7B",
+        "paper": "https://arxiv.org/abs/2309.10305"
       },
       "id": "baichuan-7b",
       "name": "Baichuan-7B",
@@ -5463,12 +5465,61 @@
       "contextWindow": 131072,
       "pricing": null,
       "links": {
-        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B",
+        "github": "https://github.com/QwenLM/Qwen3-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen-2.5-coder-32b",
       "name": "Qwen2.5-Coder-32B",
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7.61B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-math/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-7B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2-Math",
+        "paper": "https://arxiv.org/abs/2409.12122"
+      },
+      "id": "qwen-2.5-math-7b-instruct",
+      "name": "Qwen2.5-Math-7B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "16B (2.4B active)",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+        "github": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+        "paper": "https://arxiv.org/abs/2406.11931"
+      },
+      "id": "deepseek-coder-v2-lite-instruct",
+      "name": "DeepSeek-Coder-V2-Lite-Instruct",
+      "provider": "DeepSeek",
+      "releaseDate": "2024-06-17",
+      "license": "DeepSeek License"
+    },
+    {
+      "parameterSize": "24B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/mistral-small-3/",
+        "huggingface": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+      },
+      "id": "mistral-small-24b-instruct",
+      "name": "Mistral-Small-24B-Instruct-2501",
+      "provider": "Mistral AI",
+      "releaseDate": "2025-01-30",
       "license": "Apache-2.0"
     }
   ]
