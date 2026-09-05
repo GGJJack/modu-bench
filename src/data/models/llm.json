@@ -5231,7 +5231,8 @@
       "pricing": null,
       "links": {
         "official": "https://github.com/01-ai/Yi-Coder",
-        "huggingface": "https://huggingface.co/01-ai/Yi-Coder-9B-Chat"
+        "huggingface": "https://huggingface.co/01-ai/Yi-Coder-9B-Chat",
+        "github": "https://github.com/01-ai/Yi-Coder"
       },
       "id": "yi-coder-9b-instruct",
       "name": "Yi-Coder-9B-Instruct",
@@ -5452,7 +5453,10 @@
       "contextWindow": 131072,
       "pricing": null,
       "links": {
-        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen-2.5-coder-14b",
       "name": "Qwen2.5-Coder-14B",
@@ -5514,13 +5518,58 @@
       "pricing": null,
       "links": {
         "official": "https://mistral.ai/news/mistral-small-3/",
-        "huggingface": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        "huggingface": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501",
+        "github": "https://github.com/mistralai/mistral-inference"
       },
       "id": "mistral-small-24b-instruct",
       "name": "Mistral-Small-24B-Instruct-2501",
       "provider": "Mistral AI",
       "releaseDate": "2025-01-30",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "22B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/codestral/",
+        "huggingface": "https://huggingface.co/mistralai/Codestral-22B-v0.1"
+      },
+      "id": "codestral-22b-instruct",
+      "name": "Codestral 22B Instruct",
+      "provider": "Mistral AI",
+      "releaseDate": "2024-05-29",
+      "license": "MNPL"
+    },
+    {
+      "parameterSize": "9B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+        "huggingface": "https://huggingface.co/google/gemma-2-9b-it"
+      },
+      "id": "gemma-2-9b-it",
+      "name": "Gemma 2 9B IT",
+      "provider": "Google",
+      "releaseDate": "2024-06-27",
+      "license": "Gemma Terms of Use"
+    },
+    {
+      "parameterSize": "72.7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-math/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-72B-Instruct",
+        "paper": "https://arxiv.org/abs/2409.12122",
+        "github": "https://github.com/QwenLM/Qwen2-Math"
+      },
+      "id": "qwen-2.5-math-72b-instruct",
+      "name": "Qwen2.5-Math-72B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Qwen Research"
     }
   ]
 }
