@@ -6581,6 +6581,132 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/google/gemma-2-2b-it"
       }
+    },
+    "claude-3-5-sonnet": {
+      "gpqa": {
+        "value": 59.4,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "mmlu": {
+        "value": 88.7,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "humaneval": {
+        "value": 92,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "bbh": {
+        "value": 93.1,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "math": {
+        "value": 71.1,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "gsm8k": {
+        "value": 96.4,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      }
+    },
+    "claude-3-opus": {
+      "gpqa": {
+        "value": 50.4,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "mmlu": {
+        "value": 86.8,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "humaneval": {
+        "value": 84.9,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "bbh": {
+        "value": 86.8,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "math": {
+        "value": 60.1,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "gsm8k": {
+        "value": 95,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      },
+      "mmmu": {
+        "value": 59.4,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet"
+      }
+    },
+    "claude-3-5-haiku": {
+      "gpqa": {
+        "value": 41.6,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      },
+      "mmlu-pro": {
+        "value": 65,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      },
+      "humaneval": {
+        "value": 88.1,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      },
+      "math": {
+        "value": 69.2,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      },
+      "aime-2024": {
+        "value": 5.3,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      },
+      "swe-bench-verified": {
+        "value": 40.6,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      },
+      "tau-bench-retail": {
+        "value": 51,
+        "date": "2026-09-09",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      }
     }
   }
 }
