@@ -4258,7 +4258,8 @@
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-R1",
         "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
-        "paper": "https://arxiv.org/abs/2501.12948"
+        "paper": "https://arxiv.org/abs/2501.12948",
+        "github": "https://github.com/deepseek-ai/DeepSeek-R1"
       },
       "id": "deepseek-r1-distill-qwen-32b",
       "name": "DeepSeek-R1-Distill-Qwen-32B",
