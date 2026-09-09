@@ -2,30 +2,29 @@
 modelId: llama-3.1-8b
 domain: llm
 status: published
-updated: 2026-08-26
+updated: 2026-09-09
 sources:
   - https://ai.meta.com/blog/meta-llama-3-1/
-  - https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct
+  - https://huggingface.co/meta-llama/Llama-3.1-8B
+  - https://github.com/meta-llama/llama-models
 features:
   toolUse: true
   vision: false
+  fineTuning: true
 highlights:
-  - "Meta가 공개한 8B 매개변수 기반 대표 오픈소스 오픈 가중치 라인업 모델"
-  - "15조 토큰 이상의 방대한 멀티링크 고품질 데이터 학습 및 128K 롱 컨텍스트 지원"
-  - "도구 호출(Tool Use), 대화 능력, 오픈소스 커뮤니티 파생 생태계에서 최고 수준 입지 확보"
+  - "128k 토큰으로 대폭 확장된 컨텍스트 윈도우 및 Grouped-Query Attention(GQA) 적용"
+  - "도구 사용(Tool Use) 및 다국어 지원 능력이 대폭 향상된 8B 파라미터 대표 오픈 가중치 모델"
+  - "Llama 3.1 커뮤니티 라이선스 기반 상용 및 연구 목적의 자유로운 맞춤형 파인튜닝 지원"
 relatedOrganization: meta
 ---
 
 # Llama 3.1 8B 소개
 
 ## 개요
-Llama 3.1 8B(Meta Llama 3.1 8B Instruct)는 메타(Meta)가 2024년 7월 23일 공식 공개한 3세대 Llama 오픈소스 파운데이션 모델 라인업의 80억 파라미터급 오픈 가중치(Open Weights) 대형 언어 모델입니다. 이 모델은 기존 Llama 3 8B의 후속작으로, 8B에 달하는 가벼운 파라미터 수에도 불구하고 수천억 체급 대형 모델에 육박하는 경이로운 지시 준수 및 대화 추론 능력을 입증하여 전 세계 오픈소스 AI 생태계의 대표 표준 모델로 자리매김했습니다. 오픈소스 커뮤니티 개발자와 기업들이 로컬 환경이나 엣지 디바이스에서도 무리 없이 플래그십급 대화형 어시스턴트를 구축할 수 있도록 강력하게 지원합니다.
+Llama 3.1 8B는 Meta가 2024년 7월 발표한 Llama 3.1 세대의 가장 대표적인 경량 오픈 가중치(Open-weights) 언어 모델입니다 ([Meta Llama 3.1 Announcement](https://ai.meta.com/blog/meta-llama-3-1/)). 기존 Llama 3 8B의 구조를 한 단계 더 업그레이드하여, 15조 토큰 이상의 방대한 다국어 데이터셋으로 사전 학습되었습니다 ([Hugging Face Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B)). 온디바이스 단말, 엣지 컴퓨팅 및 개발자 개인 서버 등 가용 자원이 제한된 환경에서도 최고의 효율성과 강력한 언어 이해 능력을 제공하도록 설계되었습니다.
 
 ## 기술 특징
-Llama 3.1 8B의 가장 획기적인 기술적 발전은 이전 8K에 불과했던 문맥 제약을 16배 확장하여 무려 128,000 토큰(128K)에 달하는 초장문 컨텍스트 윈도우를 안정적으로 제공한다는 점입니다. 모델은 15조(15 Trillion) 이상의 고품질 텍스트 및 코드 토큰 코퍼스로 사전 훈련되었으며, 추론 효율성을 높이기 위해 GQA(Grouped-Query Attention) 메커니즘을 적용했습니다. 미세 조정 파이프라인에는 지도 미세 조정(SFT)과 인간 선호도 기반 보상 최적화(RLHF)가 통합되어 영어, 독일어, 프랑스어, 이탈리아어, 포르투갈어, 힌디어, 스페인어, 태국어 등 8개 기본 지원 언어는 물론 다국어 대화, 도구 호출(Tool Use / Function Calling) 및 복잡한 명령 준수 과제를 정교하게 처리합니다.
+Llama 3.1 8B의 가장 돋보이는 변화는 기존 8k 토큰 수준에 머물렀던 컨텍스트 윈도우(Context Window)를 128k 토큰까지 대폭 확장한 점입니다 ([Meta Llama 3.1 Announcement](https://ai.meta.com/blog/meta-llama-3-1/)). 연산 및 메모리 오버헤드를 절감하기 위해 모든 모델 크기에 Grouped-Query Attention(GQA) 아키텍처를 채택하였으며, 정교한 합성 데이터 생성(Synthetic Data Generation) 및 다단계 RLHF/DPO 조정 파이프라인을 도입했습니다. 그 결과, 외부 API 호출 및 함수 실행(Function Calling)과 같은 도구 활용(Tool Use) 성능이 획기적으로 개선되었으며 다국어 대화 능력 또한 큰 폭으로 강화되었습니다 ([GitHub Meta Llama Models](https://github.com/meta-llama/llama-models)).
 
-## 사용 사례
-Llama 3.1 8B는 뛰어난 접근성과 경량성 덕분에 엣지 장치 로컬 AI 어시스턴트, 사내 고객 응대 대화형 챗봇 시스템, 지능형 에이전트 구축 등에 폭넓게 배포됩니다. 특히 공식적으로 지원하는 정교한 도구 호출(Tool Calling) 기능을 활용해 외부 날씨 API, 데이터베이스 조회, 자동화 작업 스크립트와 동적으로 연동하는 지능형 AI 에이전트의 중추 엔진으로 유용합니다. 또한 Llama 3.1 커뮤니티 라이선스를 통해 합성 데이터 생성(Synthetic Data Generation) 및 소형 모델 증류(Distillation) 백본으로 활용할 수 있어, 개별 기업이나 연구진이 사특화 도메인(한국어, 법률, 의료, 금융 등)으로 파인튜닝하는 가중치 베이스로 독보적인 사랑을 받고 있습니다.
-
-## 한계
-이 모델은 80억 매개변수의 최적화된 경량 체급이므로, Meta의 동급 405B 플래그십 모델이나 수천억 이상 체급의 대형 클라우드 LLM이 수행하는 복합 학술 분야의 초고난도 다단계 공간 추론이나 복잡한 3차원 코드 아키텍처 파이프라인 설계에서는 정밀도가 미흡할 수 있습니다. 또한 사전 훈련 코퍼스 데이터에 포함된 8개 공식 지원 언어 외의 비표준 다국어 표현이나 극도로 생소한 방언 환경에서는 답변 완성도가 떨어질 수 있습니다. 순수 텍스트 및 코드 기반의 언어 생성 모델이므로, 그래픽 이미지나 음성 프롬프트 픽셀을 trực tiếp 인지하는 시각/음성 멀티모달 기능은 기본 내재되어 있지 않습니다.
+## 사용 사례 및 한계
+이 모델은 엣지 디바이스 기반의 실시간 AI 비서, 로컬 기기 문서 요약, 검색 증강 생성(RAG) 파이프라인, 그리고 오픈소스 파인튜닝을 통한 특화 영역 에이전트 구축에 폭넓게 활용됩니다. 상용 목적으로 이용 가능한 Llama 3.1 커뮤니티 라이선스가 부여되어 있어 온프레미스(On-premise) 사내 구축 요구사항이 높은 기업 및 연구기관에서 핵심 기본 모델로 널리 쓰이고 있습니다 ([Hugging Face Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B)). 다만, 80억 개의 파라미터 한계로 인해 수천억 개 규모의 플래그십 대형 모델에 비해서는 매우 고난도의 복합 수학증명이나 복잡한 다단계 논리 추론에서 지시 이행률이 다소 떨어질 수 있습니다.
