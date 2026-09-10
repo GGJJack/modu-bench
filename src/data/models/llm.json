@@ -5273,7 +5273,7 @@
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-max/",
         "huggingface": "https://huggingface.co/spaces/Qwen/Qwen2.5-Max-Demo",
-        "paper": "https://arxiv.org/abs/2501.15780"
+        "paper": "https://arxiv.org/abs/2412.15115"
       },
       "id": "qwen-2-5-max",
       "name": "Qwen2.5-Max",
