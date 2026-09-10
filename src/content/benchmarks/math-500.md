@@ -1,11 +1,12 @@
 ---
 benchmarkId: math-500
 domain: llm
-status: draft
-updated: 2026-09-08
+status: published
+updated: 2026-09-10
 sources:
   - https://github.com/hendrycks/math
   - https://arxiv.org/pdf/2103.03874
+  - https://huggingface.co/datasets/HuggingFaceH4/MATH-500
 organization: hendrycks-lab
 paperUrl: https://arxiv.org/abs/2103.03874
 highlights:
