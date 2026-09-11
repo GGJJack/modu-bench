@@ -1035,7 +1035,9 @@
       "pricing": null,
       "links": {
         "official": "https://www.lgresearch.ai/exaone",
-        "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-4.5-33B"
+        "huggingface": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+        "paper": "https://huggingface.co/papers/2604.08644",
+        "github": "https://github.com/LG-AI-EXAONE/EXAONE-4.5"
       },
       "id": "exaone-4-5-33b",
       "name": "EXAONE 4.5 33B",
@@ -5687,6 +5689,22 @@
       "provider": "Anthropic",
       "releaseDate": "2024-03-04",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "236B (23B active) MoE",
+      "contextWindow": 262144,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B",
+        "huggingface": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B",
+        "github": "https://github.com/LG-AI-EXAONE/K-EXAONE",
+        "paper": "https://arxiv.org/abs/2601.01739"
+      },
+      "id": "k-exaone-236b-a23b",
+      "name": "K-EXAONE-236B-A23B",
+      "provider": "LG AI Research",
+      "releaseDate": "2026-01-05",
+      "license": "k-exaone"
     }
   ]
 }
