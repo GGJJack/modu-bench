@@ -5720,6 +5720,45 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2025-07-22",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen-mt/"
+      },
+      "id": "qwen-mt-turbo",
+      "name": "Qwen-MT-Turbo",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-07-24",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3-embedding/"
+      },
+      "id": "qwen3-embedding-8b",
+      "name": "Qwen3-Embedding-8B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-06-05",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3-embedding/"
+      },
+      "id": "qwen3-reranker-8b",
+      "name": "Qwen3-Reranker-8B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-06-05",
+      "license": "Apache-2.0"
     }
   ]
 }
