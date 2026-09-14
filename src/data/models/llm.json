@@ -5041,7 +5041,8 @@
       "pricing": null,
       "links": {
         "official": "https://www.upstage.ai/products/solar-pro-preview",
-        "huggingface": "https://huggingface.co/upstage/solar-pro-preview-instruct"
+        "huggingface": "https://huggingface.co/upstage/solar-pro-preview-instruct",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "solar-pro-preview-instruct",
       "name": "Solar Pro Preview Instruct",
@@ -5758,6 +5759,20 @@
       "name": "Qwen3-Reranker-8B",
       "provider": "Alibaba Cloud",
       "releaseDate": "2025-06-05",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.54B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B"
+      },
+      "id": "qwen2.5-coder-1.5b-base",
+      "name": "Qwen2.5-Coder-1.5B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
       "license": "Apache-2.0"
     }
   ]
