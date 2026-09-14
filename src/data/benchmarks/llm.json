@@ -1584,6 +1584,90 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "mteb-r",
+      "name": "MTEB (Retrieval)",
+      "nameKo": "MTEB (검색)",
+      "category": "embedding",
+      "description": "Massive Text Embedding Benchmark (Retrieval subset)",
+      "source": "https://huggingface.co/spaces/mteb/leaderboard",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "cmteb-r",
+      "name": "CMTEB (Retrieval)",
+      "nameKo": "CMTEB (검색)",
+      "category": "embedding",
+      "description": "Chinese Massive Text Embedding Benchmark (Retrieval subset)",
+      "source": "https://huggingface.co/spaces/mteb/leaderboard",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mmteb-r",
+      "name": "MMTEB (Retrieval)",
+      "nameKo": "MMTEB (검색)",
+      "category": "embedding",
+      "description": "Multilingual Massive Text Embedding Benchmark (Retrieval subset)",
+      "source": "https://huggingface.co/spaces/mteb/leaderboard",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mldr",
+      "name": "MLDR",
+      "nameKo": "MLDR",
+      "category": "embedding",
+      "description": "Multilingual Long-Document Retrieval",
+      "source": "https://huggingface.co/spaces/mteb/leaderboard",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "mteb-code",
+      "name": "MTEB (Code)",
+      "nameKo": "MTEB (코드)",
+      "category": "embedding",
+      "description": "Massive Text Embedding Benchmark (Code subset)",
+      "source": "https://huggingface.co/spaces/mteb/leaderboard",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "followir",
+      "name": "FollowIR",
+      "nameKo": "FollowIR",
+      "category": "embedding",
+      "description": "FollowIR: Evaluating instruction following in retrieval models",
+      "source": "https://huggingface.co/spaces/mteb/leaderboard",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -6858,6 +6942,44 @@
         "date": "2025-01-20",
         "source": "official",
         "sourceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+      }
+    },
+    "qwen3-reranker-8b": {
+      "mteb-r": {
+        "value": 69.02,
+        "date": "2025-06-05",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen3-embedding/"
+      },
+      "cmteb-r": {
+        "value": 77.45,
+        "date": "2025-06-05",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen3-embedding/"
+      },
+      "mmteb-r": {
+        "value": 72.94,
+        "date": "2025-06-05",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen3-embedding/"
+      },
+      "mldr": {
+        "value": 70.19,
+        "date": "2025-06-05",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen3-embedding/"
+      },
+      "mteb-code": {
+        "value": 81.22,
+        "date": "2025-06-05",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen3-embedding/"
+      },
+      "followir": {
+        "value": 8.05,
+        "date": "2025-06-05",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen3-embedding/"
       }
     }
   }
