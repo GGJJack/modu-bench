@@ -4774,7 +4774,8 @@
       "links": {
         "official": "https://www.baichuan-ai.com/",
         "huggingface": "https://huggingface.co/baichuan-inc/Baichuan-13B-Base",
-        "github": "https://github.com/baichuan-inc/Baichuan-13B"
+        "github": "https://github.com/baichuan-inc/Baichuan-13B",
+        "paper": "https://arxiv.org/abs/2309.10305"
       },
       "id": "baichuan-13b-base",
       "name": "Baichuan-13B-Base",
@@ -4789,7 +4790,8 @@
       "links": {
         "official": "https://www.baichuan-ai.com/",
         "huggingface": "https://huggingface.co/baichuan-inc/Baichuan-13B-Chat",
-        "github": "https://github.com/baichuan-inc/Baichuan-13B"
+        "github": "https://github.com/baichuan-inc/Baichuan-13B",
+        "paper": "https://arxiv.org/abs/2309.10305"
       },
       "id": "baichuan-13b-chat",
       "name": "Baichuan-13B-Chat",
@@ -5767,10 +5769,59 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen2.5-coder-1.5b-base",
       "name": "Qwen2.5-Coder-1.5B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.5B",
+      "contextWindow": 131072,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-Coder",
+        "huggingface": "https://huggingface.co/01-ai/Yi-Coder-1.5B-Chat",
+        "github": "https://github.com/01-ai/Yi-Coder"
+      },
+      "id": "yi-coder-1.5b-instruct",
+      "name": "Yi-Coder-1.5B-Instruct",
+      "provider": "01.AI",
+      "releaseDate": "2024-09-05",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7.61B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
+      },
+      "id": "qwen2.5-coder-7b-base",
+      "name": "Qwen2.5-Coder-7B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "0.49B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
+      },
+      "id": "qwen2.5-coder-0.5b-base",
+      "name": "Qwen2.5-Coder-0.5B",
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-11-12",
       "license": "Apache-2.0"
