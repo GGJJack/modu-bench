@@ -1668,6 +1668,62 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "multiple",
+      "name": "MultiPL-E",
+      "nameKo": "MultiPL-E (다국어 코드 생성)",
+      "category": "coding",
+      "description": "다양한 프로그래밍 언어에 대한 코드 생성 능력을 평가하는 벤치마크",
+      "source": "https://huggingface.co/datasets/nuprl/MultiPL-E",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "cruxeval",
+      "name": "CRUXEval",
+      "nameKo": "CRUXEval (코드 추론 및 실행 평가)",
+      "category": "coding",
+      "description": "코드의 실행 결과를 예측하고 추론하는 능력을 평가하는 벤치마크",
+      "source": "https://crux-eval.github.io/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "bigcodebench",
+      "name": "BigCodeBench",
+      "nameKo": "BigCodeBench (대규모 코드 생성 평가)",
+      "category": "coding",
+      "description": "다양한 프로그래밍 작업과 도구를 사용하는 복잡한 코드 생성 능력을 평가",
+      "source": "https://github.com/bigcode-project/bigcodebench",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "fim",
+      "name": "Fill-in-the-Middle",
+      "nameKo": "Fill-in-the-Middle (FIM 코드 완성)",
+      "category": "coding",
+      "description": "코드의 중간 부분을 채워넣는 코드 완성 능력을 평가하는 벤치마크",
+      "source": "https://arxiv.org/abs/2207.14255",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -6980,6 +7036,68 @@
         "date": "2025-06-05",
         "source": "official",
         "sourceUrl": "https://qwenlm.github.io/blog/qwen3-embedding/"
+      }
+    },
+    "qwen2.5-coder-1.5b-base": {
+      "humaneval": {
+        "value": 43.9,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "mbpp": {
+        "value": 59.2,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "multiple": {
+        "value": 41.1,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "cruxeval": {
+        "value": 34.6,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "bigcodebench": {
+        "value": 22.1,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "fim": {
+        "value": 83.5,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "gsm8k": {
+        "value": 65.8,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "math": {
+        "value": 30.9,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "mmlu": {
+        "value": 53.6,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
+      },
+      "arc-c": {
+        "value": 45.2,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
       }
     }
   }
