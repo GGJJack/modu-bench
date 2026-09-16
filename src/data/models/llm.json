@@ -5232,7 +5232,8 @@
       "links": {
         "official": "https://github.com/THUDM/GLM-4",
         "huggingface": "https://huggingface.co/THUDM/glm-4v-9b",
-        "paper": "https://arxiv.org/abs/2406.12793"
+        "paper": "https://arxiv.org/abs/2406.12793",
+        "github": "https://github.com/THUDM/GLM-4"
       },
       "id": "glm-4v-9b",
       "name": "GLM-4V-9B",
@@ -5824,6 +5825,51 @@
       "name": "Qwen2.5-Coder-0.5B",
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.5B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/taid-jp/",
+        "huggingface": "https://huggingface.co/SakanaAI/TinySwallow-1.5B",
+        "paper": "https://arxiv.org/abs/2501.16937"
+      },
+      "id": "tinyswallow-1-5b-base",
+      "name": "TinySwallow-1.5B",
+      "provider": "Sakana AI",
+      "releaseDate": "2025-01-08",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.5B",
+      "contextWindow": 131072,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-Coder",
+        "huggingface": "https://huggingface.co/01-ai/Yi-Coder-1.5B",
+        "github": "https://github.com/01-ai/Yi-Coder"
+      },
+      "id": "yi-coder-1.5b-base",
+      "name": "Yi-Coder-1.5B",
+      "provider": "01.AI",
+      "releaseDate": "2024-09-05",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "8.9B",
+      "contextWindow": 131072,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/01-ai/Yi-Coder",
+        "huggingface": "https://huggingface.co/01-ai/Yi-Coder-9B",
+        "github": "https://github.com/01-ai/Yi-Coder"
+      },
+      "id": "yi-coder-9b-base",
+      "name": "Yi-Coder-9B",
+      "provider": "01.AI",
+      "releaseDate": "2024-09-05",
       "license": "Apache-2.0"
     }
   ]
