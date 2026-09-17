@@ -7099,6 +7099,46 @@
         "source": "official",
         "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/"
       }
+    },
+    "yi-coder-1.5b-base": {
+      "humaneval": {
+        "value": 41.5,
+        "date": "2024-09-05",
+        "source": "official",
+        "sourceUrl": "https://github.com/01-ai/Yi-Coder"
+      },
+      "gsm8k": {
+        "value": 25.5,
+        "date": "2024-09-05",
+        "source": "official",
+        "sourceUrl": "https://github.com/01-ai/Yi-Coder"
+      },
+      "math": {
+        "value": 11.4,
+        "date": "2024-09-05",
+        "source": "official",
+        "sourceUrl": "https://github.com/01-ai/Yi-Coder"
+      }
+    },
+    "yi-coder-9b-base": {
+      "humaneval": {
+        "value": 53.7,
+        "date": "2024-09-05",
+        "source": "official",
+        "sourceUrl": "https://github.com/01-ai/Yi-Coder"
+      },
+      "gsm8k": {
+        "value": 68.1,
+        "date": "2024-09-05",
+        "source": "official",
+        "sourceUrl": "https://github.com/01-ai/Yi-Coder"
+      },
+      "math": {
+        "value": 29.1,
+        "date": "2024-09-05",
+        "source": "official",
+        "sourceUrl": "https://github.com/01-ai/Yi-Coder"
+      }
     }
   }
 }
