@@ -5274,7 +5274,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-max/",
@@ -5871,6 +5871,21 @@
       "provider": "01.AI",
       "releaseDate": "2024-09-05",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "671B (37B active) MoE",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-R1",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero",
+        "paper": "https://arxiv.org/abs/2501.12948"
+      },
+      "id": "deepseek-r1-zero",
+      "name": "DeepSeek-R1-Zero",
+      "provider": "DeepSeek",
+      "releaseDate": "2025-01-20",
+      "license": "MIT"
     }
   ]
 }
