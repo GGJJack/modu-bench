@@ -3919,7 +3919,7 @@
     },
     {
       "parameterSize": "32B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://arxiv.org/abs/2601.03286",
@@ -5303,8 +5303,8 @@
       "license": "mit"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "456B",
+      "contextWindow": 4000000,
       "pricing": null,
       "links": {
         "official": "https://www.minimaxi.com/",
@@ -5886,6 +5886,22 @@
       "provider": "DeepSeek",
       "releaseDate": "2025-01-20",
       "license": "MIT"
+    },
+    {
+      "parameterSize": "32B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai/models/exaone",
+        "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-3.0-32B-Instruct",
+        "github": "https://github.com/LG-AI-Research/EXAONE-3.0",
+        "paper": "https://arxiv.org/abs/2408.03541"
+      },
+      "id": "exaone-3.0-32b-instruct",
+      "name": "EXAONE 3.0 32B Instruct",
+      "provider": "LG AI Research",
+      "releaseDate": "2024-10-10",
+      "license": "EXAONE AI Model License Agreement 1.0 (Apache-2.0 compatible for non-commercial)"
     }
   ]
 }
