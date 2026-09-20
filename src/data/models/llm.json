@@ -5902,6 +5902,51 @@
       "provider": "LG AI Research",
       "releaseDate": "2024-10-10",
       "license": "EXAONE AI Model License Agreement 1.0 (Apache-2.0 compatible for non-commercial)"
+    },
+    {
+      "parameterSize": "9B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/THUDM/codegeex4-all-9b",
+        "huggingface": "https://huggingface.co/THUDM/codegeex4-all-9b",
+        "github": "https://github.com/THUDM/CodeGeeX4",
+        "paper": "https://arxiv.org/abs/2409.15838"
+      },
+      "id": "codegeex4-all-9b",
+      "name": "CodeGeeX4-ALL-9B",
+      "provider": "Zhipu AI",
+      "releaseDate": "2024-07-09",
+      "license": "CodeGeeX License"
+    },
+    {
+      "parameterSize": "1.54B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-math/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-1.5B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2-Math",
+        "paper": "https://arxiv.org/abs/2409.12122"
+      },
+      "id": "qwen-2.5-math-1.5b-instruct",
+      "name": "Qwen2.5-Math-1.5B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://bigmodel.cn/dev/how-to-use/model-introduction#glm-4-air"
+      },
+      "id": "glm-4-air",
+      "name": "GLM-4-Air",
+      "provider": "Zhipu AI",
+      "releaseDate": "2024-06-05",
+      "license": "Proprietary"
     }
   ]
 }
