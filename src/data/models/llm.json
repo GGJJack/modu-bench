@@ -5564,7 +5564,8 @@
       "links": {
         "official": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
         "huggingface": "https://huggingface.co/google/gemma-2-9b-it",
-        "github": "https://github.com/google-deepmind/gemma"
+        "github": "https://github.com/google-deepmind/gemma",
+        "paper": "https://arxiv.org/abs/2408.00118"
       },
       "id": "gemma-2-9b-it",
       "name": "Gemma 2 9B IT",
@@ -5595,7 +5596,8 @@
       "links": {
         "official": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
         "huggingface": "https://huggingface.co/google/gemma-2-27b-it",
-        "github": "https://github.com/google-deepmind/gemma"
+        "github": "https://github.com/google-deepmind/gemma",
+        "paper": "https://arxiv.org/abs/2408.00118"
       },
       "id": "gemma-2-27b-it",
       "name": "Gemma 2 27B IT",
@@ -5610,7 +5612,8 @@
       "links": {
         "official": "https://blog.google/technology/developers/gemma-2-2b-lightweight-ai-model/",
         "huggingface": "https://huggingface.co/google/gemma-2-2b-it",
-        "github": "https://github.com/google-deepmind/gemma"
+        "github": "https://github.com/google-deepmind/gemma",
+        "paper": "https://arxiv.org/abs/2408.00118"
       },
       "id": "gemma-2-2b-it",
       "name": "Gemma 2 2B IT",
@@ -5947,6 +5950,49 @@
       "provider": "Zhipu AI",
       "releaseDate": "2024-06-05",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://www.sbintuitions.co.jp/",
+        "huggingface": "https://huggingface.co/sbintuitions/sarashina2-13b-instruct"
+      },
+      "id": "sarashina2-13b-instruct",
+      "name": "Sarashina2 13B Instruct",
+      "provider": "SB Intuitions",
+      "releaseDate": "2024-06-07",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "236B (21B active)",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-V2.5",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
+        "github": "https://github.com/deepseek-ai/DeepSeek-V2.5"
+      },
+      "id": "deepseek-v2-5",
+      "name": "DeepSeek-V2.5",
+      "provider": "DeepSeek",
+      "releaseDate": "2024-09-05",
+      "license": "DeepSeek License"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-math/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-7B"
+      },
+      "id": "qwen-2.5-math-7b",
+      "name": "Qwen2.5-Math-7B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Qwen License"
     }
   ]
 }
