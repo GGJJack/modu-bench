@@ -1,13 +1,25 @@
 ---
 benchmarkId: cmteb-r
 domain: llm
-status: draft
-updated: 2026-09-15
+status: published
+updated: 2026-09-22
 sources:
+  - https://arxiv.org/abs/2309.07597
   - https://huggingface.co/spaces/mteb/leaderboard
+  - https://github.com/FlagOpen/FlagEmbedding
+paperUrl: https://arxiv.org/abs/2309.07597
 highlights:
-  - "Chinese Massive Text Embedding Benchmark (Retrieval subset)"
+  - "중국어 텍스트 임베딩 성능을 평가하기 위한 종합 벤치마크"
+  - "6개의 작업과 35개의 중국어 데이터셋 포함"
 ---
 
 # CMTEB (Retrieval)
-<상세 내용 TBD>
+
+## 개요
+C-MTEB는 일반적인 중국어 임베딩의 성능을 체계적으로 발전시키고 다각도로 평가하기 위해 도입된 포괄적인 벤치마크입니다. C-Pack 리소스 패키지의 3가지 핵심 요소 중 하나로 공개된 이 벤치마크는 영어권에 집중되었던 기존 텍스트 임베딩 모델들의 한계를 넘어 중국어 환경에서의 모델 완성도를 정밀하게 측정하도록 설계되었습니다. FlagEmbedding 저장소를 통해 관련 데이터 및 오픈소스를 관리하고 있습니다.
+
+## 평가 방법
+평가 체계는 총 6가지의 텍스트 처리 작업과 35개의 데이터셋을 포괄합니다. 이는 방대한 말뭉치로 구성된 C-MTP 데이터셋과 C-TEM 임베딩 모델들의 훈련 결과를 검증하는 데에 활용됩니다. 검색(Retrieval) 평가 트랙을 통해 모델이 대량의 텍스트 속에서 주어진 쿼리의 문맥을 얼마나 명확히 파악하는지 중점적으로 확인할 수 있습니다.
+
+## 점수 해석
+이 벤치마크 점수의 상승은 해당 임베딩 모델이 방대한 중국어 말뭉치를 효과적으로 이해하고 활용할 수 있는 강력한 범용성을 지니고 있음을 증명합니다. 최첨단 모델들의 경우 출시 당시 기존 모델 대비 최대 +10% 이상의 향상을 달성하기도 하였으며, 최신 중국어 기반 정보 검색 시스템에서 중요한 성능 지표로 작용합니다.
