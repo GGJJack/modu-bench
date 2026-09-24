@@ -3933,11 +3933,12 @@
     },
     {
       "parameterSize": "8B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://arxiv.org/abs/2601.01792",
-        "paper": "https://arxiv.org/abs/2601.01792"
+        "paper": "https://arxiv.org/abs/2601.01792",
+        "huggingface": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Omni-8B"
       },
       "id": "hyperclova-x-8b-omni",
       "name": "HyperCLOVA X 8B Omni",
