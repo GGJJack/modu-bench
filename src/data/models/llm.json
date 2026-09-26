@@ -4043,7 +4043,7 @@
       "contextWindow": 4096,
       "pricing": null,
       "links": {
-        "official": "https://upstage.ai",
+        "official": "https://www.upstage.ai",
         "huggingface": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0",
         "github": "https://github.com/UpstageAI/SOLAR-10.7B",
         "paper": "https://arxiv.org/abs/2312.15166"
@@ -4277,6 +4277,7 @@
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-R1",
         "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+        "github": "https://github.com/deepseek-ai/DeepSeek-R1",
         "paper": "https://arxiv.org/abs/2501.12948"
       },
       "id": "deepseek-r1-distill-qwen-14b",
@@ -5483,12 +5484,12 @@
     },
     {
       "parameterSize": "32.5B",
-      "contextWindow": 131072,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
         "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B",
-        "github": "https://github.com/QwenLM/Qwen3-Coder",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
         "paper": "https://arxiv.org/abs/2409.12186"
       },
       "id": "qwen-2.5-coder-32b",
