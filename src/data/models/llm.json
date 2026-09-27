@@ -4647,7 +4647,7 @@
     },
     {
       "parameterSize": "13B",
-      "contextWindow": 2048,
+      "contextWindow": 4096,
       "pricing": null,
       "links": {
         "official": "https://llm-jp.nii.ac.jp/",
@@ -5457,7 +5457,7 @@
       "contextWindow": 16384,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/cyberagent/calm3-22b-chat",
+        "official": "https://www.cyberagent.co.jp/",
         "huggingface": "https://huggingface.co/cyberagent/calm3-22b-chat"
       },
       "id": "calm3-22b-chat",
@@ -6051,6 +6051,21 @@
       "provider": "Sakana AI",
       "releaseDate": "2026-05-08",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "172B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://llm-jp.nii.ac.jp/",
+        "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-172b-beta1-instruct",
+        "github": "https://github.com/llm-jp/llm-jp-3"
+      },
+      "id": "llm-jp-3-172b-beta1-instruct",
+      "name": "LLM-jp-3 172B beta1 Instruct",
+      "provider": "LLM-jp",
+      "releaseDate": "2024-10-23",
+      "license": "Proprietary"
     }
   ]
 }
