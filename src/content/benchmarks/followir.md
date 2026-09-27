@@ -1,10 +1,11 @@
 ---
 benchmarkId: followir
 domain: llm
-status: draft
+status: published
 updated: 2026-09-26
 sources:
   - https://arxiv.org/abs/2403.15246
+  - https://huggingface.co/jhu-clsp/FollowIR-7B
 organization: johns-hopkins-university
 paperUrl: https://arxiv.org/abs/2403.15246
 highlights:
@@ -21,3 +22,6 @@ highlights:
 
 ## 한계 및 성과
 평가 결과, 기존 검색 모델들은 지시사항을 온전히 이해하기보다는 단순 키워드 매칭 위주로 동작하여 장문의 정보 요구를 충족하지 못하는 것으로 나타났습니다. 반면 연구진이 새롭게 훈련한 FollowIR-7B 모델은 제공된 학습 세트로 미세 조정(fine-tuning)을 거친 후, 복잡한 명령어를 이해하고 처리하는 능력에서 유의미한 성능 향상을 입증하며 IR 모델의 발전 가능성을 보여주었습니다.
+
+## 활용
+정보 검색 시스템이 단순한 키워드 매칭을 넘어 사용자의 세부적인 요구사항을 만족할 수 있도록 평가하고 학습시키는 데 활용됩니다. 특히 긴 문서 탐색이나 복잡한 규칙이 적용되어야 하는 검색 과제에서 검색 모델의 실질적인 유용성을 측정할 수 있습니다.
