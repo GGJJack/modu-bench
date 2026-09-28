@@ -1073,7 +1073,7 @@
     },
     {
       "parameterSize": "1.5B",
-      "contextWindow": 128000,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/taid-jp/",
@@ -4043,7 +4043,7 @@
       "contextWindow": 4096,
       "pricing": null,
       "links": {
-        "official": "https://www.upstage.ai",
+        "official": "https://www.upstage.ai/blog/en/introducing-solar-mini-compact-yet-powerful",
         "huggingface": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0",
         "github": "https://github.com/UpstageAI/SOLAR-10.7B",
         "paper": "https://arxiv.org/abs/2312.15166"
@@ -6065,6 +6065,61 @@
       "name": "LLM-jp-3 172B beta1 Instruct",
       "provider": "LLM-jp",
       "releaseDate": "2024-10-23",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "0.49B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-0.5B"
+      },
+      "id": "qwen-2.5-0.5b",
+      "name": "Qwen2.5 0.5B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.54B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-math/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-1.5B"
+      },
+      "id": "qwen-2.5-math-1.5b",
+      "name": "Qwen2.5-Math-1.5B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "72.7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-math/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-72B"
+      },
+      "id": "qwen-2.5-math-72b",
+      "name": "Qwen2.5-Math-72B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Qwen Research License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": 32000,
+      "pricing": null,
+      "links": {
+        "official": "https://www.ncloud.com/product/ai/clovaStudio"
+      },
+      "id": "hyperclova-x-dash-001",
+      "name": "HyperCLOVA X DASH-001",
+      "provider": "NAVER Cloud",
+      "releaseDate": "2024-04-01",
       "license": "Proprietary"
     }
   ]
