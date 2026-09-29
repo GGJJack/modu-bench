@@ -5945,7 +5945,8 @@
       "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://bigmodel.cn/dev/how-to-use/model-introduction#glm-4-air"
+        "official": "https://github.com/THUDM/GLM-4",
+        "paper": "https://arxiv.org/abs/2406.12793"
       },
       "id": "glm-4-air",
       "name": "GLM-4-Air",
@@ -6114,10 +6115,51 @@
       "contextWindow": 32000,
       "pricing": null,
       "links": {
-        "official": "https://www.ncloud.com/product/ai/clovaStudio"
+        "official": "https://www.ncloud.com/product/ai/clovaStudio",
+        "paper": "https://arxiv.org/abs/2404.01954"
       },
       "id": "hyperclova-x-dash-001",
       "name": "HyperCLOVA X DASH-001",
+      "provider": "NAVER Cloud",
+      "releaseDate": "2024-04-01",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+        "paper": "https://arxiv.org/abs/2406.11931"
+      },
+      "id": "deepseek-coder-v2-instruct",
+      "name": "DeepSeek-Coder-V2-Instruct",
+      "provider": "DeepSeek",
+      "releaseDate": "2024-06-17",
+      "license": "DeepSeek License"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/THUDM/GLM-4"
+      },
+      "id": "glm-4-airx",
+      "name": "GLM-4-AirX",
+      "provider": "Zhipu AI",
+      "releaseDate": "2024-06-05",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.ncloud.com/product/ai/clovaStudio"
+      },
+      "id": "hyperclova-x-seed",
+      "name": "HyperCLOVA X SEED",
       "provider": "NAVER Cloud",
       "releaseDate": "2024-04-01",
       "license": "Proprietary"
