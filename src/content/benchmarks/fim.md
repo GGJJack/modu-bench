@@ -1,10 +1,12 @@
 ---
 benchmarkId: fim
 domain: llm
-status: draft
-updated: 2026-09-26
+status: published
+updated: 2026-09-29
 sources:
   - https://arxiv.org/abs/2207.14255
+  - https://paperswithcode.com/task/fill-in-the-middle
+  - https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard
 organization: openai
 paperUrl: https://arxiv.org/abs/2207.14255
 highlights:
