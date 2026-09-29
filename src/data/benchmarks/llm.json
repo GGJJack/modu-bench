@@ -7215,6 +7215,30 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
       }
+    },
+    "qwen-2.5-math-1.5b-instruct": {
+      "math": {
+        "value": 75.8,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-math/"
+      }
+    },
+    "qwen-2.5-math-7b-instruct": {
+      "math": {
+        "value": 83.6,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-math/"
+      }
+    },
+    "qwen-2.5-math-72b-instruct": {
+      "math": {
+        "value": 85.9,
+        "date": "2024-09-19",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-math/"
+      }
     }
   }
 }
