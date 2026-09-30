@@ -5733,7 +5733,9 @@
     {
       "parameterSize": null,
       "contextWindow": null,
-      "pricing": null,
+      "pricing": {
+        "output": 0.5
+      },
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen-mt/"
       },
@@ -6163,6 +6165,66 @@
       "provider": "NAVER Cloud",
       "releaseDate": "2024-04-01",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "0.6B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3guard/",
+        "github": "https://github.com/QwenLM/Qwen3Guard",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3Guard-Gen-0.6B"
+      },
+      "id": "qwen3guard-gen-0.6b",
+      "name": "Qwen3Guard-Gen-0.6B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-09-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3guard/",
+        "github": "https://github.com/QwenLM/Qwen3Guard",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3Guard-Gen-8B"
+      },
+      "id": "qwen3guard-gen-8b",
+      "name": "Qwen3Guard-Gen-8B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-09-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "0.6B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3guard/",
+        "github": "https://github.com/QwenLM/Qwen3Guard",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3Guard-Stream-0.6B"
+      },
+      "id": "qwen3guard-stream-0.6b",
+      "name": "Qwen3Guard-Stream-0.6B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-09-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3guard/",
+        "github": "https://github.com/QwenLM/Qwen3Guard",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3Guard-Stream-8B"
+      },
+      "id": "qwen3guard-stream-8b",
+      "name": "Qwen3Guard-Stream-8B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-09-23",
+      "license": "Apache-2.0"
     }
   ]
 }
