@@ -6168,7 +6168,7 @@
     },
     {
       "parameterSize": "0.6B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3guard/",
@@ -6183,7 +6183,7 @@
     },
     {
       "parameterSize": "8B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3guard/",
@@ -6198,7 +6198,7 @@
     },
     {
       "parameterSize": "0.6B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3guard/",
@@ -6213,7 +6213,7 @@
     },
     {
       "parameterSize": "8B",
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3guard/",
@@ -6224,6 +6224,47 @@
       "name": "Qwen3Guard-Stream-8B",
       "provider": "Alibaba Cloud",
       "releaseDate": "2025-09-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3-coder/"
+      },
+      "id": "qwen3-coder-plus",
+      "name": "Qwen3-Coder-Plus",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-07-22",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": "0.6B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3-embedding/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B"
+      },
+      "id": "qwen3-embedding-0.6b",
+      "name": "Qwen3-Embedding-0.6B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-06-05",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "4B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3-embedding/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3-Embedding-4B"
+      },
+      "id": "qwen3-embedding-4b",
+      "name": "Qwen3-Embedding-4B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-06-05",
       "license": "Apache-2.0"
     }
   ]
