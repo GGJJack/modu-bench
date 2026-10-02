@@ -4603,8 +4603,8 @@
       "pricing": null,
       "links": {
         "official": "https://www.lgresearch.ai/models/exaone",
-        "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-3.0-7.8B-Instruct",
-        "github": "https://github.com/LG-AI-Research/EXAONE-3.0",
+        "huggingface": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.0-7.8B-Instruct",
+        "github": "https://github.com/LG-AI-EXAONE/EXAONE-3.0",
         "paper": "https://arxiv.org/abs/2408.03541"
       },
       "id": "exaone-3.0-7.8b-instruct",
@@ -5640,7 +5640,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
         "official": "https://www.baichuan-ai.com/"
@@ -6266,6 +6266,32 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2025-06-05",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/THUDM/GLM-4"
+      },
+      "id": "glm-4-plus",
+      "name": "GLM-4-Plus",
+      "provider": "Zhipu AI",
+      "releaseDate": "2024-08-27",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://www.baichuan-ai.com/"
+      },
+      "id": "baichuan-4-turbo",
+      "name": "Baichuan-4-Turbo",
+      "provider": "Baichuan Intelligent Technology",
+      "releaseDate": "2024-09-03",
+      "license": "Proprietary"
     }
   ]
 }
