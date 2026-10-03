@@ -6158,7 +6158,8 @@
       "contextWindow": null,
       "pricing": null,
       "links": {
-        "official": "https://www.ncloud.com/product/ai/clovaStudio"
+        "official": "https://www.ncloud.com/product/ai/clovaStudio",
+        "paper": "https://arxiv.org/abs/2404.01954"
       },
       "id": "hyperclova-x-seed",
       "name": "HyperCLOVA X SEED",
@@ -6272,7 +6273,9 @@
       "contextWindow": null,
       "pricing": null,
       "links": {
-        "official": "https://github.com/THUDM/GLM-4"
+        "official": "https://github.com/THUDM/GLM-4",
+        "github": "https://github.com/THUDM/GLM-4",
+        "paper": "https://arxiv.org/abs/2406.12793"
       },
       "id": "glm-4-plus",
       "name": "GLM-4-Plus",
@@ -6292,6 +6295,53 @@
       "provider": "Baichuan Intelligent Technology",
       "releaseDate": "2024-09-03",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "10.7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.upstage.ai/",
+        "huggingface": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0",
+        "paper": "https://arxiv.org/abs/2312.15166"
+      },
+      "id": "solar-10.7b-instruct",
+      "name": "Solar 10.7B Instruct",
+      "provider": "Upstage",
+      "releaseDate": "2023-12-14",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/evolutionary-model-merge/",
+        "paper": "https://arxiv.org/abs/2403.13187",
+        "huggingface": "https://huggingface.co/SakanaAI",
+        "github": "https://github.com/SakanaAI"
+      },
+      "id": "evollm-jp-7b",
+      "name": "EvoLLM-JP v1 7B",
+      "provider": "Sakana AI",
+      "releaseDate": "2024-03-20",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder/",
+        "huggingface": "https://huggingface.co/Qwen",
+        "github": "https://github.com/QwenLM/Qwen2.5-Coder",
+        "paper": "https://arxiv.org/abs/2409.12186"
+      },
+      "id": "qwen-2.5-coder-7b",
+      "name": "Qwen2.5-Coder-7B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-09-19",
+      "license": "Apache-2.0"
     }
   ]
 }
