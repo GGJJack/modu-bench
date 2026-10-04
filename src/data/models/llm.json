@@ -5643,7 +5643,8 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://www.baichuan-ai.com/"
+        "official": "https://www.baichuan-ai.com/",
+        "github": "https://github.com/baichuan-inc"
       },
       "id": "baichuan-3",
       "name": "Baichuan 3",
@@ -6142,10 +6143,11 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://github.com/THUDM/GLM-4"
+        "official": "https://github.com/THUDM/GLM-4",
+        "github": "https://github.com/THUDM/GLM-4"
       },
       "id": "glm-4-airx",
       "name": "GLM-4-AirX",
@@ -6155,7 +6157,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 32000,
       "pricing": null,
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio",
@@ -6342,6 +6344,45 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-09-19",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "22B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/cyberagent/calm3-22b-chat"
+      },
+      "id": "calm3-22b-base",
+      "name": "CALM3 22B Base",
+      "provider": "CyberAgent",
+      "releaseDate": "2024-07-01",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/sbintuitions/sarashina2-70b"
+      },
+      "id": "sarashina2-70b-instruct",
+      "name": "Sarashina2 70B Instruct",
+      "provider": "SB Intuitions",
+      "releaseDate": "2024-08-06",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "10.7B",
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0"
+      },
+      "id": "solar-10.7b-v1.0",
+      "name": "SOLAR 10.7B Instruct v1.0",
+      "provider": "Upstage",
+      "releaseDate": "2023-12-14",
+      "license": "CC-BY-NC-4.0"
     }
   ]
 }
