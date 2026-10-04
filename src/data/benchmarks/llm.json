@@ -7239,6 +7239,58 @@
         "source": "official",
         "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-math/"
       }
+    },
+    "qwen-2.5-coder-7b": {
+      "gsm8k": {
+        "value": 86.7,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder/"
+      },
+      "math": {
+        "value": 66.8,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder/"
+      },
+      "aime-2024": {
+        "value": 10,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder/"
+      },
+      "mmlu-pro": {
+        "value": 45.6,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder/"
+      },
+      "mmlu": {
+        "value": 68.7,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder/"
+      },
+      "ifeval": {
+        "value": 58.6,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder/"
+      },
+      "gpqa": {
+        "value": 35.6,
+        "date": "2024-11-12",
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder/"
+      }
+    },
+    "solar-10.7b-instruct": {
+      "h6": {
+        "value": 74.2,
+        "date": "2023-12-14",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0"
+      }
     }
   }
 }
