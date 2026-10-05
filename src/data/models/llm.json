@@ -6290,7 +6290,8 @@
       "contextWindow": null,
       "pricing": null,
       "links": {
-        "official": "https://www.baichuan-ai.com/"
+        "official": "https://www.baichuan-ai.com/",
+        "huggingface": "https://huggingface.co/baichuan-inc"
       },
       "id": "baichuan-4-turbo",
       "name": "Baichuan-4-Turbo",
@@ -6383,6 +6384,45 @@
       "provider": "Upstage",
       "releaseDate": "2023-12-14",
       "license": "CC-BY-NC-4.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B"
+      },
+      "id": "qwen2.5-coder-32b-base",
+      "name": "Qwen2.5-Coder-32B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B"
+      },
+      "id": "qwen2.5-coder-14b-base",
+      "name": "Qwen2.5-Coder-14B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B"
+      },
+      "id": "qwen2.5-coder-3b-base",
+      "name": "Qwen2.5-Coder-3B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-11-12",
+      "license": "Qwen Research License"
     }
   ]
 }
