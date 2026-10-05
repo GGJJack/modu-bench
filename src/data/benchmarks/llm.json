@@ -7291,6 +7291,14 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0"
       }
+    },
+    "solar-10.7b-v1.0": {
+      "h6": {
+        "value": 74.2,
+        "date": "2023-12-13",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0"
+      }
     }
   }
 }
