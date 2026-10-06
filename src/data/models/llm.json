@@ -6348,10 +6348,11 @@
     },
     {
       "parameterSize": "22B",
-      "contextWindow": null,
+      "contextWindow": 16384,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/cyberagent/calm3-22b-chat"
+        "official": "https://www.cyberagent.co.jp/",
+        "huggingface": "https://huggingface.co/cyberagent/calm3-22b-base"
       },
       "id": "calm3-22b-base",
       "name": "CALM3 22B Base",
@@ -6361,10 +6362,11 @@
     },
     {
       "parameterSize": "70B",
-      "contextWindow": null,
+      "contextWindow": 8192,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/sbintuitions/sarashina2-70b"
+        "official": "https://www.sbintuitions.co.jp/",
+        "huggingface": "https://huggingface.co/sbintuitions/sarashina2-70b-instruct"
       },
       "id": "sarashina2-70b-instruct",
       "name": "Sarashina2 70B Instruct",
@@ -6386,11 +6388,12 @@
       "license": "CC-BY-NC-4.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "32B",
+      "contextWindow": 131072,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B"
+        "official": "https://qwenlm.github.io",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B"
       },
       "id": "qwen2.5-coder-32b-base",
       "name": "Qwen2.5-Coder-32B",
@@ -6399,11 +6402,12 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "14B",
+      "contextWindow": 131072,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B"
+        "official": "https://qwenlm.github.io",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B"
       },
       "id": "qwen2.5-coder-14b-base",
       "name": "Qwen2.5-Coder-14B",
@@ -6412,17 +6416,60 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "3B",
+      "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B"
+        "official": "https://qwenlm.github.io",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B"
       },
       "id": "qwen2.5-coder-3b-base",
       "name": "Qwen2.5-Coder-3B",
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-11-12",
       "license": "Qwen Research License"
+    },
+    {
+      "parameterSize": "16B total / 2.4B active",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://www.deepseek.com",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base"
+      },
+      "id": "deepseek-coder-v2-lite-base",
+      "name": "DeepSeek-Coder-V2-Lite-Base",
+      "provider": "DeepSeek",
+      "releaseDate": "2024-06-17",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "236B total / 21B active",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://www.deepseek.com",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Base"
+      },
+      "id": "deepseek-coder-v2-base",
+      "name": "DeepSeek-Coder-V2-Base",
+      "provider": "DeepSeek",
+      "releaseDate": "2024-06-17",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://www.cyberagent.co.jp/",
+        "huggingface": "https://huggingface.co/cyberagent/calm2-7b-chat"
+      },
+      "id": "calm2-7b-chat",
+      "name": "CALM2 7B Chat",
+      "provider": "CyberAgent",
+      "releaseDate": "2023-11-01",
+      "license": "Apache-2.0"
     }
   ]
 }
