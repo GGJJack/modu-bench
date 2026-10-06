@@ -7299,6 +7299,192 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0"
       }
+    },
+    "qwen2.5-coder-32b-base": {
+      "humaneval": {
+        "value": 65.9,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "mbpp": {
+        "value": 76.4,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "multiple": {
+        "value": 63.9,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "cruxeval": {
+        "value": 69.4,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "bigcodebench": {
+        "value": 40,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "fim": {
+        "value": 88.3,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "gsm8k": {
+        "value": 91.1,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "math": {
+        "value": 57.2,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "mmlu": {
+        "value": 79.1,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "arc-c": {
+        "value": 70.5,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      }
+    },
+    "qwen2.5-coder-14b-base": {
+      "humaneval": {
+        "value": 64,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "mbpp": {
+        "value": 71.4,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "multiple": {
+        "value": 59.9,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "cruxeval": {
+        "value": 66.4,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "bigcodebench": {
+        "value": 37,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "fim": {
+        "value": 87.7,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "gsm8k": {
+        "value": 88.7,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "math": {
+        "value": 52.8,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "mmlu": {
+        "value": 75.2,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "arc-c": {
+        "value": 66,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      }
+    },
+    "qwen2.5-coder-3b-base": {
+      "humaneval": {
+        "value": 52.4,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "mbpp": {
+        "value": 65.2,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "multiple": {
+        "value": 48,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "cruxeval": {
+        "value": 43.8,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "bigcodebench": {
+        "value": 26.3,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "fim": {
+        "value": 85.7,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "gsm8k": {
+        "value": 75.7,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "math": {
+        "value": 40,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "mmlu": {
+        "value": 61.2,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      },
+      "arc-c": {
+        "value": 52.9,
+        "source": "official",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+        "date": "2024-11-12"
+      }
     }
   }
 }
