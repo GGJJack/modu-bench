@@ -7485,6 +7485,14 @@
         "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
         "date": "2024-11-12"
       }
+    },
+    "deepseek-coder-v2-lite-base": {
+      "fim": {
+        "value": 86.4,
+        "date": "2024-06-21",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/pdf/2406.11931"
+      }
     }
   }
 }
