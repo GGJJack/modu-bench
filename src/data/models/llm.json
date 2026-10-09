@@ -4525,7 +4525,8 @@
       "links": {
         "official": "https://sakana.ai/taid-jp/",
         "huggingface": "https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct",
-        "paper": "https://arxiv.org/abs/2501.16937"
+        "paper": "https://arxiv.org/abs/2501.16937",
+        "github": "https://github.com/SakanaAI/TinySwallow-ChatUI"
       },
       "id": "tinyswallow-1-5b-instruct",
       "name": "TinySwallow-1.5B-Instruct",
@@ -5325,7 +5326,8 @@
       "links": {
         "official": "https://tokyotech-llm.github.io/",
         "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-70b-instruct-v0.1",
-        "github": "https://github.com/tokyotech-llm/swallow"
+        "github": "https://github.com/tokyotech-llm/swallow",
+        "paper": "https://arxiv.org/abs/2404.17790"
       },
       "id": "swallow-70b-instruct",
       "name": "Swallow 70B Instruct",
@@ -5340,7 +5342,8 @@
       "links": {
         "official": "https://tokyotech-llm.github.io/",
         "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-70b-v0.1",
-        "github": "https://github.com/tokyotech-llm/swallow"
+        "github": "https://github.com/tokyotech-llm/swallow",
+        "paper": "https://arxiv.org/abs/2404.17790"
       },
       "id": "swallow-70b",
       "name": "Swallow 70B",
@@ -5385,7 +5388,8 @@
       "links": {
         "official": "https://tokyotech-llm.github.io/",
         "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-MX-8x7b-instruct-v0.1",
-        "github": "https://github.com/tokyotech-llm/swallow"
+        "github": "https://github.com/tokyotech-llm/swallow",
+        "paper": "https://arxiv.org/abs/2404.17790"
       },
       "id": "swallow-mx-8x7b-instruct",
       "name": "Swallow MX 8x7B Instruct",
@@ -5840,7 +5844,8 @@
       "links": {
         "official": "https://sakana.ai/taid-jp/",
         "huggingface": "https://huggingface.co/SakanaAI/TinySwallow-1.5B",
-        "paper": "https://arxiv.org/abs/2501.16937"
+        "paper": "https://arxiv.org/abs/2501.16937",
+        "github": "https://github.com/SakanaAI/TinySwallow-ChatUI"
       },
       "id": "tinyswallow-1-5b-base",
       "name": "TinySwallow-1.5B",
