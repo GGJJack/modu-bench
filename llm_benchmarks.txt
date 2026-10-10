@@ -1,0 +1,124 @@
+📋 llm 도메인 벤치마크 (122개, 점수 등록 모델 194개):
+
+  - mmlu | MMLU (대규모 다중과제 언어 이해) | % ↑ | reasoning
+  - humaneval | HumanEval (코드 생성 평가) | pass@1 % ↑ | coding
+  - gsm8k | GSM8K (초등 수학 추론) | % ↑ | reasoning
+  - mt-bench | MT-Bench (멀티턴 대화 평가) | 점 ↑ | instruction
+  - kmmlu | KMMLU (한국어 대규모 다중과제 언어 이해) | % ↑ | korean
+  - swe-bench-verified | SWE-bench Verified (소프트웨어 엔지니어링 벤치마크 (검증)) | % ↑ | coding
+  - tau-bench-telecom | Tau-bench (Telecom) (타우벤치 (텔레콤)) | 점 ↑ | instruction
+  - gpqa | GPQA (GPQA) | % ↑ | reasoning
+  - chatbot-arena-elo | Chatbot Arena ELO (챗봇 아레나 ELO) | 점 ↑ | instruction
+  - mmlu-pro | MMLU-Pro (MMLU-Pro) | % ↑ | reasoning
+  - mbpp | MBPP (MBPP) | pass@1 % ↑ | coding
+  - logickor | LogicKor (LogicKor (한국어 논리 추론)) | 점수 ↑ | korean
+  - arc-c | ARC-Challenge (ARC 챌린지) | % ↑ | reasoning
+  - trivia-qa | TriviaQA (TriviaQA) | % ↑ | knowledge
+  - math | MATH (MATH) | % ↑ | math
+  - if-bench | IFBench (IFBench (지시문 준수)) | 점 ↑ | instruction
+  - arena-hard-v2 | Arena Hard v2 (아레나 하드 v2) | 점 ↑ | instruction
+  - swe-bench-pro | SWE-bench Pro (SWE-bench Pro (소프트웨어 엔지니어링 벤치마크 Pro)) | % ↑ | coding
+  - terminal-bench-2-0 | Terminal-Bench 2.0 (Terminal-Bench 2.0 (터미널 기반 워크플로우 테스트)) | % ↑ | agent
+  - osworld-verified | OSWorld-Verified (OSWorld-Verified (운영체제 컴퓨터 자동화)) | % ↑ | agent
+  - toolathlon | Toolathlon (Toolathlon (다양한 도구 사용 워크플로우)) | % ↑ | agent
+  - gdpval-aa | GDPval-AA (GDPval-AA) | Elo ↑ | agent
+  - mcp-atlas | MCP Atlas (MCP Atlas) | % ↑ | agent
+  - terminal-bench-2-1 | Terminal-Bench 2.1 (Terminal-Bench 2.1 (터미널 기반 워크플로우 테스트)) | % ↑ | agent
+  - codeforces | Codeforces (Codeforces) | Rating ↑ | coding
+  - livecodebench-v6 | LiveCodeBench v6 (라이브코드벤치 v6) | % ↑ | coding
+  - hle | Humanity's Last Exam (HLE) (no tools) (인류의 마지막 시험 (HLE) (no tools)) | % ↑ | reasoning
+  - swe-bench-multilingual | SWE-bench Multilingual (SWE-bench Multilingual (다국어)) | % ↑ | coding
+  - tau-bench | tau-Bench (tau-Bench (도구 호출 벤치마크)) | % ↑ | agent
+  - scicode | SciCode (사이코드 (SciCode)) | % ↑ | coding
+  - aime-2025 | AIME 2025 (AIME 2025) | % ↑ | math
+  - seccodebench-gen | SecCodeBench (Generation) (SecCodeBench (생성)) | pass@1 ↑ | coding
+  - cweval | CWEval (CWEval) | % ↑ | coding
+  - deepsearchqa | DeepSearchQA (딥서치QA (DeepSearchQA)) | % ↑ | reasoning
+  - terminal-bench-hard | Terminal-Bench Hard (터미널벤치 하드 (Terminal-Bench Hard)) | % ↑ | agent
+  - online-mind2web | Online-Mind2Web (Online-Mind2Web) | % ↑ | agent
+  - cursor-bench | CursorBench (CursorBench) | % ↑ | coding
+  - legal-agent-bench | Legal Agent Benchmark (Legal Agent Benchmark (법률 에이전트 벤치마크)) | % ↑ | agent
+  - charxiv-reasoning | CharXiv Reasoning (CharXiv Reasoning) | % ↑ | reasoning
+  - lifescibench | LifeSciBench (LifeSciBench) | % ↑ | reasoning
+  - medchembench | MedChemBench (메드켐벤치 (의약화학 평가)) | % ↑ | reasoning
+  - genebench | GeneBench (진벤치 (유전학 및 정량 생물학 평가)) | % ↑ | reasoning
+  - labworkbench | LabWorkBench (랩워크벤치 (실제 실험실 업무 지원 평가)) | % ↑ | reasoning
+  - bixbench | BixBench (빅스벤치 (생물정보학 및 데이터 분석 평가)) | Score ↑ | reasoning
+  - labbench2 | LABBench2 (랩벤치2 (생물학 연구 워크플로우 평가)) | Score ↑ | reasoning
+  - frontiercode-diamond | FrontierCode (Diamond) (FrontierCode (Diamond)) | % ↑ | coding
+  - gdp-pdf | GDP.pdf (GDP.pdf) | % ↑ | reasoning
+  - blueprint-bench-2 | Blueprint-Bench 2 (Blueprint-Bench 2 (공간 추론)) | % ↑ | reasoning
+  - automationbench | AutomationBench (AutomationBench (도구 사용)) | % ↑ | agent
+  - biomysterybench-hard | BioMysteryBench (Hard) (BioMysteryBench (생물학 - Hard)) | % ↑ | reasoning
+  - biomysterybench-human | BioMysteryBench (Human Solved) (BioMysteryBench (생물학 - Human Solved)) | % ↑ | reasoning
+  - exploitbench-cap | ExploitBench (Cap%) (ExploitBench (보안 취약점 공격 성공률)) | % ↑ | reasoning
+  - healthbench-professional | HealthBench Professional (HealthBench Professional (의료)) | % ↑ | reasoning
+  - hle-with-tools | Humanity's Last Exam (HLE) (with tools) (인류의 마지막 시험 (HLE) (with tools)) | % ↑ | reasoning
+  - mmmlu | MMMLU (MMMLU (다국어 다중과제 언어 이해)) | % ↑ | knowledge
+  - mmmu-pro | MMMU Pro (MMMU Pro) | % ↑ | reasoning
+  - aime-2026 | AIME 2026 (AIME 2026) | % ↑ | math
+  - ifeval | IFEval (IFEval (명령어 준수 평가)) | 점 ↑ | instruction
+  - hmmt-25 | HMMT 25 (HMMT 25) | % ↑ | math
+  - nanobeir | NanoBEIR Multilingual Extended (NDCG@10) (NanoBEIR 다국어 확장 (NDCG@10)) | NDCG@10 ↑ | knowledge
+  - mkqa-11 | MKQA-11 (Recall@20) (MKQA-11 (Recall@20)) | Recall@20 ↑ | knowledge
+  - frontierbench | FrontierBench (프론티어벤치 (FrontierBench)) | % ↑ | coding
+  - vibench | ViBench (ViBench (Vibe-coding benchmark)) | % ↑ | coding
+  - coffeebench | CoffeeBench (커피벤치) | score ↑ | agent
+  - flteval | FLTEval (FLTEval) | % ↑ | coding
+  - wmt-2024-xcomet-xl | WMT 2024 General Translation (XCOMET-XL) (WMT 2024 일반 번역 (XCOMET-XL)) | Score ↑ | knowledge
+  - multi-if | Multi-IF (Multi-IF (다중 지시문 준수)) | % ↑ | instruction
+  - bfcl-v4 | BFCLv4 (BFCLv4 (버클리 함수 호출 리더보드 v4)) | % ↑ | agent
+  - bfcl-v3 | Berkeley Function Calling Leaderboard v3 (버클리 함수 호출 리더보드 v3) | % ↑ | coding
+  - casereportbench | CaseReportBench (케이스 리포트 벤치) | % ↑ | reasoning
+  - tau-bench-retail | Tau-bench (Retail) (타우벤치 (리테일)) | 점 ↑ | instruction
+  - r2r-ce | R2R-CE (R2R-CE) | % ↑ | agent
+  - olm-ocr-bench | OlmOCRBench (OlmOCRBench (문서 인식 평가)) | 점 ↑ | agent
+  - omni-doc-bench | OmniDocBench (OmniDocBench (다목적 문서 평가)) | 점 ↑ | agent
+  - konet | KoNET (KoNET (한국어 추론)) | % ↑ | korean
+  - konet-ged | KoNET (GED) (KoNET GED (한국어 추론 검정고시)) | % ↑ | korean
+  - click | CLIcK (CLIcK (한국어 상식 및 문화 지식 평가)) | % ↑ | korean
+  - haerae-bench | HAERAE Bench 1.0 (HAERAE Bench 1.0 (한국어 상식 및 지식 평가)) | % ↑ | korean
+  - piqa | PIQA (PIQA (물리적 상식 추론)) | % ↑ | reasoning
+  - hellaswag | HellaSwag (HellaSwag (상식 추론)) | % ↑ | reasoning
+  - jamc-qa | JamC-QA (JamC-QA (일본 고유 문화·역사 지식 QA)) | % ↑ | knowledge
+  - mmlu-prox-jp | MMLU-ProX (Japanese) (MMLU-ProX (일본어)) | % ↑ | reasoning
+  - math-100-jp | MATH-100 (Japanese) (MATH-100 (일본어)) | % ↑ | math
+  - c-eval | C-Eval (C-Eval (중국어 평가)) | % ↑ | reasoning
+  - komt-bench | KoMT-Bench (KoMT-Bench (한국어 멀티턴 대화 평가)) | 점 ↑ | korean
+  - wildbench | WildBench (WildBench (실제 사용자 명령어 기반 평가)) | 점 ↑ | instruction
+  - alpacaeval-2-0-lc | AlpacaEval 2.0 LC (AlpacaEval 2.0 LC (길이 제어)) | % ↑ | instruction
+  - bbh | BBH (BBH (BIG-Bench Hard)) | % ↑ | reasoning
+  - musr | MuSR (MuSR (다단계 추론)) | % ↑ | reasoning
+  - kobest-boolq | KoBEST-BoolQ (KoBEST-BoolQ) | % ↑ | korean
+  - kobest-copa | KoBEST-COPA (KoBEST-COPA) | % ↑ | korean
+  - kobest-wic | KoBEST-WiC (KoBEST-WiC) | % ↑ | korean
+  - kobest-hellaswag | KoBEST-HellaSwag (KoBEST-HellaSwag) | % ↑ | korean
+  - kobest-sentineg | KoBEST-SentiNeg (KoBEST-SentiNeg) | % ↑ | korean
+  - belebele | Belebele (Belebele) | % ↑ | knowledge
+  - cmmlu | CMMLU (CMMLU (중국어 평가)) | % ↑ | reasoning
+  - agieval | AGIEval (AGIEval) | % ↑ | Reasoning
+  - gaokao | Gaokao (가오카오(Gaokao)) | % ↑ | Reasoning
+  - livebench | LiveBench (LiveBench) | % ↑ | reasoning
+  - eqbench | EQ-Bench (EQ-Bench) | 점수 ↑ | reasoning
+  - truthfulqa | TruthfulQA (TruthfulQA) | % ↑ | reasoning
+  - winogrande | WinoGrande (WinoGrande) | % ↑ | reasoning
+  - h6 | Hugging Face Open LLM Leaderboard v1 (H6) (오픈 LLM 리더보드 v1 (H6)) | % ↑ | general
+  - cybergym | CyberGym (사이버짐 (CyberGym)) | % ↑ | reasoning
+  - cti-realm | CTI-REALM (CTI-REALM) | Score ↑ | reasoning
+  - deepswe-1-0 | DeepSWE 1.0 (DeepSWE 1.0) | % ↑ | coding
+  - deepswe-1-1 | DeepSWE 1.1 (DeepSWE 1.1) | % ↑ | coding
+  - swe-marathon | SWE Marathon (SWE Marathon) | % ↑ | coding
+  - mme | MME (MME (다중 모달 평가)) | 점수 ↑ | reasoning
+  - mmmu | MMMU (MMMU (다중 모달 추론)) | % ↑ | reasoning
+  - aime-2024 | AIME 2024 (AIME 2024) | % ↑ | math
+  - math-500 | MATH-500 (MATH-500) | % ↑ | math
+  - mteb-r | MTEB (Retrieval) (MTEB (검색)) | % ↑ | embedding
+  - cmteb-r | CMTEB (Retrieval) (CMTEB (검색)) | % ↑ | embedding
+  - mmteb-r | MMTEB (Retrieval) (MMTEB (검색)) | % ↑ | embedding
+  - mldr | MLDR (MLDR) | % ↑ | embedding
+  - mteb-code | MTEB (Code) (MTEB (코드)) | % ↑ | embedding
+  - followir | FollowIR (FollowIR) | % ↑ | embedding
+  - multiple | MultiPL-E (MultiPL-E (다국어 코드 생성)) | % ↑ | coding
+  - cruxeval | CRUXEval (CRUXEval (코드 추론 및 실행 평가)) | % ↑ | coding
+  - bigcodebench | BigCodeBench (BigCodeBench (대규모 코드 생성 평가)) | % ↑ | coding
+  - fim | Fill-in-the-Middle (Fill-in-the-Middle (FIM 코드 완성)) | % ↑ | coding
