@@ -5404,7 +5404,8 @@
       "links": {
         "official": "https://tokyotech-llm.github.io/",
         "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-MS-7b-instruct-v0.1",
-        "github": "https://github.com/tokyotech-llm/swallow"
+        "github": "https://github.com/tokyotech-llm/swallow",
+        "paper": "https://arxiv.org/abs/2404.17790"
       },
       "id": "swallow-ms-7b-instruct",
       "name": "Swallow MS 7B Instruct",
@@ -5446,7 +5447,8 @@
       "pricing": null,
       "links": {
         "official": "https://www.sbintuitions.co.jp/",
-        "huggingface": "https://huggingface.co/sbintuitions/sarashina2-7b"
+        "huggingface": "https://huggingface.co/sbintuitions/sarashina2-7b",
+        "github": "https://github.com/sbintuitions"
       },
       "id": "sarashina2-7b",
       "name": "Sarashina2 7B",
@@ -5460,7 +5462,8 @@
       "pricing": null,
       "links": {
         "official": "https://www.cyberagent.co.jp/",
-        "huggingface": "https://huggingface.co/cyberagent/calm3-22b-chat"
+        "huggingface": "https://huggingface.co/cyberagent/calm3-22b-chat",
+        "github": "https://github.com/cyberagent"
       },
       "id": "calm3-22b-chat",
       "name": "CALM3 22B Chat",
@@ -6319,7 +6322,7 @@
     },
     {
       "parameterSize": "7B",
-      "contextWindow": null,
+      "contextWindow": 4096,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/evolutionary-model-merge/",
@@ -6478,6 +6481,62 @@
       "name": "CALM2 7B Chat",
       "provider": "CyberAgent",
       "releaseDate": "2023-11-01",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://www.sbintuitions.co.jp/",
+        "huggingface": "https://huggingface.co/sbintuitions/sarashina2-7b-instruct"
+      },
+      "id": "sarashina2-7b-instruct",
+      "name": "Sarashina2 7B Instruct",
+      "provider": "SB Intuitions",
+      "releaseDate": "2024-06-07",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://www.cyberagent.co.jp/",
+        "huggingface": "https://huggingface.co/cyberagent/calm2-7b-base"
+      },
+      "id": "calm2-7b-base",
+      "name": "CALM2 7B Base",
+      "provider": "CyberAgent",
+      "releaseDate": "2023-11-01",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "32B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://www.lgresearch.ai/models/exaone",
+        "huggingface": "https://huggingface.co/LGAI-Research/EXAONE-3.0-32B"
+      },
+      "id": "exaone-3.0-32b-base",
+      "name": "EXAONE 3.0 32B Base",
+      "provider": "LG AI Research",
+      "releaseDate": "2024-10-10",
+      "license": "EXAONE AI Model License Agreement 1.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://tokyotech-llm.github.io/",
+        "huggingface": "https://huggingface.co/tokyotech-llm/Swallow-MS-7b-v0.1"
+      },
+      "id": "swallow-ms-7b",
+      "name": "Swallow MS 7B",
+      "provider": "Tokyo Tech / AIST",
+      "releaseDate": "2024-04-26",
       "license": "Apache-2.0"
     }
   ]
