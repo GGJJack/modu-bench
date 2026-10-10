@@ -7511,6 +7511,48 @@
         "source": "official",
         "sourceUrl": "https://arxiv.org/pdf/2406.11931"
       }
+    },
+    "swallow-7b": {
+      "gsm8k": {
+        "value": 11.3,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2404.17790"
+      },
+      "hellaswag": {
+        "value": 53.1,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2404.17790"
+      }
+    },
+    "swallow-13b": {
+      "gsm8k": {
+        "value": 20.4,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2404.17790"
+      },
+      "hellaswag": {
+        "value": 56.6,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2404.17790"
+      }
+    },
+    "swallow-70b": {
+      "gsm8k": {
+        "value": 48.7,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2404.17790"
+      },
+      "hellaswag": {
+        "value": 64.6,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2404.17790"
+      }
     }
   }
 }
