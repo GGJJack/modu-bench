@@ -7553,6 +7553,32 @@
         "source": "official",
         "sourceUrl": "https://arxiv.org/abs/2404.17790"
       }
+    },
+    "swallow-ms-7b": {
+      "trivia-qa": {
+        "value": 59.76,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/tokyotech-llm/Swallow-MS-7b-v0.1"
+      },
+      "hellaswag": {
+        "value": 58.1,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/tokyotech-llm/Swallow-MS-7b-v0.1"
+      },
+      "gsm8k": {
+        "value": 26.23,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/tokyotech-llm/Swallow-MS-7b-v0.1"
+      },
+      "humaneval": {
+        "value": 27.68,
+        "date": "2024-04-27",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/tokyotech-llm/Swallow-MS-7b-v0.1"
+      }
     }
   }
 }
