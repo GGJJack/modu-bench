@@ -6134,11 +6134,12 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "236B (21B active) MoE",
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
         "paper": "https://arxiv.org/abs/2406.11931"
       },
       "id": "deepseek-coder-v2-instruct",
