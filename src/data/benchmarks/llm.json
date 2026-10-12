@@ -7579,6 +7579,80 @@
         "source": "official",
         "sourceUrl": "https://huggingface.co/tokyotech-llm/Swallow-MS-7b-v0.1"
       }
+    },
+    "deepseek-coder-v2-instruct": {
+      "humaneval": {
+        "value": 90.2,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "mbpp": {
+        "value": 76.2,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "gsm8k": {
+        "value": 94.9,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "math": {
+        "value": 75.7,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "bbh": {
+        "value": 83.9,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "mmlu": {
+        "value": 79.2,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "arc-c": {
+        "value": 92.8,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "trivia-qa": {
+        "value": 82.3,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "agieval": {
+        "value": 60,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "c-eval": {
+        "value": 79.4,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "cmmlu": {
+        "value": 80.9,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      },
+      "mt-bench": {
+        "value": 8.77,
+        "date": "2024-06-17",
+        "source": "official",
+        "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      }
     }
   }
 }
