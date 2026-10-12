@@ -83,14 +83,15 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": null,
+      "parameterSize": "405B",
       "contextWindow": 128000,
       "pricing": {
         "input": 5.32,
         "output": 16
       },
       "links": {
-        "official": "https://ai.meta.com/blog/meta-llama-3-1/"
+        "official": "https://ai.meta.com/blog/meta-llama-3-1/",
+        "huggingface": "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct"
       },
       "id": "llama-3.1-405b",
       "name": "Llama 3.1 405B",
@@ -6383,10 +6384,11 @@
     },
     {
       "parameterSize": "10.7B",
-      "contextWindow": null,
+      "contextWindow": 4096,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0"
+        "official": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0",
+        "huggingface": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0"
       },
       "id": "solar-10.7b-v1.0",
       "name": "SOLAR 10.7B Instruct v1.0",
