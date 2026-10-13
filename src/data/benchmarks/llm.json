@@ -1967,6 +1967,54 @@
         "date": "2024-07-23",
         "source": "official",
         "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "mmlu-pro": {
+        "value": 73.3,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "arc-c": {
+        "value": 96.9,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "gpqa": {
+        "value": 50.7,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "humaneval": {
+        "value": 89,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "mbpp": {
+        "value": 88.6,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "gsm8k": {
+        "value": 96.8,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "math": {
+        "value": 73.8,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
+      },
+      "ifeval": {
+        "value": 88.6,
+        "date": "2024-07-23",
+        "source": "official",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md"
       }
     },
     "qwen-2.5-72b": {
@@ -7316,6 +7364,42 @@
         "date": "2023-12-13",
         "source": "official",
         "sourceUrl": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0"
+      },
+      "arc-c": {
+        "value": 71.08,
+        "date": "2023-12-14",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2312.15166"
+      },
+      "hellaswag": {
+        "value": 88.16,
+        "date": "2023-12-14",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2312.15166"
+      },
+      "mmlu": {
+        "value": 66.21,
+        "date": "2023-12-14",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2312.15166"
+      },
+      "truthfulqa": {
+        "value": 71.43,
+        "date": "2023-12-14",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2312.15166"
+      },
+      "winogrande": {
+        "value": 83.58,
+        "date": "2023-12-14",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2312.15166"
+      },
+      "gsm8k": {
+        "value": 64.75,
+        "date": "2023-12-14",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2312.15166"
       }
     },
     "qwen2.5-coder-32b-base": {
