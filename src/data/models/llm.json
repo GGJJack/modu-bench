@@ -37,8 +37,8 @@
       "parameterSize": null,
       "contextWindow": 32000,
       "pricing": {
-        "input": null,
-        "output": null
+        "input": 0.0036,
+        "output": 0.0108
       },
       "links": {
         "official": "https://www.ncloud.com/product/ai/clovaStudio",
