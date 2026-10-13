@@ -22,3 +22,16 @@ summary: "대기 이슈 티켓(2026-05-05, 2026-05-06) 재검토 및 진행 내�
 
 ## 이슈 제기
 - (없음)
+
+## 실행 (03:10)
+- Todo:
+  - [x] 2026-05-07 이슈 티켓(collect-llm-metadata-missing) 메타데이터/가격 정보 최신 현황 재확인 및 진행 내역 기록
+  - [x] 2026-05-14 이슈 티켓(collect-benchmark-unverified) 벤치마크 점수 최신 현황 재확인 및 진행 내역 기록
+- 조사 내역:
+  - 03:10 https://www.ncloud.com/product/ai/clovaStudio ← HyperCLOVA X, Sakana Fugu 등 미공개 가격 현황 지속 확인
+  - 03:12 https://deepseek.com/ ← DeepSeek V3.2, Llama 4 Maverick/Scout 표준 학술 벤치마크 미공개 지속 확인
+- 수행한 작업:
+  - [x] `src/data/issues/2026-05-07-collect-llm-metadata-missing.md` 진행 내역(2026-10-13) 추가
+  - [x] `src/data/issues/2026-05-14-collect-benchmark-unverified.md` 진행 내역(2026-10-13) 추가
+- 판단 / 고민:
+  - 엔터프라이즈 전용 가격 모델 및 공식 학술 지표 미공개 신규 모델들에 대해 blocker/minor 추적 상태를 유지하고 정기 진행 내역을 작성함.
