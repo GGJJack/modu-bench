@@ -1724,6 +1724,34 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "mgsm-ja",
+      "name": "MGSM (Japanese)",
+      "nameKo": "MGSM (일본어)",
+      "category": "reasoning",
+      "description": "Multilingual Grade School Math (Japanese subset)",
+      "source": "https://huggingface.co/datasets/juletxara/mgsm",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "jp-lmeh",
+      "name": "JP-LMEH",
+      "nameKo": "일본어 LLM 평가 하네스",
+      "category": "reasoning",
+      "description": "Japanese Language Model Evaluation Harness (9-task average)",
+      "source": "https://github.com/Stability-AI/lm-evaluation-harness",
+      "unit": "점 ↑",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -7736,6 +7764,72 @@
         "date": "2024-06-17",
         "source": "official",
         "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-Coder-V2/blob/main/README.md"
+      }
+    },
+    "swallow-8b-instruct": {
+      "mmlu": {
+        "value": 78.83,
+        "date": "2024-07-01",
+        "source": "official",
+        "sourceUrl": "https://swallow-llm.github.io/evaluation/about.ja.html"
+      },
+      "gsm8k": {
+        "value": 86.88,
+        "date": "2024-07-01",
+        "source": "official",
+        "sourceUrl": "https://swallow-llm.github.io/evaluation/about.ja.html"
+      },
+      "humaneval": {
+        "value": 68.9,
+        "date": "2024-07-01",
+        "source": "official",
+        "sourceUrl": "https://swallow-llm.github.io/evaluation/about.ja.html"
+      },
+      "bbh": {
+        "value": 81.52,
+        "date": "2024-07-01",
+        "source": "official",
+        "sourceUrl": "https://swallow-llm.github.io/evaluation/about.ja.html"
+      }
+    },
+    "swallow-8b": {
+      "mmlu": {
+        "value": 63.15,
+        "date": "2024-07-01",
+        "source": "official",
+        "sourceUrl": "https://swallow-llm.github.io/evaluation/about.ja.html"
+      },
+      "gsm8k": {
+        "value": 59.59,
+        "date": "2024-07-01",
+        "source": "official",
+        "sourceUrl": "https://swallow-llm.github.io/evaluation/about.ja.html"
+      },
+      "humaneval": {
+        "value": 42.38,
+        "date": "2024-07-01",
+        "source": "official",
+        "sourceUrl": "https://swallow-llm.github.io/evaluation/about.ja.html"
+      },
+      "bbh": {
+        "value": 63.91,
+        "date": "2024-07-01",
+        "source": "official",
+        "sourceUrl": "https://swallow-llm.github.io/evaluation/about.ja.html"
+      }
+    },
+    "evollm-jp-10b": {
+      "mgsm-ja": {
+        "value": 55.2,
+        "date": "2024-03-19",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2403.13187"
+      },
+      "jp-lmeh": {
+        "value": 66.2,
+        "date": "2024-03-19",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2403.13187"
       }
     }
   }
