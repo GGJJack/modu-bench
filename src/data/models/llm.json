@@ -4906,7 +4906,8 @@
       "links": {
         "official": "https://llm-jp.nii.ac.jp/",
         "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-13b",
-        "github": "https://github.com/llm-jp/llm-jp-3"
+        "github": "https://github.com/llm-jp/llm-jp-3",
+        "paper": "https://arxiv.org/abs/2411.08502"
       },
       "id": "llm-jp-3-13b",
       "name": "LLM-jp-3 13B",
@@ -4921,7 +4922,8 @@
       "links": {
         "official": "https://llm-jp.nii.ac.jp/",
         "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-1.8b",
-        "github": "https://github.com/llm-jp/llm-jp-3"
+        "github": "https://github.com/llm-jp/llm-jp-3",
+        "paper": "https://arxiv.org/abs/2411.08502"
       },
       "id": "llm-jp-3-1.8b",
       "name": "LLM-jp-3 1.8B",
@@ -5078,7 +5080,8 @@
       "links": {
         "official": "https://llm-jp.nii.ac.jp/",
         "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-3.7b",
-        "github": "https://github.com/llm-jp/llm-jp-3"
+        "github": "https://github.com/llm-jp/llm-jp-3",
+        "paper": "https://arxiv.org/abs/2411.08502"
       },
       "id": "llm-jp-3-3.7b",
       "name": "LLM-jp-3 3.7B",
@@ -5377,7 +5380,8 @@
       "links": {
         "official": "https://llm-jp.nii.ac.jp/",
         "huggingface": "https://huggingface.co/llm-jp/llm-jp-3-70b",
-        "github": "https://github.com/llm-jp/llm-jp-3"
+        "github": "https://github.com/llm-jp/llm-jp-3",
+        "paper": "https://arxiv.org/abs/2411.08502"
       },
       "id": "llm-jp-3-70b",
       "name": "LLM-jp-3 70B",
@@ -6585,6 +6589,34 @@
       "name": "Llama 3 Swallow 8B Instruct",
       "provider": "Tokyo Tech / AIST",
       "releaseDate": "2024-05-27",
+      "license": "Llama-3"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://swallow-llm.github.io/llama3-swallow.ja.html",
+        "huggingface": "https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-v0.1"
+      },
+      "id": "swallow-3-70b",
+      "name": "Llama 3 Swallow 70B",
+      "provider": "Tokyo Tech / AIST",
+      "releaseDate": "2024-07-01",
+      "license": "Llama-3"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://swallow-llm.github.io/llama3-swallow.ja.html",
+        "huggingface": "https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-Instruct-v0.1"
+      },
+      "id": "swallow-3-70b-instruct",
+      "name": "Llama 3 Swallow 70B Instruct",
+      "provider": "Tokyo Tech / AIST",
+      "releaseDate": "2024-07-01",
       "license": "Llama-3"
     }
   ]
