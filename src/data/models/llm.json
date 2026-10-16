@@ -5657,7 +5657,8 @@
       "pricing": null,
       "links": {
         "official": "https://www.baichuan-ai.com/",
-        "github": "https://github.com/baichuan-inc"
+        "github": "https://github.com/baichuan-inc",
+        "huggingface": "https://huggingface.co/baichuan-inc"
       },
       "id": "baichuan-3",
       "name": "Baichuan 3",
@@ -6058,7 +6059,7 @@
     },
     {
       "parameterSize": "117B",
-      "contextWindow": null,
+      "contextWindow": 65536,
       "pricing": null,
       "links": {
         "official": "https://sakana.ai/",
