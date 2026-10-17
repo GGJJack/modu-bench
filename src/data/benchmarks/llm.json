@@ -1780,6 +1780,48 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "scan-bench-total",
+      "name": "SCAN-bench Total",
+      "nameKo": "SCAN-bench (종합)",
+      "category": "reasoning",
+      "description": "SCAN-bench is an end-to-end clinical decision-making benchmark that simulates the complete clinical workflow from patient encounter to final diagnosis.",
+      "source": "https://huggingface.co/baichuan-inc/Baichuan-M3-235B",
+      "unit": "점 ↑",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "healthbench-hard",
+      "name": "HealthBench-Hard",
+      "nameKo": "HealthBench-Hard",
+      "category": "reasoning",
+      "description": "HealthBench is OpenAI's authoritative medical benchmark, constructed by 262 practicing physicians from 60 countries, comprising 5,000 high-fidelity multi-turn clinical conversations. Hard subset.",
+      "source": "https://huggingface.co/baichuan-inc/Baichuan-M3-235B",
+      "unit": "점 ↑",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "fishmath-internal",
+      "name": "FishMath Internal Benchmark",
+      "nameKo": "FishMath 내부 벤치마크",
+      "category": "math",
+      "description": "Internal benchmark of 285 high-difficulty integer-answer math problems.",
+      "source": "https://huggingface.co/SakanaAI/gpt-oss-120b-sft-aimo3-fishmath",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -7946,6 +7988,26 @@
         "date": "2024-07-01",
         "source": "official",
         "sourceUrl": "https://huggingface.co/tokyotech-llm/Llama-3-Swallow-70B-Instruct-v0.1"
+      }
+    },
+    "baichuan-3": {
+      "healthbench-hard": {
+        "value": 44.4,
+        "date": "2026-10-17",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/baichuan-inc/Baichuan-M3-235B"
+      }
+    },
+    "gpt-oss-120b-sft-aimo3-fishmath": {
+      "fishmath-internal": {
+        "value": 73.38,
+        "date": "2026-05-08",
+        "source": "official",
+        "sourceUrl": "https://huggingface.co/SakanaAI/gpt-oss-120b-sft-aimo3-fishmath",
+        "subscores": {
+          "Maj@8": 78.62,
+          "Pass@16": 90.88
+        }
       }
     }
   }
