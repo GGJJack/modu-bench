@@ -6658,6 +6658,48 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2025-04-29",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/namazu-api/"
+      },
+      "id": "sakana-namazu",
+      "name": "Sakana Namazu",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-08-03",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": {
+        "input": 2,
+        "output": 6
+      },
+      "links": {
+        "official": "https://sakana.ai/fugu-max-release/"
+      },
+      "id": "sakana-fugu-max",
+      "name": "Sakana Fugu Max",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-09-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://sakana.ai/fugu-max-release/"
+      },
+      "id": "sakana-fugu-ultra-v2",
+      "name": "Sakana Fugu Ultra v2",
+      "provider": "Sakana AI",
+      "releaseDate": "2026-09-11",
+      "license": "Proprietary"
     }
   ]
 }
