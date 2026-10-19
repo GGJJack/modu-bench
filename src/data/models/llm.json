@@ -5564,7 +5564,8 @@
       "pricing": null,
       "links": {
         "official": "https://mistral.ai/news/codestral/",
-        "huggingface": "https://huggingface.co/mistralai/Codestral-22B-v0.1"
+        "huggingface": "https://huggingface.co/mistralai/Codestral-22B-v0.1",
+        "github": "https://github.com/mistralai/mistral-inference"
       },
       "id": "codestral-22b-instruct",
       "name": "Codestral 22B Instruct",
@@ -5690,7 +5691,7 @@
         "output": 5
       },
       "links": {
-        "official": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        "official": "https://www.anthropic.com/news/claude-3-5-haiku"
       },
       "id": "claude-3-5-haiku",
       "name": "Claude 3.5 Haiku",
@@ -5993,7 +5994,8 @@
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-V2.5",
         "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
-        "github": "https://github.com/deepseek-ai/DeepSeek-V2.5"
+        "github": "https://github.com/deepseek-ai/DeepSeek-V2.5",
+        "paper": "https://arxiv.org/abs/2405.04434"
       },
       "id": "deepseek-v2-5",
       "name": "DeepSeek-V2.5",
@@ -6699,6 +6701,45 @@
       "name": "Sakana Fugu Ultra v2",
       "provider": "Sakana AI",
       "releaseDate": "2026-09-11",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/products/google-gemini-next-generation-model-february-2024/"
+      },
+      "id": "gemini-1-5-pro",
+      "name": "Gemini 1.5 Pro",
+      "provider": "Google",
+      "releaseDate": "2024-02-15",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/technology/ai/google-gemini-1-5-flash/"
+      },
+      "id": "gemini-1-5-flash",
+      "name": "Gemini 1.5 Flash",
+      "provider": "Google",
+      "releaseDate": "2024-05-14",
+      "license": "Proprietary"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/mistral-large-2411/"
+      },
+      "id": "mistral-large-2411",
+      "name": "Mistral Large 2411",
+      "provider": "Mistral AI",
+      "releaseDate": "2024-11-18",
       "license": "Proprietary"
     }
   ]
