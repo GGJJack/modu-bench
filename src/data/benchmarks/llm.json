@@ -8009,6 +8009,70 @@
           "Pass@16": 90.88
         }
       }
+    },
+    "gemini-1-5-pro": {
+      "mmlu": {
+        "value": 85.9,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      },
+      "gpqa": {
+        "value": 46.2,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      },
+      "math": {
+        "value": 67.7,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      },
+      "gsm8k": {
+        "value": 90.8,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      },
+      "humaneval": {
+        "value": 84.1,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      }
+    },
+    "gemini-1-5-flash": {
+      "mmlu": {
+        "value": 78.9,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      },
+      "gpqa": {
+        "value": 39.5,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      },
+      "math": {
+        "value": 54.9,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      },
+      "gsm8k": {
+        "value": 86.2,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      },
+      "humaneval": {
+        "value": 74.3,
+        "source": "official",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+        "date": "2024-05-14"
+      }
     }
   }
 }
