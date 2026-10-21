@@ -6249,7 +6249,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 131072,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3-coder/"
@@ -6718,7 +6718,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 1000000,
       "pricing": null,
       "links": {
         "official": "https://blog.google/technology/ai/google-gemini-1-5-flash/"
@@ -6731,7 +6731,7 @@
     },
     {
       "parameterSize": null,
-      "contextWindow": null,
+      "contextWindow": 128000,
       "pricing": null,
       "links": {
         "official": "https://mistral.ai/news/mistral-large-2411/"
@@ -6779,6 +6779,45 @@
       "name": "Qwen3-4B",
       "provider": "Alibaba Cloud",
       "releaseDate": "2025-04-29",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3-coder/"
+      },
+      "id": "qwen3-coder-32b-instruct",
+      "name": "Qwen3-Coder-32B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-07-22",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3-coder/"
+      },
+      "id": "qwen3-coder-14b-instruct",
+      "name": "Qwen3-Coder-14B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-07-22",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": null,
+      "contextWindow": null,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3-coder/"
+      },
+      "id": "qwen3-coder-7b-instruct",
+      "name": "Qwen3-Coder-7B-Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-07-22",
       "license": "Apache-2.0"
     }
   ]
