@@ -6666,7 +6666,8 @@
       "contextWindow": null,
       "pricing": null,
       "links": {
-        "official": "https://sakana.ai/namazu-api/"
+        "official": "https://sakana.ai/namazu-api/",
+        "huggingface": "https://huggingface.co/SakanaAI"
       },
       "id": "sakana-namazu",
       "name": "Sakana Namazu",
