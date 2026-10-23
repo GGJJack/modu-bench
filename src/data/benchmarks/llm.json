@@ -1822,6 +1822,62 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "jfbench",
+      "name": "JFBench",
+      "nameKo": "JFBench (일본어 지시 따르기)",
+      "category": "instruction",
+      "description": "A benchmark developed by Preferred Networks for measuring instruction-following ability in Japanese",
+      "source": "https://sakana.ai/namazu-api/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "fairpoliticsqa",
+      "name": "FairPoliticsQA",
+      "nameKo": "FairPoliticsQA (답변 중립성)",
+      "category": "reasoning",
+      "description": "Measures whether answers stay neutral rather than leaning toward the values of any one country",
+      "source": "https://sakana.ai/namazu-api/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "chartography",
+      "name": "Chartography",
+      "nameKo": "Chartography (시각적 추론 및 데이터 해석)",
+      "category": "reasoning",
+      "description": "Tests visual reasoning and data interpretation",
+      "source": "https://sakana.ai/fugu-max-release/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "swefish",
+      "name": "SWEFish",
+      "nameKo": "SWEFish (내부 코딩 챌린지)",
+      "category": "coding",
+      "description": "Internal benchmark reflecting Sakana AI’s own coding challenges and use-cases",
+      "source": "https://sakana.ai/fugu-max-release/",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -8072,6 +8128,22 @@
         "source": "official",
         "sourceUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
         "date": "2024-05-14"
+      }
+    },
+    "sakana-namazu": {
+      "fairpoliticsqa": {
+        "value": 56.3,
+        "date": "2026-08-03",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/namazu-api/"
+      }
+    },
+    "sakana-fugu-ultra-v2": {
+      "chartography": {
+        "value": 48.3,
+        "date": "2026-09-11",
+        "source": "official",
+        "sourceUrl": "https://sakana.ai/fugu-max-release/"
       }
     }
   }
