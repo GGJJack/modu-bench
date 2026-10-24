@@ -5012,7 +5012,7 @@
       "license": "EXAONE AI Model License Agreement 1.1 - NC"
     },
     {
-      "parameterSize": "2.4B",
+      "parameterSize": "2.4B (2.14B non-embed)",
       "contextWindow": 32768,
       "pricing": null,
       "links": {
@@ -5028,7 +5028,7 @@
       "license": "EXAONE AI Model License Agreement 1.1 - NC"
     },
     {
-      "parameterSize": "32B",
+      "parameterSize": "32B (30.95B non-embed)",
       "contextWindow": 32768,
       "pricing": null,
       "links": {
@@ -5169,7 +5169,7 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": "2.4B",
+      "parameterSize": "2.4B (2.14B non-embed)",
       "contextWindow": 32768,
       "pricing": null,
       "links": {
@@ -5201,7 +5201,7 @@
       "license": "EXAONE AI Model License Agreement 1.1 - NC"
     },
     {
-      "parameterSize": "32B",
+      "parameterSize": "32B (30.95B non-embed)",
       "contextWindow": 32768,
       "pricing": null,
       "links": {
