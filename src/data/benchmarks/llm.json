@@ -8145,6 +8145,94 @@
         "source": "official",
         "sourceUrl": "https://sakana.ai/fugu-max-release/"
       }
+    },
+    "qwen-2.5-3b-instruct": {
+      "mt-bench": {
+        "value": 7.21,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "livebench": {
+        "value": 25.7,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "arena-hard-v2": {
+        "value": 26.4,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "alpacaeval-2-0-lc": {
+        "value": 17.4,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "ifeval": {
+        "value": 60.8,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "komt-bench": {
+        "value": 5.68,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      },
+      "logickor": {
+        "value": 5.21,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+      }
+    },
+    "qwen-2.5-32b-instruct": {
+      "mt-bench": {
+        "value": 8.49,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "livebench": {
+        "value": 50.6,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "arena-hard-v2": {
+        "value": 67,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "alpacaeval-2-0-lc": {
+        "value": 41,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "ifeval": {
+        "value": 78.7,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "komt-bench": {
+        "value": 7.75,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      },
+      "logickor": {
+        "value": 8.89,
+        "date": "2026-02-06",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
+      }
     }
   }
 }
