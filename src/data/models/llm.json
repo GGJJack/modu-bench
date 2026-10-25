@@ -4598,7 +4598,7 @@
       "license": "GLM-4 License"
     },
     {
-      "parameterSize": "7.8B",
+      "parameterSize": "7.8B (6.98B non-embed)",
       "contextWindow": 32768,
       "pricing": null,
       "links": {
@@ -4740,7 +4740,7 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": "7.8B",
+      "parameterSize": "7.8B (6.98B non-embed)",
       "contextWindow": 32768,
       "pricing": null,
       "links": {
@@ -4884,7 +4884,7 @@
       "license": "Llama 2 Community License Agreement"
     },
     {
-      "parameterSize": "2.4B",
+      "parameterSize": "2.4B (2.14B non-embed)",
       "contextWindow": 32768,
       "pricing": null,
       "links": {
@@ -5185,7 +5185,7 @@
       "license": "EXAONE AI Model License Agreement 1.1 - NC"
     },
     {
-      "parameterSize": "7.8B",
+      "parameterSize": "7.8B (6.98B non-embed)",
       "contextWindow": 32768,
       "pricing": null,
       "links": {
