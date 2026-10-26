@@ -1,8 +1,8 @@
 ---
 benchmarkId: "swefish"
 domain: "llm"
-status: "draft"
-updated: 2026-10-23
+status: "published"
+updated: 2026-10-26
 sources:
   - "https://sakana.ai/fugu-max-release/"
 organization: "sakana-ai"
