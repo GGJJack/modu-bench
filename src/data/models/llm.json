@@ -6820,6 +6820,32 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2025-07-22",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "0.6B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3/"
+      },
+      "id": "qwen3-0.6b",
+      "name": "Qwen3-0.6B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-04-29",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "1.7B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen3/"
+      },
+      "id": "qwen3-1.7b",
+      "name": "Qwen3-1.7B",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2025-04-29",
+      "license": "Apache-2.0"
     }
   ]
 }
