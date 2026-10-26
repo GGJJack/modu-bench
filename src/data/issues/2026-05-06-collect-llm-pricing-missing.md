@@ -415,3 +415,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-10-25)
 - (reinforce): 2026년 10월 25일 기준, NAVER Cloud Platform CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 01.AI, Baichuan AI 공식 채널을 재점검함. HyperCLOVA X 계열 모델의 인퍼런스/학습 요금은 여전히 '상담 필요'('-') 비공개 상태이며, Yi-Large 및 Baichuan-4 역시 엔터프라이즈 맞춤 협의 정책이 계속 유지되고 있음을 확인함. 이에 따라 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
+
+## 진행 내역 (2026-10-26)
+- (reinforce): 2026년 10월 26일 기준, NAVER Cloud Platform CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 01.AI, Baichuan AI 공식 채널을 재점검함. HyperCLOVA X 계열 모델의 인퍼런스/학습 요금은 여전히 '상담 필요'('-') 비공개 상태이며, Yi-Large 및 Baichuan-4 역시 엔터프라이즈 맞춤 협의 정책이 계속 유지되고 있음을 확인함. 이에 따라 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
