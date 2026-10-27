@@ -2,8 +2,8 @@
 orgId: codeforces
 name: Codeforces
 type: community
-status: draft
-updated: 2026-05-25
+status: published
+updated: 2026-10-27
 sources:
   - https://en.wikipedia.org/wiki/Codeforces
 ---
