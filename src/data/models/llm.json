@@ -6744,11 +6744,12 @@
       "license": "Proprietary"
     },
     {
-      "parameterSize": "14B",
+      "parameterSize": "14.8B",
       "contextWindow": 131072,
       "pricing": null,
       "links": {
-        "official": "https://qwenlm.github.io/blog/qwen3/"
+        "official": "https://qwenlm.github.io/blog/qwen3/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3-14B"
       },
       "id": "qwen3-14b",
       "name": "Qwen3-14B",
@@ -6757,11 +6758,12 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": "8B",
+      "parameterSize": "8.2B",
       "contextWindow": 131072,
       "pricing": null,
       "links": {
-        "official": "https://qwenlm.github.io/blog/qwen3/"
+        "official": "https://qwenlm.github.io/blog/qwen3/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3-8B"
       },
       "id": "qwen3-8b",
       "name": "Qwen3-8B",
