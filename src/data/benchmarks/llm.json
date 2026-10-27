@@ -8233,6 +8233,130 @@
         "source": "community",
         "sourceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-3.5-32B-Instruct"
       }
+    },
+    "qwen3-0.6b": {
+      "mmlu": {
+        "value": 52.81,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "mmlu-pro": {
+        "value": 24.74,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "bbh": {
+        "value": 41.47,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 26.77,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 59.59,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "math": {
+        "value": 32.44,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "multiple": {
+        "value": 24.58,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 36.6,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "cruxeval": {
+        "value": 27,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "mmmlu": {
+        "value": 50.16,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      }
+    },
+    "qwen3-1.7b": {
+      "mmlu": {
+        "value": 62.63,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "mmlu-pro": {
+        "value": 36.76,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "bbh": {
+        "value": 54.47,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 28.28,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 75.44,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "math": {
+        "value": 43.5,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "multiple": {
+        "value": 42.71,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 55.4,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "cruxeval": {
+        "value": 36.4,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      },
+      "mmmlu": {
+        "value": 63.27,
+        "date": "2025-05-14",
+        "sourceUrl": "https://arxiv.org/abs/2505.09388",
+        "source": "official"
+      }
     }
   }
 }
