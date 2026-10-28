@@ -6785,8 +6785,8 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "32B",
+      "contextWindow": 262144,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3-coder/"
@@ -6798,8 +6798,8 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "14B",
+      "contextWindow": 262144,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3-coder/"
@@ -6811,8 +6811,8 @@
       "license": "Apache-2.0"
     },
     {
-      "parameterSize": null,
-      "contextWindow": null,
+      "parameterSize": "7B",
+      "contextWindow": 262144,
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen3-coder/"
@@ -6828,7 +6828,9 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://qwenlm.github.io/blog/qwen3/"
+        "official": "https://qwenlm.github.io/blog/qwen3/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3-0.6B",
+        "paper": "https://arxiv.org/abs/2505.09388"
       },
       "id": "qwen3-0.6b",
       "name": "Qwen3-0.6B",
@@ -6841,7 +6843,9 @@
       "contextWindow": 32768,
       "pricing": null,
       "links": {
-        "official": "https://qwenlm.github.io/blog/qwen3/"
+        "official": "https://qwenlm.github.io/blog/qwen3/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen3-1.7B",
+        "paper": "https://arxiv.org/abs/2505.09388"
       },
       "id": "qwen3-1.7b",
       "name": "Qwen3-1.7B",
