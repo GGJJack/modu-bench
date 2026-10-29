@@ -6398,7 +6398,8 @@
       "pricing": null,
       "links": {
         "official": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0",
-        "huggingface": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0"
+        "huggingface": "https://huggingface.co/Upstage/SOLAR-10.7B-Instruct-v1.0",
+        "paper": "https://arxiv.org/abs/2312.15166"
       },
       "id": "solar-10.7b-v1.0",
       "name": "SOLAR 10.7B Instruct v1.0",
