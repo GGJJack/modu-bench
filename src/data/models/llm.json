@@ -6354,7 +6354,7 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-coder/",
-        "huggingface": "https://huggingface.co/Qwen",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B",
         "github": "https://github.com/QwenLM/Qwen2.5-Coder",
         "paper": "https://arxiv.org/abs/2409.12186"
       },
