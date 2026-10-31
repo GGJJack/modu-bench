@@ -6009,13 +6009,15 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-math/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-7B"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-7B",
+        "github": "https://github.com/QwenLM/Qwen2-Math",
+        "paper": "https://arxiv.org/abs/2409.12122"
       },
       "id": "qwen-2.5-math-7b",
       "name": "Qwen2.5-Math-7B",
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-09-19",
-      "license": "Qwen License"
+      "license": "Apache-2.0"
     },
     {
       "parameterSize": "552B",
@@ -6108,7 +6110,9 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-math/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-1.5B"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-1.5B",
+        "github": "https://github.com/QwenLM/Qwen2-Math",
+        "paper": "https://arxiv.org/abs/2409.12122"
       },
       "id": "qwen-2.5-math-1.5b",
       "name": "Qwen2.5-Math-1.5B",
@@ -6122,7 +6126,9 @@
       "pricing": null,
       "links": {
         "official": "https://qwenlm.github.io/blog/qwen2.5-math/",
-        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-72B"
+        "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Math-72B",
+        "github": "https://github.com/QwenLM/Qwen2-Math",
+        "paper": "https://arxiv.org/abs/2409.12122"
       },
       "id": "qwen-2.5-math-72b",
       "name": "Qwen2.5-Math-72B",
