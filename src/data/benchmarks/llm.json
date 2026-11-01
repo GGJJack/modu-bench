@@ -7442,6 +7442,12 @@
         "date": "2024-09-19",
         "source": "official",
         "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-math/"
+      },
+      "gsm8k": {
+        "value": 84.8,
+        "date": "2024-09-18",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2409.12122"
       }
     },
     "qwen-2.5-math-7b-instruct": {
@@ -7450,6 +7456,12 @@
         "date": "2024-09-19",
         "source": "official",
         "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-math/"
+      },
+      "gsm8k": {
+        "value": 95.2,
+        "date": "2024-09-18",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2409.12122"
       }
     },
     "qwen-2.5-math-72b-instruct": {
@@ -7458,6 +7470,12 @@
         "date": "2024-09-19",
         "source": "official",
         "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5-math/"
+      },
+      "gsm8k": {
+        "value": 95.9,
+        "date": "2024-09-18",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2409.12122"
       }
     },
     "qwen-2.5-coder-7b": {
@@ -8556,6 +8574,48 @@
         "date": "2025-05-14",
         "source": "official",
         "sourceUrl": "https://arxiv.org/abs/2505.09388"
+      }
+    },
+    "qwen-2.5-math-1.5b": {
+      "gsm8k": {
+        "value": 76.8,
+        "date": "2024-09-18",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2409.12122"
+      },
+      "math": {
+        "value": 49.8,
+        "date": "2024-09-18",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2409.12122"
+      }
+    },
+    "qwen-2.5-math-7b": {
+      "gsm8k": {
+        "value": 91.6,
+        "date": "2024-09-18",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2409.12122"
+      },
+      "math": {
+        "value": 55.4,
+        "date": "2024-09-18",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2409.12122"
+      }
+    },
+    "qwen-2.5-math-72b": {
+      "gsm8k": {
+        "value": 90.8,
+        "date": "2024-09-18",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2409.12122"
+      },
+      "math": {
+        "value": 66.8,
+        "date": "2024-09-18",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/html/2409.12122"
       }
     }
   }
