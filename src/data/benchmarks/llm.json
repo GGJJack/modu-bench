@@ -1878,6 +1878,90 @@
         100
       ],
       "higherIsBetter": true
+    },
+    {
+      "id": "terminal-bench-4-0",
+      "name": "Terminal-Bench 4.0",
+      "nameKo": "Terminal-Bench 4.0 (터미널 기반 워크플로우 테스트)",
+      "category": "agent",
+      "description": "복잡한 명령줄 워크플로우를 계획하고 도구를 조정하는 능력을 테스트하는 벤치마크 (버전 4.0)",
+      "source": "https://www.anthropic.com/claude-opus-5-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "frontiercode-main",
+      "name": "FrontierCode (Main)",
+      "nameKo": "FrontierCode (Main)",
+      "category": "coding",
+      "description": "프론티어 코딩 에이전트 성능 평가 (Main 난이도)",
+      "source": "https://www.anthropic.com/claude-opus-5-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "cursorbench-4-0",
+      "name": "CursorBench 4.0",
+      "nameKo": "CursorBench 4.0",
+      "category": "coding",
+      "description": "에이전트 기반의 코드 작업 벤치마크 (버전 4.0)",
+      "source": "https://www.anthropic.com/claude-opus-5-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "gdpval-aa-v2-1",
+      "name": "GDPval-AA v2.1",
+      "nameKo": "GDPval-AA v2.1",
+      "category": "agent",
+      "description": "에이전트 태스크 해결 능력을 측정하는 ELO 벤치마크 (버전 2.1)",
+      "source": "https://www.anthropic.com/claude-opus-5-5",
+      "unit": "Elo",
+      "scoreRange": [
+        0,
+        3000
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "terminal-bench-science",
+      "name": "Terminal-Bench-Science 0.1",
+      "nameKo": "Terminal-Bench-Science 0.1 (터미널 과학 벤치마크)",
+      "category": "agent",
+      "description": "과학적 에이전트 터미널 워크플로우 벤치마크",
+      "source": "https://www.anthropic.com/claude-opus-5-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
+    },
+    {
+      "id": "osworld-2-1",
+      "name": "OSWorld 2.1",
+      "nameKo": "OSWorld 2.1 (운영체제 컴퓨터 자동화)",
+      "category": "agent",
+      "description": "실제 컴퓨터 환경에서의 멀티모달 에이전트 워크플로우를 테스트 (버전 2.1)",
+      "source": "https://www.anthropic.com/claude-opus-5-5",
+      "unit": "%",
+      "scoreRange": [
+        0,
+        100
+      ],
+      "higherIsBetter": true
     }
   ],
   "scores": {
@@ -3664,9 +3748,10 @@
         "source": "official"
       },
       "automationbench": {
-        "value": 17.4,
-        "date": "2026-06-09",
-        "source": "official"
+        "value": 31.4,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
       },
       "biomysterybench-hard": {
         "value": 46.1,
@@ -3689,9 +3774,10 @@
         "source": "official"
       },
       "hle-with-tools": {
-        "value": 64.5,
-        "date": "2026-06-09",
-        "source": "official"
+        "value": 65.6,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
       },
       "frontierbench": {
         "value": 90,
@@ -3706,6 +3792,48 @@
         "source": "official",
         "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "note": "Claimed to achieve top performance"
+      },
+      "chartography": {
+        "value": 88.4,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "terminal-bench-4-0": {
+        "value": 55.8,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "frontiercode-main": {
+        "value": 50.3,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "cursorbench-4-0": {
+        "value": 51.8,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "gdpval-aa-v2-1": {
+        "value": 1735,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "terminal-bench-science": {
+        "value": 52.6,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "osworld-2-1": {
+        "value": 80.7,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
       }
     },
     "claude-mythos-5": {
@@ -4081,6 +4209,42 @@
         "source": "official",
         "sourceUrl": "https://openai.com/index/previewing-gpt-5-6-sol/",
         "note": "Claimed to set a new state of the art (interpreted as breakthrough performance)"
+      },
+      "terminal-bench-4-0": {
+        "value": 37.3,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "frontiercode-main": {
+        "value": 47.5,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "cursorbench-4-0": {
+        "value": 41.7,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "gdpval-aa-v2-1": {
+        "value": 1588,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "automationbench": {
+        "value": 28.8,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "terminal-bench-science": {
+        "value": 22.4,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
       }
     },
     "gpt-5-6-terra": {
@@ -8616,6 +8780,44 @@
         "date": "2024-09-18",
         "source": "official",
         "sourceUrl": "https://arxiv.org/html/2409.12122"
+      }
+    },
+    "claude-opus-5-5": {
+      "terminal-bench-4-0": {
+        "value": 66.4,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "frontiercode-main": {
+        "value": 54.4,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "cursorbench-4-0": {
+        "value": 57.8,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "gdpval-aa-v2-1": {
+        "value": 1846,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "terminal-bench-science": {
+        "value": 58.7,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
+      },
+      "osworld-2-1": {
+        "value": 81.8,
+        "date": "2026-09-22",
+        "source": "official",
+        "sourceUrl": "https://www.anthropic.com/claude-opus-5-5"
       }
     }
   }
