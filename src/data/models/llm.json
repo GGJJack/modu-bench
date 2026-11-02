@@ -6924,6 +6924,54 @@
       "provider": "Upstage",
       "releaseDate": "2026-10-01",
       "license": "Proprietary"
+    },
+    {
+      "parameterSize": "2.6B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/technology/developers/gemma-2-2b-lightweight-ai-model/",
+        "huggingface": "https://huggingface.co/google/gemma-2-2b",
+        "github": "https://github.com/google-deepmind/gemma",
+        "paper": "https://arxiv.org/abs/2408.00118"
+      },
+      "id": "gemma-2-2b",
+      "name": "Gemma 2 2B",
+      "provider": "Google",
+      "releaseDate": "2024-07-31",
+      "license": "Gemma Terms of Use"
+    },
+    {
+      "parameterSize": "9B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+        "huggingface": "https://huggingface.co/google/gemma-2-9b",
+        "github": "https://github.com/google-deepmind/gemma",
+        "paper": "https://arxiv.org/abs/2408.00118"
+      },
+      "id": "gemma-2-9b",
+      "name": "Gemma 2 9B",
+      "provider": "Google",
+      "releaseDate": "2024-06-27",
+      "license": "Gemma Terms of Use"
+    },
+    {
+      "parameterSize": "27B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+        "huggingface": "https://huggingface.co/google/gemma-2-27b",
+        "github": "https://github.com/google-deepmind/gemma",
+        "paper": "https://arxiv.org/abs/2408.00118"
+      },
+      "id": "gemma-2-27b",
+      "name": "Gemma 2 27B",
+      "provider": "Google",
+      "releaseDate": "2024-06-27",
+      "license": "Gemma Terms of Use"
     }
   ]
 }
