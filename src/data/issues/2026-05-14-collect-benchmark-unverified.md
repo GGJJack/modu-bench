@@ -35,3 +35,6 @@ Google Search를 통해 해당 모델들의 주요 벤치마크(MMLU-Pro, GPQA �
 
 ## 진행 내역 (2026-10-13)
 - (reinforce): 2026년 10월 13일 기준, DeepSeek 및 Meta 공식 채널을 재조사함. DeepSeek V3.2 및 Llama 4 Maverick/Scout 17B 모델의 공식 학술 벤치마크 수치(MMLU-Pro, GPQA 등)는 여전히 발표되지 않았음. 신뢰할 수 있는 공식 수치 확보 실패로 추적 및 정기 모니터링을 계속 유지함.
+
+## 진행 내역 (2026-11-03)
+- (reinforce): 2026년 11월 3일 기준, Meta 공식 및 AWS Bedrock(https://aws.amazon.com/bedrock/meta/), DeepSeek 공식 채널을 재조사함. Llama 4 Maverick/Scout 17B 및 DeepSeek V3.2에 대한 추가적인 표준 학술 벤치마크(MMLU-Pro, GPQA 등) 공식 점수는 여전히 발표되거나 공개되지 않았음. 신뢰할 수 있는 공식 출처 수치 미확인 상태이므로 정기 추적 모니터링을 계속 유지함.

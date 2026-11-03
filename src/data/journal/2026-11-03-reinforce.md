@@ -23,3 +23,21 @@ summary: "2건의 오래된 blocker 이슈 재검증 및 진행 내역 갱신"
 
 ## 이슈 제기
 - (없음)
+
+## 재실행 (04:00)
+
+### Todo
+- [x] 이슈 `2026-05-07-collect-llm-metadata-missing.md` 재검토 및 진행 내역 기록
+- [x] 이슈 `2026-05-14-collect-benchmark-unverified.md` 재검토 및 진행 내역 기록
+
+### 조사 내역
+- 04:00 HyperCLOVA X, Sakana AI(Fugu), 01.AI, Baichuan AI 공식 가격 페이지 재확인 ← https://www.ncloud.com/product/ai/clovaStudio
+- 04:05 AWS Bedrock Meta Llama 페이지 및 DeepSeek 공식 채널 확인, Llama 4 Maverick/Scout 17B 및 DeepSeek V3.2 표준 학술 벤치마크 점수 부재 재확인 ← https://aws.amazon.com/bedrock/meta/
+
+### 수행한 작업
+- [x] `2026-05-07-collect-llm-metadata-missing.md` 진행 내역(2026-11-03) append 및 blocker 유지 ← https://www.ncloud.com/product/ai/clovaStudio
+- [x] `2026-05-14-collect-benchmark-unverified.md` 진행 내역(2026-11-03) append 및 모니터링 유지 ← https://aws.amazon.com/bedrock/meta/
+
+### 판단 / 고민
+- NCP CLOVA Studio 및 주요 엔터프라이즈 모델(01.AI, Baichuan AI, Sakana AI 베타)의 공식 가격은 일반 공개 단가 없이 상담 필요 및 기업 협의 제도로 운영되고 있어 blocker 상태를 유지함.
+- Llama 4 Maverick/Scout 17B 및 DeepSeek V3.2는 AWS Bedrock 및 공식 채널에서 범용 학술 벤치마크 수치가 추가 공개되지 않아 모니터링을 지속함.

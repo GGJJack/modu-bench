@@ -124,3 +124,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-10-13)
 - (reinforce): 2026년 10월 13일 기준, NCP CLOVA Studio 요금 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 Sakana AI(https://sakana.ai/fugu-beta/), 01.AI, Baichuan AI 공식 채널을 재점검함. HyperCLOVA X 계열 모델들의 공식 API 단가는 여전히 '상담 필요'('-') 비공개 상태이며, Sakana Fugu 시리즈 등 베타 단계 모델들 역시 공식 가격 정보가 공개되지 않았음을 확인함. 이에 따라 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
+
+## 진행 내역 (2026-11-03)
+- (reinforce): 2026년 11월 3일 기준, NCP CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 Sakana AI(https://sakana.ai/fugu-beta/), 01.AI, Baichuan AI 공식 채널을 재점검함. HyperCLOVA X 계열 모델들의 공식 API 단가는 여전히 '상담 필요' 비공개 상태이며, Sakana Fugu 시리즈 및 01.AI, Baichuan AI 또한 엔터프라이즈 맞춤 협의 및 비공개 기조가 유지되고 있음을 확인함. 이에 따라 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
