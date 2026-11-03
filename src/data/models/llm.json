@@ -6972,6 +6972,89 @@
       "provider": "Google",
       "releaseDate": "2024-06-27",
       "license": "Gemma Terms of Use"
+    },
+    {
+      "parameterSize": "35B",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.5,
+        "output": 1.5
+      },
+      "links": {
+        "official": "https://cohere.com/blog/command-r",
+        "huggingface": "https://huggingface.co/CohereLabs/c4ai-command-r-v01"
+      },
+      "id": "command-r",
+      "name": "Command R",
+      "provider": "Cohere",
+      "releaseDate": "2024-03-11",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "parameterSize": "104B",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 3,
+        "output": 15
+      },
+      "links": {
+        "official": "https://docs.cohere.com/docs/command-r-plus",
+        "huggingface": "https://huggingface.co/CohereLabs/c4ai-command-r-plus"
+      },
+      "id": "command-r-plus",
+      "name": "Command R+",
+      "provider": "Cohere",
+      "releaseDate": "2024-04-04",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "parameterSize": "32B",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.15,
+        "output": 0.6
+      },
+      "links": {
+        "official": "https://docs.cohere.com/changelog/command-gets-refreshed",
+        "huggingface": "https://huggingface.co/CohereLabs/c4ai-command-r-08-2024"
+      },
+      "id": "command-r-08-2024",
+      "name": "Command R (08-2024)",
+      "provider": "Cohere",
+      "releaseDate": "2024-08-30",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "parameterSize": "104B",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 2.5,
+        "output": 10
+      },
+      "links": {
+        "official": "https://docs.cohere.com/changelog/command-gets-refreshed",
+        "huggingface": "https://huggingface.co/CohereLabs/c4ai-command-r-plus-08-2024"
+      },
+      "id": "command-r-plus-08-2024",
+      "name": "Command R+ (08-2024)",
+      "provider": "Cohere",
+      "releaseDate": "2024-08-30",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://docs.cohere.com/docs/command-r7b",
+        "huggingface": "https://huggingface.co/CohereLabs/c4ai-command-r7b-12-2024",
+        "paper": "https://arxiv.org/abs/2504.00698"
+      },
+      "id": "command-r7b-12-2024",
+      "name": "Command R7B (12-2024)",
+      "provider": "Cohere",
+      "releaseDate": "2024-12-11",
+      "license": "CC-BY-NC-4.0"
     }
   ]
 }
