@@ -439,3 +439,6 @@ target: llm/multiple
 
 ## 진행 내역 (2026-11-03)
 - (reinforce): 2026년 11월 3일 기준, NAVER Cloud Platform CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 요금 계산기(https://www.ncloud.com/charge/calc/ko?category=aiService#clovaStudio)를 재점검함. HyperCLOVA X 계열 모델(HCX-007, HCX-005, HCX-DASH-002)의 인퍼런스/학습 요금은 여전히 비공개 상태이며, Yi-Large 및 Baichuan-4 역시 공식 직영 단가표 대신 엔터프라이즈 개별 맞춤 협의 정책이 유지되고 있음을 재확인함. 이에 따라 severity: blocker 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
+
+## 진행 내역 (2026-11-04)
+- (reinforce): 2026년 11월 4일 기준, NAVER Cloud Platform CLOVA Studio 요금 안내 페이지(https://www.ncloud.com/product/ai/clovaStudio) 및 공식 채널을 재점검함. HyperCLOVA X 계열 모델(HCX-007, HCX-005, HCX-DASH-002)의 요금은 여전히 '상담 필요'('-') 비공개 상태이며, Yi-Large 및 Baichuan-4 역시 공식 직영 단가표 대신 엔터프라이즈 개별 맞춤 협의 정책이 계속 유지되고 있음을 확인함. 이에 따라 `severity: blocker` 및 "사람 에스컬레이션 필요" 상태를 지속 유지함.
