@@ -9041,6 +9041,96 @@
         "sourceUrl": "https://arxiv.org/abs/2408.00118",
         "source": "official"
       }
+    },
+    "command-r-plus": {
+      "mmlu": {
+        "value": 75.7,
+        "date": "2024-04-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r-plus"
+      },
+      "gsm8k": {
+        "value": 70.7,
+        "date": "2024-04-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r-plus"
+      },
+      "arc-c": {
+        "value": 70.99,
+        "date": "2024-04-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r-plus"
+      },
+      "winogrande": {
+        "value": 85.4,
+        "date": "2024-04-04",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r-plus"
+      }
+    },
+    "command-r": {
+      "mmlu": {
+        "value": 68.2,
+        "date": "2024-03-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r-plus"
+      },
+      "gsm8k": {
+        "value": 56.6,
+        "date": "2024-03-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r-plus"
+      },
+      "arc-c": {
+        "value": 65.5,
+        "date": "2024-03-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r-plus"
+      },
+      "winogrande": {
+        "value": 81.5,
+        "date": "2024-03-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r-plus"
+      }
+    },
+    "command-r7b-12-2024": {
+      "ifeval": {
+        "value": 77.9,
+        "date": "2024-12-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r7b-12-2024"
+      },
+      "bbh": {
+        "value": 36.1,
+        "date": "2024-12-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r7b-12-2024"
+      },
+      "math": {
+        "value": 26.4,
+        "date": "2024-12-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r7b-12-2024"
+      },
+      "gpqa": {
+        "value": 7.7,
+        "date": "2024-12-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r7b-12-2024"
+      },
+      "musr": {
+        "value": 11.6,
+        "date": "2024-12-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r7b-12-2024"
+      },
+      "mmlu-pro": {
+        "value": 28.5,
+        "date": "2024-12-11",
+        "source": "community",
+        "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r7b-12-2024"
+      }
     }
   }
 }
