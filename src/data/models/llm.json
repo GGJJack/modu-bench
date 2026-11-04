@@ -6742,13 +6742,13 @@
       "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://mistral.ai/news/mistral-large-2411/"
+        "official": "https://docs.mistral.ai/models/mistral-large-2-1-24-11/"
       },
       "id": "mistral-large-2411",
       "name": "Mistral Large 2411",
       "provider": "Mistral AI",
       "releaseDate": "2024-11-18",
-      "license": "Proprietary"
+      "license": "Mistral Research License"
     },
     {
       "parameterSize": "14.8B",
@@ -7055,6 +7055,67 @@
       "provider": "Cohere",
       "releaseDate": "2024-12-11",
       "license": "CC-BY-NC-4.0"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/announcing-mistral-7b/",
+        "paper": "https://arxiv.org/abs/2310.06825",
+        "huggingface": "https://huggingface.co/mistralai/Mistral-7B-v0.1"
+      },
+      "id": "mistral-7b",
+      "name": "Mistral 7B",
+      "provider": "Mistral AI",
+      "releaseDate": "2023-09-27",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "47B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/mixtral-of-experts/",
+        "paper": "https://arxiv.org/abs/2401.04088",
+        "huggingface": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1"
+      },
+      "id": "mixtral-8x7b",
+      "name": "Mixtral 8x7B",
+      "provider": "Mistral AI",
+      "releaseDate": "2023-12-11",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "141B",
+      "contextWindow": 65536,
+      "pricing": null,
+      "links": {
+        "official": "https://mistral.ai/news/mixtral-8x22b/",
+        "huggingface": "https://huggingface.co/mistralai/Mixtral-8x22B-v0.1"
+      },
+      "id": "mixtral-8x22b",
+      "name": "Mixtral 8x22B",
+      "provider": "Mistral AI",
+      "releaseDate": "2024-04-17",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": 131072,
+      "pricing": {
+        "input": 0.1,
+        "output": 0.1
+      },
+      "links": {
+        "official": "https://mistral.ai/news/ministraux/",
+        "huggingface": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+      },
+      "id": "ministraux-8b",
+      "name": "Ministral 8B",
+      "provider": "Mistral AI",
+      "releaseDate": "2024-10-16",
+      "license": "Mistral Commercial License"
     }
   ]
 }
