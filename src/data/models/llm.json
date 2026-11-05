@@ -2765,7 +2765,9 @@
       "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://azure.microsoft.com/en-us/blog/introducing-phi-4-microsofts-newest-small-language-model-now-available-on-azure-ai-models-as-a-service/"
+        "official": "https://azure.microsoft.com/en-us/blog/introducing-phi-4-microsofts-newest-small-language-model-now-available-on-azure-ai-models-as-a-service/",
+        "huggingface": "https://huggingface.co/microsoft/phi-4",
+        "paper": "https://arxiv.org/abs/2412.08905"
       },
       "id": "phi-4",
       "name": "Phi-4",
@@ -7116,6 +7118,69 @@
       "provider": "Mistral AI",
       "releaseDate": "2024-10-16",
       "license": "Mistral Commercial License"
+    },
+    {
+      "parameterSize": "3.8B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/",
+        "huggingface": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+        "paper": "https://arxiv.org/abs/2404.14219"
+      },
+      "id": "phi-3-mini-4k-instruct",
+      "name": "Phi-3-mini-4k-instruct",
+      "provider": "Microsoft",
+      "releaseDate": "2024-04-23",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://azure.microsoft.com/en-us/blog/new-models-added-to-the-phi-3-family-available-on-microsoft-azure/",
+        "huggingface": "https://huggingface.co/microsoft/Phi-3-small-8k-instruct",
+        "paper": "https://arxiv.org/abs/2404.14219"
+      },
+      "id": "phi-3-small-8k-instruct",
+      "name": "Phi-3-small-8k-instruct",
+      "provider": "Microsoft",
+      "releaseDate": "2024-05-21",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "14B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://azure.microsoft.com/en-us/blog/new-models-added-to-the-phi-3-family-available-on-microsoft-azure/",
+        "huggingface": "https://huggingface.co/microsoft/Phi-3-medium-4k-instruct",
+        "paper": "https://arxiv.org/abs/2404.14219"
+      },
+      "id": "phi-3-medium-4k-instruct",
+      "name": "Phi-3-medium-4k-instruct",
+      "provider": "Microsoft",
+      "releaseDate": "2024-05-21",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "42B",
+      "contextWindow": 128000,
+      "pricing": {
+        "input": 0.13,
+        "output": 0.52
+      },
+      "links": {
+        "official": "https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/announcing-the-availability-of-phi-3-5-moe-in-azure-ai-studio/ba-p/4256278",
+        "huggingface": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct",
+        "paper": "https://arxiv.org/abs/2409.12136"
+      },
+      "id": "phi-3.5-moe-instruct",
+      "name": "Phi-3.5-MoE-instruct",
+      "provider": "Microsoft",
+      "releaseDate": "2024-08-20",
+      "license": "MIT"
     }
   ]
 }
