@@ -1,7 +1,7 @@
 ---
 benchmarkId: cursorbench-4-0
 domain: llm
-status: draft
+status: published
 updated: 2026-11-02
 sources:
   - https://www.anthropic.com/claude-opus-5-5
