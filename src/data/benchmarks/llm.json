@@ -9131,6 +9131,82 @@
         "source": "community",
         "sourceUrl": "https://huggingface.co/CohereLabs/c4ai-command-r7b-12-2024"
       }
+    },
+    "mistral-7b": {
+      "mmlu": {
+        "value": 60.1,
+        "date": "2023-10-10",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2310.06825"
+      },
+      "humaneval": {
+        "value": 30.5,
+        "date": "2023-10-10",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2310.06825"
+      },
+      "mbpp": {
+        "value": 47.5,
+        "date": "2023-10-10",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2310.06825"
+      },
+      "math": {
+        "value": 13.1,
+        "date": "2023-10-10",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2310.06825"
+      },
+      "gsm8k": {
+        "value": 52.2,
+        "date": "2023-10-10",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2310.06825"
+      },
+      "mt-bench": {
+        "value": 6.84,
+        "date": "2023-10-10",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2310.06825"
+      }
+    },
+    "mixtral-8x7b": {
+      "mmlu": {
+        "value": 70.6,
+        "date": "2024-01-08",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2401.04088"
+      },
+      "humaneval": {
+        "value": 40.2,
+        "date": "2024-01-08",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2401.04088"
+      },
+      "mbpp": {
+        "value": 60.7,
+        "date": "2024-01-08",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2401.04088"
+      },
+      "math": {
+        "value": 28.4,
+        "date": "2024-01-08",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2401.04088"
+      },
+      "gsm8k": {
+        "value": 74.4,
+        "date": "2024-01-08",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2401.04088"
+      },
+      "mt-bench": {
+        "value": 8.3,
+        "date": "2024-01-08",
+        "source": "official",
+        "sourceUrl": "https://arxiv.org/abs/2401.04088"
+      }
     }
   }
 }
