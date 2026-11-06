@@ -2780,7 +2780,9 @@
       "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://huggingface.co/microsoft/phi-4-multimodal-instruct"
+        "official": "https://huggingface.co/microsoft/phi-4-multimodal-instruct",
+        "huggingface": "https://huggingface.co/microsoft/phi-4-multimodal-instruct",
+        "paper": "https://arxiv.org/abs/2503.01743"
       },
       "id": "phi-4-multimodal-instruct",
       "name": "Phi-4 Multimodal Instruct",
@@ -7180,6 +7182,65 @@
       "name": "Phi-3.5-MoE-instruct",
       "provider": "Microsoft",
       "releaseDate": "2024-08-20",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "1.3B",
+      "contextWindow": 2048,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/microsoft/phi-1",
+        "huggingface": "https://huggingface.co/microsoft/phi-1",
+        "paper": "https://arxiv.org/abs/2306.11644"
+      },
+      "id": "phi-1",
+      "name": "Phi-1",
+      "provider": "Microsoft",
+      "releaseDate": "2023-06-20",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "1.3B",
+      "contextWindow": 2048,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/microsoft/phi-1_5",
+        "huggingface": "https://huggingface.co/microsoft/phi-1_5",
+        "paper": "https://arxiv.org/abs/2309.05463"
+      },
+      "id": "phi-1-5",
+      "name": "Phi-1.5",
+      "provider": "Microsoft",
+      "releaseDate": "2023-09-11",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "2.7B",
+      "contextWindow": 2048,
+      "pricing": null,
+      "links": {
+        "official": "https://huggingface.co/microsoft/phi-2",
+        "huggingface": "https://huggingface.co/microsoft/phi-2"
+      },
+      "id": "phi-2",
+      "name": "Phi-2",
+      "provider": "Microsoft",
+      "releaseDate": "2023-12-12",
+      "license": "MIT"
+    },
+    {
+      "parameterSize": "3.8B",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://azure.microsoft.com/en-us/products/phi",
+        "huggingface": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "paper": "https://arxiv.org/abs/2503.01743"
+      },
+      "id": "phi-4-mini-instruct",
+      "name": "Phi-4-mini-instruct",
+      "provider": "Microsoft",
+      "releaseDate": "2025-02-19",
       "license": "MIT"
     }
   ]
