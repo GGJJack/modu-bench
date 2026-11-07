@@ -109,7 +109,7 @@
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-V3",
         "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
-        "paper": "https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf"
+        "paper": "https://arxiv.org/abs/2412.19437"
       },
       "id": "deepseek-v3",
       "name": "DeepSeek-V3",
@@ -1622,7 +1622,7 @@
       "links": {
         "official": "https://github.com/deepseek-ai/DeepSeek-R1",
         "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-        "paper": "https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf"
+        "paper": "https://arxiv.org/abs/2501.12948"
       },
       "id": "deepseek-r1",
       "name": "DeepSeek-R1",
@@ -7242,6 +7242,86 @@
       "provider": "Microsoft",
       "releaseDate": "2025-02-19",
       "license": "MIT"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-LLM",
+        "huggingface": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base",
+        "github": "https://github.com/deepseek-ai/DeepSeek-LLM",
+        "paper": "https://arxiv.org/abs/2401.02954"
+      },
+      "id": "deepseek-llm-7b-base",
+      "name": "DeepSeek LLM 7B Base",
+      "provider": "DeepSeek",
+      "releaseDate": "2023-11-29",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-LLM",
+        "huggingface": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat",
+        "github": "https://github.com/deepseek-ai/DeepSeek-LLM",
+        "paper": "https://arxiv.org/abs/2401.02954"
+      },
+      "id": "deepseek-llm-7b-chat",
+      "name": "DeepSeek LLM 7B Chat",
+      "provider": "DeepSeek",
+      "releaseDate": "2023-11-29",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": "67B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-LLM",
+        "huggingface": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-base",
+        "github": "https://github.com/deepseek-ai/DeepSeek-LLM",
+        "paper": "https://arxiv.org/abs/2401.02954"
+      },
+      "id": "deepseek-llm-67b-base",
+      "name": "DeepSeek LLM 67B Base",
+      "provider": "DeepSeek",
+      "releaseDate": "2023-11-29",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": "67B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-LLM",
+        "huggingface": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat",
+        "github": "https://github.com/deepseek-ai/DeepSeek-LLM",
+        "paper": "https://arxiv.org/abs/2401.02954"
+      },
+      "id": "deepseek-llm-67b-chat",
+      "name": "DeepSeek LLM 67B Chat",
+      "provider": "DeepSeek",
+      "releaseDate": "2023-11-29",
+      "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": "236B (21B active) MoE",
+      "contextWindow": 128000,
+      "pricing": null,
+      "links": {
+        "official": "https://github.com/deepseek-ai/DeepSeek-V2",
+        "huggingface": "https://huggingface.co/deepseek-ai/DeepSeek-V2",
+        "github": "https://github.com/deepseek-ai/DeepSeek-V2",
+        "paper": "https://arxiv.org/abs/2405.04434"
+      },
+      "id": "deepseek-v2",
+      "name": "DeepSeek-V2",
+      "provider": "DeepSeek",
+      "releaseDate": "2024-05-06",
+      "license": "DeepSeek Model License"
     }
   ]
 }
