@@ -4200,7 +4200,7 @@
       "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://qwenlm.github.io/blog/qwen2.5-coder/",
+        "official": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
         "huggingface": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
         "github": "https://github.com/QwenLM/Qwen2.5-Coder",
         "paper": "https://arxiv.org/abs/2409.12186"
@@ -7322,6 +7322,70 @@
       "provider": "DeepSeek",
       "releaseDate": "2024-05-06",
       "license": "DeepSeek Model License"
+    },
+    {
+      "parameterSize": "72.7B",
+      "contextWindow": 131072,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2-72B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2",
+        "paper": "https://arxiv.org/abs/2407.10671"
+      },
+      "id": "qwen2-72b-instruct",
+      "name": "Qwen2 72B Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-06-07",
+      "license": "Tongyi Qianwen Research License"
+    },
+    {
+      "parameterSize": "57.4B (14B active)",
+      "contextWindow": 65536,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2",
+        "paper": "https://arxiv.org/abs/2407.10671"
+      },
+      "id": "qwen2-57b-a14b-instruct",
+      "name": "Qwen2 57B-A14B Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-06-07",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "7.07B",
+      "contextWindow": 131072,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2-7B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2",
+        "paper": "https://arxiv.org/abs/2407.10671"
+      },
+      "id": "qwen2-7b-instruct",
+      "name": "Qwen2 7B Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-06-07",
+      "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "0.49B",
+      "contextWindow": 32768,
+      "pricing": null,
+      "links": {
+        "official": "https://qwenlm.github.io/blog/qwen2/",
+        "huggingface": "https://huggingface.co/Qwen/Qwen2-0.5B-Instruct",
+        "github": "https://github.com/QwenLM/Qwen2",
+        "paper": "https://arxiv.org/abs/2407.10671"
+      },
+      "id": "qwen2-0.5b-instruct",
+      "name": "Qwen2 0.5B Instruct",
+      "provider": "Alibaba Cloud",
+      "releaseDate": "2024-06-07",
+      "license": "Apache-2.0"
     }
   ]
 }
