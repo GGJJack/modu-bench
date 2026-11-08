@@ -2,8 +2,8 @@
 orgId: tatsu-lab
 name: Tatsu Lab
 type: academic
-status: draft
-updated: 2026-08-11
+status: published
+updated: 2026-11-08
 sources:
   - https://github.com/tatsu-lab
 ---
