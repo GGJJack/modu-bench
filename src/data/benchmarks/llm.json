@@ -9591,6 +9591,166 @@
         "sourceUrl": "https://arxiv.org/abs/2412.08905",
         "source": "official"
       }
+    },
+    "deepseek-llm-7b-base": {
+      "mmlu": {
+        "value": 48.2,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 26.2,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 39,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 17.4,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "cmmlu": {
+        "value": 47.2,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      }
+    },
+    "deepseek-llm-7b-chat": {
+      "mmlu": {
+        "value": 49.4,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 48.2,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 35.2,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 63,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "cmmlu": {
+        "value": 49.7,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      }
+    },
+    "deepseek-llm-67b-base": {
+      "mmlu": {
+        "value": 71.3,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 42.7,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 57.4,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 63.4,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "cmmlu": {
+        "value": 70.8,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      }
+    },
+    "deepseek-llm-67b-chat": {
+      "mmlu": {
+        "value": 71.1,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 73.8,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 61.4,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 84.1,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      },
+      "cmmlu": {
+        "value": 67.8,
+        "date": "2024-01-05",
+        "sourceUrl": "https://arxiv.org/abs/2401.02954",
+        "source": "official"
+      }
+    },
+    "deepseek-v2": {
+      "mmlu": {
+        "value": 78.5,
+        "date": "2024-05-07",
+        "sourceUrl": "https://arxiv.org/abs/2405.04434",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 48.8,
+        "date": "2024-05-07",
+        "sourceUrl": "https://arxiv.org/abs/2405.04434",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 66.6,
+        "date": "2024-05-07",
+        "sourceUrl": "https://arxiv.org/abs/2405.04434",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 79.2,
+        "date": "2024-05-07",
+        "sourceUrl": "https://arxiv.org/abs/2405.04434",
+        "source": "official"
+      },
+      "cmmlu": {
+        "value": 84,
+        "date": "2024-05-07",
+        "sourceUrl": "https://arxiv.org/abs/2405.04434",
+        "source": "official"
+      }
     }
   }
 }
