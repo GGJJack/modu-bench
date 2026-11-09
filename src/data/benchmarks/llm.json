@@ -9751,6 +9751,182 @@
         "sourceUrl": "https://arxiv.org/abs/2405.04434",
         "source": "official"
       }
+    },
+    "qwen2-72b-instruct": {
+      "mmlu": {
+        "value": 82.3,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "mmlu-pro": {
+        "value": 64.4,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 42.4,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "mt-bench": {
+        "value": 9.12,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 86,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 80.2,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 91.1,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "c-eval": {
+        "value": 83.8,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      }
+    },
+    "qwen2-57b-a14b-instruct": {
+      "mmlu": {
+        "value": 75.4,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "mmlu-pro": {
+        "value": 52.8,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 34.3,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "mt-bench": {
+        "value": 8.55,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 79.9,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 70.9,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 79.6,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "c-eval": {
+        "value": 80.5,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      }
+    },
+    "qwen2-7b-instruct": {
+      "mmlu": {
+        "value": 70.5,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "mmlu-pro": {
+        "value": 44.1,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 25.3,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "mt-bench": {
+        "value": 8.41,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 79.9,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "mbpp": {
+        "value": 67.2,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 82.3,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "c-eval": {
+        "value": 77.2,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      }
+    },
+    "qwen2-0.5b-instruct": {
+      "mmlu": {
+        "value": 37.9,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 17.1,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 40.1,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      },
+      "c-eval": {
+        "value": 45.2,
+        "date": "2024-06-07",
+        "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+        "source": "official"
+      }
     }
   }
 }
