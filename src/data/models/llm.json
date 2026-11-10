@@ -91,7 +91,9 @@
       },
       "links": {
         "official": "https://ai.meta.com/blog/meta-llama-3-1/",
-        "huggingface": "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct"
+        "huggingface": "https://huggingface.co/meta-llama/Llama-3.1-405B-Instruct",
+        "github": "https://github.com/meta-llama/llama-models",
+        "paper": "https://arxiv.org/abs/2407.21783"
       },
       "id": "llama-3.1-405b",
       "name": "Llama 3.1 405B",
@@ -3800,7 +3802,8 @@
       "pricing": null,
       "links": {
         "official": "https://ai.meta.com/blog/meta-llama-3/",
-        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
+        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+        "paper": "https://arxiv.org/abs/2407.21783"
       },
       "id": "llama-3-8b",
       "name": "Llama 3 8B",
@@ -7396,7 +7399,8 @@
       "pricing": null,
       "links": {
         "official": "https://llama.meta.com/llama3/",
-        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct"
+        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct",
+        "paper": "https://arxiv.org/abs/2407.21783"
       },
       "id": "llama-3-70b-instruct",
       "name": "Llama 3 70B Instruct",
@@ -7410,7 +7414,8 @@
       "pricing": null,
       "links": {
         "official": "https://llama.meta.com/llama3/",
-        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
+        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+        "paper": "https://arxiv.org/abs/2407.21783"
       },
       "id": "llama-3-8b-instruct",
       "name": "Llama 3 8B Instruct",
@@ -7444,6 +7449,81 @@
       },
       "id": "llama-2-13b-chat",
       "name": "Llama 2 13B Chat",
+      "provider": "Meta",
+      "releaseDate": "2023-07-18",
+      "license": "Llama 2"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://llama.meta.com/llama3/",
+        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-70B",
+        "paper": "https://arxiv.org/abs/2407.21783"
+      },
+      "id": "llama-3-70b",
+      "name": "Llama 3 70B",
+      "provider": "Meta",
+      "releaseDate": "2024-04-18",
+      "license": "Llama 3"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/",
+        "huggingface": "https://huggingface.co/meta-llama/Llama-2-70b-chat-hf",
+        "paper": "https://arxiv.org/abs/2307.09288"
+      },
+      "id": "llama-2-70b-chat",
+      "name": "Llama 2 70B Chat",
+      "provider": "Meta",
+      "releaseDate": "2023-07-18",
+      "license": "Llama 2"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/",
+        "huggingface": "https://huggingface.co/meta-llama/Llama-2-70b-hf",
+        "paper": "https://arxiv.org/abs/2307.09288"
+      },
+      "id": "llama-2-70b",
+      "name": "Llama 2 70B",
+      "provider": "Meta",
+      "releaseDate": "2023-07-18",
+      "license": "Llama 2"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/",
+        "huggingface": "https://huggingface.co/meta-llama/Llama-2-13b-hf",
+        "paper": "https://arxiv.org/abs/2307.09288"
+      },
+      "id": "llama-2-13b",
+      "name": "Llama 2 13B",
+      "provider": "Meta",
+      "releaseDate": "2023-07-18",
+      "license": "Llama 2"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/",
+        "huggingface": "https://huggingface.co/meta-llama/Llama-2-7b-hf",
+        "paper": "https://arxiv.org/abs/2307.09288"
+      },
+      "id": "llama-2-7b",
+      "name": "Llama 2 7B",
       "provider": "Meta",
       "releaseDate": "2023-07-18",
       "license": "Llama 2"
