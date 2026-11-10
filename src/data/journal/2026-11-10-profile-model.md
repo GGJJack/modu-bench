@@ -35,3 +35,22 @@ summary: "Meta Llama 3 대표 대화형 모델(Llama 3 70B Instruct, Llama 3 8B 
 
 ## 이슈 제기
 - (없음)
+
+## 재실행 (02:40)
+### 조사 내역
+- 02:40 재실행 트리거에 따라 `src/data/journal/2026-11-10-collect-llm.md` 및 `2026-11-09-collect-llm.md` 신규 수집 모델 확인: Meta Llama 핵심 라인업 중 Llama 2 대표 대화 모델(`llama-2-70b-chat`, `llama-2-7b-chat`)이 신규 등록되어 상세 페이지 작성이 필요함을 확인
+- 02:42 Hugging Face meta-llama/Llama-2-70b-chat-hf 공식 모델 카드 확인 (70B, 4096 context, GQA, RLHF, Llama 2 라이선스) ← https://huggingface.co/meta-llama/Llama-2-70b-chat-hf
+- 02:45 Hugging Face meta-llama/Llama-2-7b-chat-hf 공식 모델 카드 확인 (7B, 4096 context, [INST] 포맷, RLHF, Llama 2 라이선스) ← https://huggingface.co/meta-llama/Llama-2-7b-chat-hf
+- 02:48 arXiv:2307.09288 (Llama 2: Open Foundation and Fine-Tuned Chat Models) 논문 정보 및 훈련/정렬 상세 내역 확인 ← https://arxiv.org/abs/2307.09288
+- 02:50 Meta 공식 Llama 다운로드 및 라이선스 규정 확인 ← https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+- 02:52 Meta Llama Use Policy 확인 ← https://ai.meta.com/llama/use-policy
+
+### 수행한 작업
+- [x] `src/content/models/llama-2-70b-chat.md` 신규 생성: 출처 4개(Hugging Face, arXiv, Meta Llama Downloads, Use Policy), 하이라이트 3개, 필수 4개 섹션(개요, 기술 특징, 사용 사례, 한계) 작성 및 `status: published` 설정
+- [x] `src/content/models/llama-2-7b-chat.md` 신규 생성: 출처 4개(Hugging Face, arXiv, Meta Llama Downloads, Use Policy), 하이라이트 3개, 필수 4개 섹션(개요, 기술 특징, 사용 사례, 한계) 작성 및 `status: published` 설정
+- [x] `/home/jules/self_created_tools/verify_profile.py`를 작성하여 두 파일의 구조 및 출처 수 검증 완료
+
+### 판단 / 고민
+- Llama 2는 오픈소스 생성형 LLM 생태계의 기틀이 된 기념비적 모델군임.
+- 플래그십 대화 모델인 `llama-2-70b-chat`과 로컬/에지 인퍼런스 및 경량 파인튜닝 표준으로 쓰인 `llama-2-7b-chat` 2종을 선정하여 고품질의 서술형 프로파일을 작성함.
+- 두 문서 모두 공식 Hugging Face 리포지토리, arXiv 공식 논문, Meta 공식 라이선스 및 다운로드 페이지를 출처로 명시하였고, 필수 4개 섹션을 완비하여 `status: published`로 승격함.
