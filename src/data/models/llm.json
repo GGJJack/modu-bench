@@ -3799,7 +3799,8 @@
       "contextWindow": 8192,
       "pricing": null,
       "links": {
-        "official": "https://ai.meta.com/blog/meta-llama-3/"
+        "official": "https://ai.meta.com/blog/meta-llama-3/",
+        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
       },
       "id": "llama-3-8b",
       "name": "Llama 3 8B",
@@ -3814,7 +3815,8 @@
       "links": {
         "official": "https://ai.meta.com/blog/meta-llama-3-1/",
         "huggingface": "https://huggingface.co/meta-llama/Llama-3.1-8B",
-        "github": "https://github.com/meta-llama/llama-models"
+        "github": "https://github.com/meta-llama/llama-models",
+        "paper": "https://arxiv.org/abs/2407.21783"
       },
       "id": "llama-3.1-8b",
       "name": "Llama 3.1 8B",
@@ -4138,8 +4140,9 @@
       "contextWindow": 128000,
       "pricing": null,
       "links": {
-        "official": "https://llama.meta.com",
-        "huggingface": "https://huggingface.co/meta-llama/Llama-3.2-1B"
+        "official": "https://ai.meta.com/blog/llama-3-2-connect-open-multimodal-edge-models/",
+        "huggingface": "https://huggingface.co/meta-llama/Llama-3.2-1B",
+        "github": "https://github.com/meta-llama/llama-models"
       },
       "id": "llama-3.2-1b",
       "name": "Llama 3.2 1B",
@@ -7386,6 +7389,64 @@
       "provider": "Alibaba Cloud",
       "releaseDate": "2024-06-07",
       "license": "Apache-2.0"
+    },
+    {
+      "parameterSize": "70B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://llama.meta.com/llama3/",
+        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct"
+      },
+      "id": "llama-3-70b-instruct",
+      "name": "Llama 3 70B Instruct",
+      "provider": "Meta",
+      "releaseDate": "2024-04-18",
+      "license": "Llama 3"
+    },
+    {
+      "parameterSize": "8B",
+      "contextWindow": 8192,
+      "pricing": null,
+      "links": {
+        "official": "https://llama.meta.com/llama3/",
+        "huggingface": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
+      },
+      "id": "llama-3-8b-instruct",
+      "name": "Llama 3 8B Instruct",
+      "provider": "Meta",
+      "releaseDate": "2024-04-18",
+      "license": "Llama 3"
+    },
+    {
+      "parameterSize": "7B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/",
+        "huggingface": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf",
+        "paper": "https://arxiv.org/abs/2307.09288"
+      },
+      "id": "llama-2-7b-chat",
+      "name": "Llama 2 7B Chat",
+      "provider": "Meta",
+      "releaseDate": "2023-07-18",
+      "license": "Llama 2"
+    },
+    {
+      "parameterSize": "13B",
+      "contextWindow": 4096,
+      "pricing": null,
+      "links": {
+        "official": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/",
+        "huggingface": "https://huggingface.co/meta-llama/Llama-2-13b-chat-hf",
+        "paper": "https://arxiv.org/abs/2307.09288"
+      },
+      "id": "llama-2-13b-chat",
+      "name": "Llama 2 13B Chat",
+      "provider": "Meta",
+      "releaseDate": "2023-07-18",
+      "license": "Llama 2"
     }
   ]
 }
