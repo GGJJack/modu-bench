@@ -23,3 +23,24 @@ summary: "2건의 오래된 blocker 이슈 재검증 및 진행 내역 갱신"
 
 ## 이슈 제기
 - (없음)
+
+## 재실행 (03:15)
+### Todo
+- [x] 이슈 `2026-05-07-collect-llm-metadata-missing.md` 재검증 및 진행 내역 기록
+- [x] 이슈 `2026-05-14-collect-benchmark-unverified.md` 재검증 및 진행 내역 기록
+
+### 조사 내역
+- 03:15 Sakana AI Fugu (Ultra/Mini) 클로즈드 베타 신청 접수 및 API 가격 미공개 상태 지속 확인 ← https://sakana.ai/fugu-beta/
+- 03:17 NCP CLOVA Studio 공식 요금 페이지에서 HyperCLOVA X 계열 요금 비공개(상담 필요) 상태 지속 확인 ← https://www.ncloud.com/product/ai/clovaStudio
+- 03:18 AWS Bedrock Llama 4 서버리스 제공 발표 및 DeepSeek 공식 채널 확인, Llama 4 Maverick/Scout 17B 및 DeepSeek V3.2 표준 학술 벤치마크(MMLU-Pro, GPQA 등) 미발표 확인 ← https://aws.amazon.com/blogs/aws/llama-4-models-from-meta-now-available-in-amazon-bedrock-serverless
+
+### 수행한 작업
+- [x] `2026-05-07-collect-llm-metadata-missing.md` 진행 내역 append 및 blocker 상태 유지 ← https://sakana.ai/fugu-beta/
+- [x] `2026-05-14-collect-benchmark-unverified.md` 진행 내역 append 및 정기 모니터링 유지 ← https://aws.amazon.com/blogs/aws/llama-4-models-from-meta-now-available-in-amazon-bedrock-serverless
+
+### 판단 / 고민
+- Sakana AI Fugu 모델(Ultra, Mini)은 연구진/엔지니어 대상 베타 테스터 신청 단계(클로즈드 베타)로 공개 가격표가 제공되지 않으며, HyperCLOVA X 또한 엔터프라이즈 맞춤형 상담 전용 요금제로 운영되고 있어 `severity: blocker` 및 사람 에스컬레이션 상태를 유지함.
+- Llama 4 Maverick 17B, Scout 17B 및 DeepSeek V3.2는 아직 표준 학술 벤치마크(MMLU-Pro, GPQA 등) 공식 점수가 공표되지 않아 추가 점수 등록 없이 정기 모니터링 상태를 유지함.
+
+### 이슈 제기
+- (없음)
