@@ -9927,6 +9927,134 @@
         "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
         "source": "official"
       }
+    },
+    "llama-3-8b-instruct": {
+      "mmlu": {
+        "value": 68.4,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 34.2,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 62.2,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 79.6,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "math": {
+        "value": 30,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      }
+    },
+    "llama-3-70b-instruct": {
+      "mmlu": {
+        "value": 82,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 39.5,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 81.7,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 93,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "math": {
+        "value": 50.4,
+        "date": "2024-04-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      }
+    },
+    "llama-2-7b-chat": {
+      "mmlu": {
+        "value": 34.1,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 21.7,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 7.9,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 25.7,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "math": {
+        "value": 3.8,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      }
+    },
+    "llama-2-13b-chat": {
+      "mmlu": {
+        "value": 47.8,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "gpqa": {
+        "value": 22.3,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "humaneval": {
+        "value": 14,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "gsm8k": {
+        "value": 41.2,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      },
+      "math": {
+        "value": 6.7,
+        "date": "2023-07-18",
+        "sourceUrl": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3/MODEL_CARD.md",
+        "source": "official"
+      }
     }
   }
 }
